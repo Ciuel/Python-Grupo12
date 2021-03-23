@@ -1,1 +1,15 @@
-.vscode/
+# visual studio code rules
+.vscode/*
+
+# netbeans rules
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# history extension
+.history/*
