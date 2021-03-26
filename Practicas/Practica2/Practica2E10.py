@@ -14,6 +14,7 @@ for char in palabra:
     for tup in dicci_Scrabble:
         if char in tup:
             valor_palabra+=dicci_Scrabble[tup]
+            
 print(f"La palabra: {palabra.lower()} vale {valor_palabra} puntos")
 
 '''

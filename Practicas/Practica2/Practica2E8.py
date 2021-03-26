@@ -22,7 +22,7 @@ lst_nombres = formatearALista(nombres)
 lst_nombres2 = formatearALista(nombres2)
 
 nombres_en_comun = []
-nombres_en_comun= [nom1 for nom1 in lst_nombres for nom2 in lst_nombres2 if (nom1==nom2)]
+nombres_en_comun= [nom1 for nom1 in lst_nombres for nom2 in lst_nombres2 if (nom1==nom2) ]
 
 nombres_en_comun=[]
 for e in lst_nombres:
@@ -32,6 +32,7 @@ for e in lst_nombres:
 
 lst_eval1=eval1.split(',')
 lst_eval2=eval2.split(',')
+
 
 #TODO terminar segundo punto y ver la comprension
         

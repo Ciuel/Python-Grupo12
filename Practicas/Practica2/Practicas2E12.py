@@ -19,19 +19,16 @@ template_minas_dificil = [
     '*--*-',
 ]
 
+def bombRecognition(template_in):
+    for i in range(len(template_in)):
+        for j in range(len(template_in[i])):
+            if template_in[i][j]=='-':
+                
 
 
 
 
-
-
-
-
-
-
-
-
-
+bombRecognition(template_minas_facil)
 
 
 
