@@ -44,7 +44,7 @@ If you are new to contributing to open source, this guide helps explain why, wha
 punt = ''':/,-.'"()'''
 for char in readme:
     if char in punt:
-        readme = readme.replace(char, " ")
+        readme = readme.replace(char, " ")  #Remplazando los caracteres especiales por espacios!
 
 readmelst = readme.split()
 
