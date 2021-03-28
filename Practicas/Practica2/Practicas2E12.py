@@ -6,9 +6,6 @@ template_minas = [
     '*----',
 ]
 
-
-
-
 def bombCounter(template_in, linepos, stringpos):
     '''Se recorren las posiciones alrededor de una posicion
      formando una matriz de 3x3 en busca de las bombas y evitando las posiciones invalidas'''
