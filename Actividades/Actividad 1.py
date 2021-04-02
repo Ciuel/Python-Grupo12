@@ -44,7 +44,7 @@ def reporteAlumnos(lst_alu, criterio_reporte, valor_min=0, valor_max=200):
 
 
 def ordenar(lst_reordenado, criterio_para_reordenar):
-    """Funcion creada para darle criterio a la funcion sorted"""
+    """Reordena una lista lista de menor a mayor usando la funcion sorted y el criterio elegido por el usuario"""
     return sorted(lst_reordenado, key=lambda x: x[criterio_para_reordenar - 1])
 
 
