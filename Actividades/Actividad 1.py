@@ -30,7 +30,7 @@ def calcuar_nota_final():
 
 
 def reporteAlumnos(lst_alu, criterio_reporte, valor_min=0, valor_max=200):
-    """.........."""
+    """Recibe un máximo, un mínimo y devuelve los nombres de los alumnos que cumplen con el criterio"""
     reporteAImprimir = ''
     if criterio_reporte < 1 or criterio_reporte > 3:
         reporteAImprimir = 'El criterio ingresado fue incorrecto'
@@ -44,7 +44,7 @@ def reporteAlumnos(lst_alu, criterio_reporte, valor_min=0, valor_max=200):
 
 
 def ordenar(lst_reordenado, criterio_para_reordenar):
-    """Reordena una lista lista de menor a mayor usando la funcion sorted y el criterio elegido por el usuario"""
+    """Reordena una lista lista de menor a mayor usando la función sorted y el criterio elegido por el usuario"""
     return sorted(lst_reordenado, key=lambda x: x[criterio_para_reordenar - 1])
 
 
