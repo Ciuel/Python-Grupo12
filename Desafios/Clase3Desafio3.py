@@ -9,8 +9,8 @@ def ordenar(usuario):
 def ordenando_por_nombre(ListIn):
     """ Retorna la lista ordenada por nombre"""
     return sorted(ListIn,key=ordenar)
-    
-  
+
+
 
 usuarios = [
 ('JonY BoY', 'Nivel3', 15),
@@ -18,5 +18,5 @@ usuarios = [
 ('caike', 'Nivel2', 1020),
 ('Straka^', 'Nivel2', 1020),
 ]
-
-print(ordenando_por_nombre(usuarios))
+ususarios_sorted = ordenando_por_nombre(usuarios)
+print(usuarios)

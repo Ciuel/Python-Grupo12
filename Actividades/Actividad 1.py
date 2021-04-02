@@ -10,13 +10,14 @@ def string_a_int(string_in):
 
 
 def Modificando_string(string_in):
+    '''Borra las comillas extra del archivo de nombres'''
     string_modificado = string_in.replace("'", "")
     lst_out = string_modificado.split(""",""")
     return lst_out
 
 
-def calcuar_nota_final():
-    '''.....'''
+def calcuar_nota_final(lst_nombres, lst_eval1, lst_eval2):
+    '''Toma todos los datos de los alumnos y los convierte a una lista de tuplas agregandole la suma de las evaluaciones'''
     lst_alu = []
     suma_total = 0
     promedio = 0
@@ -39,7 +40,6 @@ def reporteAlumnos(lst_alu, criterio_reporte, valor_min=0, valor_max=200):
             if e[criterio_reporte] < valor_max and e[
                     criterio_reporte] > valor_min:
                 reporteAImprimir += e[0] + " "
-
     return reporteAImprimir
 
 
@@ -52,7 +52,7 @@ def ordenar(lst_reordenado, criterio_para_reordenar):
 lst_nombres = Modificando_string(nombres)
 lst_eval1 = string_a_int(eval1)
 lst_eval2 = string_a_int(eval2)
-lst_alumnos, promedio = calcuar_nota_final()
+lst_alumnos, promedio = calcuar_nota_final(lst_nombres, lst_eval1, lst_eval2)
 
 print("""Los alumnos son:
  Nombres  eval1  eval2 sumas """)
