@@ -1,9 +1,4 @@
-cadena = input("Ingresa una cadena")
-cant = 0
-for car in cadena:
-    if car == "a":
-        cant = cant + 1
-print(cant)
-print(cant)
+import sys
 
-input("escribe un numero")
+print(sys.platform)
+print(sys.path)
