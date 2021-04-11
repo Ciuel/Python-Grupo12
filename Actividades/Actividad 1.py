@@ -1,19 +1,16 @@
-nombres = """'Agustin','Alan','Andrés','Ariadna','Bautista','CAROLINA','CESAR','David','Diego','Dolores','DYLAN','ELIANA','Emanuel','Fabián','Facundo','Facundo','FEDERICO','FEDERICO','GONZALO','Gregorio','Ignacio','Jonathan','Jonathan','Jorge','JOSE','JUAN','Juan','Juan','Julian','Julieta','LAUTARO','Leonel','LUIS','Luis','Marcos','María','MATEO','Matias','Nicolás','NICOLÁS','Noelia','Pablo','Priscila','TOMAS','Tomás','Ulises','Yanina'"""
-eval1 = '''81,60,72,24,15,91,12,70,29,42,16,3,35,67,10,57,11,69,12,77,13,86,48,65,51,41,87,43,10,87,91,15,44,85,73,37,42,95,18,7,74,60,9,65,93,63,74'''
-eval2 = '''30,95,28,84,84,43,66,51,4,11,58,10,13,34,96,71,86,37,64,13,8,87,14,14,49,27,55,69,77,59,57,40,96,24,30,73,95,19,47,15,31,39,15,74,33,57,10'''
+from ArchivoStrings import *
+#from statistics import mean
 
 
 def string_a_int(string_in):
     '''Transforma un string separado por comas en una lista de integers'''
-    lst_out = list(map(lambda x: int(x), string_in.split(',')))
-    return lst_out
+    return list(map(lambda x: int(x), string_in.split(',')))
 
 
-def Modificando_string(string_in):
+def modificando_string(string_in):
     '''Borra las comillas extra del archivo de nombres'''
     string_modificado = string_in.replace("'", "")
-    lst_out = string_modificado.split(""",""")
-    return lst_out
+    return string_modificado.split(""",""")
 
 
 def calcuar_nota_final(lst_nombres, lst_eval1, lst_eval2):
@@ -32,26 +29,26 @@ def calcuar_nota_final(lst_nombres, lst_eval1, lst_eval2):
 
 def reporteAlumnos(lst_alu, criterio_reporte, valor_min=0, valor_max=200):
     """Recibe un máximo, un mínimo y devuelve los nombres de los alumnos que cumplen con el criterio"""
-    reporteAImprimir = ''
-    if criterio_reporte < 1 or criterio_reporte > 3:
-        reporteAImprimir = 'El criterio ingresado fue incorrecto'
+    if criterio_reporte in range(1,4):
+        return list(filter((lambda alumno: alumno[criterio_reporte] in range(valor_min,valor_maximo+1)),lst_alu))
     else:
-        for e in lst_alu:
-            if e[criterio_reporte] < valor_max and e[
-                    criterio_reporte] > valor_min:
-                reporteAImprimir += e[0] + " "
-    return reporteAImprimir
+        return "criterio fuera de rango"
 
 
 def ordenar(lst_reordenado, criterio_para_reordenar):
     """Reordena una lista lista de menor a mayor usando la función sorted y el criterio elegido por el usuario"""
-    return sorted(lst_reordenado, key=lambda x: x[criterio_para_reordenar - 1])
+    if criterio_para_reordenar in range(0,4):
+        return sorted(lst_reordenado, key=lambda x: x[criterio_para_reordenar])
+    else:
+        return 'Valor fuera de rango'
+
+
 
 
 #Main
-lst_nombres = Modificando_string(nombres)
-lst_eval1 = string_a_int(eval1)
-lst_eval2 = string_a_int(eval2)
+lst_nombres = modificando_string(nombres) #Nombres ahora se encuentra en el modulo importado
+lst_eval1 = string_a_int(eval1)  #eval1 ahora se encuentra en el modulo importado
+lst_eval2 = string_a_int(eval2)  #eval2 ahora se encuentra en el modulo importado
 lst_alumnos, promedio = calcuar_nota_final(lst_nombres, lst_eval1, lst_eval2)
 
 print("""Los alumnos son:
@@ -65,23 +62,25 @@ criterio = int(
           1 Para obtener el reporte por la primera evaluacion,
           2 Para obtener el reporte por la segunda evaluacion,
           3 Para obtener el reporte por la suma de las evaluaciones 
-          '''))
-print()
-
+          \n'''))
+#\n para saltear
 valor_minimo = int(
     input((f'Escriba el valor minimo para buscar en el reporte ')))
 valor_maximo = int(
     input(f'Escriba el valor maximo para buscar en el reporte '))
 
+print()
 print('Los alumnos que cumplen con el criterio son: ',
       reporteAlumnos(lst_alumnos, criterio, valor_minimo, valor_maximo))
 
+print()
+
 criterio_de_reordenado = int(
     input(f'''Escriba el criterio por el cual desea reordenar el reporte: 
-          1 Para obtener el reporte por el nombre,
-          2 Para obtener el reporte por la primera evaluacion,
-          3 Para obtener el reporte por la segunda evaluacion,
-          4 Para obtener el reporte por la suma de las evaluaciones 
+          0 Para obtener el reporte por el nombre,
+          1 Para obtener el reporte por la primera evaluacion,
+          2 Para obtener el reporte por la segunda evaluacion,
+          3 Para obtener el reporte por la suma de las evaluaciones 
           '''))
 
 print(ordenar(lst_alumnos, criterio_de_reordenado))
