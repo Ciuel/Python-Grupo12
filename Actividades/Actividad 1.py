@@ -1,5 +1,4 @@
 from ArchivoStrings import *
-#from statistics import mean
 
 
 def string_a_int(string_in):
