@@ -1,4 +1,4 @@
-from ArchivoStrings import *
+from archivo_strings import *
 
 
 def string_a_int(string_in):
@@ -13,7 +13,7 @@ def modificando_string(string_in):
 
 
 def calcuar_nota_final(lst_nombres, lst_eval1, lst_eval2):
-    '''Toma todos los datos de los alumnos y los convierte a una lista de tuplas agregandole la suma de las evaluaciones'''
+    '''Toma todos los datos de los alumnos y los convierte a una lista de tuplas agregandole la suma de las evaluaciones como ultimo elemento de la tupla'''
     lst_alu = []
     suma_total = 0
     promedio = 0
@@ -45,23 +45,17 @@ def ordenar(lst_reordenado, criterio_para_reordenar):
 
 
 #Main
-lst_nombres = modificando_string(
-    nombres)  #Nombres ahora se encuentra en el modulo importado
-lst_eval1 = string_a_int(
-    eval1)  #eval1 ahora se encuentra en el modulo importado
-lst_eval2 = string_a_int(
-    eval2)  #eval2 ahora se encuentra en el modulo importado
-lst_alumnos, promedio, suma_total = calcuar_nota_final(lst_nombres, lst_eval1,
-                                                       lst_eval2)
+lst_nombres = modificando_string(nombres)  #Nombres ahora se encuentra en el modulo importado
+lst_eval1 = string_a_int(eval1)  #eval1 ahora se encuentra en el modulo importado
+lst_eval2 = string_a_int(eval2)  #eval2 ahora se encuentra en el modulo importado
+lst_alumnos, promedio, suma_total = calcuar_nota_final(lst_nombres, lst_eval1,lst_eval2)
 print("-" * 40)
 
 print(f"""Los alumnos son:
 {"Nombres":<10}{"eval1" :<10}{"eval2":<10}{"sumas":<10}""")
 print("-"*40)
 for e in lst_alumnos:
-    print(
-        f'''{e[0]:<10}{e[1]:<10}{e[2]:<10}{e[3]:<10}'''
-    )
+    print(f'''{e[0]:<10}{e[1]:<10}{e[2]:<10}{e[3]:<10}''')
 print(f'''La suma de todos los alumnos fue: {suma_total}''')
 print(f'''El promedio de todos los alumnos fue: {promedio}''')
 print("-" * 40)
@@ -75,19 +69,20 @@ criterio = int(
           2 Para obtener el reporte por la segunda evaluacion,
           3 Para obtener el reporte por la suma de las evaluaciones 
           \n'''))
-#\n para saltear
+
+
 valor_minimo = int(
-    input((f'Escriba el valor minimo para buscar en el reporte ')))
+    input((f'Escriba el valor minimo para buscar en el reporte: ')))
 valor_maximo = int(
-    input(f'Escriba el valor maximo para buscar en el reporte '))
+    input(f'Escriba el valor maximo para buscar en el reporte: '))
 
 print()
 print('Los alumnos que cumplen con el criterio son: ',
       reporteAlumnos(lst_alumnos, criterio, valor_minimo, valor_maximo))
+print()
 
+print("Ahora se ordenan los datos: ")
 
-
-print("Ahora se ordenan los datos:")
 criterio_de_reordenado = int(
     input(f'''Escriba el criterio por el cual desea reordenar el reporte: 
           0 Para obtener el reporte por el nombre,
@@ -96,4 +91,13 @@ criterio_de_reordenado = int(
           3 Para obtener el reporte por la suma de las evaluaciones 
           '''))
 
-print(ordenar(lst_alumnos, criterio_de_reordenado))
+lista_Orden=ordenar(lst_alumnos, criterio_de_reordenado)
+
+print("-" * 40)
+
+print(f"""Los alumnos ordenados segun el criterio son:
+{"Nombres":<10}{"eval1" :<10}{"eval2":<10}{"sumas":<10}""")
+print("-"*40)
+for e in lista_Orden:
+    print(f'''{e[0]:<10}{e[1]:<10}{e[2]:<10}{e[3]:<10}''')
+print("-" * 40)
