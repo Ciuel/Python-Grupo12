@@ -1,0 +1,69 @@
+MemPy:
+
+Pantallas:
+
+-Menu de inicio:
+  .Datos de usuario(Pestaña de registro/inicio sesion):
+    .Nick(unico)
+    .edad
+    .genero
+    .Contraseña(Opcional)
+    .Configuracion atada a ese usuario(existe una por defecto)
+
+  .Pestaña de Ayuda:
+    .Preview de la aplicacion
+
+
+-Menu de configuracion:
+  .Personalizar textos de la aplicacion(ej: Ganaste!)
+  .La cantidad de casillas para el juego
+  .Cantidad de coincidencias(2 por defecto)(Pensamos en hacer limite)
+  .Tipo de casillas(Texto/Imagenes)
+  .Tipo y si se incluiran ayudas en el juego.
+  .Tiempo total de la partida
+  .Paleta de colores a utilizar
+  .Dificultad?
+
+Se deben crear al menos 3 niveles distintos para las configuraciones de arriba!
+
+  
+-Pantalla de juego
+  .Tablero
+  .Nick
+  .Tiempo
+  .Puntos
+
+  .En la pantalla de juego, se debera recolectar la informacion de la partida,que luego se utilizara
+  .Tambien hay que registrar datos generales del juego(para luego hacer estadistica)(fichas,cantidad
+   de usarios que jugaron, cuanto tardaron en encontrar los pares,etc)
+
+
+Se debe registrar movimientos y puntajes para luego realizar la estadistica.
+
+-Pantalla de resultados
+  .Un ranking de puntuacion de los usuarios segun el nivel jugado.
+  .Informacion del puntaje obtenido en la partida
+
+-Pantalla de estadisticas
+
+  .Pantalla principalmente diseñada en al segunda etapa
+  .Contiene graficos y estadisticas de los datos recolectados durante las partidas
+
+CONSIDERACIONES:
+-El programa ejecutable se llamara mem_py.py
+-La aplicacion debe ser independiente del OS
+-Sistema de directorios bien organizado.
+-Usar PYsimpleGUI
+-Docstrings presentes en el codigo
+-Incluir en cada archivo fuente los nombres y la licencia.
+
+
+FOCOS DE LA PRIMERA ENTREGA:
+-Presentacion de las 5 pantallas desarrolladas en PySimpleGUI
+-El archivo de configuracion del usuario se guarda en un .json
+-La pantalla de LOGIN completa con funcionalidad de registro y inicio sesion
+-Pares de datos ya armados(fichitas)
+
+
+
+
