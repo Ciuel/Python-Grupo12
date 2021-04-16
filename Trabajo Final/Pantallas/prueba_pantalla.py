@@ -20,7 +20,7 @@ while True:
     window["Cambio"].update("Hola! "+ values["Nombre"])
 
 window.close()'''
-'''
+
 import PySimpleGUI as sg
 
 # ----------- Create the 3 layouts this Window will display -----------
@@ -68,8 +68,8 @@ while True:
 
 
 window.close()
-'''
-from PIL import Image, ImageDraw
+
+"""from PIL import Image, ImageDraw
 import PySimpleGUI as Sg
 from base64 import b64encode, b64decode
 
@@ -106,7 +106,7 @@ def round_btn(button_text,
                      enable_events=False,
                      size=(button_width, 1),
                      bind_return_key=bind_return_key,
-                     font=FONT_NORMAL)
+                     font=FONT_NORMAL)"""
 
 
 '''

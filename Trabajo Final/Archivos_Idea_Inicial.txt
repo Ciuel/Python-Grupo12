@@ -1,0 +1,31 @@
+Archivo Usuarios:(.csv)
+  .Nick(Clave univoca)
+  .edad
+  .Genero
+  .Contraseña
+
+Archivo Configuraciones:(.json)
+  .Nick
+  .Diccionario Configuracion
+    .Texto App
+    .Cant Casillas
+    .Cant Coincidencias
+    .Tipo Casillas
+    .Ayuda o no 
+    .Tiempo
+    .Paleta de colores
+    .Dificultad?(Puede englobar otras caracteristicas)
+
+Archivo de partidas:(.csv)
+  .Puntos(Por partida)
+  .Tiempo
+  .Cantidad de fallos
+  .Nivel
+
+Archivo de Estadisticas de Fichas(.csv)---> Deberia contener informacion de todas las fichas 
+que empleemos
+  .Tiempo dado vuelta
+  .Cantidad de veces encontrado el par
+  .Cantidad de veces no encontrado el par
+  .Cantidad de veces total utilizado.(podria ser suma de ambos campos anteriores)
+  
