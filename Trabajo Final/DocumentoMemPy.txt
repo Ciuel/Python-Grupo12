@@ -63,7 +63,3 @@ FOCOS DE LA PRIMERA ENTREGA:
 -El archivo de configuracion del usuario se guarda en un .json
 -La pantalla de LOGIN completa con funcionalidad de registro y inicio sesion
 -Pares de datos ya armados(fichitas)
-
-
-
-

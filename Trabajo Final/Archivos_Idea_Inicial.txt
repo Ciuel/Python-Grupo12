@@ -28,4 +28,3 @@ que empleemos
   .Cantidad de veces encontrado el par
   .Cantidad de veces no encontrado el par
   .Cantidad de veces total utilizado.(podria ser suma de ambos campos anteriores)
-  

@@ -3,7 +3,7 @@ IDEAS DE REGLAS PARA JUGAR:
 MODOS DE JUEGO(al menos 2):
   IDEA DE MODO TIEMPO:
   .Tiempo determinado y se logra ganar al completar todas las coincidencias dentro del tiempo
-  .Cada coincidencia te otorga un tiempo extra pra poder seguir jugando
+  .Cada coincidencia te otorga un tiempo extra para poder seguir jugando
   .La puntuacion de la partida se calcula con:
      (cantAciertos*(Tiempo restante)*100-cantidadDeFallos*100)*Dificultad
   .Con el aumento de la dificultad, cambian algunos factores, ej: en dificil un fallo te descuenta
@@ -22,11 +22,5 @@ REGLAS DE CONFIGURACION:
   .La cantidad de coincidencias maximas es 3/4
   .Cada nivel debe aumentar la cantidad de fichas que contiene el tablero
   .El usuario debe elegir la dificultad a jugar
-  .La cantidad de fichas DEBE ser PAR
-  .En todas las pantallas debe aparecer el nombre del usuario que esta jugando(porque tenes
-(sesion iniciada)
-  
-  
-
-
-  
+  .La cantidad de fichas DEBE ser multiplo de la cantidad de coincidencias
+  .En todas las pantallas debe aparecer el nombre del usuario que esta jugando(porque tenes(sesion iniciada)
