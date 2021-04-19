@@ -1,15 +1,6 @@
-# visual studio code rules
+# Borramos el vscode para que cada uno pueda tener su propia configuracion
 .vscode/*
 
-# netbeans rules
-**/nbproject/private/
-**/nbproject/Makefile-*.mk
-**/nbproject/Package-*.bash
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
 
 # history extension
 .history/*
