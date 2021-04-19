@@ -1,0 +1,6 @@
+# Borramos el vscode para que cada uno pueda tener su propia configuracion
+.vscode/*
+
+
+# history extension
+.history/*
