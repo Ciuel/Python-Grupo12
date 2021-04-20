@@ -4,8 +4,6 @@ from Event_Handlers.login import *
 from Windows.login import build
 
 
-
-
 def loop(login_window):
     while true:
         event, values = window.read()
@@ -29,8 +27,8 @@ def loop(login_window):
 def start():
     '''try:
         info = open(f"Data_files{os.sep}informacion_usuarios.csv", "x")
-        writer = csv.writer(info)
         writer.writerow(["Nick","Contrasenia","Edad","Genero"])
+        writer = csv.writer(info)
     except:
         info = open(f"Data_files{os.sep}informacion_usuarios.csv", "a")
         writer = csv.writer(info)'''
