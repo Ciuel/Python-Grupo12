@@ -1,16 +1,18 @@
 import os
 import csv
-from Event_Handlers.login import *
-from Windows.login import build
+import PySimpleGUI as sg
+from ..Event_Handlers.login import *
+from ..Windows.login import build
 
 
 def loop(login_window):
-    while true:
-        event, values = window.read()
+    while True:
+        event, values = login_window.read()
+        
         if event == sg.WIN_CLOSED:  # if user closes window or clicks cancel
             break
-        '''change_login_layout(login_window,event)
-        age_field_check(login_window, event)'''
+        change_login_layout(login_window,event)
+        age_field_check(login_window, event,values)
 
 
         '''if event == "-REGIS SAVE-":
@@ -35,8 +37,7 @@ def start():
 
     login_window = build()
     loop(login_window)
-    info.close()
+    #info.close()
 
     login_window.close()
 
-start()

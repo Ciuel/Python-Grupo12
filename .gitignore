@@ -1,6 +1,6 @@
 # Borramos el vscode para que cada uno pueda tener su propia configuracion
 .vscode/*
 
-
+__pycache__
 # history extension
 .history/*
