@@ -5,12 +5,12 @@ def change_login_layout(login_window,event):
       login_window (window): La ventana que cambia de layout
       event (string): el evento que ocurre en la ventana
   """  
-    if event == "Registrarse":
-      window['login'].update(visible=False)
-      window['regis'].update(visible=True)
-    elif event == "-REGIS SAVE-":
-      window['login'].update(visible=True)
-      window['regis'].update(visible=False)
+  if event == "Registrarse":
+    window['login'].update(visible=False)
+    window['regis'].update(visible=True)
+  elif event == "-REGIS SAVE-":
+    window['login'].update(visible=True)
+    window['regis'].update(visible=False)
 
 def age_field_check(login_window,event):
   """Previene que el usuario escriba caracteres no numericos en el campo de edad
