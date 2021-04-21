@@ -42,5 +42,3 @@ def build():
 
 
     return login_window
-
-    #TODO alinear elementos y agregar keys a los que le faltan

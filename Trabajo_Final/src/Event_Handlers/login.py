@@ -3,7 +3,16 @@ import os
 from ..Components import juego
 
 
-def check_fields(window,event,values):
+def check_fields(window,values):
+    """Chequea si los campos de nick,contraseña o edad son vacios y si el de genero tiene uno de los disponibles
+
+    Args:
+        window (window): La ventana donde ocurre el chequeo
+        values (list): donde se guardan los campos a chequear
+
+    Returns:
+        boolean: devuelve el resultado de un and entre el chequeo de genero y all de la lista de booleans resultantes de la opercion del list comprehension
+    """
     nonempty_values=[values["-REGIS NICK-"],values["-REGIS PASSWORD-"],values["-REGIS AGE-"]]
     return values["-REGIS GENDER-"] in ['Hombre', 'Mujer', 'No binario', 'Otro'] and all([x != "" for x in nonempty_values])
 
@@ -17,20 +26,21 @@ def confirm_password(window,event,values):
         return True
 
 
-def unique_nick(values,info):
+def unique_nick(window,values,info):
     info.seek(0)
     csvreader=csv.reader(info,delimiter=",")
     next(csvreader)
     for user in csvreader:
         if values["-REGIS NICK-"]==user[0]:
+            window["-CONFIRMATION TEXT-"].update("El usuario ya existe")
             return False
-
+    window["-CONFIRMATION TEXT-"].update("")
     return True
 
 
 
 def register_validation(window,event,values,info):
-    return  confirm_password(window, event, values) and check_fields(window, event, values)  and unique_nick(values,info)
+    return  confirm_password(window, event, values) and check_fields(window, event, values)  and unique_nick(window,values,info)
 
 
 
@@ -38,7 +48,7 @@ def change_login_layout(window,event,values,info):
     """Cambia de la ventana de login a la de registros
    si el usuario clickea el texto de registrarse
   Args:
-      login_window (window): La ventana que cambia de layout
+      window (window): La ventana que cambia de layout
       event (string): el evento que ocurre en la ventana
   """
     if event == "-REGIS-":
@@ -73,6 +83,16 @@ def check_fields_and_register(window,event,values,info):  #Funciona mal, hay que
 
 
 def check_login(values,info):
+    """Chequea si el login es correcto comparando contra los nicks
+    y contraseñas del archivo csv de usuarios
+    Args:
+        values (list): lista de valores de la ventana, de donde obtenemos el nick y contraseña
+        info (csvreader): archivo csv de informacion usuarios
+
+    Returns:
+        boolean: devuelve True cuando el nick y contraseña se encuentran el el archivo y 
+        False de lo contrario
+    """
     info.seek(0)
     csvreader=csv.reader(info,delimiter=",")
     next(csvreader)
@@ -83,6 +103,17 @@ def check_login(values,info):
     return False
 
 def login_action(window,event,values,info):
+    """Chequea si el login es correcto
+
+    Args:
+        window ([type]): [description]
+        event ([type]): [description]
+        values ([type]): [description]
+        info ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """
     if event == "-LOG IN-":
         if check_login(values,info):
             print("Login succesful")
