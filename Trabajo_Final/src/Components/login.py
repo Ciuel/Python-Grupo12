@@ -12,7 +12,7 @@ def loop(login_window,user_file):
         if event == sg.WIN_CLOSED: 
             break
         #Ventana de login
-        change_login_layout(login_window,event,values)
+        change_login_layout(login_window,event,values,user_file)
         
         #Ventana de registro
         age_field_check(login_window, event,values)
@@ -22,13 +22,14 @@ def loop(login_window,user_file):
 
 def start():
     try:
-        users = open(f"Trabajo_final{os.sep}src{os.sep}Data_files{os.sep}informacion_usuarios.csv", "x")
-        writer.writerow(["Nick","Contrasenia","Edad","Genero"])
+        users = open(f"Trabajo_final{os.sep}src{os.sep}Data_files{os.sep}informacion_usuarios.csv", "x+",newline="")
         writer = csv.writer(users)
+        writer.writerow(["Nick","Contrasenia","Edad","Genero"])
     except FileExistsError:
-        users = open(f"Trabajo_final{os.sep}src{os.sep}Data_files{os.sep}informacion_usuarios.csv", "a")
+        users = open(f"Trabajo_final{os.sep}src{os.sep}Data_files{os.sep}informacion_usuarios.csv", "a+",newline="")
         writer = csv.writer(users)
 
+    
     login_window = build()
     loop(login_window,users)
     users.close()
