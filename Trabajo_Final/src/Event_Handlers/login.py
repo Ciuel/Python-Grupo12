@@ -1,5 +1,6 @@
 import csv
 import os
+from ..Components import juego
 
 
 def check_fields(window,event,values):
@@ -40,7 +41,7 @@ def change_login_layout(window,event,values,info):
       login_window (window): La ventana que cambia de layout
       event (string): el evento que ocurre en la ventana
   """
-    if event == "Registrarse":
+    if event == "-REGIS-":
         window['login'].update(visible=False)
         window['regis'].update(visible=True)
 
@@ -65,6 +66,10 @@ def check_fields_and_register(window,event,values,info):  #Funciona mal, hay que
             os.fsync(info)
             window['login'].update(visible=True)
             window['regis'].update(visible=False)
+            clear_fields(window, [
+                "-REGIS NICK-", "-REGIS PASSWORD-", "-REGIS CONFIRM PASSWORD-",
+                "-REGIS AGE-", "-REGIS GENDER-"
+            ])
 
 
 def check_login(values,info):
@@ -81,7 +86,21 @@ def login_action(window,event,values,info):
     if event == "-LOG IN-":
         if check_login(values,info):
             print("Login succesful")
-            window.close()
+            window.close()#TODO preguntar si cerrar la ventana va acá
+            juego.start(values["-INPUT NICK-"])
+            return True
         else:
             print("Login unsuccesful")
             window["-W_LOGIN TEXT-"].update("El nick o contaseña son incorrectos")
+            return False
+
+
+def back_button(window,event,values,info):
+    if event=="-REGIS BACK-":
+        window['login'].update(visible=True)
+        window['regis'].update(visible=False)
+
+
+def clear_fields(window,keys_to_clear):
+    for key in keys_to_clear:
+        window[key]('')
