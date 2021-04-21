@@ -14,20 +14,19 @@ def confirm_password(window,event,values):
     else:
         window["-CONFIRMATION TEXT-"].update("")
         return True
-    
+
 
 def unique_nick(values,info):
     info.seek(0)
-    print("hola")
     csvreader=csv.reader(info,delimiter=",")
     next(csvreader)
     for user in csvreader:
         if values["-REGIS NICK-"]==user[0]:
             return False
-    
+
     return True
-    
-    
+
+
 
 def register_validation(window,event,values,info):
     return  confirm_password(window, event, values) and check_fields(window, event, values)  and unique_nick(values,info)
@@ -44,7 +43,7 @@ def change_login_layout(window,event,values,info):
     if event == "Registrarse":
         window['login'].update(visible=False)
         window['regis'].update(visible=True)
-        
+
 
 
 
@@ -66,3 +65,23 @@ def check_fields_and_register(window,event,values,info):  #Funciona mal, hay que
             os.fsync(info)
             window['login'].update(visible=True)
             window['regis'].update(visible=False)
+
+
+def check_login(values,info):
+    info.seek(0)
+    csvreader=csv.reader(info,delimiter=",")
+    next(csvreader)
+    for user in csvreader:
+        if values["-INPUT NICK-"] == user[0]:
+            if values["-INPUT PASSWORD-"] == user[1]:
+                return  True
+    return False
+
+def login_action(window,event,values,info):
+    if event == "-LOG IN-":
+        if check_login(values,info):
+            print("Login succesful")
+            window.close()
+        else:
+            print("Login unsuccesful")
+            window["-W_LOGIN TEXT-"].update("El nick o contaseña son incorrectos")
