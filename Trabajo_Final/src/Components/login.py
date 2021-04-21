@@ -12,7 +12,7 @@ def loop(login_window,user_file):
             break
         #Ventana de registro
         age_field_check(login_window, event,values)
-        back_button(login_window, event, values, user_file)
+        back_button(login_window, event)
         check_fields_and_register(login_window,event,values,user_file)
 
         #Ventana de login
