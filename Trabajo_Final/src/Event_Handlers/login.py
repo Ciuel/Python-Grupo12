@@ -1,6 +1,8 @@
-import csv
+import json
 import os
 from ..Components import juego
+
+DEFAULT_CONFIG = 0
 
 
 def check_fields(window, values):
@@ -40,7 +42,7 @@ def confirm_password(window, values):
         return True
 
 
-def unique_nick(window, values, info):
+def unique_nick(window, values):
     """Chequea en el csv de usuarios si ya existe el nick que se intenta registrar y actualiza el texto de error acordemente
 
     Args:
@@ -51,18 +53,18 @@ def unique_nick(window, values, info):
     Returns:
         boolean: Devuelve True si no se encuentra en el archivo de usuarios y False si se encuentra
     """
-    info.seek(0)
-    csvreader = csv.reader(info, delimiter=",")
-    next(csvreader)
-    for user in csvreader:
-        if values["-REGIS NICK-"] == user[0]:
-            window["-CONFIRMATION TEXT-"].update("El usuario ya existe")
-            return False
+    with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json",
+              "r") as info:
+        datos = json.load(info)
+        for user in datos:
+            if values["-REGIS NICK-"] == user["nick"]:
+                window["-CONFIRMATION TEXT-"].update("El usuario ya existe")
+                return False
     window["-CONFIRMATION TEXT-"].update("")
     return True
 
 
-def register_validation(window, values, info):
+def register_validation(window, values):
     """Une todas las validaciones que se necesuitan antes de registrar a un usuario en un return
 
     Args:
@@ -74,10 +76,10 @@ def register_validation(window, values, info):
         boolean: Operacion and de las funciones confirm_password,check_fields y unique_nick
     """
     return confirm_password(window, values) and check_fields(
-        window, values) and unique_nick(window, values, info)
+        window, values) and unique_nick(window, values)
 
 
-def change_login_layout(window, event, values, info):
+def change_login_layout(window, event):
     """Cambia de la ventana de login a la de registros
    si el usuario clickea el texto de registrarse
 
@@ -105,7 +107,7 @@ def age_field_check(window, event, values):
             window['-REGIS AGE-'].update(values['-REGIS AGE-'][:-1])
 
 
-def check_fields_and_register(window, event, values, info):
+def check_fields_and_register(window, event, values):
     """Cuando se presiona el boton de registrar chequea si se puede, escribe la informacion al csv y vuelve a la pantalla de login
 
     Args:
@@ -115,15 +117,21 @@ def check_fields_and_register(window, event, values, info):
         info (csvreader): Archivo csv de informacion usuario
     """
     if event == "-REGIS SAVE-":
-        if register_validation(window, values,
-                               info):  #Previene registros con campos vacios
-            writer = csv.writer(info)
-            writer.writerow([
-                values["-REGIS NICK-"], values["-REGIS PASSWORD-"],
-                values["-REGIS AGE-"], values["-REGIS GENDER-"]
-            ])
-            info.flush()
-            os.fsync(info)
+        if register_validation(window,
+                               values):  #Previene registros con campos vacios
+            with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json",
+                      "r+") as info:
+                jsonlist = json.load(info)
+                jsonlist.append({
+                    "nick": values["-REGIS NICK-"],
+                    "password": values["-REGIS PASSWORD-"],
+                    "age": values["-REGIS AGE-"],
+                    "gender": values["-REGIS GENDER-"],
+                    "config": DEFAULT_CONFIG
+                })
+                info.seek(0)
+                json.dump(jsonlist, info, indent=4)
+                info.truncate()
             window['login'].update(visible=True)
             window['regis'].update(visible=False)
             clear_fields(window, [
@@ -132,7 +140,7 @@ def check_fields_and_register(window, event, values, info):
             ])
 
 
-def check_login(values, info):
+def check_login(values):
     """Chequea si el login es correcto comparando contra los nicks
     y contraseñas del archivo csv de usuarios
     Args:
@@ -143,17 +151,16 @@ def check_login(values, info):
         boolean: devuelve True cuando el nick y contraseña se encuentran el el archivo y 
         False de lo contrario
     """
-    info.seek(0)
-    csvreader = csv.reader(info, delimiter=",")
-    next(csvreader)
-    for user in csvreader:
-        if values["-INPUT NICK-"] == user[0]:
-            if values["-INPUT PASSWORD-"] == user[1]:
+    with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json",
+              "r") as info:
+        datos = json.load(info)
+        for user in datos:
+            if values["-INPUT NICK-"] == user["nick"] and values["-INPUT PASSWORD-"] == user["password"]:
                 return True
-    return False
+        return False
 
 
-def login_action(window, event, values, info):
+def login_action(window, event, values):
     """Chequea si el login es correcto e inicaia el menu o actualiza el texto de error dependiendo del resultado
 
     Args:
@@ -166,7 +173,7 @@ def login_action(window, event, values, info):
         boolean: Devuelve el resultado de check_login
     """
     if event == "-LOG IN-":
-        if check_login(values, info):
+        if check_login(values):
             print("Login succesful")
             window.close()  #TODO preguntar si cerrar la ventana va acá
             juego.start(values["-INPUT NICK-"])
