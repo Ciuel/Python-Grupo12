@@ -4,14 +4,29 @@
         "password": "3",
         "age": "3",
         "gender": "Hombre",
-        "config": 0
+        "config": {
+            "Coincidences": "3",
+            "Help": "yes",
+            "Type of token": "Images",
+            "Difficulty": "Dificil",
+            "AppColor": 1,
+            "VictoryText": "3",
+            "LooseText": "4"
+        }
     },
     {
         "nick": "a",
         "password": "a",
         "age": "3",
         "gender": "Mujer",
-        "config": 0
+        "config": {
+            "Coincidences": "3",
+            "Help": "no",
+            "Type of token": "Text",
+            "Difficulty": "Medio",
+            "VictoryText": "3333",
+            "LooseText": "3333"
+        }
     },
     {
         "nick": "4",
