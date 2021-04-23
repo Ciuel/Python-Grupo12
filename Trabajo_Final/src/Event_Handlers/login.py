@@ -17,11 +17,9 @@ def check_fields(window, values):
     """
     nonempty_values = [
         values["-REGIS NICK-"], values["-REGIS PASSWORD-"],
-        values["-REGIS AGE-"]
+        values["-REGIS AGE-"],values["-REGIS GENDER-"]
     ]
-    return values["-REGIS GENDER-"] in [
-        'Hombre', 'Mujer', 'No binario', 'Otro'
-    ] and all([x != "" for x in nonempty_values])
+    return  all([x != "" for x in nonempty_values])
 
 
 def confirm_password(window, values):

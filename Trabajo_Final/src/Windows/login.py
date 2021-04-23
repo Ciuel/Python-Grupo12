@@ -21,11 +21,10 @@ def build():
         [sg.Text("Contraseña", size=SIZE),sg.InputText(key="-REGIS PASSWORD-",password_char="*")],
         [sg.Text("Confirmar contraseña", size=(8,2)),sg.InputText(key="-REGIS CONFIRM PASSWORD-",password_char="*")],
         [sg.Text("Edad", size=SIZE),sg.InputText(key="-REGIS AGE-", size=SIZE, enable_events="true")],
-        [sg.Text("Genero", size=SIZE),sg.Combo(['Hombre', 'Mujer', 'No binario', 'Otro'],key="-REGIS GENDER-", enable_events="true")],
+        [sg.Text("Genero", size=SIZE),sg.Combo(['Hombre', 'Mujer', 'No binario', 'Otro'],key="-REGIS GENDER-", enable_events="true",readonly="true")],
         [sg.Button('Registrarse', pad=(180, 10), key="-REGIS SAVE-")],
         [sg.Text("", size=(30,1), key="-CONFIRMATION TEXT-",text_color="red")],
         [sg.Button('Atras', pad= ((360,0), 0), key="-REGIS BACK-")]
-
     ]
     # yapf: enable
     layout = [[

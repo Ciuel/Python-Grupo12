@@ -5,13 +5,13 @@
         "age": "3",
         "gender": "Hombre",
         "config": {
-            "Coincidences": "3",
-            "Help": "yes",
+            "Coincidences": "56",
+            "Help": "no",
             "Type of token": "Images",
             "Difficulty": "Medio",
-            "AppColor": 1,
-            "VictoryText": "3333",
-            "LooseText": "33333333333"
+            "AppColor": 0,
+            "VictoryText": "",
+            "LooseText": ""
         }
     },
     {
