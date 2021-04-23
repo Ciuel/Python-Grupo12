@@ -23,8 +23,6 @@ def loop(login_window):
 
 def start():
 
-
-
     login_window = build()
     loop(login_window)
 
