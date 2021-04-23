@@ -3,7 +3,7 @@ import os
 from ..Components import juego
 
 DEFAULT_CONFIG = 0
-
+#TODO Actualizar docstigs
 
 def check_fields(window, values):
     """Chequea si los campos de nick,contraseña o edad son vacios y si el de genero tiene uno de los disponibles
