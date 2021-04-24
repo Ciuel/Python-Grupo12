@@ -5,13 +5,13 @@
         "age": "3",
         "gender": "Hombre",
         "config": {
-            "Coincidences": "56",
+            "Coincidences": "3",
             "Help": "no",
-            "Type of token": "Images",
-            "Difficulty": "Medio",
-            "AppColor": 0,
-            "VictoryText": "",
-            "LooseText": ""
+            "Type of token": "Text",
+            "Difficulty": "Dificil",
+            "AppColor": "DarkGrey7",
+            "VictoryText": "Gane putos",
+            "LooseText": "Perdi soy alto malo"
         }
     },
     {
@@ -33,6 +33,13 @@
         "password": "4",
         "age": "4",
         "gender": "Mujer",
+        "config": 0
+    },
+    {
+        "nick": "Lautaro",
+        "password": "pin123",
+        "age": "18",
+        "gender": "Hombre",
         "config": 0
     }
 ]

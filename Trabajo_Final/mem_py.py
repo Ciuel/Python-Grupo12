@@ -4,7 +4,7 @@ from src.Components import login, config, score
 
 def main():
     login.start()
-    config.start("3")
+    config.start("3","DarkBlue3")
     score.start()
 
 

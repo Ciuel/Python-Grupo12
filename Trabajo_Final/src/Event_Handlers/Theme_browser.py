@@ -22,6 +22,7 @@ def choose_theme():
 
     while True:  # Event Loop
         event, values = window.read()
+        print(event,values)
         if event in (None, 'Exit'):
             break
         sg.change_look_and_feel(values['-LIST-'][0])
