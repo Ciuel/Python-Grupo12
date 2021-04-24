@@ -1,5 +1,5 @@
 #Programa ejecutable
-from src.Components import login, config,score
+from src.Components import login, config, score
 
 
 def main():
@@ -8,6 +8,5 @@ def main():
     score.start()
 
 
-
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
