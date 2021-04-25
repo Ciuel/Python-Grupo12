@@ -2,6 +2,7 @@ import os
 import json
 from ..Event_Handlers.Theme_browser import choose_theme
 
+
 def check_radio_boxes(values):
     if (values["-CHOOSE TYPE1-"]):
         type_radio="Text"
@@ -9,10 +10,10 @@ def check_radio_boxes(values):
         type_radio="Images"
 
     if (values["-CHOOSE HELP YES-"]):
-         need_help="yes"
+        need_help="yes"
     else:
         need_help="no"
-    
+
     return type_radio,need_help
 
 

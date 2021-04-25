@@ -5,13 +5,13 @@
         "age": "3",
         "gender": "Hombre",
         "config": {
-            "Coincidences": "3",
+            "Coincidences": "",
             "Help": "no",
-            "Type of token": "Text",
-            "Difficulty": "Dificil",
-            "AppColor": "DarkGrey7",
-            "VictoryText": "Gane putos",
-            "LooseText": "Perdi soy alto malo"
+            "Type of token": "Images",
+            "Difficulty": "",
+            "AppColor": "Dark",
+            "VictoryText": "",
+            "LooseText": ""
         }
     },
     {
