@@ -18,7 +18,8 @@ def loop(config_window,nick):
 
 
 def start(nick,theme):
-    config_window=build(theme)
+    initial_config=build_initial_config(nick)
+    config_window=build(initial_config,theme)
     loop(config_window,nick)
     config_window.close()
     

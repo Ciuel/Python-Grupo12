@@ -3,6 +3,15 @@ import json
 from ..Event_Handlers.Theme_browser import choose_theme
 
 
+def build_initial_config(nick):
+    with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json","r+") as info:
+        initial_config={}
+        user_data = json.load(info)
+        for user in user_data:
+            if user["nick"]==nick:
+                initial_config=user["config"]
+    return initial_config
+
 def check_radio_boxes(values):
     if (values["-CHOOSE TYPE1-"]):
         type_radio="Text"
