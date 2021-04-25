@@ -1,7 +1,7 @@
 import os
 import csv
 import PySimpleGUI as sg
-from ..Windows.juego import build
+from ..Windows.game import build
 
 
 def loop(game_window):
