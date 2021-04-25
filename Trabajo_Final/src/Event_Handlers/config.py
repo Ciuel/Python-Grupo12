@@ -1,7 +1,7 @@
 import os
 import json
 from ..Event_Handlers.Theme_browser import choose_theme
-
+from ..Components import menu
 
 def build_initial_config(nick):
     with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json","r+") as info:
@@ -30,9 +30,10 @@ def color_picker(event):
     return choose_theme()
 
 
-def back_button(window,event):
+def back_button(window,event, nick, theme):
     if event=="-BACK BUTTON-":
-        #Deberia volver al menu pero todavia no esta implementado el menu
+        window.hide()
+        menu.start(nick, theme)
         window.close()
 
 def save_changes(window,event,values,color_picked,nick):

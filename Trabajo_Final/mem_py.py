@@ -1,11 +1,9 @@
 #Programa ejecutable
-from src.Components import login, config, score
+from src.Components import login, config, score, menu
 
 
 def main():
     login.start()
-    config.start("3","DarkBlue3")
-    score.start()
 
 
 if __name__ == "__main__":

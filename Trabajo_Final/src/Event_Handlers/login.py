@@ -1,9 +1,18 @@
 import json
 import os
-from ..Components import juego
+from ..Components import menu
 
-DEFAULT_CONFIG = 0
+DEFAULT_CONFIG = {
+    "Coincidences": "2",
+    "Help": "yes",
+    "Type of token": "Text",
+    "Difficulty": "Facil",
+    "AppColor": "darkblue3",
+    "VictoryText": "Ganaste!!!",
+    "LooseText": ":( mas suerte la proxima"
+}
 #TODO Actualizar docstigs
+
 
 def check_fields(window, values):
     """Chequea si los campos de nick,contraseña o edad son vacios y si el de genero tiene uno de los disponibles
@@ -17,9 +26,9 @@ def check_fields(window, values):
     """
     nonempty_values = [
         values["-REGIS NICK-"], values["-REGIS PASSWORD-"],
-        values["-REGIS AGE-"],values["-REGIS GENDER-"]
+        values["-REGIS AGE-"], values["-REGIS GENDER-"]
     ]
-    return  all([x != "" for x in nonempty_values])
+    return all([x != "" for x in nonempty_values])
 
 
 def confirm_password(window, values):
@@ -153,7 +162,8 @@ def check_login(values):
               "r") as info:
         datos = json.load(info)
         for user in datos:
-            if values["-INPUT NICK-"] == user["nick"] and values["-INPUT PASSWORD-"] == user["password"]:
+            if values["-INPUT NICK-"] == user["nick"] and values[
+                    "-INPUT PASSWORD-"] == user["password"]:
                 return True
         return False
 
@@ -174,7 +184,7 @@ def login_action(window, event, values):
         if check_login(values):
             print("Login succesful")
             window.close()  #TODO preguntar si cerrar la ventana va acá
-            juego.start(values["-INPUT NICK-"])
+            menu.start(values["-INPUT NICK-"], "darkblue3")
             return True
         else:
             print("Login unsuccesful")

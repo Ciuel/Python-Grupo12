@@ -7,11 +7,11 @@
         "config": {
             "Coincidences": "3",
             "Help": "no",
-            "Type of token": "Images",
+            "Type of token": "Text",
             "Difficulty": "Facil",
             "AppColor": "null",
-            "VictoryText": "HolaHolaaa",
-            "LooseText": "HolaHolax2"
+            "VictoryText": "Que bueno que soy",
+            "LooseText": "Soy re malo"
         }
     },
     {
@@ -41,5 +41,20 @@
         "age": "18",
         "gender": "Hombre",
         "config": 0
+    },
+    {
+        "nick": "jurten",
+        "password": "hola123",
+        "age": "19",
+        "gender": "Hombre",
+        "config": {
+            "Coincidences": "3",
+            "Help": "no",
+            "Type of token": "Text",
+            "Difficulty": "Dificil",
+            "AppColor": "DarkGrey3",
+            "VictoryText": "Ruleadisimo",
+            "LooseText": "A casa duro"
+        }
     }
 ]
