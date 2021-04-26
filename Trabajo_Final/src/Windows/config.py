@@ -2,12 +2,12 @@ import PySimpleGUI as sg
 SIZE= (15,1)
 SEPARACION=(25,25)
 
-def build(initialConfig,theme="DarkBlue3"):
+def build(initialConfig,theme="darkblue3"):
     layout= [
         [sg.Text("Configuracion",font=("Helvetica", 40), size=(14, 2),justification="center",pad=SEPARACION)],
         [sg.Text("Cant Coincidencias: ", size=SIZE,justification="left"), 
          sg.Combo(['2', '3', '4'],key="-CHOOSE COINCIDENCES-", enable_events="true",size=(5,1),readonly="true",default_value=f"{initialConfig['Coincidences']}"),
-         sg.Text("Ayudas?",size=(7,1)),sg.Radio("Si",1,key='-CHOOSE HELP YES-'), 
+         sg.Text("Ayudas?",size=(7,1)),sg.Radio("Si",1,key='-CHOOSE HELP YES-',default="true"),
          sg.Radio("No",1,key='-CHOOSE HELP NO-')],
          [sg.Text("Tipo de casillas: ",size=(12,1),pad=SEPARACION),
          sg.Radio("Texto",2,key="-CHOOSE TYPE1-",default="true"),sg.Radio("Imagenes",2,key="-CHOOSE TYPE2-")],

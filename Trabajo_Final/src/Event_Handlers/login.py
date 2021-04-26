@@ -184,7 +184,13 @@ def login_action(window, event, values):
         if check_login(values):
             print("Login succesful")
             window.close()  #TODO preguntar si cerrar la ventana va acá
-            menu.start(values["-INPUT NICK-"], "darkblue3")
+            with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json","r+") as info:
+                user_data = json.load(info)
+                for user in user_data:
+                    if user["nick"]==values["-INPUT NICK-"]:
+                        theme=user["config"]["AppColor"]
+                        
+            menu.start(values["-INPUT NICK-"], theme)
             return True
         else:
             print("Login unsuccesful")

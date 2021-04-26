@@ -8,9 +8,9 @@
             "Coincidences": "3",
             "Help": "no",
             "Type of token": "Text",
-            "Difficulty": "Facil",
-            "AppColor": "null",
-            "VictoryText": "Que bueno que soy",
+            "Difficulty": "Dificil",
+            "AppColor": "DarkBlue13",
+            "VictoryText": "aaaaaaaaaaa",
             "LooseText": "Soy re malo"
         }
     },
@@ -36,13 +36,6 @@
         "config": 0
     },
     {
-        "nick": "Lautaro",
-        "password": "pin123",
-        "age": "18",
-        "gender": "Hombre",
-        "config": 0
-    },
-    {
         "nick": "jurten",
         "password": "hola123",
         "age": "19",
@@ -55,6 +48,36 @@
             "AppColor": "darkblue3",
             "VictoryText": "423",
             "LooseText": "A casa duro"
+        }
+    },
+    {
+        "nick": "Lautaro2.0",
+        "password": "pin123",
+        "age": "19",
+        "gender": "Hombre",
+        "config": {
+            "Coincidences": "3",
+            "Help": "no",
+            "Type of token": "Text",
+            "Difficulty": "Dificil",
+            "AppColor": "DarkBlack1",
+            "VictoryText": "Ganaste!!!e",
+            "LooseText": ":( mas suerte la proximae"
+        }
+    },
+    {
+        "nick": "Lautaro",
+        "password": "pin",
+        "age": "19",
+        "gender": "Hombre",
+        "config": {
+            "Coincidences": "3",
+            "Help": "yes",
+            "Type of token": "Text",
+            "Difficulty": "Dificil",
+            "AppColor": "Tan",
+            "VictoryText": "GANE PORQUE SOY RE BUENO",
+            "LooseText": "PERDI"
         }
     }
 ]

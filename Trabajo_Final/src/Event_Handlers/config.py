@@ -29,6 +29,18 @@ def check_radio_boxes(values):
 def color_picker(event):
     return choose_theme()
 
+def check_empty_fields(values):
+    nonempty_values = [
+        values["-VICTORY TEXT-"],
+        values["-LOOSE TEXT-"]
+    ]
+
+    
+    radio_help= values["-CHOOSE HELP NO-"] or values["-CHOOSE HELP YES-"]
+    radio_type= values["-CHOOSE TYPE1-"] or values["-CHOOSE TYPE2-"]
+    
+    return (all([x != "" for x in nonempty_values]) and radio_help and radio_type)
+
 
 def back_button(window,event, nick, theme):
     if event=="-BACK BUTTON-":
@@ -42,22 +54,25 @@ def save_changes(window,event,values,color_picked,nick):
     como una lista de diccionarios"""
 
     if event=='-SAVE CHANGES-':
-        with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json","r+") as info:
-            user_data = json.load(info)
-            type_radio,need_help=check_radio_boxes(values)
-            for user in user_data:
-                if user["nick"]==nick:
-                    user["config"] = {
-                        "Coincidences": values["-CHOOSE COINCIDENCES-"],
-                        "Help": need_help,
-                        "Type of token": type_radio,
-                        "Difficulty": values["-CHOOSE DIFFICULTY-"],
-                        "AppColor": color_picked,
-                        "VictoryText": values["-VICTORY TEXT-"],
-                        "LooseText": values["-LOOSE TEXT-"]
-                    }
-                    break
-            info.seek(0)
-            json.dump(user_data, info, indent=4)
-            info.truncate()
-            window["-INFO USER-"].update("Los cambios se han guardado con Exito")
+        if check_empty_fields(values):
+            with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json","r+") as info:
+                user_data = json.load(info)
+                type_radio,need_help=check_radio_boxes(values)
+                for user in user_data:
+                    if user["nick"]==nick:
+                        user["config"] = {
+                            "Coincidences": values["-CHOOSE COINCIDENCES-"],
+                            "Help": need_help,
+                            "Type of token": type_radio,
+                            "Difficulty": values["-CHOOSE DIFFICULTY-"],
+                            "AppColor": color_picked,
+                            "VictoryText": values["-VICTORY TEXT-"],
+                            "LooseText": values["-LOOSE TEXT-"]
+                        }
+                        break
+                info.seek(0)
+                json.dump(user_data, info, indent=4)
+                info.truncate()
+                window["-INFO USER-"].update("Los cambios se han guardado con Exito")
+        else:
+            window["-INFO USER-"].update("Llene el campo vacio antes de guardar")
