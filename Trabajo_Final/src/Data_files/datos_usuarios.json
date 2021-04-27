@@ -6,11 +6,11 @@
         "gender": "Hombre",
         "config": {
             "Coincidences": "3",
-            "Help": "no",
-            "Type of token": "Text",
-            "Difficulty": "Dificil",
-            "AppColor": "DarkBlue13",
-            "VictoryText": "aaaaaaaaaaa",
+            "Help": "yes",
+            "Type of token": "Images",
+            "Speed": "Lento",
+            "AppColor": "Black",
+            "VictoryText": "no",
             "LooseText": "Soy re malo"
         }
     },
@@ -23,7 +23,7 @@
             "Coincidences": "3",
             "Help": "no",
             "Type of token": "Text",
-            "Difficulty": "Medio",
+            "Speed": "Medio",
             "VictoryText": "3333",
             "LooseText": "3333"
         }
@@ -44,7 +44,7 @@
             "Coincidences": "3",
             "Help": "no",
             "Type of token": "Text",
-            "Difficulty": "Dificil",
+            "Speed": "Rapido",
             "AppColor": "darkblue3",
             "VictoryText": "423",
             "LooseText": "A casa duro"
@@ -59,7 +59,7 @@
             "Coincidences": "3",
             "Help": "no",
             "Type of token": "Text",
-            "Difficulty": "Dificil",
+            "Speed": "Rapido",
             "AppColor": "DarkBlack1",
             "VictoryText": "Ganaste!!!e",
             "LooseText": ":( mas suerte la proximae"
@@ -74,7 +74,7 @@
             "Coincidences": "3",
             "Help": "yes",
             "Type of token": "Text",
-            "Difficulty": "Dificil",
+            "Speed": "Rapido",
             "AppColor": "Tan",
             "VictoryText": "GANE PORQUE SOY RE BUENO",
             "LooseText": "PERDI"

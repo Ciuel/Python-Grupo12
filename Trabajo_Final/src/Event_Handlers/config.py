@@ -64,7 +64,7 @@ def save_changes(window,event,values,color_picked,nick):
                             "Coincidences": values["-CHOOSE COINCIDENCES-"],
                             "Help": need_help,
                             "Type of token": type_radio,
-                            "Difficulty": values["-CHOOSE DIFFICULTY-"],
+                            "Speed": values["-CHOOSE SPEED-"],
                             "AppColor": color_picked,
                             "VictoryText": values["-VICTORY TEXT-"],
                             "LooseText": values["-LOOSE TEXT-"]

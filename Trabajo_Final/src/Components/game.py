@@ -9,6 +9,9 @@ def loop(game_window):
         event, values = game_window.read()
         if event == sg.WIN_CLOSED:
             break
+        game_window[event].update("value")
+        
+        game_window[event].update("")
 def start(nick):
     game_window = build(nick)
     loop(game_window)

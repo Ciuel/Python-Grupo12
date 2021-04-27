@@ -6,7 +6,7 @@ DEFAULT_CONFIG = {
     "Coincidences": "2",
     "Help": "yes",
     "Type of token": "Text",
-    "Difficulty": "Facil",
+    "Speed": "Medio",
     "AppColor": "darkblue3",
     "VictoryText": "Ganaste!!!",
     "LooseText": ":( mas suerte la proxima"
