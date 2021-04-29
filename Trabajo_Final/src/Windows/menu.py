@@ -18,6 +18,6 @@ def build(nick, theme):
     sg.theme(theme)
     return sg.Window("Menu",
                      layout,
-                     finalize="true",
+                     finalize=True,
                      element_justification='center',
                      margins=(10, 10))

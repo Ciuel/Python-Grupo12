@@ -45,7 +45,7 @@ def build(nick="3",theme="darkblue3",current_level=2,cant_coincidences=2):
     game_window = sg.Window(
         "MemPy",
         layout,
-        finalize="true",
+        finalize=True,
         #size=(1200, 625),
         element_justification="center",
         margins=(10, 10))

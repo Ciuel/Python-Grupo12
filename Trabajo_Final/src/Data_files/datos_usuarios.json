@@ -6,10 +6,10 @@
         "gender": "Hombre",
         "config": {
             "Coincidences": "3",
-            "Help": "no",
-            "Type of token": "Images",
+            "Help": "yes",
+            "Type of token": "Text",
             "Speed": "Lento",
-            "AppColor": "DarkGreen2",
+            "AppColor": "DarkGreen",
             "VictoryText": "no",
             "LooseText": "perdi"
         }

@@ -80,7 +80,7 @@ def build(
 
     layout = [
                 [col],
-                [sg.Output(size=(int(X_SIZE/10),int(Y_SIZE/60)),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),echo_stdout_stderr="true")],
+                [sg.Output(size=(int(X_SIZE/10),int(Y_SIZE/60)),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),echo_stdout_stderr=True)],
                 [sg.Button('Menu', key="-MENU-")]]
 
     # yapf: enable
@@ -92,7 +92,7 @@ def build(
     sg.theme(theme)
     return sg.Window("Puntuacion MemPy",
                      layout,
-                     finalize="true",
+                     finalize=True,
                      element_justification='center',
                      size=(X_SIZE, Y_SIZE),
                      margins=(10, 10))
