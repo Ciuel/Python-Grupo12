@@ -7,18 +7,19 @@ SEPARACION = (25, 25)
 def build(initialConfig, theme="darkblue3"):
     #yapf: disable
     #?Los radiobuttons no pueden tener default incluso forzados
-    #("true" if initialConfig["Type of token"]=="Text" else "false")
+    #(True if initialConfig["Type of token"]=="Text" else "false")
     layout= [
         [sg.Text("Configuracion",font=("Helvetica", 40), size=(14, 2),justification="center",pad=SEPARACION)],
         [sg.Text("Cant Coincidencias: ", size=SIZE,justification="left"),
-         sg.Combo(['2', '3'],key="-CHOOSE COINCIDENCES-",size=(5,1),readonly="true",default_value=f"{initialConfig['Coincidences']}"),
-         sg.Text("Ayudas?",size=(7,1)),sg.Radio("Si",1,key='-CHOOSE HELP YES-',default="true"),
-         sg.Radio("No",1,key='-CHOOSE HELP NO-')],
+         sg.Combo(['2', '3'],key="-CHOOSE COINCIDENCES-",size=(5,1),readonly=True,default_value=f"{initialConfig['Coincidences']}"),
+         sg.Text("Ayudas?",size=(7,1)),sg.Radio("Si",1,key='-CHOOSE HELP YES-',default=True if initialConfig["Help"]=="yes" else False),
+         sg.Radio("No",1,key='-CHOOSE HELP NO-',default=True if initialConfig["Help"]=="no" else False)],
          [sg.Text("Tipo de casillas: ",size=(12,1),pad=SEPARACION),
-         sg.Radio("Texto",2,key="-CHOOSE TYPE1-",default="true"),sg.Radio("Imagenes",2,key="-CHOOSE TYPE2-",default="false")],
+         sg.Radio("Texto",2,key="-CHOOSE TYPE1-",default=True if initialConfig["Type of token"]=="Text" else False),
+         sg.Radio("Imagenes",2,key="-CHOOSE TYPE2-",default=True if initialConfig["Type of token"]=="Images" else False)],
          [sg.Text("Velocidad",size=(8,1)),
           sg.Combo(['Rapido', 'Medio', 'Lento'],key="-CHOOSE SPEED-",
-                   pad=SEPARACION,readonly="true",default_value=f"{initialConfig['Speed']}"),
+                   pad=SEPARACION,readonly=True,default_value=f"{initialConfig['Speed']}"),
           sg.Button("Paleta de Colores",pad=SEPARACION,key="-CHOOSE COLOR-")],
          [sg.InputText(f"{initialConfig['VictoryText']}",key="-VICTORY TEXT-"), sg.Text("Ingrese el texto de victoria")],
          [sg.InputText(f"{initialConfig['LooseText']}",key="-LOOSE TEXT-"), sg.Text("Ingrese el texto de derrota")],
@@ -26,5 +27,5 @@ def build(initialConfig, theme="darkblue3"):
          [sg.Text("",key="-INFO USER-",text_color="blue",size=(30,1))]
     ]
     sg.theme(theme)
-    return sg.Window("Configuration MemPy",layout,finalize="true",size=(800, 600),element_justification='center')
+    return sg.Window("Configuration MemPy",layout,finalize=True,size=(800, 600),element_justification='center')
     #yapf: enable

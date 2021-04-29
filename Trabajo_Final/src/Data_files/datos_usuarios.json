@@ -6,12 +6,12 @@
         "gender": "Hombre",
         "config": {
             "Coincidences": "3",
-            "Help": "yes",
+            "Help": "no",
             "Type of token": "Images",
             "Speed": "Lento",
-            "AppColor": "Black",
+            "AppColor": "DarkGreen2",
             "VictoryText": "no",
-            "LooseText": "Soy re malo"
+            "LooseText": "perdi"
         }
     },
     {
