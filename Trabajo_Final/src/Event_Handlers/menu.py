@@ -1,10 +1,10 @@
 import PySimpleGUI
 from ..Components import config,game  #falta poner y stats
 
-def jugar(window, event,nick):
+def jugar(window, event,nick,theme):
     if event == "-PLAY-":
         window.hide()
-        game.start(nick)
+        game.start(nick,theme)
         window.close()
 
 

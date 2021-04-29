@@ -4,7 +4,7 @@ from ..Event_Handlers.Theme_browser import choose_theme
 from ..Components import menu
 
 def build_initial_config(nick):
-    with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json","r+") as info:
+    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r+") as info:
         initial_config={}
         user_data = json.load(info)
         for user in user_data:
@@ -55,7 +55,7 @@ def save_changes(window,event,values,color_picked,nick):
 
     if event=='-SAVE CHANGES-':
         if check_empty_fields(values):
-            with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json","r+") as info:
+            with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r+") as info:
                 user_data = json.load(info)
                 type_radio,need_help=check_radio_boxes(values)
                 for user in user_data:
@@ -64,7 +64,7 @@ def save_changes(window,event,values,color_picked,nick):
                             "Coincidences": values["-CHOOSE COINCIDENCES-"],
                             "Help": need_help,
                             "Type of token": type_radio,
-                            "Speed": values["-CHOOSE SPEED-"],
+                            "Level": values["-CHOOSE LEVEL-"],
                             "AppColor": color_picked,
                             "VictoryText": values["-VICTORY TEXT-"],
                             "LooseText": values["-LOOSE TEXT-"]

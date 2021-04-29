@@ -5,11 +5,11 @@
         "age": "3",
         "gender": "Hombre",
         "config": {
-            "Coincidences": "3",
+            "Coincidences": 2,
             "Help": "yes",
             "Type of token": "Text",
-            "Speed": "Lento",
-            "AppColor": "DarkGreen",
+            "Level": 2,
+            "AppColor": "DarkGrey12",
             "VictoryText": "no",
             "LooseText": "perdi"
         }
@@ -23,7 +23,7 @@
             "Coincidences": "3",
             "Help": "no",
             "Type of token": "Text",
-            "Speed": "Medio",
+            "Level": "1",
             "VictoryText": "3333",
             "LooseText": "3333"
         }
@@ -44,7 +44,7 @@
             "Coincidences": "3",
             "Help": "no",
             "Type of token": "Text",
-            "Speed": "Rapido",
+            "Level": "1",
             "AppColor": "darkblue3",
             "VictoryText": "423",
             "LooseText": "A casa duro"
@@ -59,7 +59,7 @@
             "Coincidences": "3",
             "Help": "no",
             "Type of token": "Text",
-            "Speed": "Rapido",
+            "Level": "1",
             "AppColor": "DarkBlack1",
             "VictoryText": "Ganaste!!!e",
             "LooseText": ":( mas suerte la proximae"
@@ -74,10 +74,25 @@
             "Coincidences": "3",
             "Help": "yes",
             "Type of token": "Text",
-            "Speed": "Rapido",
+            "Level": "1",
             "AppColor": "Tan",
             "VictoryText": "GANE PORQUE SOY RE BUENO",
             "LooseText": "PERDI"
+        }
+    },
+    {
+        "nick": "0",
+        "password": "0",
+        "age": "0",
+        "gender": "Otro",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 3,
+            "AppColor": "darkblue3",
+            "VictoryText": "Ganaste!!!",
+            "LooseText": ":( mas suerte la proxima"
         }
     }
 ]

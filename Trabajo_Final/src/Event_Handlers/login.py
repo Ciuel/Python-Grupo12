@@ -6,7 +6,7 @@ DEFAULT_CONFIG = {
     "Coincidences": "2",
     "Help": "yes",
     "Type of token": "Text",
-    "Speed": "Medio",
+    "Level": "1",
     "AppColor": "darkblue3",
     "VictoryText": "Ganaste!!!",
     "LooseText": ":( mas suerte la proxima"
@@ -60,7 +60,7 @@ def unique_nick(window, values):
     Returns:
         boolean: Devuelve True si no se encuentra en el archivo de usuarios y False si se encuentra
     """
-    with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json",
+    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),
               "r") as info:
         datos = json.load(info)
         for user in datos:
@@ -126,7 +126,7 @@ def check_fields_and_register(window, event, values):
     if event == "-REGIS SAVE-":
         if register_validation(window,
                                values):  #Previene registros con campos vacios
-            with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json",
+            with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),
                       "r+") as info:
                 jsonlist = json.load(info)
                 jsonlist.append({
@@ -158,7 +158,7 @@ def check_login(values):
         boolean: devuelve True cuando el nick y contraseña se encuentran el el archivo y 
         False de lo contrario
     """
-    with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json",
+    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),
               "r") as info:
         datos = json.load(info)
         for user in datos:
@@ -184,7 +184,7 @@ def login_action(window, event, values):
         if check_login(values):
             print("Login succesful")
             window.close()  #TODO preguntar si cerrar la ventana va acá
-            with open(f"src{os.sep}Data_files{os.sep}datos_usuarios.json","r+") as info:
+            with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r+") as info:
                 user_data = json.load(info)
                 for user in user_data:
                     if user["nick"]==values["-INPUT NICK-"]:

@@ -13,29 +13,29 @@ LEVEL_DICTIONARY = {
 BUTTON_SIZE = (10, 5)
 
 
-
-def generate_board(lvl=3, cant_coincidences=3):
+def generate_board(level, cant_coincidences):
     matrix = []
-    for y in range(LEVEL_DICTIONARY[(lvl, cant_coincidences)][0]):
+    for y in range(LEVEL_DICTIONARY[(level, cant_coincidences)][0]):
         matrix += [[
             sg.Button(size=BUTTON_SIZE, key=f"cell-{x}-{y}")
-            for x in range(LEVEL_DICTIONARY[(lvl, cant_coincidences)][1])
+            for x in range(LEVEL_DICTIONARY[(level, cant_coincidences)][1])
         ]]
     return matrix
 
-def build(nick="3",theme="darkblue3",current_level=2,cant_coincidences=2):
+
+def build(nick, theme, cant_coincidences, level):
     # yapf: disable
 
-    Y_LENGHT= LEVEL_DICTIONARY[(current_level, cant_coincidences)][1]*BUTTON_SIZE[1]*10
+    Y_LENGHT= LEVEL_DICTIONARY[(level, cant_coincidences)][1]*BUTTON_SIZE[1]*10
     board_col=[
-        sg.Column(generate_board(current_level, cant_coincidences),element_justification="right")
+        sg.Column(generate_board(level, cant_coincidences),element_justification="right")
         ]
 
     data_col=[
         sg.Frame(title="",size=(None,Y_LENGHT),
             layout=[[sg.Text(f"Bienvenido {nick}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.Text(f"Puntos: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"0000",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
-            [sg.Text(f"Nivel: {current_level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))]]
+            [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))]]
                   ,border_width=10)
         ]
 
