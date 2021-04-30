@@ -9,10 +9,10 @@ def check_config(nick):
                         user["config"]["Level"])
 
 
-words = [
-    "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o",
-    "p", "q", "r", "s", "t"]
+def update_button(window, event, value_matrix):
+    window[event].update(value_matrix[int(event[-1])][int(event[-2])])
 
 
-def obtener_datos(cant_coincidences,level):
-    print(cant_coincidences, level)
+def button_press(window,event,value_matrix):
+    if event.startswith("cell"):
+        update_button(window,event,value_matrix)
