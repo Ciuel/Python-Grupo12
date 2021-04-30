@@ -7,7 +7,6 @@ from ..Event_Handlers.game import *
 
 
 def loop(game_window, value_matrix):
-    print(value_matrix)
     while True:
         event, values = game_window.read()
         if event == sg.WIN_CLOSED:

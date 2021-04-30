@@ -5,10 +5,10 @@
         "age": "3",
         "gender": "Hombre",
         "config": {
-            "Coincidences": 2,
+            "Coincidences": 3,
             "Help": "yes",
             "Type of token": "Text",
-            "Level": 2,
+            "Level": 3,
             "AppColor": "DarkGrey12",
             "VictoryText": "no",
             "LooseText": "perdi"

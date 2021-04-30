@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 import random
 import numpy as np
-
+from ..Event_Handlers.analisis_criterios_datasets import manipulate_app_data
 WINDOW_FONT_SIZE = 20
 WINDOW_FONT = "Helvetica"
 LEVEL_DICTIONARY = {
@@ -14,16 +14,14 @@ LEVEL_DICTIONARY = {
 }
 BUTTON_SIZE = (10, 5)
 
-words = [
-    "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o",
-    "p", "q", "r", "s", "t"
-]
+def clean_input(info,type_of_token):
+    if type_of_token=="Text":
+       return list(map(lambda x:x[1], info))
 
 
 def analisis_info(info,level, cant_coincidences):
     button_amount=(LEVEL_DICTIONARY[(level, cant_coincidences)][0]*LEVEL_DICTIONARY[(level, cant_coincidences)][1])
     info=info[:button_amount//cant_coincidences]
-    print(info)
     output=[]
     for i in range(cant_coincidences):
         output+=info.copy()
@@ -47,7 +45,7 @@ def generate_board(level, cant_coincidences):
 
 
 
-def build(nick, theme, cant_coincidences, level):
+def build(nick, theme, cant_coincidences, level,type_of_token="Text"):
     # yapf: disable
 
     Y_LENGHT= LEVEL_DICTIONARY[(level, cant_coincidences)][1]*BUTTON_SIZE[1]*10
@@ -66,6 +64,7 @@ def build(nick, theme, cant_coincidences, level):
     layout = [[sg.Column([board_col]),sg.Column([data_col])]]
     # yapf: enable
     sg.theme(theme)
+    tokens = clean_input(manipulate_app_data(),type_of_token)
     game_window = sg.Window(
         "MemPy",
         layout,
@@ -73,4 +72,4 @@ def build(nick, theme, cant_coincidences, level):
         #size=(1200, 625),
         element_justification="center",
         margins=(10, 10))
-    return game_window,generar_matriz(analisis_info(words, level, cant_coincidences),level, cant_coincidences)
+    return game_window,generar_matriz(analisis_info(tokens, level, cant_coincidences),level, cant_coincidences)
