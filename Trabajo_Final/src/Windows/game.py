@@ -12,11 +12,13 @@ LEVEL_DICTIONARY = {
     (2, 3): (6,5),
     (3, 3): (6,8)
 }
-BUTTON_SIZE = (10, 5)
+BUTTON_SIZE = (14, 7)
 
 def clean_input(info,type_of_token):
     if type_of_token=="Text":
-       return list(map(lambda x:x[1], info))
+        return list(map(lambda x:x[1], info))
+    else:
+        return list(map(lambda x: x[2], info))
 
 
 def analisis_info(info,level, cant_coincidences):
@@ -32,7 +34,6 @@ def analisis_info(info,level, cant_coincidences):
 def generar_matriz(lista_fichas,level, cant_coincidences):
     lista_fichas=np.array(lista_fichas)
     return lista_fichas.reshape(LEVEL_DICTIONARY[(level, cant_coincidences)])
-
 
 
 def generate_board(level, cant_coincidences):
