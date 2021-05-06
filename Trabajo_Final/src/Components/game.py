@@ -6,17 +6,17 @@ from ..Event_Handlers.game import *
 
 
 
-def loop(game_window, value_matrix):
+def loop(game_window, value_matrix, type_of_token):
     while True:
         event, values = game_window.read()
         if event == sg.WIN_CLOSED:
             break
-        button_press(game_window,event, value_matrix)
+        button_press(game_window, event, value_matrix, type_of_token)
 
 
 def start(nick, theme):
-    cant_coincidences,level=check_config(nick)
-    game_window,value_matrix = build(nick, theme, cant_coincidences, level)
-    loop(game_window, value_matrix)
+    cant_coincidences,level,type_of_token=check_config(nick)
+    game_window, value_matrix = build(nick, theme, cant_coincidences, level,type_of_token)
+    loop(game_window, value_matrix, type_of_token)
 
     game_window.close()

@@ -46,7 +46,7 @@ def generate_board(level, cant_coincidences):
 
 
 
-def build(nick, theme, cant_coincidences, level,type_of_token="Text"):
+def build(nick, theme, cant_coincidences, level,type_of_token):
     # yapf: disable
 
     Y_LENGHT= LEVEL_DICTIONARY[(level, cant_coincidences)][1]*BUTTON_SIZE[1]*10

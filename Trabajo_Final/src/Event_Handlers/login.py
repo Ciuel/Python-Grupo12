@@ -1,5 +1,6 @@
 import json
 import os
+import pathlib
 from ..Components import menu
 
 DEFAULT_CONFIG = {
@@ -189,7 +190,7 @@ def login_action(window, event, values):
                 for user in user_data:
                     if user["nick"]==values["-INPUT NICK-"]:
                         theme=user["config"]["AppColor"]
-                        
+
             menu.start(values["-INPUT NICK-"], theme)
             return True
         else:
