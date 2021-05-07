@@ -14,11 +14,8 @@ def update_button(window, event, value_matrix,type_of_token):
     if type_of_token=="Text":
         window[event].update(value_matrix[int(event[-1])][int(event[-2])])
     else:
-        if b:
             window[event].update(image_filename=
             os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}Images",value_matrix[int(event[-1])][int(event[-2])]), image_size=(118,120),image_subsample=8)
-        else:
-            window[event].update(image_filename="", image_size=(118,120),image_subsample=8)
 
 
 def button_press(window, event, value_matrix, type_of_token):
