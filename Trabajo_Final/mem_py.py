@@ -1,5 +1,5 @@
 #Programa ejecutable
-from src.Components import login
+from src.Components import login,score
 
 
 def main():

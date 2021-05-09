@@ -1,62 +1,43 @@
 import PySimpleGUI as sg
 import csv
 import os
-from textwrap import wrap
+import textwrap
 
 WINDOW_FONT_SIZE = 15
 WINDOW_FONT = "Helvetica"
-X_SIZE=800
-Y_SIZE=600
+X_SIZE = 800
+Y_SIZE = 600
 
 
 def polishing_scores(scores):
-    output = ""
-    for user in scores:
-        for dato in user:
-            output += (f"{dato:^12}")
-        output += "\n"
-    return output
+    return [" " *
+            (X_SIZE // 16) + '{:^}  {:^30}  '.format('Nick', 'Puntos')] + list(
+                map(
+                    lambda x: " " * (X_SIZE // 16) + '{:^}  {:^40}  '.format(
+                        str(x["Nick"]), str(x["Puntos"])), scores))
 
 
-#TODO Terminar el formateo de la tabla para que no queden numeros desalineados
+def scores_print(nick):
+    with open(f"src{os.sep}Data_files{os.sep}info_partida.csv", "r") as puntos:
+        info_partida = list(csv.DictReader(puntos))
+        info_partida.sort(key=lambda x: int(x["Puntos"]))
+        for user in info_partida:
+            if user["Nick"] == nick:
+                scores_table = info_partida[info_partida.index(user) -
+                                            3 if info_partida.index(user) >= 3
+                                            else 0:info_partida.index(user) +
+                                            4]
+        return polishing_scores(scores_table)
 
 
-def scores_print(puntos, nick):
-    csvreader = csv.reader(puntos)
-    header = ""
-    for cat in next(csvreader):
-        header += (f"{cat:^10}")
-    csvreader = list(csvreader)
-    csvreader.sort(key=lambda x: int(x[1]))
-    if len(csvreader) < 7:
-        scores_table = polishing_scores(csvreader) + "\n"
-    else:
-        for index in range(len(csvreader)):
-            if nick in csvreader[index]:
-                if index < 3:
-                    scores_table = polishing_scores(
-                        csvreader[:index + 4]) + "\n"
-                else:
-                    scores_table = polishing_scores(
-                        csvreader[index - 3:index + 4]) + "\n"
-    print(header + "\n" + scores_table)
 
 
-def wrap_texto_fin(texto_fin):
-    texto_fin_proce=""
-    if len(texto_fin)>X_SIZE//10:
-        wrap_list= wrap(texto_fin,X_SIZE//10)
-        for string in wrap_list:
-            texto_fin_proce+=string + "\n"
-        return texto_fin_proce, len(wrap_list)
-    else:
-        return texto_fin, 1
 
 
 def build(
         gano,
         theme='DarkBlue3',
-        texto_de_victoria="Win",
+        texto_de_victoria='"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"',
         texto_de_derrota="Lose",
         tiempo_jugado="1:30:30",
         coincidencias=-1000,
@@ -65,12 +46,12 @@ def build(
     # yapf: disable
 
     texto_fin=texto_de_victoria if gano else texto_de_derrota
-    texto_fin,line_amount=wrap_texto_fin(texto_fin)
+
 
 
     col= [
                     [sg.Text("Datos de partida",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
-                    [sg.Text(texto_fin ,font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),size=(None,line_amount))],
+                    [sg.Text(textwrap.fill(texto_fin, X_SIZE//10) ,font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
                     [sg.Text((f"Tiempo jugado: {tiempo_jugado}"),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),
                     sg.Text((f"Coincidencias: {coincidencias}"),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),
                     sg.Text((f"Fallos: {fallos}"),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
@@ -80,7 +61,7 @@ def build(
 
     layout = [
                 [col],
-                [sg.Output(size=(int(X_SIZE/10),int(Y_SIZE/60)),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),echo_stdout_stderr=True)],
+                [sg.Listbox(values=scores_print("h"),size=(int(X_SIZE/10),int(Y_SIZE/60)),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
                 [sg.Button('Menu', key="-MENU-")]]
 
     # yapf: enable
