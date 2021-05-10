@@ -18,7 +18,7 @@ def sort_app_data(info,day):
 
 def manipulate_app_data():
     day=datetime.datetime.today().weekday()
-    maniana = range(0, 12)
+    maniana = range(0, 133)
     if datetime.datetime.now().hour in maniana:
         with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}countries.csv"),"r",encoding="utf-8") as info:
             return sort_app_data(info,day)
