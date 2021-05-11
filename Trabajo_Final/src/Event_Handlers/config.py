@@ -7,9 +7,7 @@ def build_initial_config(nick):
     with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r+") as info:
         initial_config={}
         user_data = json.load(info)
-        for user in user_data:
-            if user["nick"]==nick:
-                initial_config=user["config"]
+        initial_config=next(filter(lambda user:user["nick"]==nick,user_data))["config"]
     return initial_config
 
 def check_radio_boxes(values):
@@ -26,7 +24,7 @@ def check_radio_boxes(values):
     return type_radio,need_help
 
 
-def color_picker(event):
+def color_picker():
     return choose_theme()
 
 def check_empty_fields(values):
@@ -58,18 +56,15 @@ def save_changes(window,event,values,color_picked,nick):
             with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r+") as info:
                 user_data = json.load(info)
                 type_radio,need_help=check_radio_boxes(values)
-                for user in user_data:
-                    if user["nick"]==nick:
-                        user["config"] = {
-                            "Coincidences": values["-CHOOSE COINCIDENCES-"],
-                            "Help": need_help,
-                            "Type of token": type_radio,
-                            "Level": values["-CHOOSE LEVEL-"],
-                            "AppColor": color_picked,
-                            "VictoryText": values["-VICTORY TEXT-"],
-                            "LooseText": values["-LOOSE TEXT-"]
-                        }
-                        break
+                next(filter(lambda user:user["nick"]==nick,user_data))["config"]= {
+                    "Coincidences": values["-CHOOSE COINCIDENCES-"],
+                    "Help": need_help,
+                    "Type of token": type_radio,
+                    "Level": values["-CHOOSE LEVEL-"],
+                    "AppColor": color_picked,
+                    "VictoryText": values["-VICTORY TEXT-"],
+                    "LooseText": values["-LOOSE TEXT-"]
+                }
                 info.seek(0)
                 json.dump(user_data, info, indent=4)
                 info.truncate()
