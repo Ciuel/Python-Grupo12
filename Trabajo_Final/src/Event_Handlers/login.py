@@ -183,9 +183,6 @@ def login_action(window, event, values):
         else:
             window["-W_LOGIN TEXT-"].update("El nick o contaseña son incorrectos")
 
-
-
-
 def clear_fields(window, keys_to_clear):
     """Limpia los inputs pasados en la lista keys_to_clear
 
