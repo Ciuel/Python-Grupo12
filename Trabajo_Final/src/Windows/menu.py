@@ -7,7 +7,8 @@ BUTTON_SIZE = (17, 3)
 
 def build(nick, theme):
     # yapf: disable
-
+    sg.theme(theme)
+    
     layout = [[sg.Text(f"Bienvenido {nick}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.Button('Jugar', key="-PLAY-", size=BUTTON_SIZE, font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
             [sg.Button('Ajustes', key="-CONFIG-", size=BUTTON_SIZE, font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
@@ -15,7 +16,8 @@ def build(nick, theme):
             [sg.Button('Salir', key="-QUIT-", size=BUTTON_SIZE, font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
     ]
     # yapf: enable
-    sg.theme(theme)
+    
+    
     return sg.Window("Menu",
                      layout,
                      finalize=True,

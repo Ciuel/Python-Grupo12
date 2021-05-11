@@ -8,6 +8,8 @@ def build(initialConfig, theme="darkblue3"):
     #yapf: disable
     #?Los radiobuttons no pueden tener default incluso forzados
     #(True if initialConfig["Type of token"]=="Text" else "false")
+    
+    sg.theme(theme)
     layout= [
         [sg.Text("Configuracion",font=("Helvetica", 40), size=(14, 2),justification="center",pad=SEPARACION)],
         [sg.Text("Cant Coincidencias: ", size=SIZE,justification="left"),
@@ -26,6 +28,5 @@ def build(initialConfig, theme="darkblue3"):
          [sg.Button("Guardar Cambios",key="-SAVE CHANGES-",pad=(5,25)),sg.Button("Volver",pad=(5,25),key="-BACK BUTTON-")],
          [sg.Text("",key="-INFO USER-",text_color="blue",size=(30,1))]
     ]
-    sg.theme(theme)
     return sg.Window("Configuration MemPy",layout,finalize=True,size=(800, 600),element_justification='center')
     #yapf: enable

@@ -49,6 +49,7 @@ def generate_board(level, cant_coincidences):
 def build(nick, theme, cant_coincidences, level,type_of_token):
     # yapf: disable
 
+    sg.theme(theme)
     Y_LENGHT= LEVEL_DICTIONARY[(level, cant_coincidences)][1]*BUTTON_SIZE[1]*10
     board_col=[
         sg.Column(generate_board(level, cant_coincidences),element_justification="right")
@@ -64,7 +65,7 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
 
     layout = [[sg.Column([board_col]),sg.Column([data_col])]]
     # yapf: enable
-    sg.theme(theme)
+    
     tokens = clean_input(manipulate_app_data(),type_of_token)
     game_window = sg.Window(
         "MemPy",
