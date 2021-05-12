@@ -19,7 +19,8 @@ def loop(config_window, nick,theme):
         if event == "-CHOOSE COLOR-":
             theme = color_picker()
 
-        save_changes(config_window, event, values, theme, nick)
+
+        save_changes(config_window, event, values, theme , nick)
         back_button(config_window, event, nick, theme)
 
 
