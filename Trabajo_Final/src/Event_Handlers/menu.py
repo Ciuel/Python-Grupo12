@@ -8,10 +8,10 @@ def jugar(window, event,nick,theme):
         window.close()
 
 
-def configure(window, event, nick, theme):
+def configure(window, event, nick):
     if event == "-CONFIG-":
         window.hide()
-        config.start(nick, theme)
+        config.start(nick)
         window.close()
 
 

@@ -8,7 +8,7 @@ def loop(menu_window, nick, theme):
         event, values = menu_window.read()
         if event == sg.WIN_CLOSED or event == "-QUIT-":
             break
-        configure(menu_window, event, nick, theme)
+        configure(menu_window, event, nick)
         jugar(menu_window, event,nick,theme)
 
 

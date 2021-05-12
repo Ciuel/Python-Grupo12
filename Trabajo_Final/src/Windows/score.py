@@ -21,25 +21,23 @@ def scores_print(nick):
     with open(f"src{os.sep}Data_files{os.sep}info_partida.csv", "r") as puntos:
         info_partida = list(csv.DictReader(puntos))
         info_partida.sort(key=lambda x: int(x["Puntos"]))
-        for user in info_partida:
-            if user["Nick"] == nick:
-                scores_table = info_partida[info_partida.index(user) -
-                                            3 if info_partida.index(user) >= 3
-                                            else 0:info_partida.index(user) +
-                                            4]
+        user = next(filter(lambda user: user["Nick"] == nick, info_partida))
+        scores_table = info_partida[info_partida.index(user) -3 if info_partida.index(user) >= 3 else 0:info_partida.index(user) + 4]
         return polishing_scores(scores_table)
 
-def build(
-        gano,
-        theme='DarkBlue3',
-        texto_de_victoria="win",
-        texto_de_derrota="Lose",
-        tiempo_jugado="1:30:30",
-        coincidencias=-1000,
-        fallos=-1000,
-        puntaje=10000):
+
+def build(gano,
+          theme,
+          nick,
+          texto_de_victoria="win",
+          texto_de_derrota="Lose",
+          tiempo_jugado="1:30:30",
+          coincidencias=-1000,
+          fallos=-1000,
+          puntaje=10000):
     # yapf: disable
 
+    sg.theme(theme)
     texto_fin=texto_de_victoria if gano else texto_de_derrota
 
 
@@ -56,7 +54,7 @@ def build(
 
     layout = [
                 [col],
-                [sg.Listbox(values=scores_print("h"),size=(int(X_SIZE/10),int(Y_SIZE/60)),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+                [sg.Listbox(values=scores_print(nick),size=(int(X_SIZE/10),int(Y_SIZE/60)),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
                 [sg.Button('Menu', key="-MENU-")]]
 
     # yapf: enable
@@ -65,7 +63,6 @@ def build(
     #If you need to interact with elements prior to calling window.read() you will need to "finalize"
     #your window first using the finalize parameter when you create your Window.
     #"Interacting" means calling that element's methods such as update, draw_line, etc.
-    sg.theme(theme)
     return sg.Window("Puntuacion MemPy",
                      layout,
                      finalize=True,

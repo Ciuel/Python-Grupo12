@@ -2,16 +2,25 @@ import PySimpleGUI as sg
 
 SIZE = (15, 1)
 SEPARACION = (25, 25)
+WINDOW_FONT_SIZE = 20
+WINDOW_FONT = "Helvetica"
 
 
-def build(initialConfig, theme="darkblue3"):
+def build(initialConfig):
     #yapf: disable
-    #?Los radiobuttons no pueden tener default incluso forzados
-    #(True if initialConfig["Type of token"]=="Text" else "false")
-    
-    sg.theme(theme)
+    """Construye la pantalla de configuracion con la informacion de la configuracion de usuario.
+
+    Args:
+        initialConfig (dict): Configuracion del usuario
+
+    Returns:
+        window (window): La ventana de configuarcion construida
+    """
+
+
+    sg.theme(initialConfig["AppColor"])
     layout= [
-        [sg.Text("Configuracion",font=("Helvetica", 40), size=(14, 2),justification="center",pad=SEPARACION)],
+        [sg.Text("Configuracion",font=(WINDOW_FONT, WINDOW_FONT_SIZE*2), size=(14, 2),justification="center",pad=SEPARACION)],
         [sg.Text("Cant Coincidencias: ", size=SIZE,justification="left"),
          sg.Combo([2, 3],key="-CHOOSE COINCIDENCES-",size=(5,1),readonly=True,default_value=f"{initialConfig['Coincidences']}"),
          sg.Text("Ayudas?",size=(7,1)),sg.Radio("Si",1,key='-CHOOSE HELP YES-',default=True if initialConfig["Help"]=="yes" else False),

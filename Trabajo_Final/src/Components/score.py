@@ -1,20 +1,20 @@
-import os
-import csv
 import PySimpleGUI as sg
 from ..Event_Handlers.score import *
-from ..Windows.score import build,scores_print
+from ..Windows.score import build
+from ..Event_Handlers.score import check_menu
 
 
-def loop(login_window):
-    
+def loop(score_window, theme,nick):
+
     while True:
-        event, values = login_window.read()
+        event, values = score_window.read()
         if event == sg.WIN_CLOSED:
             break
-        
+        check_menu(event, score_window, theme,nick)
 
-def start():
-    score_window = build(True)
-    loop(score_window)
+
+def start(theme,nick):
+    score_window = build(True,theme,nick)
+    loop(score_window, theme,nick)
 
     score_window.close()

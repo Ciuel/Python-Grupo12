@@ -15,20 +15,12 @@ LEVEL_DICTIONARY = {
 BUTTON_SIZE = (14, 7)
 
 def clean_input(info,type_of_token):
-    if type_of_token=="Text":
-        return list(map(lambda x:x[1], info))
-    else:
-        return list(map(lambda x: x[2], info))
-
+    return list(map(lambda x:x[1], info)) if type_of_token=="Text" else list(map(lambda x: x[2], info))
 
 def analisis_info(info,level, cant_coincidences):
     button_amount=(LEVEL_DICTIONARY[(level, cant_coincidences)][0]*LEVEL_DICTIONARY[(level, cant_coincidences)][1])
     info=info[:button_amount//cant_coincidences]
-    output=[]
-    for i in range(cant_coincidences):
-        output+=info.copy()
-    random.shuffle(output)
-    return output
+    return random.sample(info * cant_coincidences, len(info) * cant_coincidences)
 
 
 def generar_matriz(lista_fichas,level, cant_coincidences):
@@ -65,13 +57,12 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
 
     layout = [[sg.Column([board_col]),sg.Column([data_col])]]
     # yapf: enable
-    
+
     tokens = clean_input(manipulate_app_data(),type_of_token)
     game_window = sg.Window(
         "MemPy",
         layout,
         finalize=True,
-        #size=(1200, 625),
         element_justification="center",
         margins=(10, 10))
     return game_window,generar_matriz(analisis_info(tokens, level, cant_coincidences),level, cant_coincidences)
