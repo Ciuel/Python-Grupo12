@@ -29,7 +29,6 @@ def start(nick):
 
     Args:
         nick (str): El nick del usuario que inicio sesion
-        theme (str): El tema de las ventanas a dibujar
     """
     initial_config = build_initial_config(nick)
     config_window = build(initial_config)

@@ -6,6 +6,15 @@ BUTTON_SIZE = (17, 3)
 
 
 def build(nick, theme):
+    """Arma la ventana de menu
+
+        Args:
+                nick (str): El nick del jugador
+                theme (str): El tema de la ventana
+
+        Returns:
+                [sg.Window]: La ventana de menu armada
+    """        
     # yapf: disable
     sg.theme(theme)
     

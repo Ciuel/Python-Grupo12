@@ -23,4 +23,4 @@ REGLAS DE CONFIGURACION:
   .Cada nivel debe aumentar la cantidad de fichas que contiene el tablero
   .El usuario debe elegir la dificultad a jugar
   .La cantidad de fichas DEBE ser multiplo de la cantidad de coincidencias
-  .En todas las pantallas debe aparecer el nombre del usuario que esta jugando(porque tenes(sesion iniciada)
+  .En todas las ventanas debe aparecer el nombre del usuario que esta jugando(porque tenes(sesion iniciada)

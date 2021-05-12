@@ -7,11 +7,11 @@
         "config": {
             "Coincidences": 3,
             "Help": "yes",
-            "Type of token": "Text",
+            "Type of token": "Images",
             "Level": 1,
             "AppColor": "DarkAmber",
             "VictoryText": "gane",
-            "LooseText": "perdi"
+            "LoseText": "perdi"
         }
     },
     {
@@ -25,7 +25,7 @@
             "Type of token": "Text",
             "Level": "1",
             "VictoryText": "3333",
-            "LooseText": "3333"
+            "LoseText": "3333"
         }
     },
     {
@@ -47,7 +47,7 @@
             "Level": "1",
             "AppColor": "darkblue3",
             "VictoryText": "423",
-            "LooseText": "A casa duro"
+            "LoseText": "A casa duro"
         }
     },
     {
@@ -62,7 +62,7 @@
             "Level": "1",
             "AppColor": "DarkBlack1",
             "VictoryText": "Ganaste!!!e",
-            "LooseText": ":( mas suerte la proximae"
+            "LoseText": ":( mas suerte la proximae"
         }
     },
     {
@@ -77,7 +77,7 @@
             "Level": "1",
             "AppColor": "Tan",
             "VictoryText": "GANE PORQUE SOY RE BUENO",
-            "LooseText": "PERDI"
+            "LoseText": "PERDI"
         }
     },
     {
@@ -92,7 +92,7 @@
             "Level": 3,
             "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
-            "LooseText": ":( mas suerte la proxima"
+            "LoseText": ":( mas suerte la proxima"
         }
     },
     {
@@ -107,7 +107,7 @@
             "Level": 1,
             "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
-            "LooseText": ":( mas suerte la proxima"
+            "LoseText": ":( mas suerte la proxima"
         }
     },
     {
@@ -122,7 +122,7 @@
             "Level": 1,
             "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
-            "LooseText": ":( mas suerte la proxima"
+            "LoseText": ":( mas suerte la proxima"
         }
     },
     {
@@ -137,7 +137,7 @@
             "Level": 1,
             "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
-            "LooseText": ":( mas suerte la proxima"
+            "LoseText": ":( mas suerte la proxima"
         }
     },
     {
@@ -152,7 +152,7 @@
             "Level": 1,
             "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
-            "LooseText": ":( mas suerte la proxima"
+            "LoseText": ":( mas suerte la proxima"
         }
     },
     {
@@ -167,7 +167,7 @@
             "Level": 1,
             "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
-            "LooseText": ":( mas suerte la proxima"
+            "LoseText": ":( mas suerte la proxima"
         }
     },
     {
@@ -182,7 +182,7 @@
             "Level": 1,
             "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
-            "LooseText": ":( mas suerte la proxima"
+            "LoseText": ":( mas suerte la proxima"
         }
     }
 ]

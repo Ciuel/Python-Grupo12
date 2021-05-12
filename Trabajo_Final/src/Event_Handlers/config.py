@@ -50,7 +50,7 @@ def check_empty_fields(values):
     """
     nonempty_values = [
         values["-VICTORY TEXT-"],
-        values["-LOOSE TEXT-"]
+        values["-Lose TEXT-"]
     ]
     radio_help= values["-CHOOSE HELP NO-"] or values["-CHOOSE HELP YES-"]
     radio_type= values["-CHOOSE TYPE1-"] or values["-CHOOSE TYPE2-"]
@@ -61,7 +61,7 @@ def back_button(window,event, nick, theme):
     """Cierra la ventana actual y abre el menu
 
     Args:
-        window (window): La ventana donde ocurren los chequeos
+        window (sg.Window): La ventana donde ocurren los chequeos
         event (str): El evento a chequear si es  -BACK BUTTON-
         nick (str): El nick del usuario que inicio sesion
         theme (str): El tema de las ventanas a dibujar
@@ -76,7 +76,7 @@ def save_changes(window,event,values,theme,nick):
     como una lista de diccionarios
 
     Args:
-        window (window): La ventana donde ocurren los chequeos
+        window (sg.Window): La ventana donde ocurren los chequeos
         event (str): El evento a chequear si es  -SAVE CHANGES-
         values (dict): Donde se guardan los campos a chequear
         nick (str): El nick del usuario que inicio sesion
@@ -95,7 +95,7 @@ def save_changes(window,event,values,theme,nick):
                     "Level": values["-CHOOSE LEVEL-"],
                     "AppColor": theme,
                     "VictoryText": values["-VICTORY TEXT-"],
-                    "LooseText": values["-LOOSE TEXT-"]
+                    "LoseText": values["-Lose TEXT-"]
                 }
                 info.seek(0)
                 json.dump(user_data, info, indent=4)

@@ -1,6 +1,6 @@
 MemPy:
 
-Pantallas:
+ventanas:
 
 -Menu de inicio:
   .Datos de usuario(Pestaña de registro/inicio sesion):
@@ -27,26 +27,26 @@ Pantallas:
 Se deben crear al menos 3 niveles distintos para las configuraciones de arriba!
 
   
--Pantalla de juego
+-ventana de juego
   .Tablero
   .Nick
   .Tiempo
   .Puntos
 
-  .En la pantalla de juego, se debera recolectar la informacion de la partida,que luego se utilizara
+  .En la ventana de juego, se debera recolectar la informacion de la partida,que luego se utilizara
   .Tambien hay que registrar datos generales del juego(para luego hacer estadistica)(fichas,cantidad
    de usarios que jugaron, cuanto tardaron en encontrar los pares,etc)
 
 
 Se debe registrar movimientos y puntajes para luego realizar la estadistica.
 
--Pantalla de resultados
+-ventana de resultados
   .Un ranking de puntuacion de los usuarios segun el nivel jugado.
   .Informacion del puntaje obtenido en la partida
 
--Pantalla de estadisticas
+-ventana de estadisticas
 
-  .Pantalla principalmente diseñada en al segunda etapa
+  .ventana principalmente diseñada en al segunda etapa
   .Contiene graficos y estadisticas de los datos recolectados durante las partidas
 
 CONSIDERACIONES:
@@ -59,7 +59,7 @@ CONSIDERACIONES:
 
 
 FOCOS DE LA PRIMERA ENTREGA:
--Presentacion de las 5 pantallas desarrolladas en PySimpleGUI
+-Presentacion de las 5 ventanas desarrolladas en PySimpleGUI
 -El archivo de configuracion del usuario se guarda en un .json
--La pantalla de LOGIN completa con funcionalidad de registro y inicio sesion
+-La ventana de LOGIN completa con funcionalidad de registro y inicio sesion
 -Pares de datos ya armados(fichitas)

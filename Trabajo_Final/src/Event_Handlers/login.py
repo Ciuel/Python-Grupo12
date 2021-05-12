@@ -9,7 +9,7 @@ DEFAULT_CONFIG = {
     "Level": 1,
     "AppColor": "darkblue3",
     "VictoryText": "Ganaste!!!",
-    "LooseText": ":( mas suerte la proxima"
+    "LoseText": ":( mas suerte la proxima"
 }
 
 
@@ -38,7 +38,7 @@ def confirm_password(window, values):
     """Chequea que los strings de los campos de contraseña y confirmar contraseña sean iguales
 
     Args:
-        window (window): La ventana donde ocurre el chequeo
+        window (sg.Window): La ventana donde ocurre el chequeo
         values (dict): Donde se guardan los campos a chequear
 
     Returns:
@@ -77,7 +77,7 @@ def register_validation(window, values):
     """Une todas las validaciones que se necesitan antes de registrar a un usuario en un return
 
     Args:
-        window (window): La ventana donde ocurren los chequeos
+        window (sg.Window): La ventana donde ocurren los chequeos
         values (dict): Donde se guardan los campos a chequear
     Returns:
         boolean: Operacion and de las funciones confirm_password,check_fields y unique_nick
@@ -90,7 +90,7 @@ def change_layout(window, is_visible):
     """Intercambia de layout dependiendo de is_visible
 
     Args:
-        window (window): La ventana donde ocurren los cambios
+        window (sg.Window): La ventana donde ocurren los cambios
         is_visible (bool): Indica que ventana mostrar
     """
     window["-LOGIN LAYOUT-"].update(visible=is_visible)
@@ -101,7 +101,7 @@ def check_layout(window, event):
     """Dependiendo de que evento ocurre, cambia el layout
 
     Args:
-        window (window): La ventana donde ocurren los chequeos
+        window (sg.Window): La ventana donde ocurren los chequeos
         event (str): El evento a chequear para cambiar el layout
     """
     if event == "-REGIS-":
@@ -114,7 +114,7 @@ def age_field_check(window, event, values):
     """Previene que el usuario escriba caracteres no numericos en el campo de edad
 
     Args:
-        window (window): La ventana donde ocurren los chequeos
+        window (sg.Window): La ventana donde ocurren los chequeos
         event (str): El evento a chequear si es  -REGIS AGE-
         values (dict): Donde se guardan los campos a chequear
     """
@@ -125,10 +125,10 @@ def age_field_check(window, event, values):
 
 def check_fields_and_register(window, event, values):
     """Cuando se presiona el boton de registrar chequea si se puede, escribe la informacion al json 
-    y vuelve a la pantalla de login limpiando todos los campos
+    y vuelve a la ventana de login limpiando todos los campos
 
     Args:
-        window (window): La ventana donde ocurren los chequeos, y se convierte a login
+        window (sg.Window): La ventana donde ocurren los chequeos, y se convierte a login
         event (str): El evento a chequear si es  -REGIS SAVE-
         values (dict): Donde se guardan los campos a chequear y guardar
     """
@@ -169,7 +169,7 @@ def login_action(window, event, values):
     """Chequea si el login es correcto e inicia el menu o actualiza el texto de error dependiendo del resultado
 
     Args:
-        window (window): La ventana donde ocurren los chequeos
+        window (sg.Window): La ventana donde ocurren los chequeos
         event (str): El evento a chequear si es  -LOG IN-
         values (dict): Donde se guardan los campos a chequear
     """
@@ -187,7 +187,7 @@ def clear_fields(window, keys_to_clear):
     """Limpia los inputs pasados en la lista keys_to_clear
 
     Args:
-        window (window): La ventana con los campos a limpiar
+        window (sg.Window): La ventana con los campos a limpiar
         keys_to_clear (list): las keys de los elementos a limpiar
     """
     for key in keys_to_clear:

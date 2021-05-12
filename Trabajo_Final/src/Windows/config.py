@@ -8,13 +8,13 @@ WINDOW_FONT = "Helvetica"
 
 def build(initialConfig):
     #yapf: disable
-    """Construye la pantalla de configuracion con la informacion de la configuracion de usuario.
+    """Construye la ventana de configuracion con la informacion de la configuracion de usuario.
 
     Args:
         initialConfig (dict): Configuracion del usuario
 
     Returns:
-        window (window): La ventana de configuarcion construida
+        window (sg.Window): La ventana de configuarcion construida
     """
 
 
@@ -33,7 +33,7 @@ def build(initialConfig):
                    pad=SEPARACION,readonly=True,default_value=f"{initialConfig['Level']}"),
           sg.Button("Paleta de Colores",pad=SEPARACION,key="-CHOOSE COLOR-")],
          [sg.InputText(f"{initialConfig['VictoryText']}",key="-VICTORY TEXT-"), sg.Text("Ingrese el texto de victoria")],
-         [sg.InputText(f"{initialConfig['LooseText']}",key="-LOOSE TEXT-"), sg.Text("Ingrese el texto de derrota")],
+         [sg.InputText(f"{initialConfig['LoseText']}",key="-Lose TEXT-"), sg.Text("Ingrese el texto de derrota")],
          [sg.Button("Guardar Cambios",key="-SAVE CHANGES-",pad=(5,25)),sg.Button("Volver",pad=(5,25),key="-BACK BUTTON-")],
          [sg.Text("",key="-INFO USER-",text_color="blue",size=(30,1))]
     ]
