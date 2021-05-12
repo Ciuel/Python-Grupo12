@@ -1,19 +1,13 @@
-#TODO cambiar nombre de archivo
 import csv
 import os
-import time
 import datetime
-import string
 
 def sort_app_data(info,day):
     csvreader = csv.reader(info)
-    next(csvreader)
+    next(csvreader) #Saltea el encabezado
     app_list = list(csvreader)
     app_list = list(map(lambda x: (x[day], x[0] , x[len(app_list[0]) - 1]), app_list))
-    if app_list[0][0].isdecimal():
-        return sorted(app_list,key=lambda x: float(x[0]),reverse=True)
-    else:
-        return sorted(app_list, key=lambda x:  x[0])
+    return sorted(app_list,key=lambda x: float(x[0]),reverse=True) if app_list[0][0].isdecimal() else sorted(app_list, key=lambda x:  x[0])
 
 
 def manipulate_app_data():

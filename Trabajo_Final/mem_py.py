@@ -3,6 +3,7 @@ from src.Components import login
 
 
 def main():
+    """Ejecuta la aplicacion"""
     login.start()
 
 
