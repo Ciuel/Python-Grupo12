@@ -17,7 +17,7 @@ def loop(config_window, nick,theme):
             break
 
         if event == "-CHOOSE COLOR-":
-            theme = color_picker()
+            theme = color_picker(theme)
 
 
         save_changes(config_window, event, values, theme , nick)

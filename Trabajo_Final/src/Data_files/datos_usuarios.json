@@ -9,7 +9,22 @@
             "Help": "no",
             "Type of token": "Images",
             "Level": 3,
-            "AppColor": "DarkPurple7",
+            "AppColor": "DarkBlack",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    {
+        "nick": "Juan2",
+        "password": "0",
+        "age": "6",
+        "gender": "Hombre",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+            "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }

@@ -30,13 +30,13 @@ def check_radio_boxes(values):
     return type_radio,need_help
 
 
-def color_picker():
+def color_picker(theme):
     """Llama al seleccionador de colores de PySimpleGUI
 
     Returns:
         [str]: El tema elegido
     """
-    return choose_theme()
+    return choose_theme(theme)
 
 def check_empty_fields(values):
     """Chequea que no haya campos vacios
