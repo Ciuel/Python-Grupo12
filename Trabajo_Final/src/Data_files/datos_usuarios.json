@@ -35,10 +35,10 @@
         "age": "3",
         "gender": "Otro",
         "config": {
-            "Coincidences": 3,
+            "Coincidences": 2,
             "Help": "yes",
             "Type of token": "Text",
-            "Level": 1,
+            "Level": 2,
             "AppColor": "DarkPurple7",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"

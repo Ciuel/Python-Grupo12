@@ -4,7 +4,7 @@ from ..Event_Handlers.game import *
 
 
 
-def loop(game_window, value_matrix, type_of_token,cant_coincidences):
+def loop(game_window, value_matrix, type_of_token,cant_coincidences,theme,nick):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -13,13 +13,15 @@ def loop(game_window, value_matrix, type_of_token,cant_coincidences):
         type_of_token (str): Si es texto o imagenes
     """
     lista_chequeos=[]
+    points=0
     while True:
         event, _values = game_window.read()
         if event == sg.WIN_CLOSED:
             break
         button_press(game_window, event, value_matrix, type_of_token)
         game_window.refresh()
-        lista_chequeos=check_button(value_matrix, cant_coincidences, lista_chequeos,event,game_window,type_of_token)
+        lista_chequeos,points=check_button(value_matrix, cant_coincidences, lista_chequeos,event,game_window,type_of_token,points)
+        end_game(game_window,points,theme,nick)
 
 
 def start(nick):
@@ -31,6 +33,6 @@ def start(nick):
     """
     cant_coincidences, level, type_of_token, theme = check_config(nick)
     game_window, value_matrix = build(nick, theme, cant_coincidences, level,type_of_token)
-    loop(game_window, value_matrix, type_of_token,cant_coincidences)
+    loop(game_window, value_matrix, type_of_token,cant_coincidences,nick,theme)
 
     game_window.close()

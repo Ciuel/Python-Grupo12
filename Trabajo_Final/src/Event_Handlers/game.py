@@ -1,6 +1,7 @@
 import os
 import json
 import time
+from ..Components import score
 def check_config(nick):
     """Devueve los valores necesarios para el juego de la configuracion del usuario
 
@@ -30,7 +31,7 @@ def update_button(window, event, value_matrix,type_of_token):
         window[event].update(image_filename=os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}Images",value_matrix[int(event[-2])][int(event[-1])]), image_size=(118,120),image_subsample=3)
 
 
-def check_button(value_matrix, cant_coincidences, lista_chequeos, event,window,type_of_token):
+def check_button(value_matrix, cant_coincidences, lista_chequeos, event,window,type_of_token,points):
     if event not in lista_chequeos:
         lista_chequeos.append(event)
     print(lista_chequeos)
@@ -39,14 +40,15 @@ def check_button(value_matrix, cant_coincidences, lista_chequeos, event,window,t
         if len(lista_chequeos) == cant_coincidences:
             for eve in lista_chequeos:
                 window[eve].update(disabled=True)
+            points+=100*cant_coincidences
+            window["-POINTS-"].update(points)
             lista_chequeos = []
     else:
         for eve in lista_chequeos:
             window[eve].update("") if type_of_token=="Text" else window[eve].update(image_filename="", image_size=(118, 120))
         lista_chequeos = []
 
-    print(lista_chequeos)
-    return lista_chequeos
+    return lista_chequeos,points
 
 
 def button_press(window, event, value_matrix, type_of_token):
@@ -60,3 +62,9 @@ def button_press(window, event, value_matrix, type_of_token):
     """
     if event.startswith("cell"):
         update_button(window, event, value_matrix, type_of_token)
+
+def end_game(window,points,theme,nick):
+    if points==1000:
+        window.close()
+        score.start(theme,nick)
+    
