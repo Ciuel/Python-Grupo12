@@ -28,5 +28,20 @@
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
+    },
+    {
+        "nick": "3",
+        "password": "3",
+        "age": "3",
+        "gender": "Otro",
+        "config": {
+            "Coincidences": 3,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+            "AppColor": "DarkPurple7",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
+        }
     }
 ]

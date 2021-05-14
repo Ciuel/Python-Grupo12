@@ -1,5 +1,6 @@
 import os
 import json
+import time
 def check_config(nick):
     """Devueve los valores necesarios para el juego de la configuracion del usuario
 
@@ -26,8 +27,26 @@ def update_button(window, event, value_matrix,type_of_token):
     if type_of_token=="Text":
         window[event].update(value_matrix[int(event[-2])][int(event[-1])])
     else:
-        window[event].update(image_filename=
-        os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}Images",value_matrix[int(event[-2])][int(event[-1])]), image_size=(118,120),image_subsample=3)
+        window[event].update(image_filename=os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}Images",value_matrix[int(event[-2])][int(event[-1])]), image_size=(118,120),image_subsample=3)
+
+
+def check_button(value_matrix, cant_coincidences, lista_chequeos, event,window,type_of_token):
+    if event not in lista_chequeos:
+        lista_chequeos.append(event)
+    print(lista_chequeos)
+    time.sleep(0.5)
+    if all(value_matrix[int(lista_chequeos[0][-2])][int(lista_chequeos[0][-1])]== value_matrix[int(x[-2])][int(x[-1])] for x in lista_chequeos):
+        if len(lista_chequeos) == cant_coincidences:
+            for eve in lista_chequeos:
+                window[eve].update(disabled=True)
+            lista_chequeos = []
+    else:
+        for eve in lista_chequeos:
+            window[eve].update("") if type_of_token=="Text" else window[eve].update(image_filename="", image_size=(118, 120))
+        lista_chequeos = []
+
+    print(lista_chequeos)
+    return lista_chequeos
 
 
 def button_press(window, event, value_matrix, type_of_token):
