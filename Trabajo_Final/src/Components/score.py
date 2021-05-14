@@ -13,8 +13,8 @@ def loop(score_window, theme,nick):
         check_menu(event, score_window, theme,nick)
 
 
-def start(theme,nick):
-    score_window = build(True,theme,nick)
+def start(theme,nick,puntaje):
+    score_window = build(True,theme,nick,puntaje=puntaje)
     loop(score_window, theme,nick)
 
     score_window.close()

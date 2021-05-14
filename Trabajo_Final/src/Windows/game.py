@@ -101,11 +101,12 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
         ]
 
     data_col=[
-        sg.Frame(title="",size=(None,Y_LENGHT),
+        sg.Frame(title="",
             layout=[[sg.Text(f"Bienvenido {nick}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.Text(f"Puntos: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"0000",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
-            [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))]]
-                  ,border_width=10)
+            [sg.Text(f"Tiempo: 0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT TIME-",size=(18,1))],
+            [sg.Text(f"Tiempo de jugada: 0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT PLAY TIME-",size=(20,1))],
+            [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))]],border_width=10)
         ]
 
     layout = [[sg.Column([board_col]),sg.Column([data_col])]]

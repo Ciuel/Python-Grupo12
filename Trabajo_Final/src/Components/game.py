@@ -1,10 +1,12 @@
 import PySimpleGUI as sg
 from ..Windows.game import build
 from ..Event_Handlers.game import *
+import time
 
 
 
-def loop(game_window, value_matrix, type_of_token,cant_coincidences,theme,nick):
+
+def loop(game_window, value_matrix, type_of_token,cant_coincidences,theme,nick,level):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -13,15 +15,23 @@ def loop(game_window, value_matrix, type_of_token,cant_coincidences,theme,nick):
         type_of_token (str): Si es texto o imagenes
     """
     lista_chequeos=[]
-    points=0
+    hits=0
+    misses=0
+    starttime = time.time()
+    start_time_jugada=time.time()
     while True:
-        event, _values = game_window.read()
-        if event == sg.WIN_CLOSED:
-            break
-        button_press(game_window, event, value_matrix, type_of_token)
+        event, values = game_window.read(100,"timeout")
+        game_window.FindElement("-CURRENT TIME-").Update(f"Tiempo: {int(time.time()-starttime)}")
+
+        start_time_jugada=play_counter(lista_chequeos, start_time_jugada, game_window)
         game_window.refresh()
-        lista_chequeos,points=check_button(value_matrix, cant_coincidences, lista_chequeos,event,game_window,type_of_token,points)
-        end_game(game_window,points,theme,nick)
+        if event !="timeout":
+            if event == sg.WIN_CLOSED:
+                break
+            button_press(game_window, event, value_matrix, type_of_token)
+            game_window.refresh()
+            lista_chequeos,hits,start_time_jugada=check_button(value_matrix, cant_coincidences, lista_chequeos,event,game_window,type_of_token,hits,start_time_jugada)
+            end_game(game_window, hits, theme, nick, cant_coincidences,level)
 
 
 def start(nick):
@@ -33,6 +43,6 @@ def start(nick):
     """
     cant_coincidences, level, type_of_token, theme = check_config(nick)
     game_window, value_matrix = build(nick, theme, cant_coincidences, level,type_of_token)
-    loop(game_window, value_matrix, type_of_token,cant_coincidences,nick,theme)
+    loop(game_window, value_matrix, type_of_token,cant_coincidences,theme,nick,level)
 
     game_window.close()

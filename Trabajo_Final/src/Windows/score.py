@@ -20,7 +20,8 @@ def polishing_scores(scores):
 def scores_print(nick):
     with open(f"src{os.sep}Data_files{os.sep}info_partida.csv", "r") as puntos:
         info_partida = list(csv.DictReader(puntos))
-        info_partida.sort(key=lambda x: int(x["Puntos"]))
+        info_partida.sort(key=lambda x: int(x["Puntos"]),reverse=True)
+        print(nick)
         user = next(filter(lambda user: user["Nick"] == nick, info_partida))
         scores_table = info_partida[info_partida.index(user) -3 if info_partida.index(user) >= 3 else 0:info_partida.index(user) + 4]
         return polishing_scores(scores_table)

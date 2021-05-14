@@ -2,6 +2,16 @@ import os
 import json
 import time
 from ..Components import score
+
+LEVEL_DICTIONARY = {
+    (1, 2): (4,4),
+    (2, 2): (6,4),
+    (3, 2): (6,7),
+    (1, 3): (6,4),
+    (2, 3): (6,5),
+    (3, 3): (6,8)
+}
+
 def check_config(nick):
     """Devueve los valores necesarios para el juego de la configuracion del usuario
 
@@ -31,24 +41,31 @@ def update_button(window, event, value_matrix,type_of_token):
         window[event].update(image_filename=os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}Images",value_matrix[int(event[-2])][int(event[-1])]), image_size=(118,120),image_subsample=3)
 
 
-def check_button(value_matrix, cant_coincidences, lista_chequeos, event,window,type_of_token,points):
+def play_counter(lista_chequeos, start_time_jugada, game_window):
+    if lista_chequeos == []:
+        start_time_jugada = time.time()
+        game_window["-CURRENT PLAY TIME-"].update(f"Tiempo de jugada: 0")
+    else:
+        game_window["-CURRENT PLAY TIME-"].update(f"Tiempo de jugada: {int(time.time()-start_time_jugada)}")
+    return start_time_jugada
+
+def check_button(value_matrix, cant_coincidences, lista_chequeos, event,window,type_of_token,hits,start_time_jugada):
     if event not in lista_chequeos:
         lista_chequeos.append(event)
-    print(lista_chequeos)
-    time.sleep(0.5)
     if all(value_matrix[int(lista_chequeos[0][-2])][int(lista_chequeos[0][-1])]== value_matrix[int(x[-2])][int(x[-1])] for x in lista_chequeos):
         if len(lista_chequeos) == cant_coincidences:
             for eve in lista_chequeos:
                 window[eve].update(disabled=True)
-            points+=100*cant_coincidences
-            window["-POINTS-"].update(points)
+            hits+=1
+            window["-POINTS-"].update(hits*100*cant_coincidences)
             lista_chequeos = []
     else:
+        time.sleep(0.5)
         for eve in lista_chequeos:
             window[eve].update("") if type_of_token=="Text" else window[eve].update(image_filename="", image_size=(118, 120))
         lista_chequeos = []
 
-    return lista_chequeos,points
+    return lista_chequeos,hits,start_time_jugada
 
 
 def button_press(window, event, value_matrix, type_of_token):
@@ -63,8 +80,10 @@ def button_press(window, event, value_matrix, type_of_token):
     if event.startswith("cell"):
         update_button(window, event, value_matrix, type_of_token)
 
-def end_game(window,points,theme,nick):
-    if points==1000:
+
+def end_game(window, hits, theme, nick, cant_coincidences,level):
+    button_amount=(LEVEL_DICTIONARY[(level, cant_coincidences)][0]*LEVEL_DICTIONARY[(level, cant_coincidences)][1])
+    points=hits*100*cant_coincidences
+    if hits >=button_amount//cant_coincidences -5:
         window.close()
-        score.start(theme,nick)
-    
+        score.start(theme,nick,puntaje=points)
