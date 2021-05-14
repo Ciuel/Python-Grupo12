@@ -38,8 +38,23 @@
             "Coincidences": 2,
             "Help": "yes",
             "Type of token": "Images",
-            "Level": 2,
-            "AppColor": "DarkPurple7",
+            "Level": 1,
+            "AppColor": "Reddit",
+            "VictoryText": "Ganaste!!! muy biennnn",
+            "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    {
+        "nick": "0",
+        "password": "0",
+        "age": "0",
+        "gender": "Otro",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+            "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }

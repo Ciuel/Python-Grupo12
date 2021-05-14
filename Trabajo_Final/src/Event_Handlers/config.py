@@ -2,6 +2,7 @@ import os
 import json
 from ..Event_Handlers.Theme_browser import choose_theme
 from ..Components import menu
+from ..Constants.constants import USER_JSON_PATH
 
 def build_initial_config(nick):
     """Se busca la configuracion del usuario que inicia sesion, que se encuentra en el archivo json
@@ -12,7 +13,7 @@ def build_initial_config(nick):
     Returns:
         [dict]: La configuracion del usuario
     """
-    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r+") as info:
+    with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r+") as info:
         user_data = json.load(info)
     return next(filter(lambda user:user["nick"]==nick,user_data))["config"]
 
@@ -85,7 +86,7 @@ def save_changes(window,event,values,theme,nick):
 
     if event=='-SAVE CHANGES-':
         if check_empty_fields(values):
-            with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r+") as info:
+            with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r+") as info:
                 user_data = json.load(info)
                 type_radio,need_help=check_radio_boxes(values)
                 next(filter(lambda user:user["nick"]==nick,user_data))["config"]= {

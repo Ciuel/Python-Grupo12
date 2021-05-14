@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
+from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE
 
-WINDOW_FONT_SIZE = 20
-WINDOW_FONT = "Helvetica"
+
 BUTTON_SIZE = (17, 3)
 
 

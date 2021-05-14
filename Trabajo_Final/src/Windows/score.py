@@ -2,9 +2,8 @@ import PySimpleGUI as sg
 import csv
 import os
 import textwrap
+from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE
 
-WINDOW_FONT_SIZE = 15
-WINDOW_FONT = "Helvetica"
 X_SIZE = 800
 Y_SIZE = 600
 
@@ -21,25 +20,23 @@ def scores_print(nick):
     with open(f"src{os.sep}Data_files{os.sep}info_partida.csv", "r") as puntos:
         info_partida = list(csv.DictReader(puntos))
         info_partida.sort(key=lambda x: int(x["Puntos"]),reverse=True)
-        print(nick)
         user = next(filter(lambda user: user["Nick"] == nick, info_partida))
         scores_table = info_partida[info_partida.index(user) -3 if info_partida.index(user) >= 3 else 0:info_partida.index(user) + 4]
         return polishing_scores(scores_table)
 
 
-def build(gano,
+def build(
           theme,
           nick,
-          texto_de_victoria="win",
-          texto_de_derrota="Lose",
-          tiempo_jugado="1:30:30",
-          coincidencias=-1000,
-          fallos=-1000,
-          puntaje=10000):
+          texto_fin,
+          tiempo_jugado,
+          coincidencias,
+          fallos,
+          puntaje):
     # yapf: disable
 
     sg.theme(theme)
-    texto_fin=texto_de_victoria if gano else texto_de_derrota
+
 
 
 

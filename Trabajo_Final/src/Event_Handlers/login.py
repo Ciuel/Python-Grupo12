@@ -1,16 +1,8 @@
 import json
 import os
 from ..Components import menu
+from ..Constants.constants import USER_JSON_PATH,DEFAULT_CONFIG
 
-DEFAULT_CONFIG = {
-    "Coincidences": 2,
-    "Help": "yes",
-    "Type of token": "Text",
-    "Level": 1,
-    "AppColor": "darkblue3",
-    "VictoryText": "Ganaste!!!",
-    "LoseText": ":( mas suerte la proxima"
-}
 
 
 def check_fields(window, values):
@@ -61,10 +53,7 @@ def unique_nick(window, values):
     Returns:
         boolean: Si el nick esta o no
     """
-    with open(
-            os.path.join(os.getcwd(),
-                         f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),
-            "r") as info:
+    with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r") as info:
         datos = json.load(info)
         if any([user["nick"] == values["-REGIS NICK-"] for user in datos]):
             window["-CONFIRMATION TEXT-"].update("El usuario ya existe")
@@ -134,7 +123,7 @@ def check_fields_and_register(window, event, values):
     """
     #yapf: disable
     if event == "-REGIS SAVE-" and register_validation(window,values):
-        with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r+") as info:
+        with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r+") as info:
             jsonlist = json.load(info)
             jsonlist.append({
                 "nick": values["-REGIS NICK-"],
@@ -159,7 +148,7 @@ def check_login(values):
         boolean: devuelve True cuando el nick y contraseña se encuentran el el archivo y 
         False de lo contrario
     """
-    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r") as info:
+    with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r") as info:
         datos = json.load(info)
         return any([values["-INPUT NICK-"] == user["nick"] and values["-INPUT PASSWORD-"] == user["password"] for user in datos])
 
@@ -176,7 +165,7 @@ def login_action(window, event, values):
     if event == "-LOG IN-":
         if check_login(values):
             window.close()
-            with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r") as info:
+            with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r") as info:
                 user_data = json.load(info)
                 theme=next(filter(lambda user:user["nick"]==values["-INPUT NICK-"],user_data))["config"]["AppColor"]
             menu.start(values["-INPUT NICK-"], theme)

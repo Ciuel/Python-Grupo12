@@ -2,16 +2,8 @@ import PySimpleGUI as sg
 import random
 import numpy as np
 from ..Event_Handlers.analisis_criterios_datasets import manipulate_app_data
-WINDOW_FONT_SIZE = 20
-WINDOW_FONT = "Helvetica"
-LEVEL_DICTIONARY = {
-    (1, 2): (4,4),
-    (2, 2): (6,4),
-    (3, 2): (6,7),
-    (1, 3): (6,4),
-    (2, 3): (6,5),
-    (3, 3): (6,8)
-}
+from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE,LEVEL_DICTIONARY
+
 BUTTON_SIZE = (14, 7)
 
 def clean_input(info,type_of_token):
@@ -103,10 +95,13 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
     data_col=[
         sg.Frame(title="",
             layout=[[sg.Text(f"Bienvenido {nick}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
-            [sg.Text(f"Puntos: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"0000",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
+            [sg.Text(f"Puntos: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"00000",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
             [sg.Text(f"Tiempo: 0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT TIME-",size=(18,1))],
             [sg.Text(f"Tiempo de jugada: 0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT PLAY TIME-",size=(20,1))],
-            [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))]],border_width=10)
+            [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+            [sg.Button("Volver al menu",key="-BACK MENU-")]
+            ],border_width=10)
+
         ]
 
     layout = [[sg.Column([board_col]),sg.Column([data_col])]]
