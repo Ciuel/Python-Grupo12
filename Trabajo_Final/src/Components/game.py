@@ -28,6 +28,7 @@ def loop(game_window, value_matrix,nick,user_config):
         if event == sg.WIN_CLOSED:
             break
         check_menu(game_window, event, nick, user_config["AppColor"])
+        check_help(game_window, event,value_matrix,user_config["Type of token"])
         if event.startswith("cell"):
             button_press(game_window, event, value_matrix, user_config["Type of token"])
             game_window.refresh()

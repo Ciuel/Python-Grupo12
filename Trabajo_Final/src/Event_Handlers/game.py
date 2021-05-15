@@ -1,6 +1,8 @@
 import os
 import json
 import time
+import random
+import numpy as np
 import PySimpleGUI as sg
 from ..Components import score,menu
 from ..Constants.constants import LEVEL_DICTIONARY,USER_JSON_PATH
@@ -86,3 +88,23 @@ def check_menu(window,event,nick,theme):
         if sg.popup_yes_no("Realmente quiere volver al menu",no_titlebar=True)== "Yes":
             window.close()
             menu.start(nick,theme)
+
+
+def help_action(window, value_matrix, type_of_token):
+    value_matrix=value_matrix.tolist()
+    obj=random.choice((random.choice(value_matrix)))
+    help_list=[]
+    for x in range(len(value_matrix)):
+        for y in range(len(value_matrix[x])):
+            print(y)
+            if value_matrix[x][y]==obj:
+                update_button(window,f"cell{x}{y}",value_matrix,type_of_token)
+                help_list += [f"cell{x}{y}"]
+    window.refresh()
+    time.sleep(0.5)
+    for eve in help_list:
+        window[eve].update("") if type_of_token=="Text" else window[eve].update(image_filename="", image_size=(118, 120))
+
+def check_help(window, event, value_matrix, type_of_token):
+    if event=="-HELP-":
+        help_action(window, value_matrix, type_of_token)

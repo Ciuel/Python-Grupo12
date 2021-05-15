@@ -99,7 +99,8 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
             [sg.Text(f"Tiempo: 0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT TIME-",size=(18,1))],
             [sg.Text(f"Tiempo de jugada: 0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT PLAY TIME-",size=(20,1))],
             [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
-            [sg.Button("Volver al menu",key="-BACK MENU-")]
+            [sg.Button("Volver al menu",key="-BACK MENU-"),
+            sg.Button("Ayuda",key="-HELP-")]
             ],border_width=10)
 
         ]
