@@ -35,7 +35,7 @@ def build(initialConfig):
          [sg.InputText(f"{initialConfig['VictoryText']}",key="-VICTORY TEXT-"), sg.Text("Ingrese el texto de victoria")],
          [sg.InputText(f"{initialConfig['LoseText']}",key="-Lose TEXT-"), sg.Text("Ingrese el texto de derrota")],
          [sg.Button("Guardar Cambios",key="-SAVE CHANGES-",pad=(5,25)),sg.Button("Volver",pad=(5,25),key="-BACK BUTTON-")],
-         [sg.Text("",key="-INFO USER-",text_color="blue",size=(30,1))]
+         [sg.Text("",key="-INFO USER-",text_color="blue",size=(40,1))]
     ]
     return sg.Window("Configuration MemPy",layout,finalize=True,size=(800, 600),element_justification='center')
     #yapf: enable
