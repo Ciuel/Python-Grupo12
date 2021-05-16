@@ -9,7 +9,7 @@ def check_config(nick):
     Returns:
         [tuple]: Los valores de configuracion necesarios para el juego
     """
-    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r+") as info:
+    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r") as info:
         user_data = json.load(info)
         user_config=next(filter(lambda user:user["nick"]==nick,user_data))["config"]
         return (user_config["Coincidences"], user_config["Level"],user_config["Type of token"],user_config["AppColor"])

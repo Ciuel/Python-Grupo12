@@ -12,7 +12,7 @@ def build_initial_config(nick):
     Returns:
         [dict]: La configuracion del usuario
     """
-    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r+") as info:
+    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r") as info:
         user_data = json.load(info)
     return next(filter(lambda user:user["nick"]==nick,user_data))["config"]
 
