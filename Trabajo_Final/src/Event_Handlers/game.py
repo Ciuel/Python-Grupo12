@@ -89,22 +89,39 @@ def check_menu(window,event,nick,theme):
             window.close()
             menu.start(nick,theme)
 
+def help_cooldown(window,current_time,cooldown_start,offset):
+    if current_time > cooldown_start + offset:
+        window["-HELP-"].update(disabled=False)
+        return 99999
+    else:
+        return cooldown_start
+
+def funcion_tupla(obj,x,lista_interna):
+    y = list(filter(lambda y: lista_interna[y] == obj, range(len(lista_interna))))
+    return [(x,e) for e in y] if y!=[] else None
 
 def help_action(window, value_matrix, type_of_token):
+    window["-HELP-"].update(disabled=True)
+    window.refresh()
     value_matrix=value_matrix.tolist()
     obj=random.choice((random.choice(value_matrix)))
     help_list=[]
-    for x in range(len(value_matrix)):
-        for y in range(len(value_matrix[x])):
-            print(y)
-            if value_matrix[x][y]==obj:
-                update_button(window,f"cell{x}{y}",value_matrix,type_of_token)
-                help_list += [f"cell{x}{y}"]
+    help_list=map(lambda x: funcion_tupla(obj, x, value_matrix[x]),range(len(value_matrix)))
+    help_list=list(filter(lambda x: x != None, help_list))
+    help_list = [tupla for lista_interna in help_list for tupla in lista_interna]
+    help_list = list(map(lambda x: f"cell{x[0]}{x[1]}", help_list))
+    for eve in help_list:
+        update_button(window, eve, value_matrix, type_of_token)
     window.refresh()
-    time.sleep(0.5)
+    time.sleep(1)
     for eve in help_list:
         window[eve].update("") if type_of_token=="Text" else window[eve].update(image_filename="", image_size=(118, 120))
+
+
 
 def check_help(window, event, value_matrix, type_of_token):
     if event=="-HELP-":
         help_action(window, value_matrix, type_of_token)
+        return True
+    else:
+        return False

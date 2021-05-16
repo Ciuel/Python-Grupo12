@@ -19,16 +19,25 @@ def loop(game_window, value_matrix,nick,user_config):
     misses=0
     starttime = time.time()
     start_time_jugada=time.time()
+    cooldown_start=99999
     while True:
-        event, _values = game_window.read(100,"timeout")
-        game_window.FindElement("-CURRENT TIME-").Update(f"Tiempo: {int(time.time()-starttime)}")
-
+        event, _values = game_window.read(100)
+        current_time = int(time.time() - starttime)
+        game_window.FindElement("-CURRENT TIME-").Update(
+            f"Tiempo: {current_time}")
         start_time_jugada=play_counter(lista_chequeos, start_time_jugada, game_window)
         game_window.refresh()
         if event == sg.WIN_CLOSED:
             break
+
         check_menu(game_window, event, nick, user_config["AppColor"])
-        check_help(game_window, event,value_matrix,user_config["Type of token"])
+
+        if check_help(game_window, event,value_matrix,user_config["Type of token"]):
+            cooldown_start = current_time
+
+        cooldown_start=help_cooldown(game_window, current_time, cooldown_start,-1)
+
+
         if event.startswith("cell"):
             button_press(game_window, event, value_matrix, user_config["Type of token"])
             game_window.refresh()
@@ -36,7 +45,7 @@ def loop(game_window, value_matrix,nick,user_config):
                 value_matrix, user_config["Coincidences"], lista_chequeos,
                 event, game_window, user_config["Type of token"], hits, misses,
                 start_time_jugada)
-            end_game(game_window,hits,misses,nick,user_config,int(time.time()-starttime))
+            end_game(game_window, hits, misses, nick, user_config,current_time)
 
 
 def start(nick):

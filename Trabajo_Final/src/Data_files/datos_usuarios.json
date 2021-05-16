@@ -35,7 +35,7 @@
         "age": "3",
         "gender": "Otro",
         "config": {
-            "Coincidences": 2,
+            "Coincidences": 3,
             "Help": "yes",
             "Type of token": "Images",
             "Level": 1,
