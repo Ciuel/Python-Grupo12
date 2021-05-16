@@ -6,7 +6,7 @@ import time
 
 
 
-def loop(game_window, value_matrix,nick,user_config):
+def loop(game_window, value_matrix, nick, user_config, element_list):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -32,7 +32,7 @@ def loop(game_window, value_matrix,nick,user_config):
 
         check_menu(game_window, event, nick, user_config["AppColor"])
 
-        if check_help(game_window, event,value_matrix,user_config["Type of token"]):
+        if check_help(game_window, event,value_matrix,user_config["Type of token"],element_list):
             cooldown_start = current_time
 
         cooldown_start=help_cooldown(game_window, current_time, cooldown_start,-1)
@@ -41,10 +41,10 @@ def loop(game_window, value_matrix,nick,user_config):
         if event.startswith("cell"):
             button_press(game_window, event, value_matrix, user_config["Type of token"])
             game_window.refresh()
-            lista_chequeos, hits,misses, start_time_jugada = check_button(
+            lista_chequeos, hits, misses, start_time_jugada, element_list = check_button(
                 value_matrix, user_config["Coincidences"], lista_chequeos,
                 event, game_window, user_config["Type of token"], hits, misses,
-                start_time_jugada)
+                start_time_jugada, element_list)
             end_game(game_window, hits, misses, nick, user_config,current_time)
 
 
@@ -56,7 +56,7 @@ def start(nick):
         nick (str): El nick del jugador
     """
     user_config= check_config(nick)
-    game_window, value_matrix = build(nick,user_config["AppColor"],user_config["Coincidences"], user_config["Level"],user_config["Type of token"])
-    loop(game_window, value_matrix,nick,user_config)
+    game_window, value_matrix,element_list = build(nick,user_config["AppColor"],user_config["Coincidences"], user_config["Level"],user_config["Type of token"])
+    loop(game_window, value_matrix, nick, user_config, list(set(element_list)))
 
     game_window.close()

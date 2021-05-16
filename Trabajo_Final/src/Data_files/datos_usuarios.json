@@ -9,7 +9,7 @@
             "Help": "no",
             "Type of token": "Images",
             "Level": 3,
-            "AppColor": "DarkBlack",
+            "AppColor": "DarkRed",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
@@ -38,7 +38,7 @@
             "Coincidences": 3,
             "Help": "yes",
             "Type of token": "Images",
-            "Level": 1,
+            "Level": 3,
             "AppColor": "Reddit",
             "VictoryText": "Ganaste!!! muy biennnn",
             "LoseText": ":( mas suerte la proxima"

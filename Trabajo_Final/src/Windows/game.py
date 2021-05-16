@@ -115,4 +115,6 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
         element_justification="center",
         margins=(10, 10))
     tokens = clean_input(manipulate_app_data(),type_of_token)
-    return game_window,generar_matriz(analisis_info(tokens, level, cant_coincidences),level, cant_coincidences)
+    element_list=analisis_info(tokens, level, cant_coincidences)
+    return game_window, generar_matriz(element_list, level,
+                                       cant_coincidences), element_list
