@@ -56,7 +56,10 @@ def start(nick):
         nick (str): El nick del jugador
     """
     user_config= check_config(nick)
-    game_window, value_matrix,element_list = build(nick,user_config["AppColor"],user_config["Coincidences"], user_config["Level"],user_config["Type of token"])
+    game_window, value_matrix, element_list = build(
+        nick, user_config["AppColor"], user_config["Coincidences"],
+        user_config["Level"], user_config["Type of token"],
+        user_config["Help"])
     loop(game_window, value_matrix, nick, user_config, list(set(element_list)))
 
     game_window.close()

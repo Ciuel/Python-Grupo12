@@ -71,7 +71,7 @@ def generate_board(level, cant_coincidences):
 
 
 
-def build(nick, theme, cant_coincidences, level,type_of_token):
+def build(nick, theme, cant_coincidences, level,type_of_token,help):
     """Construye la ventana de juego con la informacion de la configuracion de usuario.
 
     Args:
@@ -93,6 +93,7 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
         ]
 
     data_col=[
+
         sg.Frame(title="",
             layout=[[sg.Text(f"Bienvenido {nick}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.Text(f"Puntos: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"00000",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
@@ -100,7 +101,8 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
             [sg.Text(f"Tiempo de jugada: 0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT PLAY TIME-",size=(20,1))],
             [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
             [sg.Button("Volver al menu",key="-BACK MENU-"),
-            sg.Button("Ayuda",key="-HELP-")]
+            sg.Button("Ayuda",key="-HELP-") if help=="yes" else sg.Text("")
+            ]
             ],border_width=10)
 
         ]
