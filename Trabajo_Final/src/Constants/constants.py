@@ -10,6 +10,7 @@ LEVEL_DICTIONARY = {
     (3, 3): (6,8)
 }
 
+
 DEFAULT_CONFIG = {
     "Coincidences": 2,
     "Help": "yes",

@@ -6,7 +6,7 @@ import numpy as np
 import PySimpleGUI as sg
 from ..Components import score, menu
 from ..Constants.constants import LEVEL_DICTIONARY, USER_JSON_PATH
-
+#TODO Modificar donde se calculan los puntos y texto de multiplicador
 
 def check_config(nick):
     """Devueve los valores necesarios para el juego de la configuracion del usuario
@@ -60,9 +60,11 @@ def check_button(value_matrix, cant_coincidences, lista_chequeos, event,
         if len(lista_chequeos) == cant_coincidences:
             for eve in lista_chequeos:
                 window[eve].update(disabled=True)
-            window["-POINTS-"].update(hits * 100 * cant_coincidences)
+            window["-POINTS-"].update(hits * 100*cant_coincidences)
             element_list.remove(value_matrix[int(lista_chequeos[0][-2])][int(lista_chequeos[0][-1])])
             hits += 1
+            window["-TOTAL HITS-"].update(f"Coincidencias: {hits} /"
+            )
             lista_chequeos = []
     else:
         time.sleep(0.5)
@@ -94,10 +96,15 @@ def end_game(window, hits, misses, nick, user_config, tiempo_total):
                                        user_config["Coincidences"])][0] *
                      LEVEL_DICTIONARY[(user_config["Level"],
                                        user_config["Coincidences"])][1])
-    points = hits * 100 * user_config["Coincidences"]
     if hits >= button_amount // user_config["Coincidences"]:
+        points = hits * 100*user_config["Coincidences"]*user_config["Level"]
         window.close()
         score.start(user_config["AppColor"], nick, user_config["VictoryText"],
+                    tiempo_total, hits, misses, points)
+    elif misses>19:
+        points = hits * 100*user_config["Coincidences"]
+        window.close()
+        score.start(user_config["AppColor"], nick, user_config["LoseText"],
                     tiempo_total, hits, misses, points)
 
 

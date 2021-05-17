@@ -35,7 +35,7 @@ def loop(game_window, value_matrix, nick, user_config, element_list):
         if check_help(game_window, event,value_matrix,user_config["Type of token"],element_list):
             cooldown_start = current_time
 
-        cooldown_start=help_cooldown(game_window, current_time, cooldown_start,-1)
+        cooldown_start=help_cooldown(game_window, current_time, cooldown_start,10)
 
 
         if event.startswith("cell"):
