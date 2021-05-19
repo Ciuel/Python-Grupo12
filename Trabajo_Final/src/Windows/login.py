@@ -1,8 +1,4 @@
 import PySimpleGUI as sg
-
-
-#TODO: Cambiar keys de login y regis
-
 SIZE = (8, 1)
 WINDOW_FONT_SIZE = 20
 WINDOW_FONT = "Helvetica"
