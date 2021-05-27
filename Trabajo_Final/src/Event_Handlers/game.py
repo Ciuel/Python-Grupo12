@@ -18,6 +18,7 @@ def check_config(nick):
     Returns:
         [tuple]: Los valores de configuracion necesarios para el juego
     """
+    
     with open(os.path.join(os.getcwd(), USER_JSON_PATH), "r+") as info:
         user_data = json.load(info)
         return user_data[nick]
