@@ -6,7 +6,7 @@ import time
 
 
 
-def loop(game_window, value_matrix, nick, user_config, element_list):
+def loop(game_window, value_matrix, nick, user, element_list):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -14,6 +14,14 @@ def loop(game_window, value_matrix, nick, user_config, element_list):
         value_matrix (numpy.array): La matriz de los valores a mostrar para el tablero generado
         type_of_token (str): Si es texto o imagenes
     """
+    while True:
+        event, _values = game_window.read()
+        if event== "-START-":
+            game_number=game_start(time.time(),"inicio_partida",user,nick)
+            break
+        if  event == sg.WIN_CLOSED:
+            break
+        
     lista_chequeos=[]
     hits=0
     misses=0
@@ -22,30 +30,32 @@ def loop(game_window, value_matrix, nick, user_config, element_list):
     cooldown_start=99999
     while True:
         event, _values = game_window.read(100)
-        current_time = int(time.time() - starttime)
-        game_window.FindElement("-CURRENT TIME-").Update(
-            f"Tiempo: {current_time}")
-        start_time_jugada=play_counter(lista_chequeos, start_time_jugada, game_window)
-        game_window.refresh()
         if event == sg.WIN_CLOSED:
             break
 
-        check_menu(game_window, event, nick, user_config["AppColor"])
+        #Contador de tiempo de la partida
+        current_time = int(time.time() - starttime)
+        game_window.FindElement("-CURRENT TIME-").Update(
+            f"Tiempo: {current_time}")
+        game_window.refresh()
+        #start_time_jugada=play_counter(lista_chequeos, start_time_jugada, game_window)
 
-        if check_help(game_window, event,value_matrix,user_config["Type of token"],element_list):
+        #Volver Al Menu
+        check_menu(game_window, event, nick, user["config"]["AppColor"])
+
+        #Ayuda
+        if check_help(game_window, event,value_matrix,user["config"]["Type of token"],element_list):
             cooldown_start = current_time
-
         cooldown_start=help_cooldown(game_window, current_time, cooldown_start,10)
 
-
+        #Fichas
         if event.startswith("cell"):
-            button_press(game_window, event, value_matrix, user_config["Type of token"])
+            button_press(game_window, event, value_matrix, user["config"]["Type of token"])
             game_window.refresh()
-            lista_chequeos, hits, misses, start_time_jugada, element_list = check_button(
-                value_matrix, user_config["Coincidences"], lista_chequeos,
-                event, game_window, user_config["Type of token"], hits, misses,
-                start_time_jugada, element_list)
-            end_game(game_window, hits, misses, nick, user_config,current_time)
+            lista_chequeos, hits, misses, element_list = check_button(
+                value_matrix, user, lista_chequeos, event, game_window, hits,
+                misses, time.time(), element_list, nick,game_number)
+            end_game(game_window, hits, misses, nick, user,current_time,game_number)
 
 
 def start(nick):
@@ -55,11 +65,11 @@ def start(nick):
     Args:
         nick (str): El nick del jugador
     """
-    user_config= check_config(nick)
+    user= check_config(nick)
     game_window, value_matrix, element_list = build(
-        nick, user_config["AppColor"], user_config["Coincidences"],
-        user_config["Level"], user_config["Type of token"],
-        user_config["Help"])
-    loop(game_window, value_matrix, nick, user_config, list(set(element_list)))
+        nick, user["config"]["AppColor"], user["config"]["Coincidences"],
+        user["config"]["Level"], user["config"]["Type of token"],
+        user["config"]["Help"])
+    loop(game_window, value_matrix, nick, user, list(set(element_list)))
 
     game_window.close()
