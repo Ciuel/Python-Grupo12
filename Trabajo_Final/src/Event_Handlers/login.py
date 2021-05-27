@@ -55,7 +55,7 @@ def unique_nick(window, values):
     """
     with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r") as info:
         datos = json.load(info)
-        if any([user["nick"] == values["-REGIS NICK-"] for user in datos]):
+        if values["-REGIS NICK-"] in datos.keys():
             window["-CONFIRMATION TEXT-"].update("El usuario ya existe")
             return False
         else:
@@ -107,9 +107,10 @@ def age_field_check(window, event, values):
         event (str): El evento a chequear si es  -REGIS AGE-
         values (dict): Donde se guardan los campos a chequear
     """
-    if event == "-REGIS AGE-" and values['-REGIS AGE-'][-1] not in (
+    if values['-REGIS AGE-']!="":
+        if event == "-REGIS AGE-" and values['-REGIS AGE-'][-1] not in (
             '0123456789'):
-        window['-REGIS AGE-'].update(values['-REGIS AGE-'][:-1])
+            window['-REGIS AGE-'].update(values['-REGIS AGE-'][:-1])
 
 
 def check_fields_and_register(window, event, values):
@@ -125,13 +126,12 @@ def check_fields_and_register(window, event, values):
     if event == "-REGIS SAVE-" and register_validation(window,values):
         with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r+") as info:
             jsonlist = json.load(info)
-            jsonlist.append({
-                "nick": values["-REGIS NICK-"],
+            jsonlist[values["-REGIS NICK-"]]={
                 "password": values["-REGIS PASSWORD-"],
                 "age": values["-REGIS AGE-"],
                 "gender": values["-REGIS GENDER-"],
                 "config": DEFAULT_CONFIG
-            })
+            }
             info.seek(0)
             json.dump(jsonlist, info, indent=4)
         change_layout(window,True)
@@ -150,7 +150,9 @@ def check_login(values):
     """
     with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r") as info:
         datos = json.load(info)
-        return any([values["-INPUT NICK-"] == user["nick"] and values["-INPUT PASSWORD-"] == user["password"] for user in datos])
+        if values["-INPUT NICK-"] in datos.keys():
+            return values["-INPUT PASSWORD-"] == datos[values["-INPUT NICK-"]]["password"]
+        return False
 
 
 
@@ -167,7 +169,7 @@ def login_action(window, event, values):
             window.close()
             with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r") as info:
                 user_data = json.load(info)
-                theme=next(filter(lambda user:user["nick"]==values["-INPUT NICK-"],user_data))["config"]["AppColor"]
+                theme=user_data[values["-INPUT NICK-"]]["config"]["AppColor"]
             menu.start(values["-INPUT NICK-"], theme)
         else:
             window["-W_LOGIN TEXT-"].update("El nick o contaseña son incorrectos")

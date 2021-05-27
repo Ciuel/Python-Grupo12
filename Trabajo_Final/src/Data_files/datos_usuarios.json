@@ -1,51 +1,33 @@
-[
-    {
-        "nick": "Juan",
+{
+    "Juan": {
         "password": "0",
         "age": "19",
         "gender": "Hombre",
         "config": {
             "Coincidences": 3,
-            "Help": "no",
+            "Help": "yes",
             "Type of token": "Images",
             "Level": 3,
-            "AppColor": "DarkRed",
+            "AppColor": "BrightColors",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
     },
-    {
-        "nick": "Juan2",
-        "password": "0",
+    "3": {
+        "password": "3",
         "age": "6",
         "gender": "Hombre",
-        "config": {
-            "Coincidences": 2,
-            "Help": "yes",
-            "Type of token": "Text",
-            "Level": 1,
-            "AppColor": "darkblue3",
-            "VictoryText": "Ganaste!!!",
-            "LoseText": ":( mas suerte la proxima"
-        }
-    },
-    {
-        "nick": "3",
-        "password": "3",
-        "age": "3",
-        "gender": "Otro",
         "config": {
             "Coincidences": 3,
             "Help": "yes",
             "Type of token": "Images",
             "Level": 1,
-            "AppColor": "Reddit",
-            "VictoryText": "Ganaste!!! muy biennnn",
+            "AppColor": "DarkBrown3",
+            "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
     },
-    {
-        "nick": "0",
+    "0": {
         "password": "0",
         "age": "0",
         "gender": "Otro",
@@ -58,5 +40,19 @@
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
+    },
+    "7": {
+        "password": "7",
+        "age": "7",
+        "gender": "No binario",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+            "AppColor": "darkblue3",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
+        }
     }
-]
+}

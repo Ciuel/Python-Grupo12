@@ -19,8 +19,7 @@ def check_config(nick):
     """
     with open(os.path.join(os.getcwd(), USER_JSON_PATH), "r+") as info:
         user_data = json.load(info)
-        return next(filter(lambda user: user["nick"] == nick,
-                           user_data))["config"]
+        return user_data[nick]["config"]
 
 
 def update_button(window, event, value_matrix, type_of_token):

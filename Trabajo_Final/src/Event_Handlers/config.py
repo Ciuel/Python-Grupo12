@@ -15,7 +15,7 @@ def build_initial_config(nick):
     """
     with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r+") as info:
         user_data = json.load(info)
-    return next(filter(lambda user:user["nick"]==nick,user_data))["config"]
+    return user_data[nick]["config"]
 
 def check_radio_boxes(values):
     """Chequea los valores de los radio buttons y devuelve el seleccionado
@@ -89,7 +89,7 @@ def save_changes(window,event,values,theme,nick):
             with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r+") as info:
                 user_data = json.load(info)
                 type_radio,need_help=check_radio_boxes(values)
-                next(filter(lambda user:user["nick"]==nick,user_data))["config"]= {
+                user_data[nick]["config"]= {
                     "Coincidences": values["-CHOOSE COINCIDENCES-"],
                     "Help": need_help,
                     "Type of token": type_radio,
