@@ -1,7 +1,9 @@
 import PySimpleGUI as sg
+from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE
+
+#TODO: Cambiar keys de login y regis
+
 SIZE = (8, 1)
-WINDOW_FONT_SIZE = 20
-WINDOW_FONT = "Helvetica"
 
 
 def build():

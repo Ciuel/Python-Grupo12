@@ -2,16 +2,8 @@ import PySimpleGUI as sg
 import random
 import numpy as np
 from ..Event_Handlers.analisis_criterios_datasets import manipulate_app_data
-WINDOW_FONT_SIZE = 20
-WINDOW_FONT = "Helvetica"
-LEVEL_DICTIONARY = {
-    (1, 2): (4,4),
-    (2, 2): (6,4),
-    (3, 2): (6,7),
-    (1, 3): (6,4),
-    (2, 3): (6,5),
-    (3, 3): (6,8)
-}
+from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE,LEVEL_DICTIONARY
+
 BUTTON_SIZE = (14, 7)
 
 def clean_input(info,type_of_token):
@@ -79,7 +71,7 @@ def generate_board(level, cant_coincidences):
 
 
 
-def build(nick, theme, cant_coincidences, level,type_of_token):
+def build(nick, theme, cant_coincidences, level,type_of_token,help):
     """Construye la ventana de juego con la informacion de la configuracion de usuario.
 
     Args:
@@ -93,7 +85,7 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
         [sg.Window]: La ventana de juego armada
     """
     # yapf: disable
-
+    button_amount=(LEVEL_DICTIONARY[(level, cant_coincidences)][0]*LEVEL_DICTIONARY[(level, cant_coincidences)][1])
     sg.theme(theme)
     Y_LENGHT= LEVEL_DICTIONARY[(level, cant_coincidences)][1]*BUTTON_SIZE[1]*10
     board_col=[
@@ -101,11 +93,20 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
         ]
 
     data_col=[
-        sg.Frame(title="",size=(None,Y_LENGHT),
+
+        sg.Frame(title="",
             layout=[[sg.Text(f"Bienvenido {nick}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
-            [sg.Text(f"Puntos: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"0000",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
-            [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))]]
-                  ,border_width=10)
+            [sg.Text(f"Puntos: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"00000",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
+            [sg.Text(f"Tiempo: 0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT TIME-",size=(18,1))],
+            [sg.Text(f"Tiempo de jugada: 0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT PLAY TIME-",size=(20,1))],
+            [sg.Text("Coincidencias: 00 /",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-TOTAL HITS-"),
+            sg.Text(button_amount//cant_coincidences,font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+            [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+            [sg.Button("Volver al menu",key="-BACK MENU-"),
+            sg.Button("Ayuda",key="-HELP-") if help=="yes" else sg.Text("")
+            ]
+            ],border_width=10)
+
         ]
 
     layout = [[sg.Column([board_col]),sg.Column([data_col])]]
@@ -118,4 +119,6 @@ def build(nick, theme, cant_coincidences, level,type_of_token):
         element_justification="center",
         margins=(10, 10))
     tokens = clean_input(manipulate_app_data(),type_of_token)
-    return game_window,generar_matriz(analisis_info(tokens, level, cant_coincidences),level, cant_coincidences)
+    element_list=analisis_info(tokens, level, cant_coincidences)
+    return game_window, generar_matriz(element_list, level,
+                                       cant_coincidences), element_list

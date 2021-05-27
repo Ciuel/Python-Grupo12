@@ -1,9 +1,8 @@
 import PySimpleGUI as sg
+from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE
 
 SIZE = (15, 1)
 SEPARACION = (25, 25)
-WINDOW_FONT_SIZE = 20
-WINDOW_FONT = "Helvetica"
 
 
 def build(initialConfig):

@@ -1,24 +1,55 @@
-[
-    {
-        "nick": "Juan",
+{
+    "Juan": {
         "password": "0",
         "age": "19",
         "gender": "Hombre",
         "config": {
             "Coincidences": 3,
-            "Help": "no",
+            "Help": "yes",
             "Type of token": "Images",
             "Level": 3,
-            "AppColor": "DarkBlack",
+            "AppColor": "BrightColors",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
     },
-    {
-        "nick": "Juan2",
-        "password": "0",
+    "3": {
+        "password": "3",
         "age": "6",
         "gender": "Hombre",
+        "config": {
+            "Coincidences": 3,
+            "Help": "yes",
+            "Type of token": "Images",
+            "Level": 1,
+            "AppColor": "DarkBrown3",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    "0": {
+        "password": "0",
+        "age": "0",
+        "gender": "Otro",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+<<<<<<< HEAD
+            "AppColor": "darkblue3",
+            "VictoryText": "Ganaste!!!",
+=======
+            "AppColor": "DarkBlack",
+            "VictoryText": "Ganaste!!! muy biennnn",
+>>>>>>> 8a9b111b4549b1fc4bdc1ce15a4c0d5bd35b69d8
+            "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    "7": {
+        "password": "7",
+        "age": "7",
+        "gender": "No binario",
         "config": {
             "Coincidences": 2,
             "Help": "yes",
@@ -28,20 +59,5 @@
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
-    },
-    {
-        "nick": "Lautaro",
-        "password": "pin123",
-        "age": "19",
-        "gender": "Mujer",
-        "config": {
-            "Coincidences": 3,
-            "Help": "yes",
-            "Type of token": "Images",
-            "Level": 3,
-            "AppColor": "DarkGrey8",
-            "VictoryText": "Ganaste!!!uuuuu",
-            "LoseText": ":( mas suerte la proxima"
-        }
     }
-]
+}
