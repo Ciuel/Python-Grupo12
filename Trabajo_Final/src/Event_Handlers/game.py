@@ -17,11 +17,8 @@ def check_config(nick):
     Returns:
         [tuple]: Los valores de configuracion necesarios para el juego
     """
-<<<<<<< HEAD
-    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}datos_usuarios.json"),"r") as info:
-=======
+    
     with open(os.path.join(os.getcwd(), USER_JSON_PATH), "r+") as info:
->>>>>>> logica-juego
         user_data = json.load(info)
         return user_data[nick]["config"]
 
