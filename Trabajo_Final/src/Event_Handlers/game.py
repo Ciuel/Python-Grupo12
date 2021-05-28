@@ -73,20 +73,16 @@ def check_button(value_matrix:np.array, user:dict, lista_chequeos:list, event:st
             window["-POINTS-"].update(hits * 100*user["config"]["Coincidences"])
             element_list.remove(value_matrix[int(lista_chequeos[0][-2])][int(lista_chequeos[0][-1])])
             hits += 1
-            window["-TOTAL HITS-"].update(f"Coincidencias: {hits} /"
-            )
+            window["-TOTAL HITS-"].update(f"Coincidencias: {hits} /")
             send_info(timestamp,game_number,"intento",user,nick,"ok",value_matrix[int(lista_chequeos[0][-2])][int(lista_chequeos[0][-1])])
             lista_chequeos = []
     else:
         time.sleep(0.5)
         for eve in lista_chequeos:
-            window[eve].update(
-                "") if user["config"]["Type of token"] == "Text" else window[eve].update(
-                    image_filename="", image_size=(118, 120))
+            window[eve].update("") if user["config"]["Type of token"] == "Text" else window[eve].update(image_filename="", image_size=(118, 120))
         send_info(timestamp,game_number,"intento",user,nick,"fallo",value_matrix[int(lista_chequeos[0][-2])][int(lista_chequeos[0][-1])])
         lista_chequeos = []
         misses += 1
-
 
     return lista_chequeos, hits, misses, element_list
 

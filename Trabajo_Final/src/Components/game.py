@@ -53,9 +53,7 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
 
         #Fichas
         if event.startswith("cell"):
-            lista_chequeos=button_press(game_window, event, value_matrix,
-                                       user["config"]["Type of token"],
-                                       lista_chequeos)
+            button_press(game_window, event, value_matrix, user["config"]["Type of token"])
             game_window.refresh()
             lista_chequeos, hits, misses, element_list = check_button(
                 value_matrix, user, lista_chequeos, event, game_window, hits,
