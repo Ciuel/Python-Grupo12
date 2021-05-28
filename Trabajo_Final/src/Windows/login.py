@@ -6,7 +6,7 @@ from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE
 SIZE = (8, 1)
 
 
-def build():
+def build()->sg.Window:
     """Construye la ventana de login y resgistro, en dos columnas que reprentan los layouts de cada uno y se van intercambiando,
 
     Returns:
@@ -35,7 +35,7 @@ def build():
         [sg.Text("Edad", size=SIZE),
          sg.InputText(key="-REGIS AGE-", size=SIZE, enable_events=True)],
         [sg.Text("Genero", size=SIZE),
-         sg.Combo(['Hombre', 'Mujer', 'No binario', 'Otro'],key="-REGIS GENDER-", enable_events=True,readonly=True)],
+         sg.Combo(['Hombre', 'Mujer', 'No binarie', 'Otro'],key="-REGIS GENDER-", enable_events=True,readonly=True)],
         [sg.Button('Registrarse',size=(15,2), pad=(180, 10), key="-REGIS SAVE-")],
         [sg.Text("", size=(30,1), key="-CONFIRMATION TEXT-",text_color="red")],
         [sg.Button('Atras', pad= ((360,0), 0), key="-REGIS BACK-")]

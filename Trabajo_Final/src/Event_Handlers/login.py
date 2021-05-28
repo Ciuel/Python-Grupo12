@@ -1,11 +1,12 @@
 import json
 import os
+import PySimpleGUI as sg
 from ..Components import menu
 from ..Constants.constants import USER_JSON_PATH,DEFAULT_CONFIG
 
 
 
-def check_fields(window, values):
+def check_fields(window: sg.Window,  values: dict)->bool:
     """Chequea si hay algun campo vacio y muestra un texto de ser asi
 
     Args:
@@ -26,7 +27,7 @@ def check_fields(window, values):
         return False
 
 
-def confirm_password(window, values):
+def confirm_password(window: sg.Window,  values: dict)->bool:
     """Chequea que los strings de los campos de contraseña y confirmar contraseña sean iguales
 
     Args:
@@ -43,7 +44,7 @@ def confirm_password(window, values):
         return True
 
 
-def unique_nick(window, values):
+def unique_nick(window: sg.Window,  values: dict)->bool:
     """Chequea en el json de usuarios si el nick es único o ya existe y muestra un texto de ser asi
 
     Args:
@@ -62,7 +63,7 @@ def unique_nick(window, values):
             return True
 
 
-def register_validation(window, values):
+def register_validation(window: sg.Window,  values: dict)->bool:
     """Une todas las validaciones que se necesitan antes de registrar a un usuario en un return
 
     Args:
@@ -71,11 +72,11 @@ def register_validation(window, values):
     Returns:
         boolean: Operacion and de las funciones confirm_password,check_fields y unique_nick
     """
-    return check_fields(window, values) and confirm_password(
-        window, values) and unique_nick(window, values)
+    return check_fields(window,  values) and confirm_password(
+        window,  values) and unique_nick(window,  values)
 
 
-def change_layout(window, is_visible):
+def change_layout(window, is_visible) -> None:
     """Intercambia de layout dependiendo de is_visible
 
     Args:
@@ -86,7 +87,7 @@ def change_layout(window, is_visible):
     window["-REGISTER LAYOUT-"].update(visible=not is_visible)
 
 
-def check_layout(window, event):
+def check_layout(window: sg.Window,  event: str)->None:
     """Dependiendo de que evento ocurre, cambia el layout
 
     Args:
@@ -99,7 +100,7 @@ def check_layout(window, event):
         change_layout(window, True)
 
 
-def age_field_check(window, event, values):
+def age_field_check(window: sg.Window, event: str, values: dict) -> None:
     """Previene que el usuario escriba caracteres no numericos en el campo de edad
 
     Args:
@@ -113,7 +114,8 @@ def age_field_check(window, event, values):
             window['-REGIS AGE-'].update(values['-REGIS AGE-'][:-1])
 
 
-def check_fields_and_register(window, event, values):
+def check_fields_and_register(window: sg.Window, event: str,
+                              values: dict) -> None:
     """Cuando se presiona el boton de registrar chequea si se puede, escribe la informacion al json 
     y vuelve a la ventana de login limpiando todos los campos
 
@@ -138,7 +140,7 @@ def check_fields_and_register(window, event, values):
         clear_fields(window, ["-REGIS NICK-", "-REGIS PASSWORD-","-REGIS AGE-", "-REGIS GENDER-", "-REGIS CONFIRM PASSWORD-"])
 
 
-def check_login(values):
+def check_login(values:dict)->bool:
     """Chequea si el login es correcto comparando contra los nicks
     y contraseñas del archivo json de usuarios
     Args:
@@ -156,7 +158,7 @@ def check_login(values):
 
 
 
-def login_action(window, event, values):
+def login_action(window: sg.Window, event: str, values: dict)->None:
     """Chequea si el login es correcto e inicia el menu o actualiza el texto de error dependiendo del resultado
 
     Args:
@@ -174,7 +176,8 @@ def login_action(window, event, values):
         else:
             window["-W_LOGIN TEXT-"].update("El nick o contaseña son incorrectos")
 
-def clear_fields(window, keys_to_clear):
+
+def clear_fields(window: sg.Window, keys_to_clear: list)->None:
     """Limpia los inputs pasados en la lista keys_to_clear
 
     Args:

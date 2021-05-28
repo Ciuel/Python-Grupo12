@@ -36,20 +36,15 @@
             "Help": "yes",
             "Type of token": "Text",
             "Level": 1,
-<<<<<<< HEAD
             "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
-=======
-            "AppColor": "DarkBlack",
-            "VictoryText": "Ganaste!!! muy biennnn",
->>>>>>> 4fa5c9c5c8fc081711539009abb9c0f5d197e874
             "LoseText": ":( mas suerte la proxima"
         }
     },
     "7": {
         "password": "7",
         "age": "7",
-        "gender": "No binario",
+        "gender": "No binarie",
         "config": {
             "Coincidences": 2,
             "Help": "yes",

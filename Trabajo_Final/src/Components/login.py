@@ -3,7 +3,7 @@ from ..Event_Handlers.login import *
 from ..Windows.login import build
 
 
-def loop(login_window):
+def loop(login_window:sg.Window):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
