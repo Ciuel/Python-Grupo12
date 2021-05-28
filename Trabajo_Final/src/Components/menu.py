@@ -3,7 +3,7 @@ from ..Windows.menu import build
 from ..Event_Handlers.menu import *
 
 
-def loop(menu_window, nick):
+def loop(menu_window:sg.Window, nick:str):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -18,7 +18,7 @@ def loop(menu_window, nick):
         jugar(menu_window, event,nick)
 
 
-def start(nick, theme):
+def start(nick:str, theme:str):
     """Crea la ventana de menu
 
     Args:

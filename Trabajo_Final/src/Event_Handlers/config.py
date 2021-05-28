@@ -3,8 +3,9 @@ import json
 from ..Event_Handlers.Theme_browser import choose_theme
 from ..Components import menu
 from ..Constants.constants import USER_JSON_PATH
+import PySimpleGUI as sg
 
-def build_initial_config(nick):
+def build_initial_config(nick:str)->dict:
     """Se busca la configuracion del usuario que inicia sesion, que se encuentra en el archivo json
 
     Args:
@@ -17,7 +18,7 @@ def build_initial_config(nick):
         user_data = json.load(info)
     return user_data[nick]["config"]
 
-def check_radio_boxes(values):
+def check_radio_boxes(values:dict)->tuple:
     """Chequea los valores de los radio buttons y devuelve el seleccionado
 
     Args:
@@ -31,7 +32,7 @@ def check_radio_boxes(values):
     return type_radio,need_help
 
 
-def color_picker(theme):
+def color_picker(theme:str)->str:
     """Llama al seleccionador de colores de PySimpleGUI
 
     Returns:
@@ -39,7 +40,7 @@ def color_picker(theme):
     """
     return choose_theme(theme)
 
-def check_empty_fields(values):
+def check_empty_fields(values:dict)->bool:
     """Chequea que no haya campos vacios
 
     Args:
@@ -58,7 +59,7 @@ def check_empty_fields(values):
     return (all([x != "" for x in nonempty_values]) and radio_help and radio_type)
 
 
-def back_button(window,event, nick, theme):
+def back_button(window:sg.Window,event:str, nick:str, theme:str):
     """Cierra la ventana actual y abre el menu
 
     Args:
@@ -71,7 +72,7 @@ def back_button(window,event, nick, theme):
         window.close()
         menu.start(nick, theme)
 
-def save_changes(window,event,values,theme,nick):
+def save_changes(window:sg.Window,event:str,values:dict,theme:str,nick:str):
     """Esta funcion permite que al tocar el boton Guardar cambios, los cambios de configuracion que el usuario asigno se cargen dentro de nuestro
     archivo json de configuracion, con la configuracion personalizada del usuario, esto lo hacemos mediante el uso del modulo JSON, manipulando el archivo
     como una lista de diccionarios

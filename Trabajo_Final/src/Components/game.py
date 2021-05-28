@@ -6,7 +6,7 @@ import time
 
 
 
-def loop(game_window, value_matrix, nick, user, element_list):
+def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, element_list:list):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -58,7 +58,7 @@ def loop(game_window, value_matrix, nick, user, element_list):
             end_game(game_window, hits, misses, nick, user,current_time,game_number)
 
 
-def start(nick):
+def start(nick:str):
     """Consigue la configuracion de partida y crea la ventana dependiendo de 
     lo elegido por el usuario
 

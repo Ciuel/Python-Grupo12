@@ -5,7 +5,7 @@ SIZE = (15, 1)
 SEPARACION = (25, 25)
 
 
-def build(initialConfig):
+def build(initialConfig:dict)->sg.Window:
     #yapf: disable
     """Construye la ventana de configuracion con la informacion de la configuracion de usuario.
 

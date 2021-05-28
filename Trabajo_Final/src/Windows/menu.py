@@ -5,7 +5,7 @@ from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE
 BUTTON_SIZE = (17, 3)
 
 
-def build(nick, theme):
+def build(nick:str, theme:str)->sg.Window:
     """Arma la ventana de menu
 
         Args:

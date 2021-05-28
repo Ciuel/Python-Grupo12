@@ -3,7 +3,7 @@ from ..Event_Handlers.config import *
 import PySimpleGUI as sg
 
 
-def loop(config_window, nick,theme):
+def loop(config_window:sg.Window, nick:str,theme:str):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -24,7 +24,7 @@ def loop(config_window, nick,theme):
         back_button(config_window, event, nick, theme)
 
 
-def start(nick):
+def start(nick:str):
     """Llama a build para construir la ventana, y llama a loop para ejecutarla, finalmente cerrandolaself.
         También busca la configuracion del usuario y la pasa al build y al loop
 

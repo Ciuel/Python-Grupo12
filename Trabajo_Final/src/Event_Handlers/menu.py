@@ -1,7 +1,7 @@
-import PySimpleGUI
+import PySimpleGUI as sg
 from ..Components import config,game 
 
-def jugar(window, event,nick):
+def jugar(window:sg.Window, event:str,nick:str):
     """Cierra el menu y abre la ventana de juego
 
     Args:
@@ -14,7 +14,7 @@ def jugar(window, event,nick):
         game.start(nick)
 
 
-def configure(window, event, nick):
+def configure(window:sg.Window, event:str, nick:str):
     """Cierra el menu y abre la ventana de configuracion
 
     Args:
