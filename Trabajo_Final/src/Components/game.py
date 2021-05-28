@@ -18,10 +18,13 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
         event, _values = game_window.read()
         if event== "-START-":
             game_number=game_start(time.time(),"inicio_partida",user,nick)
+            game_window["-START-"].update(disabled=True)
             break
         if  event == sg.WIN_CLOSED:
             break
-        
+        #Volver Al Menu
+        check_menu(game_window, event, nick, user["config"]["AppColor"])
+
     lista_chequeos=[]
     hits=0
     misses=0
@@ -50,12 +53,15 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
 
         #Fichas
         if event.startswith("cell"):
-            button_press(game_window, event, value_matrix, user["config"]["Type of token"])
+            lista_chequeos=button_press(game_window, event, value_matrix,
+                                       user["config"]["Type of token"],
+                                       lista_chequeos)
             game_window.refresh()
             lista_chequeos, hits, misses, element_list = check_button(
                 value_matrix, user, lista_chequeos, event, game_window, hits,
                 misses, time.time(), element_list, nick,game_number)
-            end_game(game_window, hits, misses, nick, user,current_time,game_number)
+            win_game(game_window, hits, misses, nick, user,current_time,game_number)
+        lose_game(game_window, hits, misses, nick, user, current_time,game_number)
 
 
 def start(nick:str):

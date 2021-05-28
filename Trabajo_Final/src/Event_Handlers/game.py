@@ -18,7 +18,7 @@ def check_config(nick):
     Returns:
         [tuple]: Los valores de configuracion necesarios para el juego
     """
-    
+
     with open(os.path.join(os.getcwd(), USER_JSON_PATH), "r+") as info:
         user_data = json.load(info)
         return user_data[nick]
@@ -107,7 +107,7 @@ def button_amount(user_config:dict)->int:
     return (LEVEL_DICTIONARY[(user_config["Level"],user_config["Coincidences"])][0] *
             LEVEL_DICTIONARY[(user_config["Level"],user_config["Coincidences"])][1])
 
-def end_game(window, hits, misses, nick, user, tiempo_total,game_number):
+def win_game(window, hits, misses, nick, user, tiempo_total,game_number):
     if hits >= button_amount(user["config"]) // user["config"]["Coincidences"]:
         points = hits * 100*user["config"]["Coincidences"]*user["config"]["Level"]
         window.close()
@@ -115,7 +115,9 @@ def end_game(window, hits, misses, nick, user, tiempo_total,game_number):
                     tiempo_total, hits, misses, points)
         send_info(time.time(),game_number,"fin",user,nick,"finalizada")
 
-    elif misses>19:
+
+def lose_game(window, hits, misses, nick, user, tiempo_total, game_number):
+    if tiempo_total == 60*5 * user["config"]["Coincidences"] * user["config"]["Level"]:
         points = hits * 100*user["config"]["Coincidences"]
         send_info(time.time(),game_number,"fin",user,nick,"timeout")
         window.close()

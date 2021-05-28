@@ -18,11 +18,11 @@
         "age": "6",
         "gender": "Hombre",
         "config": {
-            "Coincidences": 3,
+            "Coincidences": 2,
             "Help": "yes",
             "Type of token": "Images",
             "Level": 1,
-            "AppColor": "DarkBrown3",
+            "AppColor": "DarkPurple7",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
