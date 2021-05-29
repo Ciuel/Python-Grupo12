@@ -29,4 +29,5 @@ WINDOW_FONT = "Helvetica"
 
 USER_JSON_PATH= f"src{os.sep}Data_files{os.sep}datos_usuarios.json"
 GAME_INFO_PATH=f"src{os.sep}Data_files{os.sep}info_partida.csv"
-IMAGES_PATH= f"src{os.sep}Data_files{os.sep}Images"
+IMAGES_PATH = f"src{os.sep}Data_files{os.sep}Images"
+MUSIC_PATH = f"src{os.sep}Music_files{os.sep}Menu.mp3"

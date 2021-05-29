@@ -112,3 +112,24 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado ,Pala
 1622241603.54443,23,16,fin,3,Hombre,6,finalizada,,1
 1622241966.5175884,24,16,inicio_partida,3,Hombre,6,,,1
 1622242044.8712137,25,16,inicio_partida,3,Hombre,6,,,1
+1622242576.5782135,26,16,inicio_partida,3,Hombre,6,,,1
+1622242577.2822382,26,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622242578.489277,26,16,intento,3,Hombre,6,fallo,Obra_Diego Rivera.png,1
+1622242579.6983185,26,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1
+1622242580.8953564,26,16,intento,3,Hombre,6,fallo,Obra_Amedeo Modigliani.png,1
+1622242582.2724354,26,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622242583.5864482,26,16,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,1
+1622242585.7175193,26,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1
+1622242587.165568,26,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622242588.4866357,26,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1
+1622242589.9986615,26,16,intento,3,Hombre,6,fallo,Obra_Amedeo Modigliani.png,1
+1622242591.4227426,26,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1
+1622242592.6637838,26,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1
+1622242594.3658094,26,16,intento,3,Hombre,6,fallo,Obra_Diego Rivera.png,1
+1622242595.9988632,26,16,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,1
+1622242597.8859289,26,16,intento,3,Hombre,6,ok,Obra_Diego Rivera.png,1
+1622242599.7349877,26,16,intento,3,Hombre,6,fallo,Obra_Alfred Sisley.png,1
+1622242601.2400396,26,16,intento,3,Hombre,6,ok,Obra_Alfred Sisley.png,1
+1622242602.7900906,26,16,intento,3,Hombre,6,ok,Obra_Amedeo Modigliani.png,1
+1622242604.20817,26,16,intento,3,Hombre,6,ok,Obra_Camille Pissarro.png,1
+1622242605.9331994,26,16,fin,3,Hombre,6,finalizada,,1

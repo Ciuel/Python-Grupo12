@@ -3,7 +3,8 @@ from ..Windows.menu import build
 from ..Event_Handlers.menu import *
 
 
-def loop(menu_window:sg.Window, nick:str):
+
+def loop(menu_window: sg.Window, nick: str, list_player):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -14,8 +15,10 @@ def loop(menu_window:sg.Window, nick:str):
         event, _values = menu_window.read()
         if event == sg.WIN_CLOSED or event == "-QUIT-":
             break
-        configure(menu_window, event, nick)
-        jugar(menu_window, event,nick)
+        if event != "":
+            list_player.stop()
+            configure(menu_window, event, nick)
+            jugar(menu_window, event,nick)
 
 
 def start(nick:str, theme:str):
@@ -26,6 +29,7 @@ def start(nick:str, theme:str):
         theme (str): El tema del menu
     """
     menu_window = build(nick, theme)
-    loop(menu_window, nick)
+    list_player = start_music()
 
+    loop(menu_window, nick, list_player)
     menu_window.close()
