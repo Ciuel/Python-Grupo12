@@ -1,14 +1,110 @@
 Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado ,Palabra,Nivel
-1622313044.23087,1,16,inicio_partida,3,Hombre,6,,,1
-1622313045.958016,1,16,intento,3,Hombre,6,ok,Obra_Pierre-Auguste Renoir.png,1
-1622313046.5830266,1,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
-1622313048.0660143,1,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1
-1622313049.292034,1,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
-1622313050.5320213,1,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1
-1622313051.8550148,1,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1
-1622313053.0920148,1,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
-1622313054.5330138,1,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1
-1622313056.2860267,1,16,intento,3,Hombre,6,ok,Obra_Francisco Goya.png,1
-1622313058.4470165,1,16,intento,3,Hombre,6,ok,Obra_Edgar Degas.png,1
-1622313059.5080435,1,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1
-1622313059.532016,1,16,fin,3,Hombre,6,finalizada,,1
+1622328252.816965,1,16,inicio_partida,3,Hombre,6,,,1
+1622328254.8449736,1,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1
+1622328255.9941509,1,16,intento,3,Hombre,6,fallo,Obra_Pierre-Auguste Renoir.png,1
+1622328257.4961472,1,16,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,1
+1622328258.7402496,1,16,intento,3,Hombre,6,fallo,Obra_Pierre-Auguste Renoir.png,1
+1622328260.0022168,1,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1
+1622328261.0402327,1,16,intento,3,Hombre,6,fallo,Obra_Pierre-Auguste Renoir.png,1
+1622328262.2192197,1,16,intento,3,Hombre,6,ok,Obra_Pierre-Auguste Renoir.png,1
+1622328263.3892446,1,16,intento,3,Hombre,6,fallo,Obra_Albrecht Dürer.png,1
+1622328264.8892188,1,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1
+1622328266.6292167,1,16,intento,3,Hombre,6,fallo,Obra_Edgar Degas.png,1
+1622328267.8782492,1,16,intento,3,Hombre,6,ok,Obra_Edgar Degas.png,1
+1622328269.3432214,1,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622328271.2372277,1,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622328272.346251,1,16,intento,3,Hombre,6,ok,Obra_Francisco Goya.png,1
+1622328272.3722186,1,16,fin,3,Hombre,6,finalizada,,1
+1622328331.2333047,2,16,inicio_partida,3,Hombre,6,,,1
+1622328332.1523044,2,16,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,1
+1622328333.7933042,2,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622328335.2003083,2,16,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,1
+1622328336.2693365,2,16,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,1
+1622328337.4853365,2,16,intento,3,Hombre,6,ok,Obra_Francisco Goya.png,1
+1622328338.8423076,2,16,intento,3,Hombre,6,fallo,Obra_Pierre-Auguste Renoir.png,1
+1622328340.1853046,2,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1
+1622328342.099307,2,16,intento,3,Hombre,6,fallo,Obra_Pierre-Auguste Renoir.png,1
+1622328343.8723145,2,16,intento,3,Hombre,6,fallo,Obra_Albrecht Dürer.png,1
+1622328345.8463507,2,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1
+1622328347.248378,2,16,intento,3,Hombre,6,ok,Obra_Pierre-Auguste Renoir.png,1
+1622328348.535348,2,16,intento,3,Hombre,6,fallo,Obra_Edgar Degas.png,1
+1622328350.4723527,2,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1
+1622328351.789381,2,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1
+1622328353.7853522,2,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1
+1622328355.15235,2,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622328356.6143994,2,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1
+1622328358.0484557,2,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1
+1622328358.8474562,2,16,intento,3,Hombre,6,ok,Obra_Edgar Degas.png,1
+1622328358.8804555,2,16,fin,3,Hombre,6,finalizada,,1
+1622328455.0583086,3,16,inicio_partida,3,Hombre,6,,,1
+1622328456.8653216,3,16,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,1
+1622328459.0913079,3,16,intento,3,Hombre,6,ok,Obra_Pierre-Auguste Renoir.png,1
+1622328459.9623084,3,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1
+1622328461.0873063,3,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622328462.3933077,3,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1
+1622328463.831312,3,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1
+1622328465.5913079,3,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622328466.6253068,3,16,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,1
+1622328468.177309,3,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1
+1622328469.9273078,3,16,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,1
+1622328471.2503076,3,16,intento,3,Hombre,6,ok,Obra_Francisco Goya.png,1
+1622328472.4173093,3,16,intento,3,Hombre,6,ok,Obra_Edgar Degas.png,1
+1622328473.3533218,3,16,intento,3,Hombre,6,fallo,Obra_Albrecht Dürer.png,1
+1622328474.5663073,3,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622328476.1443202,3,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1
+1622328477.6513097,3,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1
+1622328477.676309,3,16,fin,3,Hombre,6,finalizada,,1
+1622328614.5379155,4,16,inicio_partida,3,Hombre,6,,,1
+1622328615.6219206,4,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1
+1622328617.7869165,4,16,intento,3,Hombre,6,ok,Obra_Edgar Degas.png,1
+1622328619.233918,4,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1
+1622328620.9109168,4,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1
+1622328622.3999152,4,16,intento,3,Hombre,6,ok,Obra_Francisco Goya.png,1
+1622328623.4789145,4,16,intento,3,Hombre,6,fallo,Obra_Pierre-Auguste Renoir.png,1
+1622328625.5449162,4,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1
+1622328627.279917,4,16,intento,3,Hombre,6,fallo,Obra_Pierre-Auguste Renoir.png,1
+1622328628.5909154,4,16,intento,3,Hombre,6,ok,Obra_Pierre-Auguste Renoir.png,1
+1622328629.932915,4,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622328631.5839157,4,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622328633.3429189,4,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1
+1622328634.000917,4,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622328634.023916,4,16,fin,3,Hombre,6,finalizada,,1
+1622328684.0573437,5,16,inicio_partida,3,Hombre,6,,,1
+1622328684.8573413,5,16,intento,3,Hombre,6,fallo,Obra_Edgar Degas.png,1
+1622328688.176342,5,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622328689.4673421,5,16,intento,3,Hombre,6,ok,Obra_Edgar Degas.png,1
+1622328690.5013428,5,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1
+1622328691.6563423,5,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1
+1622328692.9013407,5,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1
+1622328693.6813436,5,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1
+1622328694.7653747,5,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1
+1622328696.1203444,5,16,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,1
+1622328697.1443422,5,16,intento,3,Hombre,6,ok,Obra_Francisco Goya.png,1
+1622328699.2013428,5,16,intento,3,Hombre,6,fallo,Obra_Pierre-Auguste Renoir.png,1
+1622328700.6213443,5,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622328701.746344,5,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1
+1622328702.888342,5,16,intento,3,Hombre,6,ok,Obra_Pierre-Auguste Renoir.png,1
+1622328702.9113426,5,16,fin,3,Hombre,6,finalizada,,1
+1622328756.2976012,6,16,inicio_partida,3,Hombre,6,,,1
+1622328756.980633,6,16,intento,3,Hombre,6,fallo,Obra_Edgar Degas.png,1
+1622328758.8386047,6,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622328759.7726038,6,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1
+1622328760.6996062,6,16,intento,3,Hombre,6,fallo,Obra_Albrecht Dürer.png,1
+1622328762.2896147,6,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1
+1622328763.8556056,6,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1
+1622328765.8136065,6,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1
+1622328767.43063,6,16,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,1
+1622328770.918603,6,16,intento,3,Hombre,6,fallo,Obra_Edgar Degas.png,1
+1622328772.576603,6,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1
+1622328773.8426197,6,16,intento,3,Hombre,6,ok,Obra_Edgar Degas.png,1
+1622328775.0976272,6,16,intento,3,Hombre,6,fallo,Obra_Pierre-Auguste Renoir.png,1
+1622328776.7176046,6,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1
+1622328778.5616012,6,16,intento,3,Hombre,6,fallo,Obra_Albrecht Dürer.png,1
+1622328779.7126045,6,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622328781.3036351,6,16,intento,3,Hombre,6,fallo,Obra_Pierre-Auguste Renoir.png,1
+1622328783.129604,6,16,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,1
+1622328784.4976017,6,16,intento,3,Hombre,6,ok,Obra_Pierre-Auguste Renoir.png,1
+1622328785.7126045,6,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1
+1622328786.9336245,6,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1
+1622328787.8446043,6,16,intento,3,Hombre,6,ok,Obra_Francisco Goya.png,1
+1622328787.8766038,6,16,fin,3,Hombre,6,finalizada,,1

@@ -108,6 +108,7 @@ def win_game(window, hits, misses, nick, user, tiempo_total,game_number):
         points = hits * 100*user["config"]["Coincidences"]*user["config"]["Level"]
         window.close()
         send_info(time.time(),game_number,"fin",user,nick,"finalizada")
+        send_score(tiempo_total, user, nick, hits, misses, points,game_number)
         score.start(user["config"]["AppColor"], nick, user["config"]["VictoryText"],
                     tiempo_total, hits, misses, points)
 
@@ -171,12 +172,27 @@ def send_info(timestamp:float,game_number:int,event:str,user:dict,nick:str,state
             "Partida": game_number,
             "Cantidad de fichas": button_amount(user["config"]),
             "Nombre de evento": event,
-            "Nick": "3",
+            "Nick": nick,
             "Genero": user["gender"],
             "Edad": user["age"],
             "Estado": state,
             "Palabra": token,
             "Nivel": user["config"]["Level"]
+        }
+        writer=csv.DictWriter(info,datos.keys())
+        writer.writerow(datos)
+
+def send_score(timestamp:float,user:dict,nick:str,hits:int,misses:int,points:int,game_number:int)-> None:
+    #Orden del csv: Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado ,Palabra,Nivel
+    with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}info_partida.csv"),"a",encoding="utf-8",newline="") as info:
+        datos = {
+            "Nick": nick,
+            "Puntos":points,
+            "Cantidad de coincidencias":hits,
+            "Cantidad de fallos":misses,
+            "Nivel": user["config"]["Level"],
+            "Tiempo": timestamp,
+            "Numero de partida": game_number
         }
         writer=csv.DictWriter(info,datos.keys())
         writer.writerow(datos)

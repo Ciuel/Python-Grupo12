@@ -41,8 +41,6 @@ def play_sound():
     player.play()
 
 
-
-
 def start_music():
     inst = vlc.Instance()
     player = inst.media_player_new()

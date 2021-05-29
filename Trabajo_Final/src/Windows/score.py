@@ -16,12 +16,24 @@ def polishing_scores(scores):
                         str(x["Nick"]), str(x["Puntos"])), scores))
 
 
-def scores_print(nick):
+def scores_print():
     with open(f"src{os.sep}Data_files{os.sep}info_partida.csv", "r") as puntos:
         info_partida = list(csv.DictReader(puntos))
+        game_number= info_partida[-1]["Numero de partida"]
+        level= info_partida[-1]["Nivel"]
+
+        info_partida= list(filter(lambda game: game["Nivel"] == level, info_partida))
+
         info_partida.sort(key=lambda x: int(x["Puntos"]),reverse=True)
-        user = next(filter(lambda user: user["Nick"] == nick, info_partida))
-        scores_table = info_partida[info_partida.index(user) -3 if info_partida.index(user) >= 3 else 0:info_partida.index(user) + 4]
+
+        print(game_number)
+        game_index=info_partida.index(next(filter(lambda n: n.get('Numero de partida') == game_number, info_partida)))
+        print(info_partida)
+
+        scores_table = [(game_index+1,info_partida[game_index])]#TODO Armar la lista de modo que quden los tres anteriores y los tres siguientes
+        print(scores_table)
+
+        scores_table = info_partida[info_partida.index(game_number) -3 if info_partida.index(game_number) >= 3 else 0:info_partida.index(game_number) + 4]
         return polishing_scores(scores_table)
 
 
@@ -52,7 +64,7 @@ def build(
 
     layout = [
                 [col],
-                [sg.Listbox(values=scores_print(nick),size=(int(X_SIZE/10),int(Y_SIZE/60)),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+                [sg.Listbox(values=scores_print(),size=(int(X_SIZE/10),int(Y_SIZE/60)),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
                 [sg.Button('Menu', key="-MENU-")]]
 
     # yapf: enable
@@ -62,8 +74,8 @@ def build(
     #your window first using the finalize parameter when you create your Window.
     #"Interacting" means calling that element's methods such as update, draw_line, etc.
     return sg.Window("Puntuacion MemPy",
-                     layout,
-                     finalize=True,
-                     element_justification='center',
-                     size=(X_SIZE, Y_SIZE),
-                     margins=(10, 10))
+                             layout,
+                             finalize=True,
+                             element_justification='center',
+                             size=(X_SIZE, Y_SIZE),
+                             margins=(10, 10))
