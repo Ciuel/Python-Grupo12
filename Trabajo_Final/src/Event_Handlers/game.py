@@ -107,9 +107,9 @@ def win_game(window, hits, misses, nick, user, tiempo_total,game_number):
     if hits >= button_amount(user["config"]) // user["config"]["Coincidences"]:
         points = hits * 100*user["config"]["Coincidences"]*user["config"]["Level"]
         window.close()
+        send_info(time.time(),game_number,"fin",user,nick,"finalizada")
         score.start(user["config"]["AppColor"], nick, user["config"]["VictoryText"],
                     tiempo_total, hits, misses, points)
-        send_info(time.time(),game_number,"fin",user,nick,"finalizada")
 
 
 def lose_game(window, hits, misses, nick, user, tiempo_total, game_number):

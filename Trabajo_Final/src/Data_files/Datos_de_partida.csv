@@ -133,3 +133,80 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado ,Pala
 1622242602.7900906,26,16,intento,3,Hombre,6,ok,Obra_Amedeo Modigliani.png,1
 1622242604.20817,26,16,intento,3,Hombre,6,ok,Obra_Camille Pissarro.png,1
 1622242605.9331994,26,16,fin,3,Hombre,6,finalizada,,1
+1622248036.6739018,27,16,inicio_partida,3,Hombre,6,,,1
+1622248040.447766,27,16,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,1
+1622248041.9022744,27,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1
+1622248044.5112965,27,16,intento,3,Hombre,6,ok,Obra_Camille Pissarro.png,1
+1622248046.2458036,27,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1
+1622248047.719484,27,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622248049.3658555,27,16,intento,3,Hombre,6,fallo,Obra_Alfred Sisley.png,1
+1622248051.1669085,27,16,intento,3,Hombre,6,fallo,Obra_Diego Rivera.png,1
+1622248053.8302774,27,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1
+1622248054.9108489,27,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622248056.4308438,27,16,intento,3,Hombre,6,fallo,Obra_Amedeo Modigliani.png,1
+1622248057.8631198,27,16,intento,3,Hombre,6,fallo,Obra_Alfred Sisley.png,1
+1622248060.3807712,27,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622248062.0072577,27,16,intento,3,Hombre,6,fallo,Obra_Diego Rivera.png,1
+1622248064.340413,27,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622248069.853252,27,16,intento,3,Hombre,6,ok,Obra_Amedeo Modigliani.png,1
+1622248071.9990373,27,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1
+1622248074.1589992,27,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1
+1622248076.5035293,27,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1
+1622248078.4138002,27,16,intento,3,Hombre,6,fallo,Obra_Alfred Sisley.png,1
+1622248080.4305706,27,16,intento,3,Hombre,6,ok,Obra_Alfred Sisley.png,1
+1622248081.6547892,27,16,intento,3,Hombre,6,ok,Obra_Diego Rivera.png,1
+1622248375.619734,28,16,inicio_partida,3,Hombre,6,,,1
+1622248377.903441,28,16,intento,3,Hombre,6,ok,Obra_Amedeo Modigliani.png,1
+1622248379.0570645,28,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1
+1622248380.111771,28,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1
+1622248381.2725415,28,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1
+1622248382.2234406,28,16,intento,3,Hombre,6,ok,Obra_Diego Rivera.png,1
+1622248384.1596956,28,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622248385.4950075,28,16,intento,3,Hombre,6,fallo,Obra_Alfred Sisley.png,1
+1622248386.8796282,28,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1
+1622248387.9910157,28,16,intento,3,Hombre,6,ok,Obra_Camille Pissarro.png,1
+1622248389.4475415,28,16,intento,3,Hombre,6,ok,Obra_Alfred Sisley.png,1
+1622248390.5447412,28,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1
+1622248391.9116006,28,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622248446.8996034,29,16,inicio_partida,3,Hombre,6,,,1
+1622248448.6572607,29,16,intento,3,Hombre,6,ok,Obra_Alfred Sisley.png,1
+1622248449.6082642,29,16,intento,3,Hombre,6,fallo,Obra_Albrecht Dürer.png,1
+1622248450.4716709,29,16,intento,3,Hombre,6,fallo,Obra_Amedeo Modigliani.png,1
+1622248451.9192507,29,16,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,1
+1622248452.8322988,29,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622248454.2276533,29,16,intento,3,Hombre,6,ok,Obra_Camille Pissarro.png,1
+1622248455.10374,29,16,intento,3,Hombre,6,fallo,Obra_Diego Rivera.png,1
+1622248457.191138,29,16,intento,3,Hombre,6,fallo,Obra_Albrecht Dürer.png,1
+1622248458.5981662,29,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622248460.2222545,29,16,intento,3,Hombre,6,fallo,Obra_Diego Rivera.png,1
+1622248461.5905006,29,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622248463.015408,29,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1
+1622248464.4162095,29,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1
+1622248465.5277421,29,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1
+1622248466.5193152,29,16,intento,3,Hombre,6,fallo,Obra_Amedeo Modigliani.png,1
+1622248468.0653358,29,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622248469.9746253,29,16,intento,3,Hombre,6,ok,Obra_Diego Rivera.png,1
+1622248470.6868637,29,16,intento,3,Hombre,6,ok,Obra_Amedeo Modigliani.png,1
+1622248471.5983436,29,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622248549.5116198,29,16,fin,3,Hombre,6,finalizada,,1
+1622248549.52865,28,16,fin,3,Hombre,6,finalizada,,1
+1622248549.5456192,27,16,fin,3,Hombre,6,finalizada,,1
+1622248557.7884717,28,16,inicio_partida,3,Hombre,6,,,1
+1622248559.2701561,28,16,intento,3,Hombre,6,ok,Obra_Diego Rivera.png,1
+1622248560.5856647,28,16,intento,3,Hombre,6,fallo,Obra_Alfred Sisley.png,1
+1622248561.6009681,28,16,intento,3,Hombre,6,fallo,Obra_Amedeo Modigliani.png,1
+1622248565.0064642,28,16,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,1
+1622248566.9833052,28,16,intento,3,Hombre,6,ok,Obra_Camille Pissarro.png,1
+1622248568.0093985,28,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1
+1622248569.1684673,28,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622248570.7766187,28,16,intento,3,Hombre,6,fallo,Obra_Albrecht Dürer.png,1
+1622248572.4636178,28,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1
+1622248574.496544,28,16,intento,3,Hombre,6,ok,Obra_Alfred Sisley.png,1
+1622248575.384993,28,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622248576.6000988,28,16,intento,3,Hombre,6,fallo,Obra_Amedeo Modigliani.png,1
+1622248578.2641506,28,16,intento,3,Hombre,6,ok,Obra_Amedeo Modigliani.png,1
+1622248579.592553,28,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1
+1622248580.8408504,28,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1
+1622248582.3921833,28,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622248583.2475052,28,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622248583.2693284,28,16,fin,3,Hombre,6,finalizada,,1
