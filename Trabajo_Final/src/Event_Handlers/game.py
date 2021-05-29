@@ -113,7 +113,7 @@ def win_game(window, hits, misses, nick, user, tiempo_total,game_number):
 
 
 def lose_game(window, hits, misses, nick, user, tiempo_total, game_number):
-    if tiempo_total == 60*5 * user["config"]["Coincidences"] * user["config"]["Level"]:
+    if tiempo_total == 30 * user["config"]["Coincidences"] * user["config"]["Level"]:
         points = hits * 100*user["config"]["Coincidences"]
         send_info(time.time(),game_number,"fin",user,nick,"timeout")
         window.close()

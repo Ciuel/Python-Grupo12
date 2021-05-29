@@ -34,4 +34,5 @@ def start(nick:str, theme:str):
     player = start_music()
 
     loop(menu_window, nick, player)
+
     menu_window.close()

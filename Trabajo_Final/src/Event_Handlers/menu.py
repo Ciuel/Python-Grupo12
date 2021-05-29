@@ -33,12 +33,11 @@ def configure(window:sg.Window, event:str, nick:str):
 
 def play_sound():
     inst = vlc.Instance()
-    player = inst.media_list_player_new()
+    player = inst.media_player_new()
 
     menu_sound=os.path.join(os.getcwd(),constants.MENU_SOUND_PATH)
-    media_list = inst.media_list_new([menu_sound])
-    player.set_media_list(media_list)
-
+    button_press = inst.media_new(menu_sound)
+    player.set_media(button_press)
     player.play()
 
 
@@ -46,13 +45,13 @@ def play_sound():
 
 def start_music():
     inst = vlc.Instance()
-    player = inst.media_list_player_new()
+    player = inst.media_player_new()
 
     menu_song=os.path.join(os.getcwd(),constants.MENU_MUSIC_PATH)
-    media_list = inst.media_list_new([menu_song])
-    player.set_media_list(media_list)
-
+    background_music = inst.media_new(menu_song)
+    player.set_media(background_music)
     player.play()
+    player.audio_set_volume(30)
     inst.vlm_set_loop(menu_song, True)
 
     return player
