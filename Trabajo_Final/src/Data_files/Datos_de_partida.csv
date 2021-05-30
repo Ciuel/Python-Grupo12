@@ -108,3 +108,627 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado ,Pala
 1622328786.9336245,6,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1
 1622328787.8446043,6,16,intento,3,Hombre,6,ok,Obra_Francisco Goya.png,1
 1622328787.8766038,6,16,fin,3,Hombre,6,finalizada,,1
+1622399330.5278811,7,16,inicio_partida,3,Hombre,6,,,1
+1622399332.6618795,7,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622399333.4528873,7,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622399334.7638812,7,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622399336.289882,7,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622399337.887893,7,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622399339.1208804,7,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622399339.8778799,7,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622399341.279881,7,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622399343.3189116,7,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622399345.03088,7,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622399346.3498776,7,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622399349.34188,7,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622399350.030881,7,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622399351.8958802,7,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622399353.110881,7,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622399353.1368804,7,16,fin,3,Hombre,6,finalizada,,1
+1622399393.9679475,8,16,inicio_partida,3,Hombre,6,,,1
+1622399396.149881,8,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622399396.7888796,8,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622399398.144881,8,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622399399.39888,8,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622399401.26388,8,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622399402.504881,8,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622399403.4678786,8,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622399405.2849076,8,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622399406.9608865,8,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622399408.1598802,8,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622399409.4228804,8,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622399409.44688,8,16,fin,3,Hombre,6,finalizada,,1
+1622399532.272077,9,16,inicio_partida,3,Hombre,6,,,1
+1622399533.9030778,9,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622399534.6340795,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622399535.7990797,9,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622399537.2230787,9,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622399538.7040784,9,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622399541.005077,9,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622399542.3990805,9,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622399543.1110787,9,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622399544.2710783,9,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622399545.6940806,9,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622399546.9260783,9,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622399548.3110838,9,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622399549.6250885,9,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622399551.456077,9,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622399552.901078,9,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622399554.2310793,9,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622399554.8760796,9,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622399554.90208,9,16,fin,3,Hombre,6,finalizada,,1
+1622399580.5600777,10,16,inicio_partida,3,Hombre,6,,,1
+1622399582.4470797,10,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622399583.0070798,10,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622399584.2780788,10,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622399585.1840794,10,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622399586.7600775,10,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622399587.9830782,10,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622399589.2950785,10,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622399590.4770875,10,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622399592.1830764,10,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622399593.4130769,10,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622399595.6320815,10,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622399597.5610797,10,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622399598.5200856,10,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622399599.9440773,10,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622399599.96508,10,16,fin,3,Hombre,6,finalizada,,1
+1622399667.4240773,11,16,inicio_partida,3,Hombre,6,,,1
+1622399669.1820788,11,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622399669.9140782,11,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622399670.9260826,11,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622399672.3350773,11,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622399673.5840788,11,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622399675.0540771,11,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622399676.463081,11,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622399678.0640795,11,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622399680.1440785,11,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622399681.6730783,11,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622399683.5600781,11,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622399684.8720798,11,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622399685.914078,11,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622399685.9380796,11,16,fin,3,Hombre,6,finalizada,,1
+1622399712.824077,12,16,inicio_partida,3,Hombre,6,,,1
+1622399714.863084,12,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622399715.685078,12,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622399716.7190783,12,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622399718.7430863,12,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622399720.2220788,12,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622399721.0150795,12,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622399722.6790802,12,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622399723.9850798,12,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622399772.8990824,12,16,fin,3,Hombre,6,timeout,,1
+1622399790.097077,13,16,inicio_partida,3,Hombre,6,,,1
+1622399791.6930776,13,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622399792.0720773,13,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622399793.0480783,13,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622399794.6010802,13,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622399795.4710793,13,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622399796.5990791,13,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622399797.6730795,13,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622399799.2960792,13,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622399800.9900787,13,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622399802.5790808,13,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622399804.2300773,13,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622399805.4940796,13,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622399806.997077,13,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622399808.0870788,13,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622399809.6190784,13,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622399810.9180803,13,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622399811.7110782,13,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622399811.7330785,13,16,fin,3,Hombre,6,finalizada,,1
+1622399898.1930783,14,16,inicio_partida,3,Hombre,6,,,1
+1622399900.2240856,14,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622399901.025078,14,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622399902.1110775,14,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622399903.5730777,14,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622399905.3820772,14,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622399907.2890782,14,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622399908.7520778,14,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622399910.641078,14,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622399912.7280786,14,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622399914.2570796,14,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622399915.9320793,14,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622399917.1600757,14,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622399917.1920798,14,16,fin,3,Hombre,6,finalizada,,1
+1622400310.9452713,15,16,inicio_partida,3,Hombre,6,,,1
+1622400312.8252723,15,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622400314.175272,15,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622400315.5272722,15,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622400316.9852748,15,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622400318.8152716,15,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622400320.0462751,15,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622400321.3272731,15,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622400323.0712721,15,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622400324.5202749,15,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622400325.6292722,15,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622400327.5202785,15,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622400329.061271,15,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622400330.3532703,15,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622400331.0702753,15,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622400331.0952737,15,16,fin,3,Hombre,6,finalizada,,1
+1622400948.809273,16,16,inicio_partida,3,Hombre,6,,,1
+1622400950.5112715,16,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622400951.2402875,16,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622400952.0612695,16,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622400953.5612705,16,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622400954.727272,16,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622400955.865273,16,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622400957.8892732,16,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622400959.6312706,16,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622400960.2952716,16,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622400962.2052717,16,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622400963.665271,16,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622400965.0552714,16,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622400965.0972726,16,16,fin,3,Hombre,6,finalizada,,1
+1622401024.2322724,17,48,inicio_partida,3,Hombre,6,,,3
+1622401027.5662699,17,48,intento,3,Hombre,6,ok,Obra_Edvard Munch.png,3
+1622401028.5702715,17,48,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,3
+1622401033.7032754,17,48,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,3
+1622401034.9322724,17,48,intento,3,Hombre,6,fallo,Obra_Raphael.png,3
+1622401036.2962694,17,48,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,3
+1622401040.5542727,17,48,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,3
+1622401042.3932707,17,48,intento,3,Hombre,6,ok,Obra_Raphael.png,3
+1622401052.766272,17,48,intento,3,Hombre,6,ok,Obra_Georges Seurat.png,3
+1622401053.770272,17,48,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,3
+1622401055.8022747,17,48,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,3
+1622401057.1432722,17,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3
+1622401058.5122724,17,48,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,3
+1622401059.6632724,17,48,intento,3,Hombre,6,fallo,Obra_Gustave Courbet.png,3
+1622401061.406271,17,48,intento,3,Hombre,6,fallo,Obra_Henri Rousseau.png,3
+1622401062.5842729,17,48,intento,3,Hombre,6,fallo,Obra_Henri Rousseau.png,3
+1622401063.6562843,17,48,intento,3,Hombre,6,fallo,Obra_Henri Rousseau.png,3
+1622401065.720272,17,48,intento,3,Hombre,6,ok,Obra_Eugene Delacroix.png,3
+1622401068.6952717,17,48,intento,3,Hombre,6,ok,Obra_William Turner.png,3
+1622401071.6252716,17,48,intento,3,Hombre,6,ok,Obra_Paul Cezanne.png,3
+1622401073.8512738,17,48,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,3
+1622401075.9432726,17,48,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,3
+1622401077.6332736,17,48,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,3
+1622401079.338271,17,48,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,3
+1622401081.1842732,17,48,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,3
+1622401082.5222716,17,48,intento,3,Hombre,6,fallo,Obra_Gustave Courbet.png,3
+1622401084.145271,17,48,intento,3,Hombre,6,ok,Obra_Michelangelo.png,3
+1622401086.6009035,17,48,intento,3,Hombre,6,ok,Obra_Henri Rousseau.png,3
+1622401087.8699048,17,48,intento,3,Hombre,6,fallo,Obra_Gustave Courbet.png,3
+1622401088.984905,17,48,intento,3,Hombre,6,fallo,Obra_Gustave Courbet.png,3
+1622401090.1609147,17,48,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,3
+1622401092.5119042,17,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3
+1622401094.0359042,17,48,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,3
+1622401096.5749025,17,48,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,3
+1622401099.359904,17,48,intento,3,Hombre,6,ok,Obra_Joan Miro.png,3
+1622401100.4009042,17,48,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,3
+1622401102.328904,17,48,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,3
+1622401103.3499036,17,48,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,3
+1622401105.673903,17,48,intento,3,Hombre,6,ok,Obra_Camille Pissarro.png,3
+1622401106.5209017,17,48,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,3
+1622401108.7449048,17,48,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,3
+1622401110.824903,17,48,intento,3,Hombre,6,fallo,Obra_Gustave Courbet.png,3
+1622401112.237903,17,48,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,3
+1622401115.974904,17,48,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,3
+1622401117.6019044,17,48,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,3
+1622401119.0389044,17,48,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,3
+1622401121.2339032,17,48,intento,3,Hombre,6,ok,Obra_Paul Klee.png,3
+1622401123.493903,17,48,intento,3,Hombre,6,ok,Obra_Gustave Courbet.png,3
+1622401127.2019033,17,48,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,3
+1622401127.2459054,17,48,fin,3,Hombre,6,finalizada,,3
+1622401317.408903,18,16,inicio_partida,3,Hombre,6,,,1
+1622401320.017904,18,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622401320.6719038,18,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622401322.1209033,18,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622401323.0059025,18,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622401324.0829043,18,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622401325.1109035,18,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622401326.7669022,18,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622401328.7859023,18,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622401329.937903,18,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622401331.0789022,18,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622401332.916902,18,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622401334.7849028,18,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622401336.8029025,18,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622401338.429902,18,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622401339.8469028,18,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622401340.694902,18,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622401340.7219036,18,16,fin,3,Hombre,6,finalizada,,1
+1622401398.0489051,19,16,inicio_partida,3,Hombre,6,,,1
+1622401400.086903,19,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622401401.5849028,19,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622401402.4399035,19,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622401403.677904,19,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622401405.1189153,19,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622401413.3049026,19,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622401415.3829036,19,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622401416.869903,19,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622401417.760905,19,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622401419.4769008,19,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622401420.7049038,19,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622401422.2169042,19,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622401423.4709036,19,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622401424.6899023,19,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622401426.3129036,19,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622401426.338903,19,16,fin,3,Hombre,6,finalizada,,1
+1622401507.4729004,20,16,inicio_partida,Juan,Hombre,19,,,1
+1622401509.1559036,20,16,intento,Juan,Hombre,19,ok,Obra_Joan Miro.png,1
+1622401509.8409116,20,16,intento,Juan,Hombre,19,ok,Obra_Michelangelo.png,1
+1622401510.7369041,20,16,intento,Juan,Hombre,19,fallo,Obra_Paul Gauguin.png,1
+1622401512.0959048,20,16,intento,Juan,Hombre,19,fallo,Obra_Piet Mondrian.png,1
+1622401513.2899034,20,16,intento,Juan,Hombre,19,fallo,Obra_Raphael.png,1
+1622401515.1109028,20,16,intento,Juan,Hombre,19,ok,Obra_Raphael.png,1
+1622401516.222901,20,16,intento,Juan,Hombre,19,fallo,Obra_Andy Warhol.png,1
+1622401517.492901,20,16,intento,Juan,Hombre,19,fallo,Obra_Paul Klee.png,1
+1622401519.356906,20,16,intento,Juan,Hombre,19,ok,Obra_Piet Mondrian.png,1
+1622401520.3999033,20,16,intento,Juan,Hombre,19,ok,Obra_Paul Klee.png,1
+1622401522.446903,20,16,intento,Juan,Hombre,19,ok,Obra_Andy Warhol.png,1
+1622401523.8129053,20,16,intento,Juan,Hombre,19,fallo,Obra_Jackson Pollock.png,1
+1622401525.6879025,20,16,intento,Juan,Hombre,19,ok,Obra_Paul Gauguin.png,1
+1622401526.8929012,20,16,intento,Juan,Hombre,19,ok,Obra_Jackson Pollock.png,1
+1622401526.9209042,20,16,fin,Juan,Hombre,19,finalizada,,1
+1622401620.1929028,21,16,inicio_partida,3,Hombre,6,,,1
+1622401622.5369055,21,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622401623.4479027,21,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622401624.673903,21,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622401625.7599046,21,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622401627.2169027,21,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622401627.990906,21,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622401629.4589047,21,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622401630.4479034,21,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622401631.9439023,21,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622401633.2629023,21,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622401634.4399035,21,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622401635.4309123,21,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622401636.348904,21,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622401636.3749046,21,16,fin,3,Hombre,6,finalizada,,1
+1622401736.7689052,22,16,inicio_partida,3,Hombre,6,,,1
+1622401738.7289174,22,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622401739.300906,22,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622401740.4949028,22,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622401741.5579019,22,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622401742.678903,22,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622401744.4859014,22,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622401746.814902,22,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622401748.067903,22,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622401749.6169112,22,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622401750.5369036,22,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622401752.334903,22,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622401754.0889044,22,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622401756.4719026,22,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622401758.0919018,22,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622401759.215902,22,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622401759.2429037,22,16,fin,3,Hombre,6,finalizada,,1
+1622401868.9529033,23,16,inicio_partida,3,Hombre,6,,,1
+1622401870.8089037,23,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622401871.591904,23,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622401872.491903,23,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622401874.4259026,23,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622401875.9859028,23,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622401877.3199046,23,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622401878.8089058,23,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622401879.7529037,23,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622401881.8299167,23,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622401883.2399204,23,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622401884.5119042,23,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622401885.4709015,23,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622401886.967903,23,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622401886.9959044,23,16,fin,3,Hombre,6,finalizada,,1
+1622402097.696867,24,16,inicio_partida,3,Hombre,6,,,1
+1622402099.9358668,24,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622402100.8328688,24,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622402102.1058693,24,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402103.4478676,24,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622402104.8549047,24,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622402106.4168663,24,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622402107.4208646,24,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622402108.9288712,24,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402111.2628667,24,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622402113.017867,24,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622402113.9768658,24,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402115.4708662,24,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622402116.3768692,24,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622402116.3988674,24,16,fin,3,Hombre,6,finalizada,,1
+1622402147.632867,25,16,inicio_partida,3,Hombre,6,,,1
+1622402149.4948685,25,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622402150.4598668,25,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622402151.710878,25,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622402153.0578673,25,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622402155.000866,25,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622402157.3058672,25,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622402158.7608674,25,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622402160.0358677,25,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402161.4678662,25,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622402162.793866,25,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622402164.4228728,25,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402165.96687,25,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622402167.7288675,25,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622402169.1358683,25,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622402171.0728662,25,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402173.158871,25,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622402174.1838675,25,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402175.9268692,25,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622402176.8888674,25,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622402176.9098675,25,16,fin,3,Hombre,6,finalizada,,1
+1622402200.4968674,26,16,inicio_partida,3,Hombre,6,,,1
+1622402202.6888683,26,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622402203.356866,26,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622402204.1858675,26,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402205.870867,26,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622402207.6788685,26,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622402208.7678668,26,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402209.9128668,26,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622402211.0638666,26,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402212.646867,26,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402213.929868,26,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622402215.664867,26,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622402216.7258675,26,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622402218.47787,26,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402219.616871,26,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622402220.3658683,26,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622402221.9438682,26,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622402222.8168676,26,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622402222.838869,26,16,fin,3,Hombre,6,finalizada,,1
+1622402274.896869,27,16,inicio_partida,3,Hombre,6,,,1
+1622402276.64087,27,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622402277.2238674,27,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402278.3698678,27,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622402279.368868,27,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622402280.488868,27,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402281.8188665,27,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402283.2588665,27,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622402284.5668664,27,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622402286.6938689,27,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622402288.2808673,27,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402289.4768655,27,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622402290.6058664,27,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622402292.0338683,27,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402293.6018703,27,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622402295.3838682,27,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622402297.000874,27,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622402299.2958663,27,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622402300.367867,27,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622402300.39187,27,16,fin,3,Hombre,6,finalizada,,1
+1622402468.9528677,28,16,inicio_partida,3,Hombre,6,,,1
+1622402472.079866,28,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622402472.7908688,28,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622402473.7988687,28,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402474.9248707,28,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402476.1278684,28,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622402477.428866,28,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622402478.9818652,28,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622402481.4968677,28,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622402482.728867,28,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622402484.7348685,28,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622402486.1538677,28,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622402487.0868683,28,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622402487.8958695,28,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402489.1588671,28,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622402490.0238674,28,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622402490.0428665,28,16,fin,3,Hombre,6,finalizada,,1
+1622402529.4088674,29,16,inicio_partida,3,Hombre,6,,,1
+1622402531.112871,29,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622402532.1518674,29,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622402534.6958675,29,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622402536.069868,29,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622402537.6718798,29,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402539.0728676,29,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622402540.4638658,29,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622402541.289869,29,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622402542.9838674,29,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622402544.2888668,29,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402545.8488657,29,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622402548.3538673,29,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622402550.0728657,29,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622402551.745867,29,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622402553.438867,29,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402554.7838683,29,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622402555.4878674,29,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622402555.5098674,29,16,fin,3,Hombre,6,finalizada,,1
+1622402695.0338671,30,16,inicio_partida,3,Hombre,6,,,1
+1622402696.7568681,30,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622402697.4358697,30,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402699.128868,30,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622402700.3728669,30,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402702.278869,30,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622402704.133867,30,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622402705.2498686,30,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622402706.56087,30,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402707.7448652,30,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402709.0748684,30,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622402710.7168667,30,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622402712.2888675,30,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402713.743866,30,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622402715.8168669,30,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622402716.5758681,30,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402718.1158674,30,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622402718.9988701,30,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622402719.0258663,30,16,fin,3,Hombre,6,finalizada,,1
+1622402816.8978693,31,16,inicio_partida,3,Hombre,6,,,1
+1622402818.537867,31,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622402818.9888687,31,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402820.0568664,31,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622402821.5358698,31,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622402822.8978693,31,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622402824.753867,31,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622402826.4778652,31,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622402827.5188677,31,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402828.9518673,31,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622402830.831879,31,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622402832.9058695,31,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622402834.5138667,31,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622402835.9458683,31,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622402838.4778657,31,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622402845.175867,31,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622402845.2058678,31,16,fin,3,Hombre,6,finalizada,,1
+1622402971.1058683,32,16,inicio_partida,3,Hombre,6,,,1
+1622402972.905868,32,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622402973.64987,32,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622402975.0888672,32,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402976.3838665,32,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622402977.142869,32,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622402979.4708655,32,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622402980.831879,32,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622402982.3338666,32,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622402983.865868,32,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402986.1908681,32,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622402990.623867,32,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622402991.9928694,32,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622402993.7428672,32,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622402994.9098654,32,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622403003.024866,32,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622403003.0528684,32,16,fin,3,Hombre,6,finalizada,,1
+1622403062.280868,33,16,inicio_partida,3,Hombre,6,,,1
+1622403064.082866,33,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622403064.9738655,33,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622403065.997867,33,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622403067.9208665,33,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622403069.4018664,33,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622403070.4168682,33,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622403071.3678672,33,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622403072.6318655,33,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622403074.007869,33,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622403075.7538657,33,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622403077.0728762,33,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622403078.1358676,33,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622403079.367866,33,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622403080.43087,33,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622403084.2468789,33,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622403084.2758684,33,16,fin,3,Hombre,6,finalizada,,1
+1622403137.288868,34,16,inicio_partida,3,Hombre,6,,,1
+1622403138.9928694,34,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622403139.6498697,34,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622403140.928869,34,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622403141.854868,34,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622403143.015867,34,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622403144.6218667,34,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622403146.1298692,34,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622403147.761869,34,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622403149.1428666,34,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622403150.4638655,34,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622403154.5948682,34,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622403155.9668682,34,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622403160.4178658,34,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622403162.2768676,34,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622403166.2368653,34,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622403166.2638674,34,16,fin,3,Hombre,6,finalizada,,1
+1622403186.744867,35,16,inicio_partida,3,Hombre,6,,,1
+1622403188.4588683,35,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622403189.1188686,35,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622403189.8638685,35,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622403191.0708742,35,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622403192.9048698,35,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622403193.6748688,35,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622403195.3248663,35,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622403196.6388671,35,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622403199.0318658,35,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622403200.367866,35,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622403201.887869,35,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622403203.693867,35,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622403205.2138662,35,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622403206.5048668,35,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622403208.287868,35,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622403210.3348677,35,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622403212.033866,35,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622403214.2798665,35,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622403215.6728673,35,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622403217.5888686,35,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622403218.998868,35,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622403233.1118674,35,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622403246.854866,35,16,fin,3,Hombre,6,timeout,,1
+1622403357.6338668,36,24,inicio_partida,3,Hombre,6,,,2
+1622403360.8958664,36,24,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,2
+1622403362.6868658,36,24,intento,3,Hombre,6,ok,Obra_Michelangelo.png,2
+1622403368.047869,36,24,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,2
+1622403369.1678667,36,24,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,2
+1622403370.4198682,36,24,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,2
+1622403371.7858672,36,24,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,2
+1622403373.0078678,36,24,intento,3,Hombre,6,fallo,Obra_Paul Cezanne.png,2
+1622403378.951867,36,24,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,2
+1622403380.0708673,36,24,intento,3,Hombre,6,fallo,Obra_Paul Cezanne.png,2
+1622403381.8258686,36,24,intento,3,Hombre,6,ok,Obra_Paul Cezanne.png,2
+1622403383.2408712,36,24,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,2
+1622403384.8898675,36,24,intento,3,Hombre,6,ok,Obra_Eugene Delacroix.png,2
+1622403386.7078671,36,24,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,2
+1622403388.799883,36,24,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,2
+1622403390.6418684,36,24,intento,3,Hombre,6,fallo,Obra_Georges Seurat.png,2
+1622403394.6098688,36,24,intento,3,Hombre,6,fallo,Obra_Henri Rousseau.png,2
+1622403399.1858656,36,24,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,2
+1622403400.3668683,36,24,intento,3,Hombre,6,fallo,Obra_Henri Rousseau.png,2
+1622403402.3408692,36,24,intento,3,Hombre,6,ok,Obra_Henri Rousseau.png,2
+1622403403.7448673,36,24,intento,3,Hombre,6,fallo,Obra_Georges Seurat.png,2
+1622403405.831868,36,24,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,2
+1622403407.728867,36,24,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,2
+1622403411.688867,36,24,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,2
+1622403413.3148668,36,24,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,2
+1622403414.9528666,36,24,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,2
+1622403417.1588674,36,24,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,2
+1622403419.04887,36,24,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,2
+1622403420.7918668,36,24,intento,3,Hombre,6,fallo,Obra_Raphael.png,2
+1622403422.2308662,36,24,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,2
+1622403423.6548684,36,24,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,2
+1622403426.9378657,36,24,intento,3,Hombre,6,fallo,Obra_Raphael.png,2
+1622403428.4338708,36,24,intento,3,Hombre,6,ok,Obra_Joan Miro.png,2
+1622403429.96088,36,24,intento,3,Hombre,6,fallo,Obra_Georges Seurat.png,2
+1622403438.4198668,36,24,intento,3,Hombre,6,ok,Obra_Paul Klee.png,2
+1622403440.6098678,36,24,intento,3,Hombre,6,fallo,Obra_Georges Seurat.png,2
+1622403442.5058682,36,24,intento,3,Hombre,6,ok,Obra_Raphael.png,2
+1622403444.278867,36,24,intento,3,Hombre,6,ok,Obra_Georges Seurat.png,2
+1622403444.3088691,36,24,fin,3,Hombre,6,finalizada,,2
+1622404134.3776815,37,16,inicio_partida,Juan,Hombre,19,,,1
+1622404322.31368,38,24,inicio_partida,3,Hombre,6,,,2
+1622404809.4096804,39,24,inicio_partida,3,Hombre,6,,,2
+1622404812.4666796,39,24,intento,3,Hombre,6,ok,Obra_Michelangelo.png,2
+1622404814.5626826,39,24,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,2
+1622404815.9996817,39,24,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,2
+1622404826.7776806,40,16,inicio_partida,3,Hombre,6,,,1
+1622404829.56968,40,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622404830.4096804,40,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622404831.3446813,40,16,intento,3,Hombre,6,ok,Obra_Raphael.png,1
+1622404832.6736808,40,16,intento,3,Hombre,6,fallo,Obra_Michelangelo.png,1
+1622404833.8036811,40,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622404835.2396817,40,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622404837.079681,40,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622404838.640682,40,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622404870.5606787,40,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622404872.098681,40,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622404877.4776797,40,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622404886.805682,40,16,fin,3,Hombre,6,timeout,,1
+1622405217.4976807,41,16,inicio_partida,3,Hombre,6,,,1
+1622405237.9706812,42,16,inicio_partida,3,Hombre,6,,,1
+1622405370.9456806,43,16,inicio_partida,3,Hombre,6,,,1
+1622405435.345679,44,16,inicio_partida,3,Hombre,6,,,1
+1622405546.4026814,45,16,inicio_partida,3,Hombre,6,,,1
+1622405548.4506826,45,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622405550.1446812,45,16,intento,3,Hombre,6,fallo,Obra_Paul Klee.png,1
+1622405551.4456835,45,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622405552.4366825,45,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622405553.887685,45,16,intento,3,Hombre,6,fallo,Obra_Raphael.png,1
+1622405555.3136814,45,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622405556.577682,45,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622405558.055681,45,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622405559.5846808,45,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622405561.4616792,45,16,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,1
+1622405563.0986807,45,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622405566.3456812,45,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622405567.746681,45,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622405577.0946817,45,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1
+1622405822.7776804,46,16,inicio_partida,3,Hombre,6,,,1
+1622405826.5796828,46,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622405829.0846806,46,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622405830.1066813,46,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622405882.8176806,46,16,fin,3,Hombre,6,timeout,,1
+1622405989.4581928,47,16,inicio_partida,3,Hombre,6,,,1
+1622405991.2981982,47,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622405994.464192,47,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622406033.3141913,48,16,inicio_partida,3,Hombre,6,,,1
+1622406037.2251966,48,16,intento,3,Hombre,6,ok,Obra_Michelangelo.png,1
+1622406130.2101946,49,16,inicio_partida,3,Hombre,6,,,1
+1622406132.8741925,49,16,intento,3,Hombre,6,ok,Obra_Paul Klee.png,1
+1622406137.8031917,49,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622406139.1361942,49,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622406141.2061918,49,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1
+1622406142.593192,49,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622406145.5491943,49,16,intento,3,Hombre,6,fallo,Obra_Joan Miro.png,1
+1622406147.465193,49,16,intento,3,Hombre,6,ok,Obra_Joan Miro.png,1
+1622406148.810194,49,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1
+1622406150.563193,49,16,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,1
+1622406257.2421916,50,16,inicio_partida,3,Hombre,6,,,1
+1622406259.6111946,50,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
+1622406318.6341932,51,16,inicio_partida,3,Hombre,6,,,1
+1622406378.6711924,51,16,fin,3,Hombre,6,timeout,,1

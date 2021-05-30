@@ -9,11 +9,7 @@ Y_SIZE = 600
 
 
 def polishing_scores(scores):
-    return [" " *
-            (X_SIZE // 16) + '{:^}  {:^30}  '.format('Nick', 'Puntos')] + list(
-                map(
-                    lambda x: " " * (X_SIZE // 16) + '{:^}  {:^40}  '.format(
-                        str(x["Nick"]), str(x["Puntos"])), scores))
+    return ["Posicion    Nick       Puntos"]+[(f'''{tup[0]:<15} {tup[1]["Nick"]:<15} {tup[1]["Puntos"]:<15}''')  for tup in scores]
 
 
 def scores_print():
@@ -26,14 +22,13 @@ def scores_print():
 
         info_partida.sort(key=lambda x: int(x["Puntos"]),reverse=True)
 
-        print(game_number)
         game_index=info_partida.index(next(filter(lambda n: n.get('Numero de partida') == game_number, info_partida)))
-        print(info_partida)
 
-        scores_table = [(game_index+1,info_partida[game_index])]#TODO Armar la lista de modo que quden los tres anteriores y los tres siguientes
-        print(scores_table)
+        info_partida = info_partida[game_index - 3:game_index + 4] if game_index > 3 else info_partida[:game_index + 4]
 
-        scores_table = info_partida[info_partida.index(game_number) -3 if info_partida.index(game_number) >= 3 else 0:info_partida.index(game_number) + 4]
+        scores_table = [(info_partida.index(elem),elem) for elem in info_partida]
+
+
         return polishing_scores(scores_table)
 
 

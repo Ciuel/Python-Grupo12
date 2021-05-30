@@ -6,7 +6,7 @@ import numpy as np
 import csv
 import PySimpleGUI as sg
 from ..Components import score, menu
-from ..Constants.constants import LEVEL_DICTIONARY, USER_JSON_PATH
+from ..Constants.constants import LEVEL_DICTIONARY, USER_JSON_PATH,IMAGES_PATH
 #TODO Modificar donde se calculan los puntos y texto de multiplicador
 
 def check_config(nick):
@@ -44,11 +44,8 @@ def update_button(window, event, value_matrix, type_of_token):
     if type_of_token == "Text":
         window[event].update(value_matrix[int(event[-2])][int(event[-1])])
     else:
-        window[event].update(image_filename=os.path.join(
-            os.getcwd(), f"src{os.sep}Data_files{os.sep}Images",
-            value_matrix[int(event[-2])][int(event[-1])]),
-                             image_size=(118, 120),
-                             image_subsample=3)
+        window[event].update(image_filename=os.path.join( os.getcwd(), IMAGES_PATH,value_matrix[int(event[-2])][int(event[-1])]),
+         image_size=(118, 120),image_subsample=3)
 
 
 def play_counter(lista_chequeos, timestamp, game_window):
@@ -69,7 +66,7 @@ def check_button(value_matrix:np.array, user:dict, lista_chequeos:list, event:st
     if all(value_matrix[int(lista_chequeos[0][-2])][int(lista_chequeos[0][-1])]== value_matrix[int(x[-2])][int(x[-1])] for x in lista_chequeos):
         if len(lista_chequeos) == user["config"]["Coincidences"]:
             for eve in lista_chequeos:
-                window[eve].update(disabled=True)
+                window[eve].update(disabled=sg.BUTTON_DISABLED_MEANS_IGNORE)
             window["-POINTS-"].update(hits * 100*user["config"]["Coincidences"])
             element_list.remove(value_matrix[int(lista_chequeos[0][-2])][int(lista_chequeos[0][-1])])
             hits += 1
@@ -79,7 +76,9 @@ def check_button(value_matrix:np.array, user:dict, lista_chequeos:list, event:st
     else:
         time.sleep(0.5)
         for eve in lista_chequeos:
-            window[eve].update("") if user["config"]["Type of token"] == "Text" else window[eve].update(image_filename="", image_size=(118, 120))
+            window[eve].update("") if user["config"][
+                "Type of token"] == "Text" else window[eve].update(
+                    image_filename="", image_size=(118, 120))
         send_info(timestamp,game_number,"intento",user,nick,"fallo",value_matrix[int(lista_chequeos[0][-2])][int(lista_chequeos[0][-1])])
         lista_chequeos = []
         misses += 1
@@ -118,6 +117,7 @@ def lose_game(window, hits, misses, nick, user, tiempo_total, game_number):
         points = hits * 100*user["config"]["Coincidences"]
         send_info(time.time(),game_number,"fin",user,nick,"timeout")
         window.close()
+        send_score(tiempo_total, user, nick, hits, misses, points,game_number)
         score.start(user["config"]["AppColor"], nick,
                     user["config"]["LoseText"], tiempo_total, hits, misses,
                     points)
@@ -153,8 +153,7 @@ def help_action(window, value_matrix, type_of_token, element_list):
     window.refresh()
     time.sleep(1)
     for eve in help_list:
-        window[eve].update("") if type_of_token == "Text" else window[eve].update(
-                image_filename="", image_size=(118, 120))
+        window[eve].update("") if type_of_token == "Text" else window[eve].update(image_filename="", image_size=(118, 120),disabled=False)
 
 
 def check_help(window, event, value_matrix, type_of_token, element_list):

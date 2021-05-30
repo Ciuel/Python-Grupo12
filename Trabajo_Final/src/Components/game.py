@@ -46,10 +46,11 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
         #Volver Al Menu
         check_menu(game_window, event, nick, user["config"]["AppColor"])
 
-        #Ayuda
-        if check_help(game_window, event,value_matrix,user["config"]["Type of token"],element_list):
-            cooldown_start = current_time
-        cooldown_start=help_cooldown(game_window, current_time, cooldown_start,10)
+        #Ayuda(solo puede tocarse si no se selecciono ninguna ficha aun)
+        if (lista_chequeos==[]):
+            if check_help(game_window, event,value_matrix,user["config"]["Type of token"],element_list):
+                cooldown_start = current_time
+            cooldown_start=help_cooldown(game_window, current_time, cooldown_start,10)
 
         #Fichas
         if event.startswith("cell"):
