@@ -732,3 +732,71 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado ,Pala
 1622406259.6111946,50,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1
 1622406318.6341932,51,16,inicio_partida,3,Hombre,6,,,1
 1622406378.6711924,51,16,fin,3,Hombre,6,timeout,,1
+1622488903.9884417,52,16,inicio_partida,Juan,Hombre,19,,,1
+1622488905.5811815,52,16,intento,Juan,Hombre,19,fallo,Obra_Andy Warhol.png,1
+1622488907.9993324,52,16,intento,Juan,Hombre,19,fallo,Obra_Albrecht Dürer.png,1
+1622488917.9471788,52,16,intento,Juan,Hombre,19,fallo,Obra_Albrecht Dürer.png,1
+1622488921.508693,52,16,intento,Juan,Hombre,19,ok,Obra_Andy Warhol.png,1
+1622488926.9953914,52,16,intento,Juan,Hombre,19,fallo,Obra_Andrei Rublev.png,1
+1622488936.2409606,52,16,intento,Juan,Hombre,19,fallo,Obra_Camille Pissarro.png,1
+1622488939.7183728,52,16,intento,Juan,Hombre,19,fallo,Obra_Caravaggio.png,1
+1622488945.0562706,52,16,intento,Juan,Hombre,19,fallo,Obra_Andrei Rublev.png,1
+1622488947.4573457,52,16,intento,Juan,Hombre,19,ok,Obra_Caravaggio.png,1
+1622488952.3250523,52,16,intento,Juan,Hombre,19,ok,Obra_Claude Monet.png,1
+1622488956.1536229,52,16,intento,Juan,Hombre,19,fallo,Obra_Albrecht Dürer.png,1
+1622488961.9466286,52,16,intento,Juan,Hombre,19,fallo,Obra_Albrecht Dürer.png,1
+1622488966.7317646,52,16,intento,Juan,Hombre,19,fallo,Obra_Andrei Rublev.png,1
+1622488976.682351,52,16,intento,Juan,Hombre,19,ok,Obra_Camille Pissarro.png,1
+1622488983.5266883,52,16,intento,Juan,Hombre,19,fallo,Obra_Andrei Rublev.png,1
+1622488987.9065032,52,16,intento,Juan,Hombre,19,fallo,Obra_Albrecht Dürer.png,1
+1622488991.0304284,52,16,intento,Juan,Hombre,19,fallo,Obra_Andrei Rublev.png,1
+1622488993.9452798,52,16,intento,Juan,Hombre,19,ok,Obra_Albrecht Dürer.png,1
+1622489001.8784246,52,16,intento,Juan,Hombre,19,fallo,Obra_Alfred Sisley.png,1
+1622489005.4026437,52,16,intento,Juan,Hombre,19,fallo,Obra_Amedeo Modigliani.png,1
+1622489011.8408146,52,16,intento,Juan,Hombre,19,ok,Obra_Alfred Sisley.png,1
+1622489016.7060807,52,16,intento,Juan,Hombre,19,fallo,Obra_Andrei Rublev.png,1
+1622489019.7958062,52,16,intento,Juan,Hombre,19,fallo,Obra_Amedeo Modigliani.png,1
+1622489023.6430407,52,16,intento,Juan,Hombre,19,fallo,Obra_Amedeo Modigliani.png,1
+1622489026.8339152,52,16,intento,Juan,Hombre,19,fallo,Obra_Amedeo Modigliani.png,1
+1622489029.9208505,52,16,intento,Juan,Hombre,19,ok,Obra_Andrei Rublev.png,1
+1622489032.005535,52,16,intento,Juan,Hombre,19,ok,Obra_Amedeo Modigliani.png,1
+1622489032.025536,52,16,fin,Juan,Hombre,19,finalizada,,1
+1622489116.9107957,53,16,inicio_partida,3,Hombre,6,,,1
+1622489119.6672854,53,16,intento,3,Hombre,6,ok,Flag_of_Argentina .png,1
+1622489121.2174616,53,16,intento,3,Hombre,6,fallo,Flag_of_Angola .png,1
+1622489123.0165782,53,16,intento,3,Hombre,6,fallo,Flag_of_Albania .png,1
+1622500806.3178787,54,42,inicio_partida,3,Hombre,6,,,3
+1622500808.6076496,54,42,intento,3,Hombre,6,ok,Flag_of_Antigua & Barbuda .png,3
+1622500809.7721322,54,42,intento,3,Hombre,6,fallo,Flag_of_Benin .png,3
+1622500811.2231343,54,42,intento,3,Hombre,6,fallo,Flag_of_Azerbaijan .png,3
+1622500812.5979183,54,42,intento,3,Hombre,6,fallo,Flag_of_Andorra .png,3
+1622500842.166727,55,42,inicio_partida,3,Hombre,6,,,3
+1622500844.4064007,55,42,intento,3,Hombre,6,ok,Obra_Caravaggio.png,3
+1622500845.3176894,55,42,intento,3,Hombre,6,fallo,Obra_Frida Kahlo.png,3
+1622500846.6476033,55,42,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,3
+1622500848.8138814,55,42,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,3
+1622500850.4180245,55,42,intento,3,Hombre,6,fallo,Obra_Edvard Munch.png,3
+1622500852.0023823,55,42,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,3
+1622500853.325974,55,42,intento,3,Hombre,6,fallo,Obra_El Greco.png,3
+1622500856.3389585,55,42,intento,3,Hombre,6,ok,Obra_Georges Seurat.png,3
+1622501666.1106553,56,42,inicio_partida,3,Hombre,6,,,3
+1622502085.8543744,57,42,inicio_partida,3,Hombre,6,,,3
+1622502107.375941,58,42,inicio_partida,3,Hombre,6,,,3
+1622504812.7117276,59,16,inicio_partida,3,Hombre,6,,,1
+1622504814.8570356,59,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1
+1622504815.9565923,59,16,intento,3,Hombre,6,fallo,Obra_Amedeo Modigliani.png,1
+1622504817.1549811,59,16,intento,3,Hombre,6,fallo,Obra_Alfred Sisley.png,1
+1622504818.6518686,59,16,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,1
+1622504819.8845363,59,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1
+1622504820.8685904,59,16,intento,3,Hombre,6,fallo,Obra_Claude Monet.png,1
+1622504822.9076385,59,16,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,1
+1622504824.3087757,59,16,intento,3,Hombre,6,ok,Obra_Camille Pissarro.png,1
+1622504825.1553142,59,16,intento,3,Hombre,6,fallo,Obra_Alfred Sisley.png,1
+1622504826.9880688,59,16,intento,3,Hombre,6,ok,Obra_Alfred Sisley.png,1
+1622504828.1003447,59,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1
+1622504829.4022093,59,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1
+1622504831.2919326,59,16,intento,3,Hombre,6,ok,Obra_Claude Monet.png,1
+1622504833.2358458,59,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1
+1622504835.122879,59,16,intento,3,Hombre,6,ok,Obra_Amedeo Modigliani.png,1
+1622504835.891,59,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1
+1622504835.9179695,59,16,fin,3,Hombre,6,finalizada,,1

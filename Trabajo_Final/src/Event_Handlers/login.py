@@ -1,6 +1,7 @@
 import json
 import os
 import PySimpleGUI as sg
+import vlc
 from ..Components import menu
 from ..Constants.constants import USER_JSON_PATH,DEFAULT_CONFIG
 
@@ -156,6 +157,8 @@ def check_login(values:dict)->bool:
             return values["-INPUT PASSWORD-"] == datos[values["-INPUT NICK-"]]["password"]
         return False
 
+def vlc_init ():
+    return {"player_music":vlc.Instance().media_player_new(),"player_sounds":vlc.Instance().media_player_new()}
 
 
 def login_action(window: sg.Window, event: str, values: dict)->None:
@@ -172,7 +175,7 @@ def login_action(window: sg.Window, event: str, values: dict)->None:
             with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r") as info:
                 user_data = json.load(info)
                 theme=user_data[values["-INPUT NICK-"]]["config"]["AppColor"]
-            menu.start(values["-INPUT NICK-"], theme)
+            menu.start(values["-INPUT NICK-"], theme,vlc_init())
         else:
             window["-W_LOGIN TEXT-"].update("El nick o contaseña son incorrectos")
 

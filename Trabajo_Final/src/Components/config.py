@@ -3,7 +3,7 @@ from ..Event_Handlers.config import *
 import PySimpleGUI as sg
 
 
-def loop(config_window:sg.Window, nick:str,theme:str):
+def loop(config_window: sg.Window, nick: str, theme: str, vlc_dict):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -21,10 +21,10 @@ def loop(config_window:sg.Window, nick:str,theme:str):
 
 
         save_changes(config_window, event, values, theme , nick)
-        back_button(config_window, event, nick, theme)
+        back_button(config_window, event, nick, theme, vlc_dict)
 
 
-def start(nick:str):
+def start(nick: str, vlc_dict):
     """Llama a build para construir la ventana, y llama a loop para ejecutarla, finalmente cerrandolaself.
         También busca la configuracion del usuario y la pasa al build y al loop
 
@@ -33,5 +33,5 @@ def start(nick:str):
     """
     initial_config = build_initial_config(nick)
     config_window = build(initial_config)
-    loop(config_window, nick, initial_config["AppColor"])
+    loop(config_window, nick, initial_config["AppColor"], vlc_dict)
     config_window.close()

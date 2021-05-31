@@ -1,12 +1,13 @@
 import PySimpleGUI as sg
 from ..Windows.game import build
 from ..Event_Handlers.game import *
+from ..Constants.constants import MAX_VALUE
 import time
 
+HELP_COOLDOWN_TIME=10
 
 
-
-def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, element_list:list):
+def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, element_list:list,vlc_dict):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -23,14 +24,14 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
         if  event == sg.WIN_CLOSED:
             break
         #Volver Al Menu
-        check_menu(game_window, event, nick, user["config"]["AppColor"])
+        check_menu(game_window, event, nick, user["config"]["AppColor"],vlc_dict)
 
     lista_chequeos=[]
     hits=0
     misses=0
     starttime = time.time()
     start_time_jugada=time.time()
-    cooldown_start=99999
+    cooldown_start = MAX_VALUE
     while True:
         event, _values = game_window.read(100)
         if event == sg.WIN_CLOSED:
@@ -44,13 +45,13 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
         #start_time_jugada=play_counter(lista_chequeos, start_time_jugada, game_window)
 
         #Volver Al Menu
-        check_menu(game_window, event, nick, user["config"]["AppColor"])
+        check_menu(game_window, event, nick, user["config"]["AppColor"],vlc_dict)
 
         #Ayuda(solo puede tocarse si no se selecciono ninguna ficha aun)
         if (lista_chequeos==[]):
-            if check_help(game_window, event,value_matrix,user["config"]["Type of token"],element_list):
+            if check_help(game_window, event,value_matrix,user["config"]["Type of token"],element_list,vlc_dict):
                 cooldown_start = current_time
-            cooldown_start=help_cooldown(game_window, current_time, cooldown_start,10)
+            cooldown_start=help_cooldown(game_window, current_time, cooldown_start,HELP_COOLDOWN_TIME)
 
         #Fichas
         if event.startswith("cell"):
@@ -59,11 +60,11 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
             lista_chequeos, hits, misses, element_list = check_button(
                 value_matrix, user, lista_chequeos, event, game_window, hits,
                 misses, time.time(), element_list, nick,game_number)
-            win_game(game_window, hits, misses, nick, user,current_time,game_number)
-        lose_game(game_window, hits, misses, nick, user, current_time,game_number)
+            win_game(game_window, hits, misses, nick, user,current_time,game_number,vlc_dict)
+        lose_game(game_window, hits, misses, nick, user, current_time,game_number,vlc_dict)
 
 
-def start(nick:str):
+def start(nick: str, vlc_dict):
     """Consigue la configuracion de partida y crea la ventana dependiendo de 
     lo elegido por el usuario
 
@@ -75,6 +76,6 @@ def start(nick:str):
         nick, user["config"]["AppColor"], user["config"]["Coincidences"],
         user["config"]["Level"], user["config"]["Type of token"],
         user["config"]["Help"])
-    loop(game_window, value_matrix, nick, user, list(set(element_list)))
+    loop(game_window, value_matrix, nick, user, list(set(element_list)),vlc_dict)
 
     game_window.close()

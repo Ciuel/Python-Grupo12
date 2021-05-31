@@ -6,7 +6,7 @@ import numpy as np
 import csv
 import PySimpleGUI as sg
 from ..Components import score, menu
-from ..Constants.constants import LEVEL_DICTIONARY, USER_JSON_PATH,IMAGES_PATH
+from ..Constants.constants import LEVEL_DICTIONARY, USER_JSON_PATH,IMAGES_PATH,MAX_VALUE,HELP_SOUND_PATH,WIN_SOUND_PATH,LOSE_SOUND_PATH
 #TODO Modificar donde se calculan los puntos y texto de multiplicador
 
 def check_config(nick):
@@ -102,8 +102,9 @@ def button_amount(user_config:dict)->int:
     return (LEVEL_DICTIONARY[(user_config["Level"],user_config["Coincidences"])][0] *
             LEVEL_DICTIONARY[(user_config["Level"],user_config["Coincidences"])][1])
 
-def win_game(window, hits, misses, nick, user, tiempo_total,game_number):
+def win_game(window, hits, misses, nick, user, tiempo_total,game_number,vlc_dict):
     if hits >= button_amount(user["config"]) // user["config"]["Coincidences"]:
+        vlc_play_sound(vlc_dict, WIN_SOUND_PATH)
         points = hits * 100*user["config"]["Coincidences"]*user["config"]["Level"]
         window.close()
         send_info(time.time(),game_number,"fin",user,nick,"finalizada")
@@ -112,8 +113,9 @@ def win_game(window, hits, misses, nick, user, tiempo_total,game_number):
                     tiempo_total, hits, misses, points)
 
 
-def lose_game(window, hits, misses, nick, user, tiempo_total, game_number):
-    if tiempo_total == 30 * user["config"]["Coincidences"] * user["config"]["Level"]:
+def lose_game(window, hits, misses, nick, user, tiempo_total, game_number,vlc_dict):
+    if tiempo_total == 2*60 * user["config"]["Coincidences"] * user["config"]["Level"]:
+        vlc_play_sound(vlc_dict, LOSE_SOUND_PATH)
         points = hits * 100*user["config"]["Coincidences"]
         send_info(time.time(),game_number,"fin",user,nick,"timeout")
         window.close()
@@ -123,23 +125,29 @@ def lose_game(window, hits, misses, nick, user, tiempo_total, game_number):
                     points)
 
 
-def check_menu(window, event, nick, theme):
+def check_menu(window, event, nick, theme, vlc_dict):
     if event == "-BACK MENU-":
         if sg.popup_yes_no("Realmente quiere volver al menu",
                            no_titlebar=True) == "Yes":
             window.close()
-            menu.start(nick, theme)
+            menu.start(nick, theme, vlc_dict)
 
 
 def help_cooldown(window, current_time, cooldown_start, offset):
     if current_time > cooldown_start + offset:
         window["-HELP-"].update(disabled=False)
-        return 99999
+        return MAX_VALUE
     else:
         return cooldown_start
 
+def vlc_play_sound(vlc_dict,media):
+    media_sound = os.path.join(os.getcwd(), media)
+    button_press = vlc_dict["player_sounds"].get_instance().media_new(media_sound)
+    vlc_dict["player_sounds"].set_media(button_press)
+    vlc_dict["player_sounds"].play()
 
-def help_action(window, value_matrix, type_of_token, element_list):
+def help_action(window, value_matrix, type_of_token, element_list, vlc_dict):
+    vlc_play_sound(vlc_dict,HELP_SOUND_PATH)
     window["-HELP-"].update(disabled=True)
     window.refresh()
     value_matrix = value_matrix.tolist()
@@ -156,9 +164,9 @@ def help_action(window, value_matrix, type_of_token, element_list):
         window[eve].update("") if type_of_token == "Text" else window[eve].update(image_filename="", image_size=(118, 120),disabled=False)
 
 
-def check_help(window, event, value_matrix, type_of_token, element_list):
+def check_help(window, event, value_matrix, type_of_token, element_list,vlc_dict):
     if event == "-HELP-":
-        help_action(window, value_matrix, type_of_token, element_list)
+        help_action(window, value_matrix, type_of_token, element_list,vlc_dict)
         return True
     else:
         return False

@@ -7,8 +7,8 @@
             "Coincidences": 2,
             "Help": "yes",
             "Type of token": "Images",
-            "Level": 1,
-            "AppColor": "BluePurple",
+            "Level": 3,
+            "AppColor": "LightBrown",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }

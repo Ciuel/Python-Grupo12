@@ -4,26 +4,30 @@ from ..Event_Handlers.menu import *
 
 
 
-def loop(menu_window: sg.Window, nick: str, player):
+def loop(menu_window: sg.Window, nick: str, vlc_dict):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
         menu_window (sg.Window): La ventana de menu
         nick (str): El nick del jugador
     """
+
     while True:
-        event, _values = menu_window.read()
+        event, _values = menu_window.read(248400,"timeout")
         if event == sg.WIN_CLOSED or event == "-QUIT-":
             break
-        if event != "":
-            play_sound()
-            player.stop()
-            configure(menu_window, event, nick)
-            jugar(menu_window, event,nick)
+        if event != "timeout":
+            play_sound(vlc_dict)
+            vlc_dict["player_music"].stop()
+            configure(menu_window, event, nick, vlc_dict)
+            jugar(menu_window, event, nick,vlc_dict)
+        else:
+            vlc_dict["player_music"].stop()
+            vlc_dict["player_music"].play()
 
 
 
-def start(nick:str, theme:str):
+def start(nick:str, theme:str,vlc_dict:dict):
     """Crea la ventana de menu
 
     Args:
@@ -31,8 +35,8 @@ def start(nick:str, theme:str):
         theme (str): El tema del menu
     """
     menu_window = build(nick, theme)
-    player = start_music()
+    start_music(vlc_dict)
 
-    loop(menu_window, nick, player)
+    loop(menu_window, nick, vlc_dict)
 
     menu_window.close()

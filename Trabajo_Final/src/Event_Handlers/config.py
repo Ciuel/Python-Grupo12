@@ -59,7 +59,7 @@ def check_empty_fields(values:dict)->bool:
     return (all([x != "" for x in nonempty_values]) and radio_help and radio_type)
 
 
-def back_button(window:sg.Window,event:str, nick:str, theme:str):
+def back_button(window:sg.Window,event:str, nick:str, theme:str,vlc_dict):
     """Cierra la ventana actual y abre el menu
 
     Args:
@@ -70,7 +70,7 @@ def back_button(window:sg.Window,event:str, nick:str, theme:str):
     """
     if event=="-BACK BUTTON-":
         window.close()
-        menu.start(nick, theme)
+        menu.start(nick, theme,vlc_dict)
 
 def save_changes(window:sg.Window,event:str,values:dict,theme:str,nick:str):
     """Esta funcion permite que al tocar el boton Guardar cambios, los cambios de configuracion que el usuario asigno se cargen dentro de nuestro
