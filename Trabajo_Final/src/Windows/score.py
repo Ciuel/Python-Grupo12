@@ -2,34 +2,21 @@ import PySimpleGUI as sg
 import csv
 import os
 import textwrap
-from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE
+from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE,GAME_INFO_PATH
+import pandas as pd
 
 X_SIZE = 800
 Y_SIZE = 600
 
 
-def polishing_scores(scores):
-    return ["Posicion    Nick       Puntos"]+[(f'''{tup[0]:<15} {tup[1]["Nick"]:<15} {tup[1]["Puntos"]:<15}''')  for tup in scores]
 
-
-def scores_print():
-    with open(f"src{os.sep}Data_files{os.sep}info_partida.csv", "r") as puntos:
-        info_partida = list(csv.DictReader(puntos))
-        game_number= info_partida[-1]["Numero de partida"]
-        level= info_partida[-1]["Nivel"]
-
-        info_partida= list(filter(lambda game: game["Nivel"] == level, info_partida))
-
-        info_partida.sort(key=lambda x: int(x["Puntos"]),reverse=True)
-
-        game_index=info_partida.index(next(filter(lambda n: n.get('Numero de partida') == game_number, info_partida)))
-
-        info_partida = info_partida[game_index - 3:game_index + 4] if game_index > 3 else info_partida[:game_index + 4]
-
-        scores_table = [(info_partida.index(elem),elem) for elem in info_partida]
-
-
-        return polishing_scores(scores_table)
+def scores_analysis():
+    datos=pd.read_csv(os.path.join(os.getcwd(), GAME_INFO_PATH), encoding='utf-8')
+    print(datos)
+    datos_fin=datos[datos["Nombre de evento"]=="fin"]
+    datos_fin=datos_fin.sort_values("Puntos",ascending=False)
+    print(datos_fin)
+    return datos_fin.values.tolist()
 
 
 def build(
@@ -59,7 +46,9 @@ def build(
 
     layout = [
                 [col],
-                [sg.Listbox(values=scores_print(),size=(int(X_SIZE/10),int(Y_SIZE/60)),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+                [sg.Table(values=scores_analysis(),headings=["Tiempo","Partida","Cantidad de fichas","Nombre de evento","Nick","Genero","Edad","Estado" ,"Palabra","Nivel","Puntos"],
+                 display_row_numbers=True,
+                 auto_size_columns=True)],
                 [sg.Button('Menu', key="-MENU-")]]
 
     # yapf: enable

@@ -29,8 +29,10 @@ MAX_VALUE = sys.maxsize
 #Pathings
 
 USER_JSON_PATH= f"src{os.sep}Data_files{os.sep}datos_usuarios.json"
-GAME_INFO_PATH=f"src{os.sep}Data_files{os.sep}info_partida.csv"
+GAME_INFO_PATH = f"src{os.sep}Data_files{os.sep}Datos_de_partida.csv"
+
 IMAGES_PATH = f"src{os.sep}Data_files{os.sep}Images"
+
 MENU_MUSIC_PATH = f"src{os.sep}Music_files{os.sep}Menu.mp3"
 MENU_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Menu_Button.mp3"
 HELP_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Help.mp3"

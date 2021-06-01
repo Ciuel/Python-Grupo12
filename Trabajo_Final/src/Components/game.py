@@ -29,6 +29,7 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
     lista_chequeos=[]
     hits=0
     misses=0
+    help_amount=0
     starttime = time.time()
     start_time_jugada=time.time()
     cooldown_start = MAX_VALUE
