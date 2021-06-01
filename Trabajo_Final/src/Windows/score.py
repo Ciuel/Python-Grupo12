@@ -16,6 +16,7 @@ def scores_analysis():
     datos_fin=datos[datos["Nombre de evento"]=="fin"]
     datos_fin=datos_fin.sort_values("Puntos",ascending=False)
     print(datos_fin)
+    datos_fin = datos_fin[['Nick', 'Nivel', 'Partida', 'Puntos']]
     return datos_fin.values.tolist()
 
 
@@ -46,7 +47,7 @@ def build(
 
     layout = [
                 [col],
-                [sg.Table(values=scores_analysis(),headings=["Tiempo","Partida","Cantidad de fichas","Nombre de evento","Nick","Genero","Edad","Estado" ,"Palabra","Nivel","Puntos"],
+                [sg.Table(values=scores_analysis(),headings=["Nick","Nivel","Numero de Partida","Puntos"],
                  display_row_numbers=True,
                  auto_size_columns=True)],
                 [sg.Button('Menu', key="-MENU-")]]

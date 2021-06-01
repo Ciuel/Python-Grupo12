@@ -14,21 +14,3 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado ,Pala
 1622554986,1,16,intento,3,Hombre,6,ok,Flag_of_Bangladesh .png,1,1400
 1622554988,1,16,intento,3,Hombre,6,ok,Flag_of_India .png,1,1600
 1622554988,1,16,fin,3,Hombre,6,finalizada,,1,1600
-1622557010,2,16,inicio_partida,3,Hombre,6,,,1,0
-1622557012,2,16,fin,3,Hombre,6,timeout,,1,110
-1622557132,3,16,inicio_partida,3,Hombre,6,,,1,0
-1622557134,3,16,fin,3,Hombre,6,timeout,,1,2000
-1622557173,4,16,inicio_partida,3,Hombre,6,,,1,0
-1622557175,4,16,fin,3,Hombre,6,timeout,,1,20
-1622561346,5,16,inicio_partida,3,Hombre,6,,,1,0
-1622561348,5,16,fin,3,Hombre,6,timeout,,1,0
-1622561588,6,16,inicio_partida,3,Hombre,6,,,1,0
-1622561590,6,16,fin,3,Hombre,6,timeout,,1,0
-1622561819,7,16,inicio_partida,3,Hombre,6,,,1,0
-1622561821,7,16,fin,3,Hombre,6,timeout,,1,0
-1622561834,8,16,inicio_partida,3,Hombre,6,,,1,0
-1622561836,8,16,fin,3,Hombre,6,timeout,,1,0
-1622561884,9,16,inicio_partida,3,Hombre,6,,,1,0
-1622561886,9,16,fin,3,Hombre,6,timeout,,1,0
-1622561903,10,16,inicio_partida,3,Hombre,6,,,1,0
-1622561905,10,16,fin,3,Hombre,6,timeout,,1,0
