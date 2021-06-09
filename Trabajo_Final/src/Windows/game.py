@@ -101,7 +101,7 @@ def build(nick, theme, cant_coincidences, level,type_of_token,help):
             [sg.Text("Coincidencias: 00 /",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-TOTAL HITS-"),
             sg.Text(button_amount//cant_coincidences,font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
             [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
-            [sg.Button("Comenzar",key="-START-",font=(f"{WINDOW_FONT}",WINDOW_FONT_SIZE-5)),
+            [sg.Button("Comenzar",key="-START-",font=(f"{WINDOW_FONT}",WINDOW_FONT_SIZE-5),bind_return_key=True),
             sg.Button("Volver al menu",key="-BACK MENU-",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE-5)),
             sg.Button("Ayuda",key="-HELP-",font=(f"{WINDOW_FONT}",WINDOW_FONT_SIZE-5)) if help=="yes" else sg.Text("")
             ]

@@ -24,10 +24,11 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
         if  event == sg.WIN_CLOSED:
             break
         #Volver Al Menu
-        check_menu(game_window, event, nick, user["config"]["AppColor"],vlc_dict)
+        check_menu(game_window, event, nick,user,vlc_dict,False)
 
     lista_chequeos=[]
     hits=0
+    points=0
     misses=0
     help_amount=0
     starttime = time.time()
@@ -36,6 +37,7 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
     while True:
         event, _values = game_window.read(100)
         if event == sg.WIN_CLOSED:
+            #!send_info(time.time(),game_number,"fin",user,nick,points,'abandonada') no funciona,cuandom cerras cualquier pantalla se manda la info
             break
 
         #Contador de tiempo de la partida
@@ -46,7 +48,8 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
         #start_time_jugada=play_counter(lista_chequeos, start_time_jugada, game_window)
 
         #Volver Al Menu
-        check_menu(game_window, event, nick, user["config"]["AppColor"],vlc_dict)
+        check_menu(game_window, event, nick, user, vlc_dict, True, game_number,
+                   points)
 
         #Ayuda(solo puede tocarse si no se selecciono ninguna ficha aun)
         if (lista_chequeos==[]):
@@ -58,11 +61,11 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
         if event.startswith("cell"):
             button_press(game_window, event, value_matrix, user["config"]["Type of token"])
             game_window.refresh()
-            lista_chequeos, hits, misses, element_list = check_button(
+            lista_chequeos, hits, misses, element_list,points = check_button(
                 value_matrix, user, lista_chequeos, event, game_window, hits,
-                misses, time.time(), element_list, nick,game_number)
-            win_game(game_window, hits, misses, nick, user,current_time,game_number,vlc_dict)
-        lose_game(game_window, hits, misses, nick, user, current_time,game_number,vlc_dict)
+                misses, time.time(), element_list, nick,game_number,points,vlc_dict)
+            win_game(game_window, hits, misses, nick, user,current_time,game_number,vlc_dict,points)
+        lose_game(game_window, hits, misses, nick, user, current_time,game_number,vlc_dict,points)
 
 
 def start(nick: str, vlc_dict):

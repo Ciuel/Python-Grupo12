@@ -22,7 +22,7 @@
             "Help": "yes",
             "Type of token": "Images",
             "Level": 1,
-            "AppColor": "DarkPurple7",
+            "AppColor": "DarkBlack1",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
@@ -44,6 +44,20 @@
     "7": {
         "password": "7",
         "age": "7",
+        "gender": "No binarie",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+            "AppColor": "darkblue3",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA": {
+        "password": "a",
+        "age": "1",
         "gender": "No binarie",
         "config": {
             "Coincidences": 2,

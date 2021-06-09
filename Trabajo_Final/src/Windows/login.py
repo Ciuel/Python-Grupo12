@@ -19,7 +19,7 @@ def build()->sg.Window:
          sg.InputText(key="-INPUT NICK-")],
         [sg.Text("Contraseña", size=SIZE),
          sg.InputText(key="-INPUT PASSWORD-",password_char="*")],
-        [sg.Button('Iniciar Sesion',size=(15,2), pad=(180, 10),key="-LOG IN-")],
+        [sg.Button('Iniciar Sesion',size=(15,2), pad=(180, 10),key="-LOG IN-",bind_return_key=True)],
         [sg.Text("", size=(30,1), key="-W_LOGIN TEXT-",text_color="red")],
         [sg.Text("No tiene sesion, Registrarse",size=(50, 1),enable_events=True,text_color="blue", key="-REGIS-"),
          sg.Text("Ayuda",enable_events=True,key="-HELP-",text_color="blue", justification="right")]

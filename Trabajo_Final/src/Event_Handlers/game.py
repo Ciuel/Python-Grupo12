@@ -1,16 +1,19 @@
 import os
 import json
+import datetime
 import time
 import random
 import numpy as np
 import csv
 import PySimpleGUI as sg
 from ..Components import score, menu
-from ..Constants.constants import LEVEL_DICTIONARY, USER_JSON_PATH,GAME_INFO_PATH, IMAGES_PATH, MAX_VALUE, HELP_SOUND_PATH, WIN_SOUND_PATH, LOSE_SOUND_PATH
+from ..Constants.constants import *
 #TODO Modificar donde se calculan los puntos y texto de multiplicador
 
 
-def check_config(nick):
+
+
+def check_config(nick:str)->dict:
     """Devueve los valores necesarios para el juego de la configuracion del usuario
 
     Args:
@@ -67,16 +70,17 @@ def play_counter(lista_chequeos, timestamp, game_window):
 def check_button(value_matrix: np.array, user: dict, lista_chequeos: list,
                  event: str, window: sg.Window, hits: int, misses: int,
                  timestamp: float, element_list: list, nick: str,
-                 game_number: int):
+                 game_number: int,points:int,vlc_dict:dict):
     if event not in lista_chequeos:
         lista_chequeos.append(event)
     if all(value_matrix[int(lista_chequeos[0][-2])][int(lista_chequeos[0][-1])]
            == value_matrix[int(x[-2])][int(x[-1])] for x in lista_chequeos):
         if len(lista_chequeos) == user["config"]["Coincidences"]:
+            vlc_play_sound(vlc_dict, RIGHT_SOUND_PATH)
             for eve in lista_chequeos:
                 window[eve].update(disabled=sg.BUTTON_DISABLED_MEANS_IGNORE)
             hits += 1
-            points = hits * 100 * user["config"]["Coincidences"]
+            points = points+ 100 * user["config"]["Coincidences"]
             window["-POINTS-"].update(points)
             element_list.remove(value_matrix[int(lista_chequeos[0][-2])][int(
                 lista_chequeos[0][-1])])
@@ -87,11 +91,15 @@ def check_button(value_matrix: np.array, user: dict, lista_chequeos: list,
                     lista_chequeos[0][-1])])
             lista_chequeos = []
     else:
+        vlc_play_sound(vlc_dict, WRONG_SOUND_PATH)
         time.sleep(0.5)
-        points = hits * 100 * user["config"]["Coincidences"]
+        if points>30:
+            points-=30
+        else:
+            points=0
+        window["-POINTS-"].update(points)
         for eve in lista_chequeos:
-            window[eve].update("") if user["config"][
-                "Type of token"] == "Text" else window[eve].update(
+            window[eve].update("") if user["config"]["Type of token"] == "Text" else window[eve].update(
                     image_filename="", image_size=(118, 120))
         send_info(
             timestamp, game_number, "intento", user, nick, points, "fallo",
@@ -100,7 +108,7 @@ def check_button(value_matrix: np.array, user: dict, lista_chequeos: list,
         lista_chequeos = []
         misses += 1
 
-    return lista_chequeos, hits, misses, element_list
+    return lista_chequeos, hits, misses, element_list,points
 
 
 def button_press(window, event, value_matrix, type_of_token):
@@ -124,11 +132,11 @@ def button_amount(user_config: dict) -> int:
 
 
 def win_game(window, hits, misses, nick, user, tiempo_total, game_number,
-             vlc_dict):
+             vlc_dict,points):
+    tiempo_dado=30 * user["config"]["Coincidences"] * user["config"]["Level"]
     if hits >= button_amount(user["config"]) // user["config"]["Coincidences"]:
         vlc_play_sound(vlc_dict, WIN_SOUND_PATH)
-        points = hits * 100 * user["config"]["Coincidences"] * user["config"][
-            "Level"]
+        points += 30*(tiempo_dado-tiempo_total)
         window.close()
         send_info(time.time(), game_number, "fin", user, nick, points,
                   "finalizada")
@@ -138,11 +146,10 @@ def win_game(window, hits, misses, nick, user, tiempo_total, game_number,
 
 
 def lose_game(window, hits, misses, nick, user, tiempo_total, game_number,
-              vlc_dict):
-    if tiempo_total == 1 * user["config"]["Coincidences"] * user[
-            "config"]["Level"]:
+              vlc_dict,points):
+    tiempo_dado=30 * user["config"]["Coincidences"] * user["config"]["Level"]
+    if tiempo_total == tiempo_dado:
         vlc_play_sound(vlc_dict, LOSE_SOUND_PATH)
-        points = hits * 100 * user["config"]["Coincidences"]
         send_info(time.time(), game_number, "fin", user, nick, points,
                   "timeout")
         window.close()
@@ -151,12 +158,14 @@ def lose_game(window, hits, misses, nick, user, tiempo_total, game_number,
                     points, vlc_dict)
 
 
-def check_menu(window, event, nick, theme, vlc_dict):
+def check_menu(window, event, nick, user, vlc_dict,inicio,game_number="",points=""):
     if event == "-BACK MENU-":
         if sg.popup_yes_no("Realmente quiere volver al menu",
                            no_titlebar=True) == "Yes":
+            if inicio:
+                send_info(time.time(),game_number,"fin",user,nick,points,'abandonada')
             window.close()
-            menu.start(nick, theme, vlc_dict)
+            menu.start(nick, user["config"]["AppColor"], vlc_dict)
 
 
 def help_cooldown(window, current_time, cooldown_start, offset):
@@ -226,6 +235,7 @@ def send_info(timestamp: float,
             "Nick": nick,
             "Genero": user["gender"],
             "Edad": user["age"],
+            "Dia":datetime.datetime.today().weekday(),
             "Estado": state,
             "Palabra": token,
             "Nivel": user["config"]["Level"],
@@ -233,5 +243,3 @@ def send_info(timestamp: float,
         }
         writer = csv.DictWriter(info, datos.keys())
         writer.writerow(datos)
-
-

@@ -12,6 +12,7 @@ LEVEL_DICTIONARY = {
 }
 
 
+
 DEFAULT_CONFIG = {
     "Coincidences": 2,
     "Help": "yes",
@@ -38,3 +39,5 @@ MENU_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Menu_Button.mp3"
 HELP_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Help.mp3"
 WIN_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Win.mp3"
 LOSE_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Lose.mp3"
+RIGHT_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Right.mp3"
+WRONG_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Wrong.mp3"
