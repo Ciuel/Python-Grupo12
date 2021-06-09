@@ -1,12 +1,12 @@
 #Programa ejecutable
 from src.Components import login
-from distutils.spawn import find_executable
+
 
 def main():
     """Ejecuta la aplicacion"""
-
-    print( find_executable("vlc.exe") is not None)
-    login.start()
-
+    try:
+        login.start()
+    except: FileNotFoundError #libvlc.dll
+        print("libvlc.dll")
 if __name__ == "__main__":
     main()
