@@ -1,7 +1,10 @@
 import PySimpleGUI as sg
 from ..Components import config,game
 import os
-import vlc
+try:
+    import vlc
+except:
+    pass
 from ..Constants import constants
 
 

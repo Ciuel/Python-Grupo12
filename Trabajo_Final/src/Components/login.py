@@ -1,6 +1,7 @@
 import PySimpleGUI as sg
 from ..Event_Handlers.login import *
 from ..Windows.login import build
+import sys
 
 
 def loop(login_window:sg.Window):
@@ -12,7 +13,7 @@ def loop(login_window:sg.Window):
     while True:
         event, values = login_window.read()
         if event == sg.WIN_CLOSED:
-            break
+            sys.exit()
         login_action(login_window, event, values)
         check_layout(login_window, event)
         #Ventana de registro

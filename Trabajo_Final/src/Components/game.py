@@ -3,8 +3,10 @@ from ..Windows.game import build
 from ..Event_Handlers.game import *
 from ..Constants.constants import MAX_VALUE
 import time
+import sys
 
 HELP_COOLDOWN_TIME=10
+
 
 
 def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, element_list:list,vlc_dict):
@@ -15,6 +17,7 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
         value_matrix (numpy.array): La matriz de los valores a mostrar para el tablero generado
         type_of_token (str): Si es texto o imagenes
     """
+    close=True
     while True:
         event, _values = game_window.read()
         if event== "-START-":
@@ -22,7 +25,7 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
             game_window["-START-"].update(disabled=True)
             break
         if  event == sg.WIN_CLOSED:
-            break
+            sys.exit()
         #Volver Al Menu
         check_menu(game_window, event, nick,user,vlc_dict,False)
 
@@ -37,8 +40,8 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, ele
     while True:
         event, _values = game_window.read(100)
         if event == sg.WIN_CLOSED:
-            #!send_info(time.time(),game_number,"fin",user,nick,points,'abandonada') no funciona,cuandom cerras cualquier pantalla se manda la info
-            break
+            send_info(time.time(),game_number,"fin",user,nick,points,'abandonada')
+            sys.exit()
 
         #Contador de tiempo de la partida
         current_time = int(time.time() - starttime)

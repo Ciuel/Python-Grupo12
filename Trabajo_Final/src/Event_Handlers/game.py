@@ -93,10 +93,7 @@ def check_button(value_matrix: np.array, user: dict, lista_chequeos: list,
     else:
         vlc_play_sound(vlc_dict, WRONG_SOUND_PATH)
         time.sleep(0.5)
-        if points>30:
-            points-=30
-        else:
-            points=0
+        points= points - 30 if points>30  else 0
         window["-POINTS-"].update(points)
         for eve in lista_chequeos:
             window[eve].update("") if user["config"]["Type of token"] == "Text" else window[eve].update(
@@ -147,7 +144,7 @@ def win_game(window, hits, misses, nick, user, tiempo_total, game_number,
 
 def lose_game(window, hits, misses, nick, user, tiempo_total, game_number,
               vlc_dict,points):
-    tiempo_dado=30 * user["config"]["Coincidences"] * user["config"]["Level"]
+    tiempo_dado= 30 * user["config"]["Coincidences"] * user["config"]["Level"]
     if tiempo_total == tiempo_dado:
         vlc_play_sound(vlc_dict, LOSE_SOUND_PATH)
         send_info(time.time(), game_number, "fin", user, nick, points,
@@ -177,24 +174,22 @@ def help_cooldown(window, current_time, cooldown_start, offset):
 
 
 def vlc_play_sound(vlc_dict, media):
-    media_sound = os.path.join(os.getcwd(), media)
-    button_press = vlc_dict["player_sounds"].get_instance().media_new(
-        media_sound)
-    vlc_dict["player_sounds"].set_media(button_press)
-    vlc_dict["player_sounds"].play()
+    if vlc_dict["vlc"]:
+        media_sound = os.path.join(os.getcwd(), media)
+        button_press = vlc_dict["player_sounds"].get_instance().media_new(media_sound)
+        vlc_dict["player_sounds"].set_media(button_press)
+        vlc_dict["player_sounds"].play()
 
 
 def help_action(window, value_matrix, type_of_token, element_list):
     window["-HELP-"].update(disabled=True)
     window.refresh()
-    #value_matrix = value_matrix.tolist()
     obj = random.choice(element_list)
     help_list = []
     for x in range(len(value_matrix)):
         for y in range(len(value_matrix[x])):
             if value_matrix[x][y] == obj:
-                update_button(window, f"cell{x}{y}", value_matrix,
-                              type_of_token)
+                update_button(window, f"cell{x}{y}", value_matrix,type_of_token)
                 help_list += [f"cell{x}{y}"]
     window.refresh()
     time.sleep(1)

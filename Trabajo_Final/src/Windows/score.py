@@ -14,10 +14,15 @@ def scores_analysis():
     datos=pd.read_csv(os.path.join(os.getcwd(), GAME_INFO_PATH), encoding='utf-8')
     datos_fin = datos[datos["Nombre de evento"] == "fin"]
     datos_fin = datos_fin[datos_fin["Estado"] != "abandonada"]
+
     datos_fin = datos_fin[datos_fin["Nivel"] == int(datos_fin.tail(1)["Nivel"])]
+
     numero_partida = int(datos_fin.tail(1)["Partida"])
-    datos_fin=datos_fin.sort_values("Puntos",ascending=False)
+
+    datos_fin.sort_values("Puntos",ascending=False,inplace=True)
+
     datos_fin.reset_index(inplace=True,drop=True)
+    
     player_row_number=datos_fin.index[datos_fin["Partida"] == numero_partida][0]
     datos_fin = datos_fin[['Nick', 'Nivel', 'Partida', 'Puntos']]
     return datos_fin.values.tolist(), player_row_number
@@ -50,7 +55,7 @@ def build(
 
     layout = [
                 [col],
-                [sg.Table(values_a,row_colors=[(row_number,"red" if theme=="Dark" else "yellow")],headings=["Nick","Nivel","Numero de Partida","Puntos"],display_row_numbers=True,size=(X_SIZE,Y_SIZE//70),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),max_col_width=10)],
+                [sg.Table(values_a,row_colors=[(row_number,"yellow" if theme=="Dark" else "red")],headings=["Nick","Nivel","Numero de Partida","Puntos"],display_row_numbers=True,size=(X_SIZE,Y_SIZE//70),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),max_col_width=10)],
                 [sg.Button('Menu', key="-MENU-",bind_return_key=True)]
              ]
 
