@@ -55,7 +55,7 @@ def build(
 
     layout = [
                 [col],
-                [sg.Table(values_a,row_colors=[(row_number,"yellow" if theme.startswith("Dark") else "red")],headings=["Nick","Nivel","Numero de Partida","Puntos"],display_row_numbers=True,size=(X_SIZE,Y_SIZE//70),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),max_col_width=10)],
+                [sg.Table(values_a,row_colors=[(row_number,"purple" if theme.startswith("Dark") else "red")],headings=["Nick","Nivel","Numero de Partida","Puntos"],display_row_numbers=True,size=(X_SIZE,Y_SIZE//70),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),max_col_width=10)],
                 [sg.Button('Menu', key="-MENU-",bind_return_key=True)]
              ]
 

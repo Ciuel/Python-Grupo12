@@ -22,7 +22,7 @@
             "Help": "yes",
             "Type of token": "Images",
             "Level": 1,
-            "AppColor": "DarkBlack1",
+            "AppColor": "Black",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }

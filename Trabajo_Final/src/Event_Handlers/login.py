@@ -1,12 +1,12 @@
 import json
 import os
 import PySimpleGUI as sg
+from ..Components import menu
+from ..Constants.constants import USER_JSON_PATH,DEFAULT_CONFIG
 try:
     import vlc
 except:
     pass
-from ..Components import menu
-from ..Constants.constants import USER_JSON_PATH,DEFAULT_CONFIG
 
 
 
@@ -162,7 +162,10 @@ def check_login(values:dict)->bool:
 
 def vlc_init ():
     try:
-        return {"vlc":True,"player_music":vlc.Instance().media_player_new(),"player_sounds":vlc.Instance().media_player_new()}
+        vlc_dict={"vlc":True,"player_music":vlc.Instance().media_player_new(),"player_sounds":vlc.Instance().media_player_new()}
+        vlc_dict["player_music"].audio_set_volume(30)
+        vlc_dict["player_sounds"].audio_set_volume(60)
+        return vlc_dict
     except NameError:
         return {"vlc":False}
 

@@ -1,472 +1,670 @@
-Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Dia,Estado,Palabra,Nivel,Puntos
-1623270861,1,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623270863,1,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,200
-1623270864,1,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,170
-1623270865,1,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,140
-1623270867,1,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,110
-1623270869,1,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,80
-1623270870,1,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,280
-1623270873,1,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,250
-1623270874,1,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,220
-1623270876,1,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,420
-1623270878,1,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,390
-1623270880,1,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,360
-1623270882,1,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,330
-1623270884,1,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,300
-1623270886,1,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,270
-1623270888,1,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,240
-1623270891,1,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,210
-1623270893,1,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,410
-1623270895,1,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,380
-1623270897,1,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,350
-1623270898,1,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,550
-1623270900,1,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,520
-1623270902,1,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,490
-1623270903,1,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,690
-1623270905,1,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,890
-1623270906,1,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,1090
-1623270906,1,16,fin,3,Hombre,6,2,finalizada,,1,1540
-1623270915,2,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623270918,2,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,200
-1623270919,2,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,170
-1623270921,2,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,140
-1623270923,2,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,110
-1623270925,2,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,80
-1623270926,2,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,280
-1623270928,2,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,250
-1623270931,2,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,450
-1623270933,2,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,420
-1623270936,2,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,390
-1623270938,2,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,590
-1623270938,2,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,790
-1623270940,2,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,760
-1623270942,2,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,960
-1623270945,2,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,1160
-1623270946,2,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,1360
-1623270946,2,16,fin,3,Hombre,6,2,finalizada,,1,2260
-1623270965,3,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623270966,3,16,fin,3,Hombre,6,2,abandonada,,1,0
-1623271006,4,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623271010,4,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,200
-1623271011,4,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,170
-1623271012,4,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,140
-1623271015,4,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,340
-1623271017,4,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,310
-1623271018,4,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,510
-1623271019,4,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,710
-1623271021,4,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,680
-1623271023,4,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,880
-1623271025,4,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,1080
-1623271026,4,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,1280
-1623271027,4,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,1480
-1623271027,4,16,fin,3,Hombre,6,2,finalizada,,1,2650
-1623271066,5,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623271069,5,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,200
-1623271070,5,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,170
-1623271071,5,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,140
-1623271072,5,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,340
-1623271074,5,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,310
-1623271075,5,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,510
-1623271076,5,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,710
-1623271078,5,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,680
-1623271079,5,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,880
-1623271081,5,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,1080
-1623271083,5,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,1280
-1623271084,5,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,1480
-1623271084,5,16,fin,3,Hombre,6,2,finalizada,,1,2770
-1623271137,6,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623271141,6,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,200
-1623271142,6,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,170
-1623271143,6,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,140
-1623271144,6,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,110
-1623271146,6,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,80
-1623271148,6,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,50
-1623271150,6,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,20
-1623271151,6,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,220
-1623271153,6,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,420
-1623271154,6,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,390
-1623271156,6,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,360
-1623271158,6,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,560
-1623271159,6,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,760
-1623271161,6,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,730
-1623271163,6,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,930
-1623271164,6,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,900
-1623271166,6,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,1100
-1623271168,6,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,1300
-1623271168,6,16,fin,3,Hombre,6,2,finalizada,,1,2200
-1623271194,7,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623271196,7,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,200
-1623271198,7,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,170
-1623271199,7,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,140
-1623271200,7,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,110
-1623271202,7,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,80
-1623271205,7,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,50
-1623271206,7,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,20
-1623271208,7,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,220
-1623271210,7,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,420
-1623271211,7,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,390
-1623271213,7,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,360
-1623271215,7,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,330
-1623271216,7,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,530
-1623271218,7,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,500
-1623271220,7,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,470
-1623271221,7,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,440
-1623271222,7,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,640
-1623271223,7,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,840
-1623271224,7,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,810
-1623271225,7,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,1010
-1623271226,7,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,1210
-1623271226,7,16,fin,3,Hombre,6,2,finalizada,,1,2050
-1623271243,8,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623271247,8,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,200
-1623271248,8,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,170
-1623271249,8,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,140
-1623271251,8,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,340
-1623271251,8,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,310
-1623271253,8,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,280
-1623271256,8,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,250
-1623271257,8,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,450
-1623271259,8,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,420
-1623271260,8,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,390
-1623271262,8,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,590
-1623271263,8,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,790
-1623271264,8,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,990
-1623271266,8,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,960
-1623271267,8,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,930
-1623271269,8,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,1130
-1623271269,8,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,1330
-1623271269,8,16,fin,3,Hombre,6,2,finalizada,,1,2350
-1623271776,9,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623271779,9,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,200
-1623271780,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,170
-1623271781,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,140
-1623271783,9,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,110
-1623271784,9,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,310
-1623271786,9,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,280
-1623271787,9,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,480
-1623271789,9,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,450
-1623271790,9,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,650
-1623271790,9,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,620
-1623271791,9,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,590
-1623271792,9,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,560
-1623271793,9,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,530
-1623271794,9,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,500
-1623271795,9,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,700
-1623271802,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,670
-1623271802,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,640
-1623271803,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,610
-1623271805,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,580
-1623271806,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,550
-1623271807,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,520
-1623271808,9,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,490
-1623271809,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,460
-1623271809,9,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,430
-1623271810,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,400
-1623271810,9,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,370
-1623271811,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,340
-1623271812,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,310
-1623271813,9,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,280
-1623271814,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,250
-1623271815,9,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,220
-1623271816,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,190
-1623271817,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,160
-1623271818,9,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,130
-1623271818,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,100
-1623271819,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,70
-1623271820,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,40
-1623271821,9,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,10
-1623271821,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,10
-1623271823,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,10
-1623271824,9,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,10
-1623271825,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,10
-1623271826,9,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,10
-1623271827,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,10
-1623271828,9,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,10
-1623271829,9,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,10
-1623271830,9,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,10
-1623271832,9,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,210
-1623271834,9,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,410
-1623271835,9,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,610
-1623271835,9,16,fin,3,Hombre,6,2,finalizada,,1,640
-1623271894,10,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623271896,10,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,200
-1623271897,10,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,170
-1623271898,10,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,140
-1623271900,10,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,340
-1623271901,10,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,310
-1623271904,10,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,280
-1623271905,10,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,250
-1623271907,10,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,450
-1623271908,10,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,420
-1623271909,10,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,390
-1623271912,10,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,360
-1623271913,10,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,560
-1623271914,10,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,530
-1623271916,10,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,500
-1623271918,10,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,470
-1623271920,10,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,440
-1623271921,10,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,640
-1623271922,10,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,840
-1623271923,10,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,810
-1623271925,10,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,1010
-1623271926,10,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,1210
-1623271926,10,16,fin,3,Hombre,6,2,finalizada,,1,2050
-1623272092,11,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623272094,11,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,200
-1623272095,11,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,170
-1623272096,11,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,140
-1623272098,11,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,340
-1623272099,11,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,310
-1623272101,11,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,280
-1623272103,11,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,250
-1623272103,11,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,220
-1623272104,11,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,190
-1623272105,11,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,160
-1623272106,11,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,130
-1623272106,11,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,100
-1623272107,11,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,70
-1623272108,11,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,40
-1623272109,11,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,10
-1623272109,11,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,0
-1623272110,11,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,0
-1623272111,11,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,0
-1623272111,11,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,0
-1623272112,11,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,0
-1623272115,11,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,200
-1623272116,11,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,170
-1623272118,11,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,370
-1623272119,11,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,340
-1623272120,11,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,310
-1623272121,11,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,510
-1623272122,11,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,480
-1623272124,11,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,680
-1623272125,11,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,880
-1623272126,11,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,1080
-1623272126,11,16,fin,3,Hombre,6,2,finalizada,,1,1890
-1623272181,12,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623272186,12,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,200
-1623272187,12,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,170
-1623272188,12,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,140
-1623272190,12,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,110
-1623272192,12,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,80
-1623272193,12,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,280
-1623272194,12,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,480
-1623272195,12,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,450
-1623272197,12,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,420
-1623272198,12,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,620
-1623272200,12,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,820
-1623272201,12,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,790
-1623272202,12,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,760
-1623272204,12,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,960
-1623272205,12,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,1160
-1623272206,12,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,1360
-1623272206,12,16,fin,3,Hombre,6,2,finalizada,,1,2440
-1623272665,13,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623272667,13,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,200
-1623272667,13,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,170
-1623272669,13,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,140
-1623272670,13,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,110
-1623272672,13,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,310
-1623272673,13,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,280
-1623272675,13,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,250
-1623272677,13,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,450
-1623272678,13,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,650
-1623272679,13,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,620
-1623272681,13,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,590
-1623272683,13,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,560
-1623272685,13,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,530
-1623272686,13,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,730
-1623272687,13,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,700
-1623272689,13,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,670
-1623272690,13,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,640
-1623272693,13,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,840
-1623272694,13,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,1040
-1623272696,13,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,1240
-1623272696,13,16,fin,3,Hombre,6,2,finalizada,,1,2140
-1623272856,14,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623272858,14,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,200
-1623272859,14,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,170
-1623272860,14,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,140
-1623272862,14,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,110
-1623272863,14,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,80
-1623272865,14,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,50
-1623272866,14,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,20
-1623272867,14,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,220
-1623272869,14,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,190
-1623272870,14,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,390
-1623272871,14,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,360
-1623272872,14,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,560
-1623272873,14,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,760
-1623272874,14,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,730
-1623272876,14,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,700
-1623272878,14,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,900
-1623272880,14,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,870
-1623272882,14,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,1070
-1623272883,14,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,1270
-1623272883,14,16,fin,3,Hombre,6,2,finalizada,,1,2290
-1623273229,15,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623273232,15,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,200
-1623273232,15,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,170
-1623273234,15,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,140
-1623273235,15,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,110
-1623273237,15,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,80
-1623273239,15,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,280
-1623273241,15,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,250
-1623273243,15,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,220
-1623273246,15,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,420
-1623273247,15,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,390
-1623273248,15,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,360
-1623273250,15,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,330
-1623273252,15,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,300
-1623273253,15,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,270
-1623273255,15,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,240
-1623273257,15,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,210
-1623273259,15,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,410
-1623273261,15,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,380
-1623273264,15,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,350
-1623273266,15,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,550
-1623273269,15,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,750
-1623273271,15,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,720
-1623273274,15,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,920
-1623273275,15,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,1120
-1623273275,15,16,fin,3,Hombre,6,2,finalizada,,1,1570
-1623273472,16,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623273474,16,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,200
-1623273475,16,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,170
-1623273476,16,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,140
-1623273477,16,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,340
-1623273478,16,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,540
-1623273479,16,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,740
-1623273480,16,16,intento,3,Hombre,6,2,fallo,Obra_Jackson Pollock.png,1,710
-1623273482,16,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,680
-1623273483,16,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,880
-1623273484,16,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,1080
-1623273486,16,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,1280
-1623273487,16,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,1480
-1623273487,16,16,fin,3,Hombre,6,2,finalizada,,1,2860
-1623273890,17,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623273892,17,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,200
-1623273893,17,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,170
-1623273894,17,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,140
-1623273896,17,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,340
-1623273897,17,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,310
-1623273899,17,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,280
-1623273900,17,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,480
-1623273901,17,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,680
-1623273903,17,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,650
-1623273904,17,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,850
-1623273906,17,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,1050
-1623273908,17,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,1020
-1623273909,17,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,1220
-1623273910,17,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,1420
-1623273910,17,16,fin,3,Hombre,6,2,finalizada,,1,2650
-1623273937,18,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623273939,18,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,200
-1623273940,18,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,170
-1623273941,18,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,140
-1623273943,18,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,110
-1623273944,18,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,310
-1623273948,18,16,intento,3,Hombre,6,2,fallo,Obra_Rembrandt.png,1,280
-1623273950,18,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,250
-1623273952,18,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,220
-1623273955,18,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,190
-1623273957,18,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,390
-1623273959,18,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,590
-1623273960,18,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,560
-1623273962,18,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,760
-1623273963,18,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,730
-1623273965,18,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,930
-1623273966,18,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,900
-1623273967,18,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,1100
-1623273970,18,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,1300
-1623273970,18,16,fin,3,Hombre,6,2,finalizada,,1,2140
-1623274970,19,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623275001,20,16,inicio_partida,3,Hombre,6,2,,,1,0
-1623275003,20,16,intento,3,Hombre,6,2,ok,Obra_Rembrandt.png,1,200
-1623275013,20,16,intento,3,Hombre,6,2,fallo,Obra_Caravaggio.png,1,170
-1623275016,20,16,intento,3,Hombre,6,2,ok,Obra_Jackson Pollock.png,1,370
-1623275018,20,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,340
-1623275020,20,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,310
-1623275021,20,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,280
-1623275023,20,16,intento,3,Hombre,6,2,fallo,Obra_Sandro Botticelli.png,1,250
-1623275025,20,16,intento,3,Hombre,6,2,fallo,Obra_Peter Paul Rubens.png,1,220
-1623275026,20,16,intento,3,Hombre,6,2,ok,Obra_Sandro Botticelli.png,1,420
-1623275027,20,16,intento,3,Hombre,6,2,fallo,Obra_Pablo Picasso.png,1,390
-1623275030,20,16,intento,3,Hombre,6,2,fallo,Obra_Andrei Rublev.png,1,360
-1623275032,20,16,intento,3,Hombre,6,2,ok,Obra_Caravaggio.png,1,560
-1623275034,20,16,intento,3,Hombre,6,2,ok,Obra_Andrei Rublev.png,1,760
-1623275036,20,16,intento,3,Hombre,6,2,ok,Obra_Pablo Picasso.png,1,960
-1623275037,20,16,intento,3,Hombre,6,2,fallo,Obra_Diego Velazquez.png,1,930
-1623275040,20,16,intento,3,Hombre,6,2,ok,Obra_Diego Velazquez.png,1,1130
-1623275041,20,16,intento,3,Hombre,6,2,ok,Obra_Peter Paul Rubens.png,1,1330
-1623275041,20,16,fin,3,Hombre,6,2,finalizada,,1,1960
-1623328224,21,16,inicio_partida,3,Hombre,6,3,,,1,0
-1623328229,21,16,intento,3,Hombre,6,3,ok,Flag_of_Malta .png,1,200
-1623328746,22,16,inicio_partida,3,Hombre,6,3,,,1,0
-1623328749,22,16,intento,3,Hombre,6,3,ok,Flag_of_Barbados .png,1,200
-1623328750,22,16,intento,3,Hombre,6,3,ok,Flag_of_Nauru .png,1,400
-1623328752,22,16,intento,3,Hombre,6,3,fallo,Flag_of_Maldives .png,1,370
-1623328753,22,16,intento,3,Hombre,6,3,ok,Flag_of_Bahrain .png,1,570
-1623328755,22,16,intento,3,Hombre,6,3,ok,Flag_of_Maldives .png,1,770
-1623328756,22,16,intento,3,Hombre,6,3,ok,Flag_of_Bangladesh .png,1,970
-1623328758,22,16,intento,3,Hombre,6,3,fallo,Flag_of_Monaco .png,1,940
-1623328760,22,16,intento,3,Hombre,6,3,fallo,Flag_of_Malta .png,1,910
-1623328761,22,16,intento,3,Hombre,6,3,ok,Flag_of_Singapore .png,1,1110
-1623328762,22,16,intento,3,Hombre,6,3,fallo,Flag_of_Malta .png,1,1080
-1623328764,22,16,intento,3,Hombre,6,3,ok,Flag_of_Malta .png,1,1280
-1623328768,22,16,fin,3,Hombre,6,3,abandonada,,1,1280
-1623328786,23,16,inicio_partida,3,Hombre,6,3,,,1,0
-1623328788,23,16,intento,3,Hombre,6,3,ok,Flag_of_Bahrain .png,1,200
-1623328790,23,16,intento,3,Hombre,6,3,fallo,Flag_of_Barbados .png,1,170
-1623328791,23,16,intento,3,Hombre,6,3,ok,Flag_of_Barbados .png,1,370
-1623328793,23,16,intento,3,Hombre,6,3,fallo,Flag_of_Malta .png,1,340
-1623328795,23,16,intento,3,Hombre,6,3,fallo,Flag_of_Monaco .png,1,310
-1623328798,23,16,intento,3,Hombre,6,3,fallo,Flag_of_Nauru .png,1,280
-1623328799,23,16,intento,3,Hombre,6,3,ok,Flag_of_Bangladesh .png,1,480
-1623328802,23,16,intento,3,Hombre,6,3,ok,Flag_of_Maldives .png,1,680
-1623328803,23,16,intento,3,Hombre,6,3,fallo,Flag_of_Singapore .png,1,650
-1623328805,23,16,intento,3,Hombre,6,3,fallo,Flag_of_Malta .png,1,620
-1623328807,23,16,intento,3,Hombre,6,3,ok,Flag_of_Malta .png,1,820
-1623328808,23,16,intento,3,Hombre,6,3,ok,Flag_of_Monaco .png,1,1020
-1623328809,23,16,intento,3,Hombre,6,3,ok,Flag_of_Singapore .png,1,1220
-1623328819,23,16,intento,3,Hombre,6,3,ok,Flag_of_Nauru .png,1,1420
-1623328821,23,16,fin,3,Hombre,6,3,finalizada,,1,2230
-1623329312,24,16,inicio_partida,3,Hombre,6,3,,,1,0
-1623329314,24,16,intento,3,Hombre,6,3,ok,Flag_of_Singapore .png,1,200
-1623329315,24,16,intento,3,Hombre,6,3,fallo,Flag_of_Nauru .png,1,170
-1623329317,24,16,intento,3,Hombre,6,3,fallo,Flag_of_Monaco .png,1,140
-1623329318,24,16,intento,3,Hombre,6,3,fallo,Flag_of_Barbados .png,1,110
-1623329320,24,16,intento,3,Hombre,6,3,fallo,Flag_of_Nauru .png,1,80
-1623329322,24,16,intento,3,Hombre,6,3,fallo,Flag_of_Maldives .png,1,50
-1623329323,24,16,intento,3,Hombre,6,3,fallo,Flag_of_Barbados .png,1,20
-1623329325,24,16,intento,3,Hombre,6,3,ok,Flag_of_Monaco .png,1,220
-1623329326,24,16,intento,3,Hombre,6,3,ok,Flag_of_Bahrain .png,1,420
-1623329329,24,16,intento,3,Hombre,6,3,ok,Flag_of_Barbados .png,1,620
-1623329331,24,16,intento,3,Hombre,6,3,ok,Flag_of_Malta .png,1,820
-1623329332,24,16,intento,3,Hombre,6,3,fallo,Flag_of_Maldives .png,1,790
-1623329334,24,16,intento,3,Hombre,6,3,fallo,Flag_of_Bangladesh .png,1,760
-1623329336,24,16,intento,3,Hombre,6,3,ok,Flag_of_Bangladesh .png,1,960
-1623329337,24,16,intento,3,Hombre,6,3,ok,Flag_of_Nauru .png,1,1160
-1623329342,24,16,intento,3,Hombre,6,3,ok,Flag_of_Maldives .png,1,1360
-1623329342,24,16,fin,3,Hombre,6,3,finalizada,,1,2260
-1623329585,25,16,inicio_partida,3,Hombre,6,3,,,1,0
-1623329587,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Bahrain .png,1,0
-1623329594,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Bahrain .png,1,0
-1623329603,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Nauru .png,1,0
-1623329606,25,16,intento,3,Hombre,6,3,ok,Flag_of_Bahrain .png,1,200
-1623329612,25,16,intento,3,Hombre,6,3,ok,Flag_of_Maldives .png,1,400
-1623329615,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Singapore .png,1,370
-1623329617,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Barbados .png,1,340
-1623329618,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Bangladesh .png,1,310
-1623329619,25,16,intento,3,Hombre,6,3,ok,Flag_of_Bangladesh .png,1,510
-1623329621,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Monaco .png,1,480
-1623329623,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Malta .png,1,450
-1623329624,25,16,intento,3,Hombre,6,3,ok,Flag_of_Singapore .png,1,650
-1623329625,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Barbados .png,1,620
-1623329627,25,16,intento,3,Hombre,6,3,ok,Flag_of_Barbados .png,1,820
-1623329628,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Nauru .png,1,790
-1623329630,25,16,intento,3,Hombre,6,3,ok,Flag_of_Monaco .png,1,990
-1623329632,25,16,intento,3,Hombre,6,3,fallo,Flag_of_Malta .png,1,960
-1623329634,25,16,intento,3,Hombre,6,3,ok,Flag_of_Nauru .png,1,1160
-1623329635,25,16,intento,3,Hombre,6,3,ok,Flag_of_Malta .png,1,1360
-1623329636,25,16,fin,3,Hombre,6,3,finalizada,,1,1690
+Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palabra,Nivel,Puntos
+1623270861,1,16,inicio_partida,3,Hombre,6,,,1,0
+1623270863,1,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,200
+1623270864,1,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,170
+1623270865,1,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,140
+1623270867,1,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,110
+1623270869,1,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,80
+1623270870,1,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,280
+1623270873,1,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,250
+1623270874,1,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,220
+1623270876,1,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,420
+1623270878,1,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,390
+1623270880,1,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,360
+1623270882,1,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,330
+1623270884,1,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,300
+1623270886,1,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,270
+1623270888,1,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,240
+1623270891,1,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,210
+1623270893,1,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,410
+1623270895,1,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,380
+1623270897,1,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,350
+1623270898,1,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,550
+1623270900,1,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,520
+1623270902,1,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,490
+1623270903,1,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,690
+1623270905,1,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,890
+1623270906,1,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,1090
+1623270906,1,16,fin,3,Hombre,6,finalizada,,1,1540
+1623270915,2,6,inicio_partida,3,Hombre,6,,,1,0
+1623270918,2,6,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,200
+1623270919,2,6,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,170
+1623270921,2,6,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,140
+1623270923,2,6,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,110
+1623270925,2,6,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,80
+1623270926,2,6,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,280
+1623270928,2,6,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,250
+1623270931,2,6,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,450
+1623270933,2,6,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,420
+1623270936,2,6,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,390
+1623270938,2,6,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,590
+1623270938,2,6,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,790
+1623270940,2,6,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,760
+1623270942,2,6,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,960
+1623270945,2,6,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,1160
+1623270946,2,6,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,1360
+1623270946,2,6,fin,3,Hombre,6,finalizada,,1,2260
+1623270965,3,16,inicio_partida,3,Hombre,6,,,1,0
+1623270966,3,16,fin,3,Hombre,6,abandonada,,1,0
+1623271006,4,16,inicio_partida,3,Hombre,6,,,1,0
+1623271010,4,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,200
+1623271011,4,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,170
+1623271012,4,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,140
+1623271015,4,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,340
+1623271017,4,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,310
+1623271018,4,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,510
+1623271019,4,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,710
+1623271021,4,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,680
+1623271023,4,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,880
+1623271025,4,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,1080
+1623271026,4,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,1280
+1623271027,4,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,1480
+1623271027,4,16,fin,3,Hombre,6,finalizada,,1,2650
+1623271066,5,16,inicio_partida,3,Hombre,6,,,1,0
+1623271069,5,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,200
+1623271070,5,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,170
+1623271071,5,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,140
+1623271072,5,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,340
+1623271074,5,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,310
+1623271075,5,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,510
+1623271076,5,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,710
+1623271078,5,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,680
+1623271079,5,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,880
+1623271081,5,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,1080
+1623271083,5,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,1280
+1623271084,5,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,1480
+1623271084,5,16,fin,3,Hombre,6,finalizada,,1,2770
+1623271137,6,16,inicio_partida,3,Hombre,6,,,1,0
+1623271141,6,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,200
+1623271142,6,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,170
+1623271143,6,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,140
+1623271144,6,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,110
+1623271146,6,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,80
+1623271148,6,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,50
+1623271150,6,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,20
+1623271151,6,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,220
+1623271153,6,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,420
+1623271154,6,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,390
+1623271156,6,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,360
+1623271158,6,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,560
+1623271159,6,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,760
+1623271161,6,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,730
+1623271163,6,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,930
+1623271164,6,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,900
+1623271166,6,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,1100
+1623271168,6,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,1300
+1623271168,6,16,fin,3,Hombre,6,finalizada,,1,2200
+1623271194,7,16,inicio_partida,3,Hombre,6,,,1,0
+1623271196,7,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,200
+1623271198,7,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,170
+1623271199,7,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,140
+1623271200,7,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,110
+1623271202,7,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,80
+1623271205,7,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,50
+1623271206,7,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,20
+1623271208,7,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,220
+1623271210,7,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,420
+1623271211,7,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,390
+1623271213,7,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,360
+1623271215,7,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,330
+1623271216,7,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,530
+1623271218,7,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,500
+1623271220,7,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,470
+1623271221,7,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,440
+1623271222,7,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,640
+1623271223,7,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,840
+1623271224,7,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,810
+1623271225,7,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,1010
+1623271226,7,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,1210
+1623271226,7,16,fin,3,Hombre,6,finalizada,,1,2050
+1623271243,8,16,inicio_partida,3,Hombre,6,,,1,0
+1623271247,8,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,200
+1623271248,8,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,170
+1623271249,8,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,140
+1623271251,8,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,340
+1623271251,8,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,310
+1623271253,8,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,280
+1623271256,8,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,250
+1623271257,8,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,450
+1623271259,8,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,420
+1623271260,8,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,390
+1623271262,8,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,590
+1623271263,8,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,790
+1623271264,8,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,990
+1623271266,8,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,960
+1623271267,8,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,930
+1623271269,8,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,1130
+1623271269,8,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,1330
+1623271269,8,16,fin,3,Hombre,6,finalizada,,1,2350
+1623271776,9,16,inicio_partida,3,Hombre,6,,,1,0
+1623271779,9,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,200
+1623271780,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,170
+1623271781,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,140
+1623271783,9,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,110
+1623271784,9,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,310
+1623271786,9,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,280
+1623271787,9,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,480
+1623271789,9,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,450
+1623271790,9,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,650
+1623271790,9,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,620
+1623271791,9,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,590
+1623271792,9,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,560
+1623271793,9,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,530
+1623271794,9,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,500
+1623271795,9,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,700
+1623271802,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,670
+1623271802,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,640
+1623271803,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,610
+1623271805,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,580
+1623271806,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,550
+1623271807,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,520
+1623271808,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,490
+1623271809,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,460
+1623271809,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,430
+1623271810,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,400
+1623271810,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,370
+1623271811,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,340
+1623271812,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,310
+1623271813,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,280
+1623271814,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,250
+1623271815,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,220
+1623271816,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,190
+1623271817,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,160
+1623271818,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,130
+1623271818,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,100
+1623271819,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,70
+1623271820,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,40
+1623271821,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,10
+1623271821,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,10
+1623271823,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,10
+1623271824,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,10
+1623271825,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,10
+1623271826,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,10
+1623271827,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,10
+1623271828,9,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,10
+1623271829,9,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,10
+1623271830,9,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,10
+1623271832,9,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,210
+1623271834,9,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,410
+1623271835,9,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,610
+1623271835,9,16,fin,3,Hombre,6,finalizada,,1,640
+1623271894,10,16,inicio_partida,3,Hombre,6,,,1,0
+1623271896,10,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,200
+1623271897,10,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,170
+1623271898,10,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,140
+1623271900,10,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,340
+1623271901,10,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,310
+1623271904,10,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,280
+1623271905,10,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,250
+1623271907,10,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,450
+1623271908,10,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,420
+1623271909,10,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,390
+1623271912,10,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,360
+1623271913,10,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,560
+1623271914,10,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,530
+1623271916,10,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,500
+1623271918,10,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,470
+1623271920,10,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,440
+1623271921,10,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,640
+1623271922,10,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,840
+1623271923,10,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,810
+1623271925,10,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,1010
+1623271926,10,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,1210
+1623271926,10,16,fin,3,Hombre,6,finalizada,,1,2050
+1623272092,11,16,inicio_partida,3,Hombre,6,,,1,0
+1623272094,11,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,200
+1623272095,11,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,170
+1623272096,11,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,140
+1623272098,11,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,340
+1623272099,11,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,310
+1623272101,11,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,280
+1623272103,11,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,250
+1623272103,11,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,220
+1623272104,11,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,190
+1623272105,11,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,160
+1623272106,11,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,130
+1623272106,11,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,100
+1623272107,11,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,70
+1623272108,11,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,40
+1623272109,11,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,10
+1623272109,11,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,0
+1623272110,11,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,0
+1623272111,11,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,0
+1623272111,11,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,0
+1623272112,11,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,0
+1623272115,11,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,200
+1623272116,11,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,170
+1623272118,11,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,370
+1623272119,11,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,340
+1623272120,11,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,310
+1623272121,11,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,510
+1623272122,11,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,480
+1623272124,11,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,680
+1623272125,11,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,880
+1623272126,11,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,1080
+1623272126,11,16,fin,3,Hombre,6,finalizada,,1,1890
+1623272181,12,16,inicio_partida,3,Hombre,6,,,1,0
+1623272186,12,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,200
+1623272187,12,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,170
+1623272188,12,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,140
+1623272190,12,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,110
+1623272192,12,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,80
+1623272193,12,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,280
+1623272194,12,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,480
+1623272195,12,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,450
+1623272197,12,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,420
+1623272198,12,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,620
+1623272200,12,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,820
+1623272201,12,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,790
+1623272202,12,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,760
+1623272204,12,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,960
+1623272205,12,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,1160
+1623272206,12,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,1360
+1623272206,12,16,fin,3,Hombre,6,finalizada,,1,2440
+1623272665,13,16,inicio_partida,3,Hombre,6,,,1,0
+1623272667,13,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,200
+1623272667,13,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,170
+1623272669,13,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,140
+1623272670,13,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,110
+1623272672,13,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,310
+1623272673,13,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,280
+1623272675,13,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,250
+1623272677,13,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,450
+1623272678,13,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,650
+1623272679,13,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,620
+1623272681,13,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,590
+1623272683,13,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,560
+1623272685,13,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,530
+1623272686,13,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,730
+1623272687,13,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,700
+1623272689,13,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,670
+1623272690,13,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,640
+1623272693,13,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,840
+1623272694,13,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,1040
+1623272696,13,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,1240
+1623272696,13,16,fin,3,Hombre,6,finalizada,,1,2140
+1623272856,14,16,inicio_partida,3,Hombre,6,,,1,0
+1623272858,14,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,200
+1623272859,14,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,170
+1623272860,14,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,140
+1623272862,14,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,110
+1623272863,14,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,80
+1623272865,14,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,50
+1623272866,14,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,20
+1623272867,14,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,220
+1623272869,14,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,190
+1623272870,14,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,390
+1623272871,14,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,360
+1623272872,14,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,560
+1623272873,14,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,760
+1623272874,14,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,730
+1623272876,14,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,700
+1623272878,14,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,900
+1623272880,14,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,870
+1623272882,14,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,1070
+1623272883,14,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,1270
+1623272883,14,16,fin,3,Hombre,6,finalizada,,1,2290
+1623273229,15,16,inicio_partida,3,Hombre,6,,,1,0
+1623273232,15,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,200
+1623273232,15,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,170
+1623273234,15,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,140
+1623273235,15,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,110
+1623273237,15,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,80
+1623273239,15,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,280
+1623273241,15,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,250
+1623273243,15,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,220
+1623273246,15,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,420
+1623273247,15,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,390
+1623273248,15,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,360
+1623273250,15,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,330
+1623273252,15,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,300
+1623273253,15,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,270
+1623273255,15,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,240
+1623273257,15,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,210
+1623273259,15,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,410
+1623273261,15,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,380
+1623273264,15,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,350
+1623273266,15,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,550
+1623273269,15,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,750
+1623273271,15,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,720
+1623273274,15,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,920
+1623273275,15,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,1120
+1623273275,15,16,fin,3,Hombre,6,finalizada,,1,1570
+1623273472,16,16,inicio_partida,3,Hombre,6,,,1,0
+1623273474,16,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,200
+1623273475,16,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,170
+1623273476,16,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,140
+1623273477,16,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,340
+1623273478,16,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,540
+1623273479,16,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,740
+1623273480,16,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,710
+1623273482,16,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,680
+1623273483,16,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,880
+1623273484,16,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,1080
+1623273486,16,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,1280
+1623273487,16,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,1480
+1623273487,16,16,fin,3,Hombre,6,finalizada,,1,2860
+1623273890,17,16,inicio_partida,3,Hombre,6,,,1,0
+1623273892,17,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,200
+1623273893,17,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,170
+1623273894,17,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,140
+1623273896,17,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,340
+1623273897,17,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,310
+1623273899,17,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,280
+1623273900,17,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,480
+1623273901,17,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,680
+1623273903,17,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,650
+1623273904,17,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,850
+1623273906,17,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,1050
+1623273908,17,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,1020
+1623273909,17,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,1220
+1623273910,17,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,1420
+1623273910,17,16,fin,3,Hombre,6,finalizada,,1,2650
+1623273937,18,16,inicio_partida,3,Hombre,6,,,1,0
+1623273939,18,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,200
+1623273940,18,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,170
+1623273941,18,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,140
+1623273943,18,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,110
+1623273944,18,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,310
+1623273948,18,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,280
+1623273950,18,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,250
+1623273952,18,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,220
+1623273955,18,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,190
+1623273957,18,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,390
+1623273959,18,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,590
+1623273960,18,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,560
+1623273962,18,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,760
+1623273963,18,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,730
+1623273965,18,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,930
+1623273966,18,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,900
+1623273967,18,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,1100
+1623273970,18,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,1300
+1623273970,18,16,fin,3,Hombre,6,finalizada,,1,2140
+1623274970,19,16,inicio_partida,3,Hombre,6,,,1,0
+1623275001,20,16,inicio_partida,3,Hombre,6,,,1,0
+1623275003,20,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,200
+1623275013,20,16,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,1,170
+1623275016,20,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,370
+1623275018,20,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,340
+1623275020,20,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,310
+1623275021,20,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,280
+1623275023,20,16,intento,3,Hombre,6,fallo,Obra_Sandro Botticelli.png,1,250
+1623275025,20,16,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,1,220
+1623275026,20,16,intento,3,Hombre,6,ok,Obra_Sandro Botticelli.png,1,420
+1623275027,20,16,intento,3,Hombre,6,fallo,Obra_Pablo Picasso.png,1,390
+1623275030,20,16,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,1,360
+1623275032,20,16,intento,3,Hombre,6,ok,Obra_Caravaggio.png,1,560
+1623275034,20,16,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,1,760
+1623275036,20,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,960
+1623275037,20,16,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,1,930
+1623275040,20,16,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,1,1130
+1623275041,20,16,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,1,1330
+1623275041,20,16,fin,3,Hombre,6,finalizada,,1,1960
+1623350501,22,16,inicio_partida,3,Hombre,6,,,1,0
+1623350503,22,16,intento,3,Hombre,6,fallo,Gustav Klimt,1,0
+1623350506,22,16,fin,3,Hombre,6,abandonada,,1,0
+1623350517,23,16,inicio_partida,3,Hombre,6,,,1,0
+1623350519,23,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,200
+1623350520,23,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,170
+1623350522,23,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1,370
+1623350523,23,16,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,1,570
+1623350524,23,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,540
+1623350526,23,16,intento,3,Hombre,6,fallo,Obra_William Turner.png,1,510
+1623350536,23,16,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,1,480
+1623350543,23,16,fin,3,Hombre,6,abandonada,,1,480
+1623350598,24,16,inicio_partida,3,Hombre,6,,,1,0
+1623350601,24,16,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,1,200
+1623350602,24,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1,170
+1623350603,24,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,140
+1623350605,24,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,110
+1623350607,24,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,80
+1623350608,24,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,50
+1623350610,24,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1,250
+1623350612,24,16,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,1,450
+1623350614,24,16,intento,3,Hombre,6,fallo,Obra_William Turner.png,1,420
+1623350615,24,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,390
+1623350616,24,16,intento,3,Hombre,6,ok,Obra_William Turner.png,1,590
+1623350618,24,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1,790
+1623350620,24,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,760
+1623350621,24,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,960
+1623350623,24,16,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,1,1160
+1623350624,24,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,1360
+1623350626,24,16,fin,3,Hombre,6,finalizada,,1,2410
+1623350791,25,48,inicio_partida,3,Hombre,6,,,3,0
+1623350793,25,48,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,3,300
+1623350794,25,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,270
+1623350796,25,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,240
+1623350798,25,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,210
+1623350799,25,48,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,3,180
+1623350800,25,48,intento,3,Hombre,6,fallo,Obra_Claude Monet.png,3,150
+1623350802,25,48,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,3,120
+1623350803,25,48,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,3,90
+1623350807,25,48,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,3,60
+1623350808,25,48,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,3,30
+1623350810,25,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,0
+1623350811,25,48,intento,3,Hombre,6,fallo,Obra_Jan van Eyck.png,3,0
+1623350813,25,48,intento,3,Hombre,6,fallo,Obra_Claude Monet.png,3,0
+1623350816,25,48,intento,3,Hombre,6,fallo,Obra_Claude Monet.png,3,0
+1623350819,25,48,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,3,300
+1623350820,25,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,270
+1623350822,25,48,intento,3,Hombre,6,fallo,Obra_Jan van Eyck.png,3,240
+1623350823,25,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,210
+1623350825,25,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,180
+1623350827,25,48,intento,3,Hombre,6,fallo,Obra_Claude Monet.png,3,150
+1623350829,25,48,intento,3,Hombre,6,ok,Obra_Claude Monet.png,3,450
+1623350831,25,48,intento,3,Hombre,6,fallo,Obra_Edouard Manet.png,3,420
+1623350833,25,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,390
+1623350834,25,48,intento,3,Hombre,6,fallo,Obra_William Turner.png,3,360
+1623350837,25,48,intento,3,Hombre,6,ok,Obra_Edouard Manet.png,3,660
+1623350838,25,48,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,3,630
+1623350840,25,48,intento,3,Hombre,6,fallo,Obra_Jan van Eyck.png,3,600
+1623350843,25,48,intento,3,Hombre,6,ok,Obra_Henri Matisse.png,3,900
+1623350844,25,48,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,3,870
+1623350846,25,48,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,3,840
+1623350849,25,48,intento,3,Hombre,6,fallo,Obra_Jan van Eyck.png,3,810
+1623350853,25,48,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,3,780
+1623350857,25,48,intento,3,Hombre,6,ok,Obra_Jan van Eyck.png,3,1080
+1623350860,25,48,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,3,1050
+1623350861,25,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,1020
+1623350863,25,48,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,3,1320
+1623350866,25,48,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,3,1620
+1623350870,25,48,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,3,1590
+1623350872,25,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,1560
+1623350874,25,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,1530
+1623350876,25,48,intento,3,Hombre,6,fallo,Obra_William Turner.png,3,1500
+1623350879,25,48,intento,3,Hombre,6,ok,Obra_William Turner.png,3,1800
+1623350881,25,48,intento,3,Hombre,6,fallo,Obra_Pieter Bruegel.png,3,1770
+1623350884,25,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,1740
+1623350885,25,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,1710
+1623350889,25,48,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,3,1680
+1623350892,25,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,1650
+1623350895,25,48,intento,3,Hombre,6,ok,Obra_Pierre-Auguste Renoir.png,3,1950
+1623350896,25,48,intento,3,Hombre,6,fallo,Obra_Pieter Bruegel.png,3,1920
+1623350899,25,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,1890
+1623350903,25,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,1860
+1623350904,25,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,1830
+1623350906,25,48,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,3,2130
+1623350909,25,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,2100
+1623350912,25,48,intento,3,Hombre,6,ok,Obra_Rembrandt.png,3,2400
+1623350914,25,48,intento,3,Hombre,6,fallo,Obra_Pieter Bruegel.png,3,2370
+1623350917,25,48,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,3,2340
+1623350920,25,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,2310
+1623350921,25,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,2280
+1623350924,25,48,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,3,2580
+1623350928,25,48,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,3,2880
+1623350930,25,48,intento,3,Hombre,6,fallo,Obra_Piet Mondrian.png,3,2850
+1623350932,25,48,intento,3,Hombre,6,fallo,Obra_Pieter Bruegel.png,3,2820
+1623350935,25,48,intento,3,Hombre,6,fallo,Obra_Pieter Bruegel.png,3,2790
+1623350936,25,48,intento,3,Hombre,6,ok,Obra_Pieter Bruegel.png,3,3090
+1623350938,25,48,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,3,3390
+1623350938,25,48,fin,3,Hombre,6,finalizada,,3,7110
+1623351042,26,48,inicio_partida,3,Hombre,6,,,3,0
+1623351046,26,48,intento,3,Hombre,6,ok,Obra_Pierre-Auguste Renoir.png,3,300
+1623351048,26,48,intento,3,Hombre,6,fallo,Obra_Claude Monet.png,3,270
+1623351048,26,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,240
+1623351050,26,48,intento,3,Hombre,6,fallo,Obra_William Turner.png,3,210
+1623351051,26,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,180
+1623351053,26,48,intento,3,Hombre,6,fallo,Obra_Pieter Bruegel.png,3,150
+1623351055,26,48,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,3,120
+1623351059,26,48,intento,3,Hombre,6,ok,Obra_Claude Monet.png,3,420
+1623351060,26,48,intento,3,Hombre,6,fallo,Obra_Edouard Manet.png,3,390
+1623351061,26,48,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,3,360
+1623351064,26,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,330
+1623351066,26,48,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,3,300
+1623351069,26,48,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,3,270
+1623351071,26,48,intento,3,Hombre,6,fallo,Obra_Henri Matisse.png,3,240
+1623351073,26,48,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,3,540
+1623351074,26,48,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,3,510
+1623351077,26,48,intento,3,Hombre,6,ok,Obra_Piet Mondrian.png,3,810
+1623351080,26,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,780
+1623351082,26,48,intento,3,Hombre,6,fallo,Obra_Edouard Manet.png,3,750
+1623351085,26,48,intento,3,Hombre,6,fallo,Obra_Edouard Manet.png,3,720
+1623351087,26,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,690
+1623351088,26,48,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,3,660
+1623351092,26,48,intento,3,Hombre,6,ok,Obra_Pieter Bruegel.png,3,960
+1623351093,26,48,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,3,930
+1623351095,26,48,intento,3,Hombre,6,fallo,Obra_William Turner.png,3,900
+1623351097,26,48,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,3,870
+1623351099,26,48,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,3,840
+1623351103,26,48,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,3,1140
+1623351105,26,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,1110
+1623351107,26,48,intento,3,Hombre,6,fallo,Obra_William Turner.png,3,1080
+1623351108,26,48,intento,3,Hombre,6,fallo,Obra_Edouard Manet.png,3,1050
+1623351110,26,48,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,3,1020
+1623351112,26,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,990
+1623351116,26,48,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,3,1290
+1623351118,26,48,intento,3,Hombre,6,fallo,Obra_Henri Matisse.png,3,1260
+1623351120,26,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,1230
+1623351123,26,48,intento,3,Hombre,6,fallo,Obra_William Turner.png,3,1200
+1623351125,26,48,intento,3,Hombre,6,fallo,Obra_Henri Matisse.png,3,1170
+1623351128,26,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,1140
+1623351130,26,48,intento,3,Hombre,6,fallo,Obra_Peter Paul Rubens.png,3,1110
+1623351132,26,48,intento,3,Hombre,6,ok,Obra_Peter Paul Rubens.png,3,1410
+1623351133,26,48,intento,3,Hombre,6,fallo,Obra_William Turner.png,3,1380
+1623351136,26,48,intento,3,Hombre,6,fallo,Obra_William Turner.png,3,1350
+1623351137,26,48,intento,3,Hombre,6,fallo,Obra_Rene Magritte.png,3,1320
+1623351139,26,48,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,3,1290
+1623351144,26,48,intento,3,Hombre,6,ok,Obra_Henri Matisse.png,3,1590
+1623351146,26,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,1560
+1623351147,26,48,intento,3,Hombre,6,fallo,Obra_Jan van Eyck.png,3,1530
+1623351151,26,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,1500
+1623351155,26,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,1470
+1623351157,26,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,1440
+1623351159,26,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,1410
+1623351161,26,48,intento,3,Hombre,6,fallo,Obra_Edouard Manet.png,3,1380
+1623351163,26,48,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,3,1350
+1623351165,26,48,intento,3,Hombre,6,ok,Obra_Rembrandt.png,3,1650
+1623351168,26,48,intento,3,Hombre,6,ok,Obra_Edouard Manet.png,3,1950
+1623351169,26,48,intento,3,Hombre,6,fallo,Obra_Rene Magritte.png,3,1920
+1623351171,26,48,intento,3,Hombre,6,fallo,Obra_Rene Magritte.png,3,1890
+1623351173,26,48,intento,3,Hombre,6,fallo,Obra_Jan van Eyck.png,3,1860
+1623351176,26,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,1830
+1623351178,26,48,intento,3,Hombre,6,fallo,Obra_Jan van Eyck.png,3,1800
+1623351181,26,48,intento,3,Hombre,6,fallo,Obra_Jan van Eyck.png,3,1770
+1623351185,26,48,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,3,2070
+1623351186,26,48,intento,3,Hombre,6,fallo,Obra_William Turner.png,3,2040
+1623351190,26,48,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,3,2340
+1623351192,26,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,2310
+1623351194,26,48,intento,3,Hombre,6,fallo,Obra_Jan van Eyck.png,3,2280
+1623351197,26,48,intento,3,Hombre,6,fallo,Obra_William Turner.png,3,2250
+1623351201,26,48,intento,3,Hombre,6,fallo,Obra_Jan van Eyck.png,3,2220
+1623351204,26,48,intento,3,Hombre,6,ok,Obra_Jan van Eyck.png,3,2520
+1623351205,26,48,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,2490
+1623351208,26,48,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,3,2790
+1623351210,26,48,intento,3,Hombre,6,ok,Obra_William Turner.png,3,3090
+1623351210,26,48,fin,3,Hombre,6,finalizada,,3,6180
+1623351297,27,16,inicio_partida,3,Hombre,6,,,1,0
+1623351299,27,16,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,1,200
+1623351300,27,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,170
+1623351303,27,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,370
+1623351305,27,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,340
+1623351306,27,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,540
+1623351308,27,16,intento,3,Hombre,6,fallo,Obra_Rene Magritte.png,1,510
+1623351311,27,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,480
+1623351313,27,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1,450
+1623351314,27,16,intento,3,Hombre,6,ok,Obra_William Turner.png,1,650
+1623351316,27,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,620
+1623351317,27,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1,590
+1623351319,27,16,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,1,790
+1623351322,27,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1,990
+1623351323,27,16,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,1,1190
+1623351324,27,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1,1390
+1623351324,27,16,fin,3,Hombre,6,finalizada,,1,2410
+1623351342,28,16,inicio_partida,3,Hombre,6,,,1,0
+1623351344,28,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,200
+1623351345,28,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,170
+1623351347,28,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1,140
+1623351348,28,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,110
+1623351349,28,16,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,1,310
+1623351350,28,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,280
+1623351352,28,16,intento,3,Hombre,6,fallo,Obra_Rene Magritte.png,1,250
+1623351355,28,16,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,1,450
+1623351356,28,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,420
+1623351358,28,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1,390
+1623351359,28,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1,590
+1623351360,28,16,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,1,560
+1623351362,28,16,intento,3,Hombre,6,fallo,Obra_William Turner.png,1,530
+1623351364,28,16,intento,3,Hombre,6,ok,Obra_William Turner.png,1,730
+1623351367,28,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,930
+1623351368,28,16,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,1,900
+1623351370,28,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1,1100
+1623351371,28,16,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,1,1300
+1623351371,28,16,fin,3,Hombre,6,finalizada,,1,2260
+1623351391,29,16,inicio_partida,3,Hombre,6,,,1,0
+1623351394,29,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1,200
+1623351395,29,16,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,1,400
+1623351396,29,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,370
+1623351397,29,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,340
+1623351399,29,16,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,1,540
+1623351400,29,16,intento,3,Hombre,6,fallo,Obra_William Turner.png,1,510
+1623351401,29,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,480
+1623351403,29,16,intento,3,Hombre,6,fallo,Obra_William Turner.png,1,450
+1623351405,29,16,intento,3,Hombre,6,fallo,Obra_Rene Magritte.png,1,420
+1623351406,29,16,intento,3,Hombre,6,fallo,Obra_William Turner.png,1,390
+1623351408,29,16,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,1,590
+1623351411,29,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,790
+1623351412,29,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,990
+1623351414,29,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,960
+1623351415,29,16,intento,3,Hombre,6,ok,Obra_William Turner.png,1,1160
+1623351416,29,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1,1360
+1623351416,29,16,fin,3,Hombre,6,finalizada,,1,2440
+1623351486,30,16,inicio_partida,3,Hombre,6,,,1,0
+1623351489,30,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1,200
+1623351490,30,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,170
+1623351491,30,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,140
+1623351493,30,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,110
+1623351494,30,16,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,1,310
+1623351495,30,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,280
+1623351496,30,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,250
+1623351498,30,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1,450
+1623351499,30,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,420
+1623351500,30,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,620
+1623351502,30,16,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,1,590
+1623351504,30,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,560
+1623351506,30,16,intento,3,Hombre,6,ok,Obra_William Turner.png,1,760
+1623351507,30,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,730
+1623351509,30,16,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,1,700
+1623351511,30,16,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,1,900
+1623351513,30,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,1100
+1623351514,30,16,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,1,1300
+1623351514,30,16,fin,3,Hombre,6,finalizada,,1,2290
+1623351534,31,16,inicio_partida,3,Hombre,6,,,1,0
+1623351535,31,16,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,1,200
+1623351536,31,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,170
+1623351538,31,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,140
+1623351540,31,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,110
+1623351541,31,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,80
+1623351542,31,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,50
+1623351544,31,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1,20
+1623351546,31,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,0
+1623351547,31,16,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,1,200
+1623351550,31,16,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,1,400
+1623351551,31,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,370
+1623351553,31,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,570
+1623351554,31,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1,540
+1623351556,31,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1,740
+1623351557,31,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,710
+1623351558,31,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1,910
+1623351561,31,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,1110
+1623351562,31,16,intento,3,Hombre,6,ok,Obra_William Turner.png,1,1310
+1623351562,31,16,fin,3,Hombre,6,finalizada,,1,2270

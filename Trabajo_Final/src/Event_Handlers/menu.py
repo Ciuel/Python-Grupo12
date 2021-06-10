@@ -1,11 +1,11 @@
 import PySimpleGUI as sg
 from ..Components import config,game
 import os
+from ..Constants import constants
 try:
     import vlc
 except:
     pass
-from ..Constants import constants
 
 
 def jugar(window: sg.Window, event: str, nick: str, vlc_dict):
@@ -46,4 +46,4 @@ def start_music(vlc_dict):
     background_music = vlc_dict["player_music"].get_instance().media_new(menu_song)
     vlc_dict["player_music"].set_media(background_music)
     vlc_dict["player_music"].play()
-    vlc_dict["player_music"].audio_set_volume(30)
+    
