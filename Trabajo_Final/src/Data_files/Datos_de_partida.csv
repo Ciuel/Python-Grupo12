@@ -668,3 +668,93 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623351561,31,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,1110
 1623351562,31,16,intento,3,Hombre,6,ok,Obra_William Turner.png,1,1310
 1623351562,31,16,fin,3,Hombre,6,finalizada,,1,2270
+1623369648,32,16,inicio_partida,3,Hombre,6,,,1,0
+1623369651,32,16,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,1,200
+1623369653,32,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1,170
+1623369655,32,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,370
+1623369656,32,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,340
+1623369658,32,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,310
+1623369659,32,16,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,1,280
+1623369661,32,16,intento,3,Hombre,6,fallo,Obra_Rene Magritte.png,1,250
+1623369662,32,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,220
+1623369664,32,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,190
+1623369666,32,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1,390
+1623369669,32,16,intento,3,Hombre,6,fallo,Obra_William Turner.png,1,360
+1623369670,32,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1,560
+1623369673,32,16,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,1,760
+1623369674,32,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,730
+1623369676,32,16,intento,3,Hombre,6,ok,Obra_William Turner.png,1,930
+1623369678,32,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,900
+1623369680,32,16,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,1,1100
+1623369681,32,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,1300
+1623369681,32,16,fin,3,Hombre,6,finalizada,,1,2110
+1623369735,33,16,inicio_partida,3,Hombre,6,,,1,0
+1623369736,33,16,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,1,200
+1623369737,33,16,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,1,170
+1623369739,33,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,140
+1623369741,33,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,340
+1623369742,33,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1,540
+1623369744,33,16,intento,3,Hombre,6,fallo,Obra_William Turner.png,1,510
+1623369746,33,16,intento,3,Hombre,6,fallo,Obra_Jackson Pollock.png,1,480
+1623369748,33,16,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,1,680
+1623369750,33,16,intento,3,Hombre,6,ok,Obra_William Turner.png,1,880
+1623369751,33,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,850
+1623369753,33,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,820
+1623369755,33,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1,1020
+1623369757,33,16,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,1,1220
+1623369766,33,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,1420
+1623369766,33,16,fin,3,Hombre,6,finalizada,,1,2290
+1623369776,34,16,inicio_partida,3,Hombre,6,,,1,0
+1623369778,34,16,intento,3,Hombre,6,ok,Obra_Jackson Pollock.png,1,200
+1623369791,34,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,400
+1623369791,34,16,intento,3,Hombre,6,fallo,Obra_William Turner.png,1,370
+1623369792,34,16,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,1,340
+1623369794,34,16,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,1,540
+1623369794,34,16,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,1,510
+1623369796,34,16,intento,3,Hombre,6,fallo,Obra_Rene Magritte.png,1,480
+1623369798,34,16,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,1,680
+1623369799,34,16,intento,3,Hombre,6,ok,Obra_Rene Magritte.png,1,880
+1623369800,34,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1,1080
+1623369802,34,16,intento,3,Hombre,6,fallo,Obra_Hieronymus Bosch.png,1,1050
+1623369803,34,16,intento,3,Hombre,6,ok,Obra_Hieronymus Bosch.png,1,1250
+1623369807,34,16,intento,3,Hombre,6,ok,Obra_William Turner.png,1,1450
+1623369807,34,16,fin,3,Hombre,6,finalizada,,1,2350
+1623441601,35,16,inicio_partida,3,Hombre,6,,,1,0
+1623441604,35,16,intento,3,Hombre,6,ok,Obra_Amedeo Modigliani.png,1,200
+1623441605,35,16,fin,3,Hombre,6,abandonada,,1,200
+1623441662,36,48,inicio_partida,3,Hombre,6,,,3,0
+1623441664,36,48,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,3,300
+1623441667,36,48,intento,3,Hombre,6,fallo,Obra_Amedeo Modigliani.png,3,270
+1623441669,36,48,intento,3,Hombre,6,fallo,Obra_El Greco.png,3,240
+1623441671,36,48,fin,3,Hombre,6,abandonada,,3,240
+1623446084,37,16,inicio_partida,3,Hombre,6,,,1,0
+1623446101,37,16,fin,3,Hombre,6,abandonada,,1,0
+1623446239,38,16,inicio_partida,3,Hombre,6,,,1,0
+1623446243,38,16,intento,3,Hombre,6,ok,Obra_Diego Rivera.png,1,200
+1623446299,38,16,fin,3,Hombre,6,timeout,,1,200
+1623449009,39,16,inicio_partida,2,Mujer,2,,,1,0
+1623449011,39,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,200
+1623449012,39,16,intento,2,Mujer,2,fallo,Alfred Sisley,1,170
+1623449014,39,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,140
+1623449016,39,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,110
+1623449018,39,16,intento,2,Mujer,2,fallo,Alfred Sisley,1,80
+1623449020,39,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,50
+1623449021,39,16,intento,2,Mujer,2,fallo,Diego Rivera,1,20
+1623449022,39,16,intento,2,Mujer,2,ok,Alfred Sisley,1,220
+1623449069,39,16,fin,2,Mujer,2,timeout,,1,220
+1623449106,40,16,inicio_partida,2,Mujer,2,,,1,0
+1623449108,40,16,intento,2,Mujer,2,ok,Diego Rivera,1,200
+1623449108,40,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,170
+1623449111,40,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,140
+1623449112,40,16,intento,2,Mujer,2,fallo,Andy Warhol,1,110
+1623449113,40,16,intento,2,Mujer,2,ok,Alfred Sisley,1,310
+1623449115,40,16,intento,2,Mujer,2,fallo,Andy Warhol,1,280
+1623449117,40,16,intento,2,Mujer,2,ok,Andy Warhol,1,480
+1623449118,40,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,450
+1623449120,40,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,420
+1623449122,40,16,intento,2,Mujer,2,ok,Albrecht Dürer,1,620
+1623449124,40,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,820
+1623449125,40,16,intento,2,Mujer,2,ok,Andrei Rublev,1,1020
+1623449126,40,16,intento,2,Mujer,2,ok,Camille Pissarro,1,1220
+1623449128,40,16,intento,2,Mujer,2,ok,Amedeo Modigliani,1,1420
+1623449129,40,16,fin,2,Mujer,2,finalizada,,1,2590

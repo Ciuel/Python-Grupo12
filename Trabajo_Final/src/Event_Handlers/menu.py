@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from ..Components import config,game
+from ..Components import config,game,stats
 import os
 from ..Constants import constants
 try:
@@ -32,6 +32,13 @@ def configure(window: sg.Window, event: str, nick: str, vlc_dict):
     if event == "-CONFIG-":
         window.close()
         config.start(nick, vlc_dict)
+
+def statistics(window:sg.Window,event:str,nick:str,vlc_dict,theme:str):
+    "Cierra el menu y abre la ventana de Estadisticas"
+    
+    if event=="-STATS-":
+        window.close()
+        stats.start(nick,vlc_dict,theme)
 
 
 def play_sound(vlc_dict):
