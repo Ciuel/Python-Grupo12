@@ -758,3 +758,18 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623449126,40,16,intento,2,Mujer,2,ok,Camille Pissarro,1,1220
 1623449128,40,16,intento,2,Mujer,2,ok,Amedeo Modigliani,1,1420
 1623449129,40,16,fin,2,Mujer,2,finalizada,,1,2590
+1623523272,41,16,inicio_partida,3,Hombre,6,,,1,0
+1623523274,41,16,intento,3,Hombre,6,ok,Obra_Pierre-Auguste Renoir.png,1,200
+1623523274,41,16,intento,3,Hombre,6,fallo,Obra_Edgar Degas.png,1,170
+1623523276,41,16,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,1,370
+1623523277,41,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,340
+1623523279,41,16,intento,3,Hombre,6,fallo,Obra_Paul Gauguin.png,1,310
+1623523280,41,16,intento,3,Hombre,6,ok,Obra_Pablo Picasso.png,1,510
+1623523281,41,16,intento,3,Hombre,6,fallo,Obra_Rembrandt.png,1,480
+1623523283,41,16,intento,3,Hombre,6,ok,Obra_Francisco Goya.png,1,680
+1623523285,41,16,intento,3,Hombre,6,ok,Obra_Edgar Degas.png,1,880
+1623523287,41,16,intento,3,Hombre,6,ok,Obra_Rembrandt.png,1,1080
+1623523288,41,16,intento,3,Hombre,6,fallo,Obra_Vincent van Gogh.png,1,1050
+1623523289,41,16,intento,3,Hombre,6,ok,Obra_Vincent van Gogh.png,1,1250
+1623523290,41,16,intento,3,Hombre,6,ok,Obra_Paul Gauguin.png,1,1450
+1623523292,41,16,fin,3,Hombre,6,finalizada,,1,2710

@@ -16,7 +16,8 @@ def start(nick:str,vlc_dict,theme:str):
     draw_figure(stat_window['-CANVAS2-'].TKCanvas,partidas_por_estado())
     draw_figure(stat_window['-CANVAS3-'].TKCanvas,partidas_por_genero())
     draw_figure(stat_window['-CANVAS4-'].TKCanvas,partidas_por_dia())
-    
+    top_10_palabras()
+
     loop(stat_window)
 
     stat_window.close()
