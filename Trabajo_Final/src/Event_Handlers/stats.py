@@ -20,10 +20,9 @@ def draw_pie(info):
     return plt.gcf()
 
 
-def draw_vertical_bar(info,labels):
-    print(info,labels)
+def draw_vertical_bar(labels,info):
     plt.bar(labels,info)
-    return plt.gcf()  #info.plot.bar(x=list(info.index.values), y="Tiempo")
+    return plt.gcf()  
 
 
 def partidas_por_estado():
@@ -46,12 +45,10 @@ def partidas_por_genero():
 def partidas_por_dia():
     info = pd.read_csv(os.path.join(os.getcwd(), GAME_INFO_PATH), encoding='utf-8')
     info = info[info["Nombre de evento"] == "inicio_partida"]
-    info["Tiempo"]=[(datetime.datetime.fromtimestamp(timestamp).weekday()) for timestamp in info["Tiempo"]]
+    dias={"Lunes":0,"Martes":0,"Miercoles":0,"Jueves":0,"Viernes":0,"Sabado":0,"Domingo":0}
+    info["Tiempo"]=[list(dias.keys())[(datetime.datetime.fromtimestamp(timestamp).weekday())] for timestamp in info["Tiempo"]]
     info = info.groupby(["Tiempo"])["Tiempo"].count()
-    dias=["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"]
     print(info)
-    partidas_en_dias={"0":0,"1":0,"2":0,"3":0,"4":0,"5":0,"6":0}
     for x in info.index:
-      partidas_en_dias[str(x)]=info[x]
-    
-    return draw_vertical_bar(partidas_en_dias.values(),dias)
+        dias[x]=info[x]
+    return draw_vertical_bar(dias.keys(),dias.values())
