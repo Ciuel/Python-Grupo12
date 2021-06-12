@@ -26,7 +26,7 @@ def draw_pie(info):
 
 
 def draw_vertical_bar(info):
-    plt.bar(info.index,height=info)
+    plt.bar(info.index, height=info)
     return plt.gcf()
 
 
@@ -54,12 +54,29 @@ def partidas_por_dia():
     info = pd.read_csv(os.path.join(os.getcwd(), GAME_INFO_PATH),
                        encoding='utf-8')
     info = info[info["Nombre de evento"] == "inicio_partida"]
-    dias=["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado","Domingo"]
-    info["Tiempo"] = [dias[(datetime.datetime.fromtimestamp(timestamp).weekday())] for timestamp in info["Tiempo"]]
+    dias = [
+        "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado",
+        "Domingo"
+    ]
+    info["Tiempo"] = [
+        dias[(datetime.datetime.fromtimestamp(timestamp).weekday())]
+        for timestamp in info["Tiempo"]
+    ]
     info = info.groupby(["Tiempo"])["Tiempo"].count()
     dias_series = pd.Series([0, 0, 0, 0, 0, 0, 0], index=dias)
     info = info.reindex_like(dias_series)
-    info.fillna(0,inplace=True)
+    info.fillna(0, inplace=True)
     info = info.astype(int)
     return draw_vertical_bar(info)
 
+
+def top_10_palabras():
+    info = pd.read_csv(os.path.join(os.getcwd(), GAME_INFO_PATH),
+                       encoding='utf-8')
+    info = info[info["Nombre de evento"] != "fin"]
+    info = info[info["Estado"] != "fallo"]
+    info = info[["Nombre de evento", "Palabra"]]
+    #filtered_info = pd.DataFrame(columns=["Nombre de evento", "Palabra"])
+
+
+    print(info)
