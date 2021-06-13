@@ -71,12 +71,16 @@ def partidas_por_dia():
 
 
 def top_10_palabras():
-    info = pd.read_csv(os.path.join(os.getcwd(), GAME_INFO_PATH),
-                       encoding='utf-8')
-    info = info[info["Nombre de evento"] != "fin"]
-    info = info[info["Estado"] != "fallo"]
+    info = pd.read_csv(os.path.join(os.getcwd(), GAME_INFO_PATH),encoding='utf-8')
+    info = info[info["Nombre de evento"] != "fin"] #Solo nos deja los elementos con evento: Inicio y intento
+    info = info[info["Estado"] != "fallo"] #Nos deja solo los intentos no fallidos
     info = info[["Nombre de evento", "Palabra"]]
-    #filtered_info = pd.DataFrame(columns=["Nombre de evento", "Palabra"])
+    info.reset_index(inplace=True,drop=True)
+    filtered_info = pd.DataFrame(columns=["Nombre de evento", "Palabra"])
+    for i in info.index:
+        if info.iloc[i]["Nombre de evento"]=='inicio_partida':
+            filtered_info=filtered_info.append(info.iloc[i+1])
 
-
-    print(info)
+    filtered_info=filtered_info[filtered_info["Nombre de evento"]!="inicio_partida"] #Elimina las partidas sin intentos!
+    filtered_info=filtered_info.groupby(["Palabra"])["Nombre de evento"].count().sort_values(ascending=False).head(10)
+    print(filtered_info)
