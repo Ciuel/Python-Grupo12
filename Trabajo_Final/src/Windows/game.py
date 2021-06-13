@@ -18,78 +18,75 @@ def clean_input(info,type_of_token):
     """
     return list(map(lambda x:x[1], info)) if type_of_token=="Text" else list(map(lambda x: x[2], info))
 
-def analisis_info(info,level, cant_coincidences):
+def analisis_info(info,Level, Coincidences):
     """Usa la columna de elemntos a ingresar, lo corta a la cantidad de elementos necesarios y
      lo multiplica por la cantidad de coincidencias necesarias para llenar los botones y
      la mezcla para obtener posiciones aleatorias.
 
     Args:
         info (list): Lista analizada con los datos a limpiar
-        level (int): Nivel elegido por el usuario
-        cant_coincidences (int): Cantidad de coincidencias elegidas por el usuario
+        Level (int): Nivel elegido por el usuario
+        Coincidences (int): Cantidad de coincidencias elegidas por el usuario
 
     Returns:
         [list]: La lista con los elementos a llenar mezclada
     """
-    button_amount=(LEVEL_DICTIONARY[(level, cant_coincidences)][0]*LEVEL_DICTIONARY[(level, cant_coincidences)][1])
-    info=info[:button_amount//cant_coincidences]
-    return random.sample(info * cant_coincidences, len(info) * cant_coincidences)
+    button_amount=(LEVEL_DICTIONARY[(Level, Coincidences)][0]*LEVEL_DICTIONARY[(Level, Coincidences)][1])
+    info=info[:button_amount//Coincidences]
+    return random.sample(info * Coincidences, len(info) * Coincidences)
 
 
-def generar_matriz(lista_fichas,level, cant_coincidences):
+def generar_matriz(lista_fichas,Level, Coincidences):
     """Con la cantidad exacta de elementos para el nivel, 
     se genera una matriz donde cada elemento corresponde al boton en la misma posicion
 
     Args:
         lista_fichas (list): La lista con los elementos de la matriz
-        level (int): Nivel elegido por el usuario
-        cant_coincidences (int): Cantidad de coincidencias elegidas por el usuario
+        Level (int): Nivel elegido por el usuario
+        Coincidences (int): Cantidad de coincidencias elegidas por el usuario
 
     Returns:
         [np.array]: El array en forma del tablero correspondiente al nivel y las coincidencias
     """
     lista_fichas=np.array(lista_fichas)
-    return lista_fichas.reshape(LEVEL_DICTIONARY[(level, cant_coincidences)])
+    return lista_fichas.reshape(LEVEL_DICTIONARY[(Level, Coincidences)])
 
 
-def generate_board(level, cant_coincidences):
+def generate_board(Level, Coincidences):
     """Genera la matriz de botones para la ventana
 
     Args:
-        level (int): Nivel elegido por el usuario
-        cant_coincidences (int): Cantidad de coincidencias elegidas por el usuario
+        Level (int): Nivel elegido por el usuario
+        Coincidences (int): Cantidad de coincidencias elegidas por el usuario
 
     Returns:
         [list]: Matriz de botones en forma del tablero correspondiente al nivel y las coincidencias
     """
     matrix = []
-    for x in range(LEVEL_DICTIONARY[(level, cant_coincidences)][0]):
+    for x in range(LEVEL_DICTIONARY[(Level, Coincidences)][0]):
         matrix += [[
-            sg.Button(size=BUTTON_SIZE, key=f"cell{x}{y}")for y in range(LEVEL_DICTIONARY[(level, cant_coincidences)][1])
+            sg.Button(size=BUTTON_SIZE, key=f"cell{x}{y}")for y in range(LEVEL_DICTIONARY[(Level, Coincidences)][1])
         ]]
     return matrix
 
 
 
-def build(nick, theme, cant_coincidences, level,type_of_token,help):
+def build(nick,user_config):
     """Construye la ventana de juego con la informacion de la configuracion de usuario.
 
     Args:
         nick (str): El nick del jugador
-        theme (str): El tema de la ventana
-        level (int): Nivel elegido por el usuario
-        cant_coincidences (int): Cantidad de coincidencias elegidas por el usuario
-        type_of_token (str): Si se eligio texto o imagenes
+        user_config (dict): diicionario con la configuracion del usuario
 
     Returns:
         [sg.Window]: La ventana de juego armada
     """
     # yapf: disable
-    button_amount=(LEVEL_DICTIONARY[(level, cant_coincidences)][0]*LEVEL_DICTIONARY[(level, cant_coincidences)][1])
-    sg.theme(theme)
-    Y_LENGHT= LEVEL_DICTIONARY[(level, cant_coincidences)][1]*BUTTON_SIZE[1]*10
+    button_amount=(LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][0]*LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][1])
+    sg.theme(user_config["AppColor"])
+    Y_LENGHT= LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][1]*BUTTON_SIZE[1]*10
     board_col=[
-        sg.Column(generate_board(level, cant_coincidences),element_justification="right")
+        sg.Column(generate_board(user_config["Level"], user_config["Coincidences"]),element_justification="right")
         ]
 
     data_col=[
@@ -99,11 +96,11 @@ def build(nick, theme, cant_coincidences, level,type_of_token,help):
             [sg.Text(f"Puntos: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"00000",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
             [sg.Text(f"Tiempo: 0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT TIME-",size=(18,1))],
             [sg.Text("Coincidencias: 00 /",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-TOTAL HITS-"),
-            sg.Text(button_amount//cant_coincidences,font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
-            [sg.Text(f"Nivel: {level}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+            sg.Text(button_amount//user_config["Coincidences"],font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+            [sg.Text(f"Nivel: {user_config['Level']}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
             [sg.Button("Comenzar",key="-START-",font=(f"{WINDOW_FONT}",WINDOW_FONT_SIZE-5),bind_return_key=True),
             sg.Button("Volver al menu",key="-BACK MENU-",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE-5)),
-            sg.Button("Ayuda",key="-HELP-",font=(f"{WINDOW_FONT}",WINDOW_FONT_SIZE-5)) if help=="yes" else sg.Text("")
+            sg.Button("Ayuda",key="-HELP-",font=(f"{WINDOW_FONT}",WINDOW_FONT_SIZE-5)) if user_config["Help"]=="yes" else sg.Text("")
             ]
             ],border_width=10)
 
@@ -118,7 +115,7 @@ def build(nick, theme, cant_coincidences, level,type_of_token,help):
         finalize=True,
         element_justification="center",
         margins=(10, 10))
-    tokens = clean_input(manipulate_app_data(),type_of_token)
-    element_list=analisis_info(tokens, level, cant_coincidences)
-    return game_window, generar_matriz(element_list, level,
-                                       cant_coincidences), element_list
+    tokens = clean_input(manipulate_app_data(),user_config["Type of token"])
+    element_list=analisis_info(tokens, user_config["Level"], user_config["Coincidences"])
+    return game_window, generar_matriz(element_list, user_config["Level"],
+                                       user_config["Coincidences"]), element_list

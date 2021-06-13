@@ -23,7 +23,7 @@ def build( theme: str) -> sg.Window:
     tab3_layout = [[sg.T('Porcentaje de partidas finalizadas según género')],[sg.Canvas(key="-CANVAS3-")]]
     tab4_layout = [[sg.T('Porcentaje de partidas que se juegan para cada día de la semana')],[sg.Canvas(key="-CANVAS4-")]]
     tab5_layout = [[sg.T('Promedio de tiempo de partidas finalizadas por nivel.')],[sg.Canvas(key="-CANVAS5-")]]
-    tab6_layout = [[sg.T('Porcentaje de palabras encontradas en las partidas “timeout, es decir que finalizaron por falta de tiempo para completar.')],[sg.Canvas(key="-CANVAS6-")]]
+    tab6_layout = [[sg.T('Porcentaje de palabras encontradas en las partidas timeout, es decir que finalizaron por falta de tiempo para completar.')],[sg.Canvas(key="-CANVAS6-")]]
 
     layout = [[sg.Text(f"Estadisticas",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.TabGroup([[

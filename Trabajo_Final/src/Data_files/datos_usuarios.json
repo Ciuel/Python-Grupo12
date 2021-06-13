@@ -21,7 +21,7 @@
             "Coincidences": 2,
             "Help": "yes",
             "Type of token": "Images",
-            "Level": 1,
+            "Level": 2,
             "AppColor": "Black",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
@@ -73,6 +73,20 @@
         "password": "2",
         "age": "2",
         "gender": "Mujer",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Images",
+            "Level": 1,
+            "AppColor": "Material1",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    "4": {
+        "password": "4",
+        "age": "4",
+        "gender": "No binarie",
         "config": {
             "Coincidences": 2,
             "Help": "yes",
