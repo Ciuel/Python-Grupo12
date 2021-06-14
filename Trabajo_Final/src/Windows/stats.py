@@ -16,7 +16,6 @@ def build( theme: str) -> sg.Window:
                 [sg.Window]: La ventana de estadisticas armada
     """
     # yapf: disable
-    partidas_por_estado()
     sg.theme(theme)
     tab1_layout = [[sg.T('Top 10 de palabras que se encuentran primero de todas las partidas')],[sg.Canvas(key="-CANVAS1-")]]
     tab2_layout = [[sg.T('Porcentaje de partidas por estado (terminada, cancelada,abandonadas)')],[sg.Canvas(key="-CANVAS2-")]]
