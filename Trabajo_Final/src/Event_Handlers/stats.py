@@ -51,16 +51,13 @@ def partidas_por_genero(info):
     return return_figure
 
 
-def partidas_por_dia(info):
-
+def partidas_por_dia(infoin):
+    info= pd.DataFrame(infoin)
     info = info[info["Nombre de evento"] == "inicio_partida"]
-    dias = [
-        "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado",
-        "Domingo"
-    ]
+    dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado",
+        "Domingo"]
     info["Tiempo"] = [dias[(datetime.datetime.fromtimestamp(timestamp).weekday())]for timestamp in info["Tiempo"]]
     info = info.groupby(["Tiempo"])["Tiempo"].count()
-    print(info)
     dias_series = pd.Series([0, 0, 0, 0, 0, 0, 0], index=dias)
     info = info.reindex_like(dias_series)
     info.fillna(0, inplace=True)
@@ -110,7 +107,6 @@ def promedio_tiempo_por_nivel(info):
         pd.Series(promedios, ["Nivel 1", "Nivel 2", "Nivel 3"]))
     plt.close()
     return return_figure
-
 
 def cant_encontradas_en_timeout(info):
 

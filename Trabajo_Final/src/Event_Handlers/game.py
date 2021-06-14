@@ -122,9 +122,7 @@ def check_button(value_matrix: np.array, user: dict, info_partida: dict,
             "lista_chequeos"]:  #No se puede tocar 2 veces el mismo boton
         info_partida["lista_chequeos"].append(event)
 
-    primer_elemento = value_matrix[int(
-        info_partida["lista_chequeos"][0][-2])][int(
-            info_partida["lista_chequeos"][0][-1])]
+    primer_elemento = value_matrix[int(info_partida["lista_chequeos"][0][-2])][int(info_partida["lista_chequeos"][0][-1])]
 
     if all(primer_elemento == value_matrix[int(x[-2])][int(x[-1])]
            for x in info_partida["lista_chequeos"]):
