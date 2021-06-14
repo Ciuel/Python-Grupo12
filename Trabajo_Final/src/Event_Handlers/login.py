@@ -1,4 +1,5 @@
 import json
+import hashlib
 import os
 import PySimpleGUI as sg
 from ..Components import menu
@@ -132,8 +133,11 @@ def check_fields_and_register(window: sg.Window, event: str,
     if event == "-REGIS SAVE-" and register_validation(window,values):
         with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r+") as info:
             jsonlist = json.load(info)
+            password_utf = values["-REGIS PASSWORD-"].encode('utf-8')
+            sha512hash = hashlib.sha512(password_utf)
+            password_hash = sha512hash.hexdigest()
             jsonlist[values["-REGIS NICK-"]]={
-                "password": values["-REGIS PASSWORD-"],
+                "password": password_hash,
                 "age": values["-REGIS AGE-"],
                 "gender": values["-REGIS GENDER-"],
                 "config": DEFAULT_CONFIG
@@ -157,7 +161,10 @@ def check_login(values:dict)->bool:
     with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r") as info:
         datos = json.load(info)
         if values["-INPUT NICK-"] in datos.keys():
-            return values["-INPUT PASSWORD-"] == datos[values["-INPUT NICK-"]]["password"]
+            password_utf = values["-INPUT PASSWORD-"].encode('utf-8')
+            sha512hash = hashlib.sha512(password_utf)
+            password_hash = sha512hash.hexdigest()
+            return password_hash  == datos[values["-INPUT NICK-"]]["password"]
         return False
 
 def vlc_init ():

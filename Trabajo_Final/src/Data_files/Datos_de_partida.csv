@@ -689,3 +689,21 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623683126,34,16,intento,3,Hombre,6,ok,Andrei Rublev,1,2,530
 1623683128,34,16,intento,3,Hombre,6,fallo,Claude Monet,1,2,500
 1623683132,34,16,fin,3,Hombre,6,timeout,,1,2,500
+1623704732,35,16,inicio_partida,3,No binarie,3,,,1,2,0
+1623704733,35,16,intento,3,No binarie,3,fallo,Albrecht Dürer,1,2,0
+1623704734,35,16,intento,3,No binarie,3,fallo,Albrecht Dürer,1,2,0
+1623704736,35,16,intento,3,No binarie,3,ok,Albrecht Dürer,1,2,200
+1623704737,35,16,intento,3,No binarie,3,fallo,Camille Pissarro,1,2,170
+1623704738,35,16,intento,3,No binarie,3,fallo,Andrei Rublev,1,2,140
+1623704740,35,16,intento,3,No binarie,3,fallo,Andy Warhol,1,2,110
+1623704741,35,16,intento,3,No binarie,3,ok,Claude Monet,1,2,310
+1623704742,35,16,intento,3,No binarie,3,fallo,Alfred Sisley,1,2,280
+1623704744,35,16,intento,3,No binarie,3,ok,Alfred Sisley,1,2,480
+1623704745,35,16,intento,3,No binarie,3,fallo,Andy Warhol,1,2,450
+1623704747,35,16,intento,3,No binarie,3,fallo,Amedeo Modigliani,1,2,420
+1623704748,35,16,intento,3,No binarie,3,fallo,Andrei Rublev,1,2,390
+1623704751,35,16,intento,3,No binarie,3,fallo,Camille Pissarro,1,2,360
+1623704752,35,16,intento,3,No binarie,3,ok,Amedeo Modigliani,1,2,560
+1623704755,35,16,intento,3,No binarie,3,fallo,Caravaggio,1,2,530
+1623704756,35,16,intento,3,No binarie,3,ok,Camille Pissarro,1,2,730
+1623704757,35,16,fin,3,No binarie,3,abandonada,,1,2,730

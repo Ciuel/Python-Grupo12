@@ -1,64 +1,8 @@
 {
-    "Juan": {
-        "password": "0",
-        "age": "19",
+    "5": {
+        "password": "06df05371981a237d0ed11472fae7c94c9ac0eff1d05413516710d17b10a4fb6f4517bda4a695f02d0a73dd4db543b4653df28f5d09dab86f92ffb9b86d01e25",
+        "age": "5",
         "gender": "Hombre",
-        "config": {
-            "Coincidences": 2,
-            "Help": "yes",
-            "Type of token": "Images",
-            "Level": 3,
-            "AppColor": "LightBrown",
-            "VictoryText": "Ganaste!!!",
-            "LoseText": ":( mas suerte la proxima"
-        }
-    },
-    "3": {
-        "password": "3",
-        "age": "6",
-        "gender": "Hombre",
-        "config": {
-            "Coincidences": 2,
-            "Help": "yes",
-            "Type of token": "Text",
-            "Level": 1,
-            "AppColor": "Black",
-            "VictoryText": "Ganaste!!!",
-            "LoseText": ":( mas suerte la proxima"
-        }
-    },
-    "0": {
-        "password": "0",
-        "age": "0",
-        "gender": "Otro",
-        "config": {
-            "Coincidences": 2,
-            "Help": "yes",
-            "Type of token": "Text",
-            "Level": 1,
-            "AppColor": "darkblue3",
-            "VictoryText": "Ganaste!!!",
-            "LoseText": ":( mas suerte la proxima"
-        }
-    },
-    "7": {
-        "password": "7",
-        "age": "7",
-        "gender": "No binarie",
-        "config": {
-            "Coincidences": 2,
-            "Help": "yes",
-            "Type of token": "Text",
-            "Level": 1,
-            "AppColor": "darkblue3",
-            "VictoryText": "Ganaste!!!",
-            "LoseText": ":( mas suerte la proxima"
-        }
-    },
-    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA": {
-        "password": "a",
-        "age": "1",
-        "gender": "No binarie",
         "config": {
             "Coincidences": 2,
             "Help": "yes",
@@ -70,22 +14,22 @@
         }
     },
     "2": {
-        "password": "2",
+        "password": "40b244112641dd78dd4f93b6c9190dd46e0099194d5a44257b7efad6ef9ff4683da1eda0244448cb343aa688f5d3efd7314dafe580ac0bcbf115aeca9e8dc114",
         "age": "2",
         "gender": "Mujer",
         "config": {
             "Coincidences": 2,
             "Help": "yes",
-            "Type of token": "Images",
+            "Type of token": "Text",
             "Level": 1,
-            "AppColor": "Material1",
+            "AppColor": "SandyBeach",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
     },
-    "4": {
-        "password": "4",
-        "age": "4",
+    "3": {
+        "password": "3bafbf08882a2d10133093a1b8433f50563b93c14acd05b79028eb1d12799027241450980651994501423a66c276ae26c43b739bc65c4e16b10c3af6c202aebb",
+        "age": "3",
         "gender": "No binarie",
         "config": {
             "Coincidences": 2,
@@ -95,20 +39,6 @@
             "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
-        }
-    },
-    "Lautaro": {
-        "password": "pin",
-        "age": "18",
-        "gender": "Otro",
-        "config": {
-            "Coincidences": 2,
-            "Help": "yes",
-            "Type of token": "Text",
-            "Level": 2,
-            "AppColor": "DarkAmber",
-            "VictoryText": "Ganaste Lautaro!!",
-            "LoseText": "Perdiste porque jugaste mal"
         }
     }
 }
