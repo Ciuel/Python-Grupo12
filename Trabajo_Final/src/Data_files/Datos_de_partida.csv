@@ -386,3 +386,306 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623622679,25,16,intento,4,No binarie,4,ok,Michelangelo,1,2,1010
 1623622681,25,16,intento,4,No binarie,4,ok,Joan Miro,1,2,1210
 1623622681,25,16,fin,4,No binarie,4,finalizada,,1,2,2140
+1623680265,26,24,inicio_partida,3,Hombre,6,,,2,2,0
+1623680267,26,24,intento,3,Hombre,6,fallo,Flag_of_Afghanistan .png,2,2,0
+1623680268,26,24,intento,3,Hombre,6,fallo,Flag_of_Armenia .png,2,2,0
+1623680269,26,24,intento,3,Hombre,6,fallo,Flag_of_Australia .png,2,2,0
+1623680271,26,24,intento,3,Hombre,6,fallo,Flag_of_Algeria .png,2,2,0
+1623680272,26,24,intento,3,Hombre,6,ok,Flag_of_Algeria .png,2,2,200
+1623680273,26,24,intento,3,Hombre,6,fallo,Flag_of_Andorra .png,2,2,170
+1623680276,26,24,intento,3,Hombre,6,ok,Flag_of_Austria .png,2,2,370
+1623680277,26,24,intento,3,Hombre,6,ok,Flag_of_Armenia .png,2,2,570
+1623680279,26,24,intento,3,Hombre,6,fallo,Flag_of_Albania .png,2,2,540
+1623680281,26,24,intento,3,Hombre,6,fallo,Flag_of_Andorra .png,2,2,510
+1623680283,26,24,intento,3,Hombre,6,fallo,Flag_of_Albania .png,2,2,480
+1623680284,26,24,intento,3,Hombre,6,ok,Flag_of_Bahamas.png,2,2,680
+1623680287,26,24,intento,3,Hombre,6,fallo,Flag_of_Argentina .png,2,2,650
+1623680288,26,24,intento,3,Hombre,6,fallo,Flag_of_Azerbaijan .png,2,2,620
+1623680290,26,24,intento,3,Hombre,6,fallo,Flag_of_Argentina .png,2,2,590
+1623680292,26,24,intento,3,Hombre,6,ok,Flag_of_Argentina .png,2,2,790
+1623680293,26,24,intento,3,Hombre,6,ok,Flag_of_Andorra .png,2,2,990
+1623680294,26,24,intento,3,Hombre,6,fallo,Flag_of_Antigua & Barbuda .png,2,2,960
+1623680296,26,24,intento,3,Hombre,6,ok,Flag_of_Australia .png,2,2,1160
+1623680297,26,24,intento,3,Hombre,6,fallo,Flag_of_Albania .png,2,2,1130
+1623680299,26,24,intento,3,Hombre,6,fallo,Flag_of_Azerbaijan .png,2,2,1100
+1623680301,26,24,intento,3,Hombre,6,ok,Flag_of_Angola .png,2,2,1300
+1623680302,26,24,intento,3,Hombre,6,fallo,Flag_of_Afghanistan .png,2,2,1270
+1623680303,26,24,intento,3,Hombre,6,fallo,Flag_of_Albania .png,2,2,1240
+1623680305,26,24,intento,3,Hombre,6,ok,Flag_of_Azerbaijan .png,2,2,1440
+1623680307,26,24,intento,3,Hombre,6,fallo,Flag_of_Antigua & Barbuda .png,2,2,1410
+1623680309,26,24,intento,3,Hombre,6,ok,Flag_of_Afghanistan .png,2,2,1610
+1623680311,26,24,intento,3,Hombre,6,ok,Flag_of_Albania .png,2,2,1810
+1623680312,26,24,intento,3,Hombre,6,ok,Flag_of_Antigua & Barbuda .png,2,2,2010
+1623680313,26,24,fin,3,Hombre,6,finalizada,,2,2,4200
+1623680393,27,42,inicio_partida,Lautaro,Otro,18,,,3,2,0
+1623680394,27,42,intento,Lautaro,Otro,18,fallo,Belgium ,3,2,0
+1623680397,27,42,intento,Lautaro,Otro,18,ok,Bahamas,3,2,200
+1623680399,27,42,intento,Lautaro,Otro,18,fallo,Afghanistan ,3,2,170
+1623680401,27,42,intento,Lautaro,Otro,18,fallo,Algeria ,3,2,140
+1623680402,27,42,intento,Lautaro,Otro,18,fallo,Belize ,3,2,110
+1623680404,27,42,intento,Lautaro,Otro,18,fallo,Bolivia ,3,2,80
+1623680406,27,42,intento,Lautaro,Otro,18,fallo,Azerbaijan ,3,2,50
+1623680408,27,42,intento,Lautaro,Otro,18,fallo,Bangladesh ,3,2,20
+1623680410,27,42,intento,Lautaro,Otro,18,fallo,Bahrain ,3,2,0
+1623680412,27,42,intento,Lautaro,Otro,18,fallo,Belize ,3,2,0
+1623680414,27,42,intento,Lautaro,Otro,18,fallo,Bolivia ,3,2,0
+1623680416,27,42,intento,Lautaro,Otro,18,ok,Andorra ,3,2,200
+1623680419,27,42,intento,Lautaro,Otro,18,fallo,Algeria ,3,2,170
+1623680421,27,42,intento,Lautaro,Otro,18,fallo,Bolivia ,3,2,140
+1623680422,27,42,intento,Lautaro,Otro,18,ok,Bolivia ,3,2,340
+1623680424,27,42,intento,Lautaro,Otro,18,fallo,Armenia ,3,2,310
+1623680425,27,42,intento,Lautaro,Otro,18,fallo,Bhutan ,3,2,280
+1623680427,27,42,intento,Lautaro,Otro,18,fallo,Angola ,3,2,250
+1623680429,27,42,intento,Lautaro,Otro,18,fallo,Australia ,3,2,220
+1623680432,27,42,intento,Lautaro,Otro,18,ok,Argentina ,3,2,420
+1623680433,27,42,intento,Lautaro,Otro,18,fallo,Armenia ,3,2,390
+1623680434,27,42,intento,Lautaro,Otro,18,ok,Angola ,3,2,590
+1623680436,27,42,intento,Lautaro,Otro,18,fallo,Antigua & Barbuda ,3,2,560
+1623680438,27,42,intento,Lautaro,Otro,18,fallo,Australia ,3,2,530
+1623680439,27,42,intento,Lautaro,Otro,18,fallo,Bahrain ,3,2,500
+1623680440,27,42,intento,Lautaro,Otro,18,ok,Australia ,3,2,700
+1623680443,27,42,intento,Lautaro,Otro,18,ok,Bhutan ,3,2,900
+1623680444,27,42,intento,Lautaro,Otro,18,fallo,Belarus ,3,2,870
+1623680445,27,42,intento,Lautaro,Otro,18,fallo,Austria ,3,2,840
+1623680447,27,42,intento,Lautaro,Otro,18,fallo,Azerbaijan ,3,2,810
+1623680449,27,42,intento,Lautaro,Otro,18,fallo,Algeria ,3,2,780
+1623680451,27,42,intento,Lautaro,Otro,18,fallo,Bahrain ,3,2,750
+1623680453,27,42,intento,Lautaro,Otro,18,fallo,Belarus ,3,2,720
+1623680455,27,42,intento,Lautaro,Otro,18,ok,Benin ,3,2,920
+1623680457,27,42,intento,Lautaro,Otro,18,fallo,Bahrain ,3,2,890
+1623680459,27,42,intento,Lautaro,Otro,18,fallo,Belarus ,3,2,860
+1623680460,27,42,intento,Lautaro,Otro,18,fallo,Antigua & Barbuda ,3,2,830
+1623680462,27,42,intento,Lautaro,Otro,18,ok,Algeria ,3,2,1030
+1623680466,27,42,intento,Lautaro,Otro,18,ok,Afghanistan ,3,2,1230
+1623680468,27,42,intento,Lautaro,Otro,18,fallo,Belize ,3,2,1200
+1623680470,27,42,intento,Lautaro,Otro,18,ok,Belize ,3,2,1400
+1623680471,27,42,intento,Lautaro,Otro,18,ok,Bahrain ,3,2,1600
+1623680472,27,42,intento,Lautaro,Otro,18,fallo,Bangladesh ,3,2,1570
+1623680474,27,42,intento,Lautaro,Otro,18,ok,Austria ,3,2,1770
+1623680475,27,42,intento,Lautaro,Otro,18,ok,Bangladesh ,3,2,1970
+1623680476,27,42,intento,Lautaro,Otro,18,fallo,Azerbaijan ,3,2,1940
+1623680478,27,42,intento,Lautaro,Otro,18,ok,Azerbaijan ,3,2,2140
+1623680480,27,42,intento,Lautaro,Otro,18,ok,Barbados ,3,2,2340
+1623680482,27,42,intento,Lautaro,Otro,18,fallo,Belarus ,3,2,2310
+1623680483,27,42,intento,Lautaro,Otro,18,fallo,Albania ,3,2,2280
+1623680485,27,42,intento,Lautaro,Otro,18,fallo,Antigua & Barbuda ,3,2,2250
+1623680486,27,42,intento,Lautaro,Otro,18,ok,Antigua & Barbuda ,3,2,2450
+1623680487,27,42,intento,Lautaro,Otro,18,fallo,Belgium ,3,2,2420
+1623680493,27,42,intento,Lautaro,Otro,18,fallo,Armenia ,3,2,2390
+1623680495,27,42,intento,Lautaro,Otro,18,fallo,Armenia ,3,2,2360
+1623680497,27,42,intento,Lautaro,Otro,18,fallo,Belarus ,3,2,2330
+1623680499,27,42,intento,Lautaro,Otro,18,ok,Armenia ,3,2,2530
+1623680500,27,42,intento,Lautaro,Otro,18,ok,Belgium ,3,2,2730
+1623680502,27,42,intento,Lautaro,Otro,18,ok,Belarus ,3,2,2930
+1623680503,27,42,intento,Lautaro,Otro,18,ok,Albania ,3,2,3130
+1623680503,27,42,fin,Lautaro,Otro,18,finalizada,,3,2,5260
+1623680530,28,24,inicio_partida,Lautaro,Otro,18,,,2,2,0
+1623680532,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Algeria .png,2,2,0
+1623680533,28,24,intento,Lautaro,Otro,18,ok,Flag_of_Albania .png,2,2,200
+1623680534,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Afghanistan .png,2,2,170
+1623680537,28,24,intento,Lautaro,Otro,18,ok,Flag_of_Antigua & Barbuda .png,2,2,370
+1623680538,28,24,intento,Lautaro,Otro,18,ok,Flag_of_Australia .png,2,2,570
+1623680540,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Afghanistan .png,2,2,540
+1623680541,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Angola .png,2,2,510
+1623680543,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Angola .png,2,2,480
+1623680545,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Algeria .png,2,2,450
+1623680546,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Afghanistan .png,2,2,420
+1623680547,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Azerbaijan .png,2,2,390
+1623680549,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Armenia .png,2,2,360
+1623680551,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Azerbaijan .png,2,2,330
+1623680553,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Algeria .png,2,2,300
+1623680554,28,24,intento,Lautaro,Otro,18,ok,Flag_of_Azerbaijan .png,2,2,500
+1623680556,28,24,intento,Lautaro,Otro,18,ok,Flag_of_Andorra .png,2,2,700
+1623680559,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Afghanistan .png,2,2,670
+1623680561,28,24,intento,Lautaro,Otro,18,ok,Flag_of_Angola .png,2,2,870
+1623680562,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Afghanistan .png,2,2,840
+1623680564,28,24,intento,Lautaro,Otro,18,ok,Flag_of_Algeria .png,2,2,1040
+1623680566,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Armenia .png,2,2,1010
+1623680567,28,24,intento,Lautaro,Otro,18,ok,Flag_of_Armenia .png,2,2,1210
+1623680568,28,24,intento,Lautaro,Otro,18,fallo,Flag_of_Bahamas.png,2,2,1180
+1623680570,28,24,intento,Lautaro,Otro,18,ok,Flag_of_Afghanistan .png,2,2,1380
+1623680590,28,24,fin,Lautaro,Otro,18,abandonada,,2,2,1380
+1623680595,29,24,inicio_partida,Lautaro,Otro,18,,,2,2,0
+1623680596,29,24,intento,Lautaro,Otro,18,fallo,Armenia ,2,2,0
+1623680598,29,24,intento,Lautaro,Otro,18,fallo,Angola ,2,2,0
+1623680600,29,24,intento,Lautaro,Otro,18,fallo,Albania ,2,2,0
+1623680602,29,24,intento,Lautaro,Otro,18,fallo,Afghanistan ,2,2,0
+1623680603,29,24,intento,Lautaro,Otro,18,fallo,Algeria ,2,2,0
+1623680604,29,24,intento,Lautaro,Otro,18,ok,Azerbaijan ,2,2,200
+1623680605,29,24,intento,Lautaro,Otro,18,fallo,Albania ,2,2,170
+1623680608,29,24,intento,Lautaro,Otro,18,fallo,Australia ,2,2,140
+1623680609,29,24,intento,Lautaro,Otro,18,fallo,Bahamas,2,2,110
+1623680611,29,24,intento,Lautaro,Otro,18,ok,Andorra ,2,2,310
+1623680614,29,24,intento,Lautaro,Otro,18,fallo,Bahamas,2,2,280
+1623680616,29,24,intento,Lautaro,Otro,18,fallo,Armenia ,2,2,250
+1623680619,29,24,intento,Lautaro,Otro,18,ok,Albania ,2,2,450
+1623680621,29,24,intento,Lautaro,Otro,18,ok,Antigua & Barbuda ,2,2,650
+1623680622,29,24,intento,Lautaro,Otro,18,fallo,Algeria ,2,2,620
+1623680624,29,24,intento,Lautaro,Otro,18,ok,Austria ,2,2,820
+1623680625,29,24,intento,Lautaro,Otro,18,ok,Algeria ,2,2,1020
+1623680626,29,24,intento,Lautaro,Otro,18,fallo,Angola ,2,2,990
+1623680628,29,24,intento,Lautaro,Otro,18,fallo,Bahamas,2,2,960
+1623680629,29,24,intento,Lautaro,Otro,18,ok,Australia ,2,2,1160
+1623680630,29,24,intento,Lautaro,Otro,18,fallo,Angola ,2,2,1130
+1623680632,29,24,intento,Lautaro,Otro,18,fallo,Argentina ,2,2,1100
+1623680634,29,24,intento,Lautaro,Otro,18,fallo,Armenia ,2,2,1070
+1623680637,29,24,intento,Lautaro,Otro,18,ok,Argentina ,2,2,1270
+1623680640,29,24,intento,Lautaro,Otro,18,ok,Armenia ,2,2,1470
+1623680642,29,24,intento,Lautaro,Otro,18,fallo,Angola ,2,2,1440
+1623680644,29,24,intento,Lautaro,Otro,18,ok,Bahamas,2,2,1640
+1623680646,29,24,intento,Lautaro,Otro,18,fallo,Afghanistan ,2,2,1610
+1623680647,29,24,intento,Lautaro,Otro,18,ok,Angola ,2,2,1810
+1623680648,29,24,intento,Lautaro,Otro,18,ok,Afghanistan ,2,2,2010
+1623680648,29,24,fin,Lautaro,Otro,18,finalizada,,2,2,4050
+1623680660,30,24,inicio_partida,Lautaro,Otro,18,,,2,2,0
+1623680662,30,24,intento,Lautaro,Otro,18,ok,Austria ,2,2,200
+1623680664,30,24,intento,Lautaro,Otro,18,fallo,Bahamas,2,2,170
+1623680665,30,24,intento,Lautaro,Otro,18,fallo,Andorra ,2,2,140
+1623680667,30,24,intento,Lautaro,Otro,18,fallo,Australia ,2,2,110
+1623680669,30,24,intento,Lautaro,Otro,18,ok,Bahamas,2,2,310
+1623680670,30,24,intento,Lautaro,Otro,18,fallo,Albania ,2,2,280
+1623680672,30,24,intento,Lautaro,Otro,18,ok,Argentina ,2,2,480
+1623680674,30,24,intento,Lautaro,Otro,18,fallo,Afghanistan ,2,2,450
+1623680675,30,24,intento,Lautaro,Otro,18,fallo,Andorra ,2,2,420
+1623680677,30,24,intento,Lautaro,Otro,18,fallo,Andorra ,2,2,390
+1623680679,30,24,intento,Lautaro,Otro,18,fallo,Antigua & Barbuda ,2,2,360
+1623680681,30,24,intento,Lautaro,Otro,18,ok,Armenia ,2,2,560
+1623680682,30,24,intento,Lautaro,Otro,18,ok,Angola ,2,2,760
+1623680684,30,24,intento,Lautaro,Otro,18,fallo,Azerbaijan ,2,2,730
+1623680685,30,24,intento,Lautaro,Otro,18,fallo,Algeria ,2,2,700
+1623680687,30,24,intento,Lautaro,Otro,18,fallo,Afghanistan ,2,2,670
+1623680689,30,24,intento,Lautaro,Otro,18,fallo,Albania ,2,2,640
+1623680690,30,24,intento,Lautaro,Otro,18,fallo,Algeria ,2,2,610
+1623680692,30,24,intento,Lautaro,Otro,18,fallo,Algeria ,2,2,580
+1623680694,30,24,intento,Lautaro,Otro,18,ok,Algeria ,2,2,780
+1623680696,30,24,intento,Lautaro,Otro,18,fallo,Australia ,2,2,750
+1623680698,30,24,intento,Lautaro,Otro,18,ok,Antigua & Barbuda ,2,2,950
+1623680699,30,24,intento,Lautaro,Otro,18,fallo,Andorra ,2,2,920
+1623680701,30,24,intento,Lautaro,Otro,18,ok,Australia ,2,2,1120
+1623680703,30,24,intento,Lautaro,Otro,18,fallo,Afghanistan ,2,2,1090
+1623680705,30,24,intento,Lautaro,Otro,18,fallo,Azerbaijan ,2,2,1060
+1623680707,30,24,intento,Lautaro,Otro,18,ok,Andorra ,2,2,1260
+1623680708,30,24,intento,Lautaro,Otro,18,fallo,Azerbaijan ,2,2,1230
+1623680709,30,24,intento,Lautaro,Otro,18,ok,Afghanistan ,2,2,1430
+1623680711,30,24,intento,Lautaro,Otro,18,ok,Azerbaijan ,2,2,1630
+1623680712,30,24,intento,Lautaro,Otro,18,ok,Albania ,2,2,1830
+1623680712,30,24,fin,Lautaro,Otro,18,finalizada,,2,2,3900
+1623680719,31,24,inicio_partida,Lautaro,Otro,18,,,2,2,0
+1623680721,31,24,fin,Lautaro,Otro,18,abandonada,,2,2,0
+1623680726,32,24,inicio_partida,Lautaro,Otro,18,,,2,2,0
+1623680728,32,24,intento,Lautaro,Otro,18,ok,Algeria ,2,2,200
+1623680729,32,24,intento,Lautaro,Otro,18,fallo,Albania ,2,2,170
+1623680731,32,24,intento,Lautaro,Otro,18,ok,Albania ,2,2,370
+1623680733,32,24,intento,Lautaro,Otro,18,fallo,Antigua & Barbuda ,2,2,340
+1623680734,32,24,intento,Lautaro,Otro,18,fallo,Argentina ,2,2,310
+1623680736,32,24,intento,Lautaro,Otro,18,ok,Afghanistan ,2,2,510
+1623680737,32,24,intento,Lautaro,Otro,18,fallo,Austria ,2,2,480
+1623680738,32,24,intento,Lautaro,Otro,18,fallo,Antigua & Barbuda ,2,2,450
+1623680740,32,24,intento,Lautaro,Otro,18,fallo,Angola ,2,2,420
+1623680741,32,24,intento,Lautaro,Otro,18,fallo,Angola ,2,2,390
+1623680743,32,24,intento,Lautaro,Otro,18,fallo,Argentina ,2,2,360
+1623680745,32,24,intento,Lautaro,Otro,18,fallo,Bahamas,2,2,330
+1623680746,32,24,intento,Lautaro,Otro,18,ok,Argentina ,2,2,530
+1623680750,32,24,intento,Lautaro,Otro,18,fallo,Bahamas,2,2,500
+1623680751,32,24,intento,Lautaro,Otro,18,fallo,Antigua & Barbuda ,2,2,470
+1623680752,32,24,intento,Lautaro,Otro,18,ok,Bahamas,2,2,670
+1623680753,32,24,intento,Lautaro,Otro,18,fallo,Angola ,2,2,640
+1623680755,32,24,intento,Lautaro,Otro,18,fallo,Andorra ,2,2,610
+1623680757,32,24,intento,Lautaro,Otro,18,ok,Angola ,2,2,810
+1623680758,32,24,intento,Lautaro,Otro,18,fallo,Azerbaijan ,2,2,780
+1623680760,32,24,intento,Lautaro,Otro,18,ok,Azerbaijan ,2,2,980
+1623680761,32,24,intento,Lautaro,Otro,18,fallo,Australia ,2,2,950
+1623680762,32,24,intento,Lautaro,Otro,18,fallo,Austria ,2,2,920
+1623680765,32,24,fin,Lautaro,Otro,18,abandonada,,2,2,920
+1623682961,33,42,inicio_partida,3,Hombre,6,,,3,2,0
+1623682963,33,42,intento,3,Hombre,6,fallo,Obra_Gustave Courbet.png,3,2,0
+1623682965,33,42,intento,3,Hombre,6,fallo,Obra_Edvard Munch.png,3,2,0
+1623682967,33,42,intento,3,Hombre,6,fallo,Obra_Albrecht Dürer.png,3,2,0
+1623682970,33,42,intento,3,Hombre,6,ok,Obra_Giotto di Bondone.png,3,2,200
+1623682971,33,42,intento,3,Hombre,6,fallo,Obra_Georges Seurat.png,3,2,170
+1623682973,33,42,intento,3,Hombre,6,fallo,Obra_Frida Kahlo.png,3,2,140
+1623682974,33,42,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,3,2,110
+1623682976,33,42,intento,3,Hombre,6,fallo,Obra_Claude Monet.png,3,2,80
+1623682978,33,42,intento,3,Hombre,6,ok,Obra_Edvard Munch.png,3,2,280
+1623682979,33,42,intento,3,Hombre,6,fallo,Obra_Diego Velazquez.png,3,2,250
+1623682981,33,42,intento,3,Hombre,6,fallo,Obra_Camille Pissarro.png,3,2,220
+1623682983,33,42,intento,3,Hombre,6,fallo,Obra_Edouard Manet.png,3,2,190
+1623682984,33,42,intento,3,Hombre,6,ok,Obra_Edouard Manet.png,3,2,390
+1623682986,33,42,intento,3,Hombre,6,ok,Obra_Amedeo Modigliani.png,3,2,590
+1623682988,33,42,intento,3,Hombre,6,ok,Obra_Camille Pissarro.png,3,2,790
+1623682990,33,42,intento,3,Hombre,6,fallo,Obra_Edgar Degas.png,3,2,760
+1623682991,33,42,intento,3,Hombre,6,fallo,Obra_Frida Kahlo.png,3,2,730
+1623682993,33,42,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,3,2,700
+1623682995,33,42,intento,3,Hombre,6,ok,Obra_Edgar Degas.png,3,2,900
+1623682997,33,42,intento,3,Hombre,6,fallo,Obra_El Greco.png,3,2,870
+1623683000,33,42,intento,3,Hombre,6,ok,Obra_Alfred Sisley.png,3,2,1070
+1623683001,33,42,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,3,2,1040
+1623683003,33,42,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,3,2,1010
+1623683004,33,42,intento,3,Hombre,6,ok,Obra_Albrecht Dürer.png,3,2,1210
+1623683005,33,42,intento,3,Hombre,6,fallo,Obra_Gustav Klimt.png,3,2,1180
+1623683007,33,42,intento,3,Hombre,6,ok,Obra_El Greco.png,3,2,1380
+1623683008,33,42,intento,3,Hombre,6,fallo,Obra_Claude Monet.png,3,2,1350
+1623683010,33,42,intento,3,Hombre,6,fallo,Obra_Georges Seurat.png,3,2,1320
+1623683013,33,42,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,3,2,1290
+1623683015,33,42,intento,3,Hombre,6,ok,Obra_Diego Velazquez.png,3,2,1490
+1623683016,33,42,intento,3,Hombre,6,ok,Obra_Gustav Klimt.png,3,2,1690
+1623683017,33,42,intento,3,Hombre,6,fallo,Obra_Claude Monet.png,3,2,1660
+1623683019,33,42,intento,3,Hombre,6,fallo,Obra_Caravaggio.png,3,2,1630
+1623683020,33,42,intento,3,Hombre,6,ok,Obra_Caravaggio.png,3,2,1830
+1623683022,33,42,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,3,2,1800
+1623683024,33,42,intento,3,Hombre,6,fallo,Obra_Diego Rivera.png,3,2,1770
+1623683025,33,42,intento,3,Hombre,6,fallo,Obra_Andrei Rublev.png,3,2,1740
+1623683027,33,42,intento,3,Hombre,6,fallo,Obra_Diego Rivera.png,3,2,1710
+1623683028,33,42,intento,3,Hombre,6,fallo,Obra_Gustave Courbet.png,3,2,1680
+1623683029,33,42,intento,3,Hombre,6,ok,Obra_Gustave Courbet.png,3,2,1880
+1623683032,33,42,intento,3,Hombre,6,ok,Obra_Andrei Rublev.png,3,2,2080
+1623683033,33,42,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,3,2,2050
+1623683035,33,42,intento,3,Hombre,6,fallo,Obra_Georges Seurat.png,3,2,2020
+1623683036,33,42,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,3,2,1990
+1623683037,33,42,intento,3,Hombre,6,fallo,Obra_Francisco Goya.png,3,2,1960
+1623683039,33,42,intento,3,Hombre,6,ok,Obra_Andy Warhol.png,3,2,2160
+1623683040,33,42,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,3,2,2130
+1623683042,33,42,intento,3,Hombre,6,fallo,Obra_Claude Monet.png,3,2,2100
+1623683044,33,42,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,3,2,2070
+1623683046,33,42,intento,3,Hombre,6,fallo,Obra_Diego Rivera.png,3,2,2040
+1623683048,33,42,intento,3,Hombre,6,ok,Obra_Diego Rivera.png,3,2,2240
+1623683051,33,42,intento,3,Hombre,6,ok,Obra_Frida Kahlo.png,3,2,2440
+1623683052,33,42,intento,3,Hombre,6,fallo,Obra_Georges Seurat.png,3,2,2410
+1623683053,33,42,intento,3,Hombre,6,ok,Obra_Francisco Goya.png,3,2,2610
+1623683055,33,42,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,3,2,2580
+1623683056,33,42,intento,3,Hombre,6,ok,Obra_Claude Monet.png,3,2,2780
+1623683057,33,42,intento,3,Hombre,6,fallo,Obra_Eugene Delacroix.png,3,2,2750
+1623683059,33,42,intento,3,Hombre,6,ok,Obra_Georges Seurat.png,3,2,2950
+1623683060,33,42,intento,3,Hombre,6,ok,Obra_Eugene Delacroix.png,3,2,3150
+1623683060,33,42,fin,3,Hombre,6,finalizada,,3,2,5610
+1623683072,34,16,inicio_partida,3,Hombre,6,,,1,2,0
+1623683073,34,16,intento,3,Hombre,6,fallo,Claude Monet,1,2,0
+1623683075,34,16,intento,3,Hombre,6,fallo,Albrecht Dürer,1,2,0
+1623683076,34,16,intento,3,Hombre,6,fallo,Andrei Rublev,1,2,0
+1623683078,34,16,intento,3,Hombre,6,fallo,Amedeo Modigliani,1,2,0
+1623683080,34,16,intento,3,Hombre,6,ok,Andy Warhol,1,2,200
+1623683081,34,16,intento,3,Hombre,6,fallo,Andrei Rublev,1,2,170
+1623683083,34,16,intento,3,Hombre,6,fallo,Alfred Sisley,1,2,140
+1623683085,34,16,intento,3,Hombre,6,fallo,Caravaggio,1,2,110
+1623683089,34,16,intento,3,Hombre,6,fallo,Amedeo Modigliani,1,2,80
+1623683091,34,16,intento,3,Hombre,6,fallo,Claude Monet,1,2,50
+1623683093,34,16,intento,3,Hombre,6,fallo,Albrecht Dürer,1,2,20
+1623683095,34,16,intento,3,Hombre,6,fallo,Andrei Rublev,1,2,0
+1623683097,34,16,intento,3,Hombre,6,fallo,Amedeo Modigliani,1,2,0
+1623683099,34,16,intento,3,Hombre,6,fallo,Albrecht Dürer,1,2,0
+1623683101,34,16,intento,3,Hombre,6,fallo,Andrei Rublev,1,2,0
+1623683104,34,16,intento,3,Hombre,6,ok,Camille Pissarro,1,2,200
+1623683105,34,16,intento,3,Hombre,6,ok,Amedeo Modigliani,1,2,400
+1623683107,34,16,intento,3,Hombre,6,fallo,Albrecht Dürer,1,2,370
+1623683109,34,16,intento,3,Hombre,6,fallo,Claude Monet,1,2,340
+1623683111,34,16,intento,3,Hombre,6,fallo,Claude Monet,1,2,310
+1623683112,34,16,intento,3,Hombre,6,fallo,Andrei Rublev,1,2,280
+1623683114,34,16,intento,3,Hombre,6,fallo,Alfred Sisley,1,2,250
+1623683116,34,16,intento,3,Hombre,6,fallo,Andrei Rublev,1,2,220
+1623683117,34,16,intento,3,Hombre,6,fallo,Alfred Sisley,1,2,190
+1623683118,34,16,intento,3,Hombre,6,fallo,Andrei Rublev,1,2,160
+1623683122,34,16,intento,3,Hombre,6,fallo,Albrecht Dürer,1,2,130
+1623683125,34,16,intento,3,Hombre,6,ok,Caravaggio,1,2,330
+1623683126,34,16,intento,3,Hombre,6,ok,Andrei Rublev,1,2,530
+1623683128,34,16,intento,3,Hombre,6,fallo,Claude Monet,1,2,500
+1623683132,34,16,fin,3,Hombre,6,timeout,,1,2,500

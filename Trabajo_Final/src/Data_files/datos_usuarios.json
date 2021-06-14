@@ -20,8 +20,8 @@
         "config": {
             "Coincidences": 2,
             "Help": "yes",
-            "Type of token": "Images",
-            "Level": 2,
+            "Type of token": "Text",
+            "Level": 1,
             "AppColor": "Black",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
@@ -95,6 +95,20 @@
             "AppColor": "darkblue3",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    "Lautaro": {
+        "password": "pin",
+        "age": "18",
+        "gender": "Otro",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 2,
+            "AppColor": "DarkAmber",
+            "VictoryText": "Ganaste Lautaro!!",
+            "LoseText": "Perdiste porque jugaste mal"
         }
     }
 }
