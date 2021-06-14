@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 import datetime
+import PySimpleGUI as sg
 from ..Constants.constants import GAME_INFO_PATH
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
@@ -136,3 +137,18 @@ def cant_encontradas_en_timeout(info):
                   index=["Encontradas", "No encontradas"]))
     plt.close()
     return return_figure
+
+
+def menu_button(window: sg.Window, event: str, nick: str, theme: str,
+                vlc_dict):
+    """Cierra la ventana actual y abre el menu
+
+    Args:
+        window (sg.Window): La ventana donde ocurren los chequeos
+        event (str): El evento a chequear si es  -BACK BUTTON-
+        nick (str): El nick del usuario que inicio sesion
+        theme (str): El tema de las ventanas a dibujar
+    """
+    if event == "-BACK BUTTON-":
+        window.close()
+        menu.start(nick, theme, vlc_dict)
