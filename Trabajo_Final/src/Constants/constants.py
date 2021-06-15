@@ -13,6 +13,7 @@ LEVEL_DICTIONARY = {
 
 
 
+
 DEFAULT_CONFIG = {
     "Coincidences": 2,
     "Help": "yes",
@@ -23,6 +24,7 @@ DEFAULT_CONFIG = {
     "LoseText": ":( mas suerte la proxima"
 }
 
+HELP_COOLDOWN_TIME=5
 WINDOW_FONT_SIZE = 20
 WINDOW_FONT = "Helvetica"
 MAX_VALUE = sys.maxsize
@@ -31,9 +33,7 @@ MAX_VALUE = sys.maxsize
 
 USER_JSON_PATH= f"src{os.sep}Data_files{os.sep}datos_usuarios.json"
 GAME_INFO_PATH = f"src{os.sep}Data_files{os.sep}Datos_de_partida.csv"
-
 IMAGES_PATH = f"src{os.sep}Data_files{os.sep}Images"
-
 MENU_MUSIC_PATH = f"src{os.sep}Music_files{os.sep}Menu.mp3"
 MENU_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Menu_Button.mp3"
 HELP_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Help.mp3"

@@ -707,3 +707,266 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623704755,35,16,intento,3,No binarie,3,fallo,Caravaggio,1,2,530
 1623704756,35,16,intento,3,No binarie,3,ok,Camille Pissarro,1,2,730
 1623704757,35,16,fin,3,No binarie,3,abandonada,,1,2,730
+1623789169,36,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623789170,36,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,2,0
+1623789172,36,16,intento,2,Mujer,2,fallo,Hieronymus Bosch,1,2,0
+1623789173,36,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,0
+1623789708,37,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623789709,37,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,0
+1623789710,37,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,0
+1623789711,37,16,intento,2,Mujer,2,fallo,Leonardo da Vinci,1,2,0
+1623789713,37,16,intento,2,Mujer,2,ok,Jan van Eyck,1,2,200
+1623789717,37,16,intento,2,Mujer,2,fallo,Hieronymus Bosch,1,2,170
+1623789719,37,16,intento,2,Mujer,2,ok,Giotto di Bondone,1,2,370
+1623789720,37,16,intento,2,Mujer,2,fallo,Leonardo da Vinci,1,2,340
+1623789722,37,16,intento,2,Mujer,2,fallo,Leonardo da Vinci,1,2,310
+1623789724,37,16,intento,2,Mujer,2,ok,Albrecht Dürer,1,2,510
+1623789725,37,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,480
+1623789727,37,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,2,680
+1623789729,37,16,intento,2,Mujer,2,ok,Hieronymus Bosch,1,2,880
+1623789730,37,16,intento,2,Mujer,2,fallo,Leonardo da Vinci,1,2,850
+1623789731,37,16,intento,2,Mujer,2,ok,Leonardo da Vinci,1,2,1050
+1623789733,37,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,1250
+1623789734,37,16,intento,2,Mujer,2,ok,Michelangelo,1,2,1450
+1623789734,37,16,fin,2,Mujer,2,finalizada,,1,2,2500
+1623789956,38,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623789957,38,16,intento,2,Mujer,2,fallo,Hieronymus Bosch,1,2,0
+1623789958,38,16,intento,2,Mujer,2,fallo,Jan van Eyck,1,2,0
+1623789959,38,16,intento,2,Mujer,2,ok,Hieronymus Bosch,1,2,200
+1623789962,38,16,intento,2,Mujer,2,ok,Jan van Eyck,1,2,400
+1623789963,38,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,2,370
+1623789964,38,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,2,340
+1623789965,38,16,intento,2,Mujer,2,ok,Albrecht Dürer,1,2,540
+1623789966,38,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,510
+1623789968,38,16,intento,2,Mujer,2,ok,Leonardo da Vinci,1,2,710
+1623789969,38,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,2,910
+1623789970,38,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,880
+1623789972,38,16,intento,2,Mujer,2,fallo,Giotto di Bondone,1,2,850
+1623789973,38,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,1050
+1623789974,38,16,intento,2,Mujer,2,ok,Giotto di Bondone,1,2,1250
+1623789975,38,16,intento,2,Mujer,2,ok,Michelangelo,1,2,1450
+1623789975,38,16,fin,2,Mujer,2,finalizada,,1,2,2680
+1623790151,39,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623790153,39,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623790220,40,42,inicio_partida,2,Mujer,2,,,3,2,0
+1623790222,40,42,intento,2,Mujer,2,ok,El Greco,3,2,200
+1623790223,40,42,intento,2,Mujer,2,fallo,Michelangelo,3,2,170
+1623790225,40,42,intento,2,Mujer,2,fallo,Giotto di Bondone,3,2,140
+1623790227,40,42,intento,2,Mujer,2,fallo,Diego Velazquez,3,2,110
+1623790229,40,42,intento,2,Mujer,2,fallo,Leonardo da Vinci,3,2,80
+1623790231,40,42,intento,2,Mujer,2,fallo,Michelangelo,3,2,50
+1623790232,40,42,intento,2,Mujer,2,fallo,Hieronymus Bosch,3,2,20
+1623790234,40,42,intento,2,Mujer,2,fallo,Albrecht Dürer,3,2,0
+1623790235,40,42,intento,2,Mujer,2,fallo,Titian,3,2,0
+1623790236,40,42,intento,2,Mujer,2,fallo,Sandro Botticelli,3,2,0
+1623790238,40,42,intento,2,Mujer,2,fallo,Eugene Delacroix,3,2,0
+1623790239,40,42,intento,2,Mujer,2,ok,Sandro Botticelli,3,2,200
+1623790240,40,42,intento,2,Mujer,2,fallo,Caravaggio,3,2,170
+1623790242,40,42,intento,2,Mujer,2,fallo,Pieter Bruegel,3,2,140
+1623790244,40,42,intento,2,Mujer,2,fallo,Leonardo da Vinci,3,2,110
+1623790246,40,42,intento,2,Mujer,2,fallo,Albrecht Dürer,3,2,80
+1623790248,40,42,intento,2,Mujer,2,fallo,Leonardo da Vinci,3,2,50
+1623790249,40,42,intento,2,Mujer,2,fallo,Eugene Delacroix,3,2,20
+1623790250,40,42,intento,2,Mujer,2,fallo,Titian,3,2,0
+1623790252,40,42,intento,2,Mujer,2,fallo,Andrei Rublev,3,2,0
+1623790254,40,42,intento,2,Mujer,2,fallo,Francisco Goya,3,2,0
+1623790256,40,42,intento,2,Mujer,2,fallo,Eugene Delacroix,3,2,0
+1623790258,40,42,intento,2,Mujer,2,fallo,Caravaggio,3,2,0
+1623790261,40,42,fin,2,Mujer,2,abandonada,,3,2,0
+1623792832,41,42,inicio_partida,2,Mujer,2,,,3,2,0
+1623792835,41,42,intento,2,Mujer,2,fallo,El Greco,3,2,0
+1623792836,41,42,intento,2,Mujer,2,fallo,Albrecht Dürer,3,2,0
+1623792837,41,42,intento,2,Mujer,2,fallo,Giotto di Bondone,3,2,0
+1623792838,41,42,intento,2,Mujer,2,fallo,Jan van Eyck,3,2,0
+1623792840,41,42,intento,2,Mujer,2,fallo,Leonardo da Vinci,3,2,0
+1623792841,41,42,intento,2,Mujer,2,fallo,Albrecht Dürer,3,2,0
+1623792842,41,42,intento,2,Mujer,2,fallo,Camille Pissarro,3,2,0
+1623792846,41,42,intento,2,Mujer,2,fallo,Gustave Courbet,3,2,0
+1623792853,41,42,fin,2,Mujer,2,abandonada,,3,2,0
+1623792855,42,42,inicio_partida,2,Mujer,2,,,3,2,0
+1623792875,42,42,fin,2,Mujer,2,abandonada,,3,2,0
+1623792883,43,42,inicio_partida,2,Mujer,2,,,3,2,0
+1623792884,43,42,intento,2,Mujer,2,fallo,Eugene Delacroix,3,2,0
+1623792889,43,42,fin,2,Mujer,2,abandonada,,3,2,0
+1623793014,44,42,inicio_partida,2,Mujer,2,,,3,2,0
+1623793091,45,42,inicio_partida,2,Mujer,2,,,3,2,0
+1623793092,45,42,intento,2,Mujer,2,fallo,Caravaggio,3,2,0
+1623793093,45,42,intento,2,Mujer,2,fallo,Hieronymus Bosch,3,2,0
+1623793094,45,42,intento,2,Mujer,2,fallo,Michelangelo,3,2,0
+1623793095,45,42,intento,2,Mujer,2,fallo,Eugene Delacroix,3,2,0
+1623793096,45,42,intento,2,Mujer,2,fallo,Caravaggio,3,2,0
+1623793098,45,42,intento,2,Mujer,2,fallo,Francisco Goya,3,2,0
+1623793100,45,42,intento,2,Mujer,2,fallo,Hieronymus Bosch,3,2,0
+1623793102,45,42,intento,2,Mujer,2,fallo,Sandro Botticelli,3,2,0
+1623793103,45,42,intento,2,Mujer,2,ok,Caravaggio,3,2,200
+1623793106,45,42,fin,2,Mujer,2,abandonada,,3,2,200
+1623793128,46,42,inicio_partida,2,Mujer,2,,,3,2,0
+1623793129,46,42,intento,2,Mujer,2,fallo,Rembrandt,3,2,0
+1623793130,46,42,intento,2,Mujer,2,fallo,Jan van Eyck,3,2,0
+1623793131,46,42,intento,2,Mujer,2,fallo,Giotto di Bondone,3,2,0
+1623793132,46,42,intento,2,Mujer,2,fallo,Leonardo da Vinci,3,2,0
+1623793133,46,42,intento,2,Mujer,2,fallo,Leonardo da Vinci,3,2,0
+1623793134,46,42,intento,2,Mujer,2,fallo,Rembrandt,3,2,0
+1623793136,46,42,intento,2,Mujer,2,fallo,Sandro Botticelli,3,2,0
+1623793137,46,42,intento,2,Mujer,2,ok,Leonardo da Vinci,3,2,200
+1623793139,46,42,intento,2,Mujer,2,fallo,Rembrandt,3,2,170
+1623793141,46,42,intento,2,Mujer,2,fallo,Pieter Bruegel,3,2,140
+1623793142,46,42,intento,2,Mujer,2,fallo,Andrei Rublev,3,2,110
+1623793144,46,42,intento,2,Mujer,2,fallo,Michelangelo,3,2,80
+1623793148,46,42,intento,2,Mujer,2,fallo,Diego Velazquez,3,2,50
+1623793151,46,42,intento,2,Mujer,2,ok,William Turner,3,2,250
+1623793155,46,42,fin,2,Mujer,2,abandonada,,3,2,250
+1623793172,47,42,inicio_partida,2,Mujer,2,,,3,2,0
+1623793174,47,42,intento,2,Mujer,2,ok,Peter Paul Rubens,3,2,200
+1623793176,47,42,intento,2,Mujer,2,fallo,Albrecht Dürer,3,2,170
+1623793177,47,42,intento,2,Mujer,2,fallo,Andrei Rublev,3,2,140
+1623793178,47,42,intento,2,Mujer,2,fallo,Hieronymus Bosch,3,2,110
+1623793180,47,42,intento,2,Mujer,2,fallo,William Turner,3,2,80
+1623793181,47,42,intento,2,Mujer,2,fallo,Giotto di Bondone,3,2,50
+1623793184,47,42,intento,2,Mujer,2,ok,Giotto di Bondone,3,2,250
+1623793185,47,42,intento,2,Mujer,2,fallo,Hieronymus Bosch,3,2,220
+1623793186,47,42,intento,2,Mujer,2,fallo,Caravaggio,3,2,190
+1623793188,47,42,intento,2,Mujer,2,fallo,Rembrandt,3,2,160
+1623793191,47,42,intento,2,Mujer,2,ok,William Turner,3,2,360
+1623793193,47,42,intento,2,Mujer,2,fallo,Hieronymus Bosch,3,2,330
+1623793195,47,42,intento,2,Mujer,2,fallo,Rembrandt,3,2,300
+1623793196,47,42,intento,2,Mujer,2,fallo,Eugene Delacroix,3,2,270
+1623793198,47,42,intento,2,Mujer,2,ok,Michelangelo,3,2,470
+1623793199,47,42,intento,2,Mujer,2,fallo,Sandro Botticelli,3,2,440
+1623793200,47,42,intento,2,Mujer,2,fallo,Camille Pissarro,3,2,410
+1623793201,47,42,intento,2,Mujer,2,fallo,Jan van Eyck,3,2,380
+1623793204,47,42,intento,2,Mujer,2,ok,Raphael,3,2,580
+1623793206,47,42,intento,2,Mujer,2,fallo,Francisco Goya,3,2,550
+1623793207,47,42,intento,2,Mujer,2,fallo,Titian,3,2,520
+1623793209,47,42,intento,2,Mujer,2,fallo,Camille Pissarro,3,2,490
+1623793210,47,42,intento,2,Mujer,2,fallo,Rembrandt,3,2,460
+1623793212,47,42,intento,2,Mujer,2,fallo,Leonardo da Vinci,3,2,430
+1623793213,47,42,intento,2,Mujer,2,fallo,Rembrandt,3,2,400
+1623793215,47,42,intento,2,Mujer,2,ok,Titian,3,2,600
+1623793216,47,42,intento,2,Mujer,2,fallo,Francisco Goya,3,2,570
+1623793219,47,42,intento,2,Mujer,2,ok,Eugene Delacroix,3,2,770
+1623793220,47,42,intento,2,Mujer,2,fallo,Rembrandt,3,2,740
+1623793222,47,42,intento,2,Mujer,2,fallo,Camille Pissarro,3,2,710
+1623793223,47,42,intento,2,Mujer,2,fallo,Sandro Botticelli,3,2,680
+1623793225,47,42,intento,2,Mujer,2,fallo,Diego Velazquez,3,2,650
+1623793227,47,42,intento,2,Mujer,2,fallo,Diego Velazquez,3,2,620
+1623793228,47,42,intento,2,Mujer,2,ok,Diego Velazquez,3,2,820
+1623793231,47,42,intento,2,Mujer,2,ok,Sandro Botticelli,3,2,1020
+1623793232,47,42,intento,2,Mujer,2,fallo,Francisco Goya,3,2,990
+1623793234,47,42,intento,2,Mujer,2,fallo,Leonardo da Vinci,3,2,960
+1623793236,47,42,intento,2,Mujer,2,fallo,Jan van Eyck,3,2,930
+1623793237,47,42,intento,2,Mujer,2,fallo,Camille Pissarro,3,2,900
+1623793238,47,42,intento,2,Mujer,2,fallo,El Greco,3,2,870
+1623793240,47,42,intento,2,Mujer,2,fallo,Jan van Eyck,3,2,840
+1623793241,47,42,intento,2,Mujer,2,ok,Jan van Eyck,3,2,1040
+1623793243,47,42,intento,2,Mujer,2,ok,Rembrandt,3,2,1240
+1623793244,47,42,intento,2,Mujer,2,fallo,Leonardo da Vinci,3,2,1210
+1623793246,47,42,intento,2,Mujer,2,fallo,Pieter Bruegel,3,2,1180
+1623793247,47,42,intento,2,Mujer,2,fallo,Hieronymus Bosch,3,2,1150
+1623793249,47,42,intento,2,Mujer,2,fallo,Andrei Rublev,3,2,1120
+1623793250,47,42,intento,2,Mujer,2,ok,Pieter Bruegel,3,2,1320
+1623793251,47,42,intento,2,Mujer,2,fallo,Camille Pissarro,3,2,1290
+1623793254,47,42,intento,2,Mujer,2,fallo,Albrecht Dürer,3,2,1260
+1623793257,47,42,intento,2,Mujer,2,ok,Caravaggio,3,2,1460
+1623793258,47,42,intento,2,Mujer,2,ok,Albrecht Dürer,3,2,1660
+1623793260,47,42,intento,2,Mujer,2,fallo,Gustave Courbet,3,2,1630
+1623793262,47,42,intento,2,Mujer,2,fallo,El Greco,3,2,1600
+1623793264,47,42,intento,2,Mujer,2,fallo,Camille Pissarro,3,2,1570
+1623793266,47,42,intento,2,Mujer,2,fallo,Andrei Rublev,3,2,1540
+1623793268,47,42,intento,2,Mujer,2,ok,Francisco Goya,3,2,1740
+1623793270,47,42,intento,2,Mujer,2,fallo,Gustave Courbet,3,2,1710
+1623793272,47,42,intento,2,Mujer,2,fallo,Hieronymus Bosch,3,2,1680
+1623793273,47,42,intento,2,Mujer,2,ok,Leonardo da Vinci,3,2,1880
+1623793276,47,42,intento,2,Mujer,2,ok,Gustave Courbet,3,2,2080
+1623793277,47,42,intento,2,Mujer,2,ok,Hieronymus Bosch,3,2,2280
+1623793279,47,42,intento,2,Mujer,2,ok,Andrei Rublev,3,2,2480
+1623793280,47,42,intento,2,Mujer,2,fallo,Camille Pissarro,3,2,2450
+1623793282,47,42,intento,2,Mujer,2,ok,Camille Pissarro,3,2,2650
+1623793282,47,42,intento,2,Mujer,2,ok,El Greco,3,2,2850
+1623793283,47,42,fin,2,Mujer,2,finalizada,,3,2,4950
+1623794745,50,42,inicio_partida,2,Mujer,2,,,3,2,0
+1623794747,50,42,intento,2,Mujer,2,ok,Diego Velazquez,3,2,200
+1623794749,50,42,intento,2,Mujer,2,fallo,Gustave Courbet,3,2,170
+1623794750,50,42,intento,2,Mujer,2,fallo,Raphael,3,2,140
+1623794751,50,42,intento,2,Mujer,2,fallo,Jan van Eyck,3,2,110
+1623794752,50,42,intento,2,Mujer,2,fallo,El Greco,3,2,80
+1623794754,50,42,intento,2,Mujer,2,fallo,Leonardo da Vinci,3,2,50
+1623794758,50,42,intento,2,Mujer,2,fallo,Caravaggio,3,2,20
+1623794759,50,42,intento,2,Mujer,2,fallo,Michelangelo,3,2,0
+1623794760,50,42,intento,2,Mujer,2,fallo,Gustave Courbet,3,2,0
+1623794772,50,42,fin,2,Mujer,2,abandonada,,3,2,0
+1623794963,53,42,inicio_partida,2,Mujer,2,,,3,2,0
+1623794965,53,42,intento,2,Mujer,2,ok,Leonardo da Vinci,3,2,200
+1623794983,53,42,fin,2,Mujer,2,abandonada,,3,2,200
+1623799641,54,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623799659,54,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623799682,55,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623799688,55,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623799708,56,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623799714,56,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623799767,57,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623799773,57,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623799798,58,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623799831,59,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623799842,59,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,0
+1623799862,59,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623799876,60,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623799883,60,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,0
+1623799891,60,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,0
+1623799896,60,16,intento,2,Mujer,2,fallo,Leonardo da Vinci,1,2,0
+1623799897,60,16,intento,2,Mujer,2,fallo,Hieronymus Bosch,1,2,0
+1623799898,60,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,0
+1623799900,60,16,intento,2,Mujer,2,fallo,Hieronymus Bosch,1,2,0
+1623799901,60,16,intento,2,Mujer,2,fallo,Leonardo da Vinci,1,2,0
+1623799902,60,16,intento,2,Mujer,2,ok,Giotto di Bondone,1,2,200
+1623799904,60,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,170
+1623799909,60,16,fin,2,Mujer,2,abandonada,,1,2,170
+1623799939,61,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623799943,61,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623800240,62,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623800257,63,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623800417,64,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623800692,65,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623800698,65,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,200
+1623800709,65,16,fin,2,Mujer,2,abandonada,,1,2,200
+1623800742,66,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623800753,66,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623800780,67,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623800786,67,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623800851,68,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623800875,69,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623800883,69,16,intento,2,Mujer,2,ok,Michelangelo,1,2,200
+1623800895,69,16,fin,2,Mujer,2,abandonada,,1,2,200
+1623800909,70,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623800919,70,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623800993,71,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623801031,71,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623801042,72,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623801049,72,16,intento,2,Mujer,2,fallo,Hieronymus Bosch,1,2,0
+1623801055,72,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,2,0
+1623801061,72,16,intento,2,Mujer,2,fallo,Jan van Eyck,1,2,0
+1623801062,72,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,2,0
+1623801065,72,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,2,200
+1623801091,72,16,intento,2,Mujer,2,ok,Albrecht Dürer,1,2,400
+1623801102,72,16,fin,2,Mujer,2,timeout,,1,2,400
+1623801134,73,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623801145,73,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,0
+1623801151,73,16,intento,2,Mujer,2,ok,Leonardo da Vinci,1,2,200
+1623801161,73,16,intento,2,Mujer,2,fallo,Hieronymus Bosch,1,2,170
+1623801172,73,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,2,140
+1623801179,73,16,intento,2,Mujer,2,fallo,Jan van Eyck,1,2,110
+1623801183,73,16,fin,2,Mujer,2,abandonada,,1,2,110
+1623801189,74,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623801191,74,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623801222,75,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623801231,75,16,intento,2,Mujer,2,fallo,Leonardo da Vinci,1,2,0
+1623801235,75,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,0
+1623801238,75,16,intento,2,Mujer,2,ok,Leonardo da Vinci,1,2,200
+1623801239,75,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,400
+1623801245,75,16,fin,2,Mujer,2,abandonada,,1,2,400
+1623801283,76,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623801324,76,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623801329,77,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623801350,77,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623801359,78,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623801400,78,16,fin,2,Mujer,2,abandonada,,1,2,0

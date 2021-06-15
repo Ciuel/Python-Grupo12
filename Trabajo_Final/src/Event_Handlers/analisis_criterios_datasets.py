@@ -1,22 +1,14 @@
 import csv
 import os
 import datetime
+import pandas as pd
 
-def sort_app_data(info,day):
-    """Itera el dataset csv y nos devuelve una lista con el nombre, la imagen y el criterio de ordenacion
-
-    Args:
-        info (csv): El dataset a utilizar
-        day (int): El dia de la semana que actua como indice de la columna del criterio
-
-    Returns:
-        [list]: La lista ordenada con el nombre, la imagen y el criterio de ordenacion
-    """
-    csvreader = csv.reader(info)
-    next(csvreader)  #Saltea el encabezado
-    app_list = list(csvreader)
-    app_list = list(map(lambda x: (x[day], x[0] , x[len(app_list[0]) - 1]), app_list))
-    return sorted(app_list,key=lambda x: float(x[0]),reverse=True) if app_list[0][0].isdecimal() else sorted(app_list, key=lambda x:  x[0])
+def sort_app_data(info_path):
+    day=datetime.datetime.today().weekday()
+    datos = pd.read_csv(info_path)
+    datos = datos[[ datos.columns[day], datos.columns[0], datos.columns[datos.columns.size-1]]]
+    datos=datos.sort_values(datos.columns[0])
+    return datos
 
 
 def manipulate_app_data():
@@ -25,10 +17,9 @@ def manipulate_app_data():
     Returns:
         [list]: La lista ordenada con el nombre, la imagen y el criterio de ordenacion
     """
-    day=datetime.datetime.today().weekday()
     if datetime.datetime.now().hour in range(0, 12):
         with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}countries.csv"),"r",encoding="utf-8") as info:
-            return sort_app_data(info,day)
+            return sort_app_data(info)
     else:
         with open(os.path.join(os.getcwd(),f"src{os.sep}Data_files{os.sep}artists.csv"),"r",encoding="utf-8") as info:
-            return sort_app_data(info,day)
+            return sort_app_data(info)

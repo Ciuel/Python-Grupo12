@@ -13,12 +13,11 @@ def build()->sg.Window:
         sg.Window: La ventana para ser utilizada por el resto del programa
     """
     # yapf: disable
+    input_frame_layout=[[sg.Text("Nick", size=SIZE,pad=((10,0),(10,0))),sg.InputText(key="-INPUT NICK-",pad=((0,0),(10,0)))],
+    [sg.Text("Contraseña", size=SIZE),sg.InputText(key="-INPUT PASSWORD-",password_char="*")]]
     layout_login = [
         [sg.Text("MemPy",font=(WINDOW_FONT, WINDOW_FONT_SIZE *2), size=(14, 2),justification="center")],
-        [sg.Text("Nick", size=SIZE),
-         sg.InputText(key="-INPUT NICK-")],
-        [sg.Text("Contraseña", size=SIZE),
-         sg.InputText(key="-INPUT PASSWORD-",password_char="*")],
+        [sg.Frame(title="", layout=input_frame_layout,element_justification="center",relief="sunken",border_width=7,pad=((25,0),(0,0)))],
         [sg.Button('Iniciar Sesion',size=(15,2), pad=(180, 10),key="-LOG IN-",bind_return_key=True)],
         [sg.Text("", size=(30,1), key="-W_LOGIN TEXT-",text_color="red")],
         [sg.Text("No tiene sesion, Registrarse",size=(50, 1),enable_events=True,text_color="blue", key="-REGIS-"),

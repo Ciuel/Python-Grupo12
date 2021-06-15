@@ -4,6 +4,7 @@ import os
 import datetime
 import PySimpleGUI as sg
 from ..Constants.constants import GAME_INFO_PATH
+from ..Components import menu
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 
