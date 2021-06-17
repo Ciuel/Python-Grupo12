@@ -18,7 +18,8 @@ def build(nick:str, theme:str)->sg.Window:
     # yapf: disable
     sg.theme(theme)
 
-    layout = [[sg.Text(f"Bienvenido {nick}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
+    layout = [[sg.Text(f"Bienvenido",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
+            [sg.Text(f"{nick}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.Button('Jugar', key="-PLAY-", size=BUTTON_SIZE, font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),bind_return_key=True)],
             [sg.Button('Ajustes', key="-CONFIG-", size=BUTTON_SIZE, font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
             [sg.Button('Estadísticas', key="-STATS-", size=BUTTON_SIZE, font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
