@@ -33,7 +33,7 @@ DEFAULT_CONFIG = {
 
 HELP_COOLDOWN_TIME=5
 WINDOW_FONT_SIZE = 20
-WINDOW_FONT = "Helvetica"
+WINDOW_FONT = "Bahnschrift Light"
 MAX_VALUE = sys.maxsize
 ELEMENT_SIZE = (8, 1)
 
