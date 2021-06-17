@@ -91,28 +91,21 @@ def top_10_palabras(info):
 
 
 def promedio_tiempo_por_nivel(info):
-
     info = info[info["Nombre de evento"] != "intento"]
     info = info[["Tiempo", "Nombre de evento", "Nivel"]]
-    info.reset_index(inplace=True, drop=True)
-    total_nivel = [[0, 0], [0, 0], [0, 0]]
-    for i in info.index:
-        if info.iloc[i]["Nombre de evento"] == 'inicio_partida':
-            tiempo_partida = info.iloc[i +
-                                       1]["Tiempo"] - info.iloc[i]["Tiempo"]
-            total_nivel[info.iloc[i]["Nivel"] - 1][0] += tiempo_partida
-            total_nivel[info.iloc[i]["Nivel"] - 1][1] += 1
-
-    promedios = [x[0] / x[1] if x[1] != 0 else 0 for x in total_nivel]
-
+    ini = info[info["Nombre de evento"] == "inicio_partida"][["Tiempo","Nivel"]].reset_index(drop=True)
+    fin = info[info["Nombre de evento"] == "fin"][["Tiempo", "Nivel"]].reset_index(drop=True)
+    tot= pd.merge(fin["Tiempo"].subtract(ini["Tiempo"]),fin["Nivel"],right_index=True,left_index=True)
+    means = tot.groupby('Nivel').mean()["Tiempo"].tolist()
     return_figure = draw_vertical_bar(
-        pd.Series(promedios, ["Nivel 1", "Nivel 2", "Nivel 3"]))
+        pd.Series(means, ["Nivel 1", "Nivel 2", "Nivel 3"]))
     plt.close()
     return return_figure
 
-def cant_encontradas_en_timeout(info):
 
+def cant_encontradas_en_timeout(info):
     info = info[info["Nombre de evento"] != "inicio_partida"]
+
     info = info[[
         "Nombre de evento", "Cantidad de fichas", "Estado",
         "Cantidad de coincidencias"
@@ -126,13 +119,13 @@ def cant_encontradas_en_timeout(info):
         if row["Nombre de evento"] == "fin":
             if row['Estado'] == "timeout":
                 total_hits_realizados += cont_hits
-                total_hits_posibles += (row["Cantidad de fichas"] /
-                                        row["Cantidad de coincidencias"])
+                total_hits_posibles += (row["Cantidad de fichas"] /row["Cantidad de coincidencias"])
             cont_hits = 0
         else:
             cont_hits += 1
     promedio = (total_hits_realizados / total_hits_posibles) * 100
-
+    print(total_hits_realizados)
+    print(total_hits_posibles)
     return_figure = draw_pie(
         pd.Series([promedio, 100 - promedio],
                   index=["Encontradas", "No encontradas"]))

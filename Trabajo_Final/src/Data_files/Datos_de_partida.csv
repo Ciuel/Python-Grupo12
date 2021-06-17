@@ -312,8 +312,6 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623618303,17,16,fin,2,Mujer,2,abandonada,,1,2,0
 1623618320,18,24,inicio_partida,3,Hombre,6,,,2,2,0
 1623618336,18,24,fin,3,Hombre,6,abandonada,,2,2,0
-1623619418,19,16,inicio_partida,2,Mujer,2,,,1,2,0
-1623619539,20,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623619595,21,24,inicio_partida,3,Hombre,6,,,2,2,0
 1623619597,21,24,intento,3,Hombre,6,ok,Obra_Paul Cezanne.png,2,2,200
 1623619600,21,24,intento,3,Hombre,6,fallo,Obra_Andy Warhol.png,2,2,170
@@ -345,8 +343,6 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623619639,21,24,intento,3,Hombre,6,ok,Obra_Paul Klee.png,2,2,1690
 1623619641,21,24,intento,3,Hombre,6,ok,Obra_Georges Seurat.png,2,2,1890
 1623619641,21,24,fin,3,Hombre,6,finalizada,,2,2,4110
-1623620808,22,16,inicio_partida,2,Mujer,2,,,1,2,0
-1623620840,23,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623620868,24,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623620870,24,16,intento,2,Mujer,2,ok,Obra_Andy Warhol.png,1,2,200
 1623620872,24,16,intento,2,Mujer,2,fallo,Obra_Piet Mondrian.png,1,2,170
@@ -707,10 +703,6 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623704755,35,16,intento,3,No binarie,3,fallo,Caravaggio,1,2,530
 1623704756,35,16,intento,3,No binarie,3,ok,Camille Pissarro,1,2,730
 1623704757,35,16,fin,3,No binarie,3,abandonada,,1,2,730
-1623789169,36,16,inicio_partida,2,Mujer,2,,,1,2,0
-1623789170,36,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,2,0
-1623789172,36,16,intento,2,Mujer,2,fallo,Hieronymus Bosch,1,2,0
-1623789173,36,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,0
 1623789708,37,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623789709,37,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,0
 1623789710,37,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,0
@@ -788,7 +780,6 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623792883,43,42,inicio_partida,2,Mujer,2,,,3,2,0
 1623792884,43,42,intento,2,Mujer,2,fallo,Eugene Delacroix,3,2,0
 1623792889,43,42,fin,2,Mujer,2,abandonada,,3,2,0
-1623793014,44,42,inicio_partida,2,Mujer,2,,,3,2,0
 1623793091,45,42,inicio_partida,2,Mujer,2,,,3,2,0
 1623793092,45,42,intento,2,Mujer,2,fallo,Caravaggio,3,2,0
 1623793093,45,42,intento,2,Mujer,2,fallo,Hieronymus Bosch,3,2,0
@@ -906,7 +897,6 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623799714,56,16,fin,2,Mujer,2,abandonada,,1,2,0
 1623799767,57,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623799773,57,16,fin,2,Mujer,2,abandonada,,1,2,0
-1623799798,58,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623799831,59,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623799842,59,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,0
 1623799862,59,16,fin,2,Mujer,2,abandonada,,1,2,0
@@ -923,9 +913,6 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623799909,60,16,fin,2,Mujer,2,abandonada,,1,2,170
 1623799939,61,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623799943,61,16,fin,2,Mujer,2,abandonada,,1,2,0
-1623800240,62,16,inicio_partida,2,Mujer,2,,,1,2,0
-1623800257,63,16,inicio_partida,2,Mujer,2,,,1,2,0
-1623800417,64,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623800692,65,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623800698,65,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,200
 1623800709,65,16,fin,2,Mujer,2,abandonada,,1,2,200
@@ -933,7 +920,6 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623800753,66,16,fin,2,Mujer,2,abandonada,,1,2,0
 1623800780,67,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623800786,67,16,fin,2,Mujer,2,abandonada,,1,2,0
-1623800851,68,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623800875,69,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623800883,69,16,intento,2,Mujer,2,ok,Michelangelo,1,2,200
 1623800895,69,16,fin,2,Mujer,2,abandonada,,1,2,200
