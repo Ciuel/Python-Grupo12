@@ -59,7 +59,7 @@ def check_empty_fields(values:dict)->bool:
     return (all([x != "" for x in nonempty_values]) and radio_help and radio_type)
 
 
-def back_button(window:sg.Window,event:str, nick:str, theme:str,vlc_dict):
+def back_button(window:sg.Window,event:str, nick:str, theme:str,vlc_dict:dict):
     """Cierra la ventana actual y abre el menu
 
     Args:

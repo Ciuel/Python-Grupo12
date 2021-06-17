@@ -33,8 +33,8 @@
         "gender": "No binarie",
         "config": {
             "Coincidences": 2,
-            "Help": "yes",
-            "Type of token": "Text",
+            "Help": "no",
+            "Type of token": "Images",
             "Level": 1,
             "AppColor": "Material1",
             "VictoryText": "Ganaste!!!",
@@ -53,6 +53,20 @@
             "AppColor": "Material1",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    "Lautaro": {
+        "password": "f68c85fea13ef2821a54786833e4e75375d332ed391952b776ebf339dc2b6f1c435043cbdf4f4846bfc7dfe02562cc64b804d798d05fc1534c6cd36f05ff7c93",
+        "age": "18",
+        "gender": "Hombre",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Images",
+            "Level": 2,
+            "AppColor": "Material1",
+            "VictoryText": "Ganaste Lautaro!",
+            "LoseText": ":( mas suerte la proxima!"
         }
     }
 }

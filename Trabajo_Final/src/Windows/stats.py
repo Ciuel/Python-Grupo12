@@ -2,6 +2,7 @@ import PySimpleGUI as sg
 from ..Constants.constants import WINDOW_FONT, WINDOW_FONT_SIZE
 from ..Event_Handlers.stats import *
 from ..Constants.constants import GAME_INFO_PATH
+import os
 
 BUTTON_SIZE = (17, 3)
 

@@ -1034,3 +1034,114 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623968675,84,16,intento,3,No binarie,3,ok,Vincent van Gogh,1,2,1250
 1623968676,84,16,intento,3,No binarie,3,ok,Andy Warhol,1,2,1450
 1623968677,84,16,fin,3,No binarie,3,finalizada,,1,2,2620
+1623971297,85,24,inicio_partida,3,No binarie,3,,,2,2,0
+1623971299,85,24,intento,3,No binarie,3,fallo,Obra_Jackson Pollock.png,2,2,0
+1623971303,85,24,intento,3,No binarie,3,ok,Obra_Gustav Klimt.png,2,2,200
+1623971305,85,24,intento,3,No binarie,3,fallo,Obra_William Turner.png,2,2,170
+1623971306,85,24,intento,3,No binarie,3,fallo,Obra_Rembrandt.png,2,2,140
+1623971308,85,24,intento,3,No binarie,3,fallo,Obra_Jan van Eyck.png,2,2,110
+1623971310,85,24,intento,3,No binarie,3,ok,Obra_Andy Warhol.png,2,2,310
+1623971313,85,24,intento,3,No binarie,3,fallo,Obra_Pieter Bruegel.png,2,2,280
+1623971315,85,24,intento,3,No binarie,3,ok,Obra_Pieter Bruegel.png,2,2,480
+1623971317,85,24,intento,3,No binarie,3,ok,Obra_Hieronymus Bosch.png,2,2,680
+1623971318,85,24,intento,3,No binarie,3,ok,Obra_Peter Paul Rubens.png,2,2,880
+1623971320,85,24,intento,3,No binarie,3,fallo,Obra_Rene Magritte.png,2,2,850
+1623971321,85,24,intento,3,No binarie,3,fallo,Obra_William Turner.png,2,2,820
+1623971323,85,24,intento,3,No binarie,3,fallo,Obra_Jackson Pollock.png,2,2,790
+1623971325,85,24,intento,3,No binarie,3,ok,Obra_Piet Mondrian.png,2,2,990
+1623971326,85,24,intento,3,No binarie,3,ok,Obra_Jan van Eyck.png,2,2,1190
+1623971328,85,24,intento,3,No binarie,3,ok,Obra_Rene Magritte.png,2,2,1390
+1623971329,85,24,intento,3,No binarie,3,fallo,Obra_Jackson Pollock.png,2,2,1360
+1623971331,85,24,intento,3,No binarie,3,ok,Obra_William Turner.png,2,2,1560
+1623971332,85,24,intento,3,No binarie,3,ok,Obra_Jackson Pollock.png,2,2,1760
+1623971333,85,24,intento,3,No binarie,3,ok,Obra_Rembrandt.png,2,2,1960
+1623971334,85,24,intento,3,No binarie,3,ok,Obra_Vincent van Gogh.png,2,2,2160
+1623971334,85,24,fin,3,No binarie,3,finalizada,,2,2,4650
+1623971403,86,24,inicio_partida,Lautaro,Hombre,18,,,1,3,0
+1623971404,86,24,fin,Lautaro,Hombre,18,abandonada,,1,3,0
+1623971406,87,24,inicio_partida,Lautaro,Hombre,18,,,1,3,0
+1623971408,87,24,intento,Lautaro,Hombre,18,ok,Obra_William Turner.png,1,3,300
+1623971409,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Jackson Pollock.png,1,3,270
+1623971411,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Andy Warhol.png,1,3,240
+1623971413,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Piet Mondrian.png,1,3,210
+1623971415,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Hieronymus Bosch.png,1,3,180
+1623971417,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Rene Magritte.png,1,3,150
+1623971419,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Vincent van Gogh.png,1,3,120
+1623971420,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Jackson Pollock.png,1,3,90
+1623971422,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Piet Mondrian.png,1,3,60
+1623971424,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Vincent van Gogh.png,1,3,30
+1623971425,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Gustav Klimt.png,1,3,0
+1623971428,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Piet Mondrian.png,1,3,0
+1623971431,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Vincent van Gogh.png,1,3,0
+1623971433,87,24,intento,Lautaro,Hombre,18,ok,Obra_Vincent van Gogh.png,1,3,300
+1623971434,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Jackson Pollock.png,1,3,270
+1623971436,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Gustav Klimt.png,1,3,240
+1623971437,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Jackson Pollock.png,1,3,210
+1623971439,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Andy Warhol.png,1,3,180
+1623971440,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Hieronymus Bosch.png,1,3,150
+1623971442,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Gustav Klimt.png,1,3,120
+1623971445,87,24,intento,Lautaro,Hombre,18,ok,Obra_Jackson Pollock.png,1,3,420
+1623971446,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Andy Warhol.png,1,3,390
+1623971448,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Piet Mondrian.png,1,3,360
+1623971450,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Gustav Klimt.png,1,3,330
+1623971453,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Hieronymus Bosch.png,1,3,300
+1623971455,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Piet Mondrian.png,1,3,270
+1623971456,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Hieronymus Bosch.png,1,3,240
+1623971459,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Gustav Klimt.png,1,3,210
+1623971461,87,24,intento,Lautaro,Hombre,18,ok,Obra_Hieronymus Bosch.png,1,3,510
+1623971463,87,24,intento,Lautaro,Hombre,18,ok,Obra_Gustav Klimt.png,1,3,810
+1623971465,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Rene Magritte.png,1,3,780
+1623971467,87,24,intento,Lautaro,Hombre,18,ok,Obra_Rene Magritte.png,1,3,1080
+1623971468,87,24,intento,Lautaro,Hombre,18,fallo,Obra_Piet Mondrian.png,1,3,1050
+1623971470,87,24,intento,Lautaro,Hombre,18,ok,Obra_Andy Warhol.png,1,3,1350
+1623971471,87,24,intento,Lautaro,Hombre,18,ok,Obra_Piet Mondrian.png,1,3,1650
+1623971471,87,24,fin,Lautaro,Hombre,18,finalizada,,1,3,2400
+1623971517,88,24,inicio_partida,Lautaro,Hombre,18,,,1,3,0
+1623971519,88,24,intento,Lautaro,Hombre,18,fallo,Obra_Piet Mondrian.png,1,3,0
+1623971521,88,24,intento,Lautaro,Hombre,18,fallo,Obra_William Turner.png,1,3,0
+1623971523,88,24,fin,Lautaro,Hombre,18,abandonada,,1,3,0
+1623971531,89,24,inicio_partida,Lautaro,Hombre,18,,,2,2,0
+1623971532,89,24,intento,Lautaro,Hombre,18,ok,Obra_Vincent van Gogh.png,2,2,200
+1623971534,89,24,intento,Lautaro,Hombre,18,ok,Obra_Gustav Klimt.png,2,2,400
+1623971536,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Rembrandt.png,2,2,370
+1623971537,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Jackson Pollock.png,2,2,340
+1623971539,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Jan van Eyck.png,2,2,310
+1623971541,89,24,intento,Lautaro,Hombre,18,ok,Obra_Jan van Eyck.png,2,2,510
+1623971544,89,24,intento,Lautaro,Hombre,18,ok,Obra_Peter Paul Rubens.png,2,2,710
+1623971545,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Andy Warhol.png,2,2,680
+1623971547,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Jackson Pollock.png,2,2,650
+1623971548,89,24,intento,Lautaro,Hombre,18,ok,Obra_Piet Mondrian.png,2,2,850
+1623971550,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Andy Warhol.png,2,2,820
+1623971552,89,24,intento,Lautaro,Hombre,18,ok,Obra_Jackson Pollock.png,2,2,1020
+1623971554,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Rene Magritte.png,2,2,990
+1623971555,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Andy Warhol.png,2,2,960
+1623971557,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Hieronymus Bosch.png,2,2,930
+1623971558,89,24,intento,Lautaro,Hombre,18,ok,Obra_William Turner.png,2,2,1130
+1623971559,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Rembrandt.png,2,2,1100
+1623971561,89,24,intento,Lautaro,Hombre,18,ok,Obra_Andy Warhol.png,2,2,1300
+1623971563,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Pieter Bruegel.png,2,2,1270
+1623971565,89,24,intento,Lautaro,Hombre,18,ok,Obra_Rembrandt.png,2,2,1470
+1623971568,89,24,intento,Lautaro,Hombre,18,ok,Obra_Pieter Bruegel.png,2,2,1670
+1623971569,89,24,intento,Lautaro,Hombre,18,fallo,Obra_Rene Magritte.png,2,2,1640
+1623971570,89,24,intento,Lautaro,Hombre,18,ok,Obra_Hieronymus Bosch.png,2,2,1840
+1623971571,89,24,intento,Lautaro,Hombre,18,ok,Obra_Rene Magritte.png,2,2,2040
+1623971571,89,24,fin,Lautaro,Hombre,18,finalizada,,2,2,4440
+1623972333,90,16,inicio_partida,3,No binarie,3,,,1,2,0
+1623972335,90,16,intento,3,No binarie,3,fallo,Obra_Jackson Pollock.png,1,2,0
+1623972337,90,16,intento,3,No binarie,3,fallo,Obra_Andy Warhol.png,1,2,0
+1623972338,90,16,intento,3,No binarie,3,fallo,Obra_Piet Mondrian.png,1,2,0
+1623972340,90,16,intento,3,No binarie,3,fallo,Obra_Jackson Pollock.png,1,2,0
+1623972341,90,16,intento,3,No binarie,3,fallo,Obra_Andy Warhol.png,1,2,0
+1623972343,90,16,intento,3,No binarie,3,fallo,Obra_Rene Magritte.png,1,2,0
+1623972344,90,16,intento,3,No binarie,3,ok,Obra_Andy Warhol.png,1,2,200
+1623972345,90,16,intento,3,No binarie,3,ok,Obra_Piet Mondrian.png,1,2,400
+1623972346,90,16,intento,3,No binarie,3,ok,Obra_Rene Magritte.png,1,2,600
+1623972348,90,16,intento,3,No binarie,3,fallo,Obra_Hieronymus Bosch.png,1,2,570
+1623972349,90,16,intento,3,No binarie,3,fallo,Obra_Gustav Klimt.png,1,2,540
+1623972350,90,16,intento,3,No binarie,3,ok,Obra_William Turner.png,1,2,740
+1623972351,90,16,intento,3,No binarie,3,fallo,Obra_Hieronymus Bosch.png,1,2,710
+1623972352,90,16,intento,3,No binarie,3,ok,Obra_Hieronymus Bosch.png,1,2,910
+1623972354,90,16,intento,3,No binarie,3,ok,Obra_Jackson Pollock.png,1,2,1110
+1623972355,90,16,intento,3,No binarie,3,ok,Obra_Vincent van Gogh.png,1,2,1310
+1623972355,90,16,intento,3,No binarie,3,ok,Obra_Gustav Klimt.png,1,2,1510
+1623972356,90,16,fin,3,No binarie,3,finalizada,,1,2,2620

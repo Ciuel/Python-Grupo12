@@ -2,21 +2,20 @@ from matplotlib import rcParams
 rcParams.update({'figure.autolayout': True})
 import matplotlib.pyplot as plt
 import pandas as pd
-import os
 import datetime
 import PySimpleGUI as sg
-from ..Constants.constants import GAME_INFO_PATH,BUTTON_SOUND_PATH,vlc_play_sound
+from ..Constants.constants import BUTTON_SOUND_PATH,vlc_play_sound
 from ..Components import menu
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 
-def draw_figure(canvas, figure):
+def draw_figure(canvas:sg.Canvas, figure:plt):
     figure_canvas_agg = FigureCanvasTkAgg(figure, canvas)
     figure_canvas_agg.draw()
     figure_canvas_agg.get_tk_widget().pack(side='top', fill='both',expand=True)
 
 
-def draw_pie(info):
+def draw_pie(info:pd.DataFrame):
     etiquetas = [x.capitalize() for x in info.index]
     plt.pie(info,
             labels=etiquetas,
@@ -29,17 +28,17 @@ def draw_pie(info):
     return plt.gcf()
 
 
-def draw_vertical_bar(info):
+def draw_vertical_bar(info:pd.DataFrame):
     plt.bar(info.index, height=info)
     return plt.gcf()
 
 
-def draw_horizontal_bar(info):
+def draw_horizontal_bar(info:pd.DataFrame):
     plt.barh(info.index, width=info)
     return plt.gcf()
 
 
-def partidas_por_estado(info):
+def partidas_por_estado(info:pd.DataFrame):
     info = info[info["Nombre de evento"] == "fin"]
     info = info.groupby(["Estado"])["Estado"].count()
     return_figure = draw_pie(info)
@@ -47,7 +46,7 @@ def partidas_por_estado(info):
     return return_figure
 
 
-def partidas_por_genero(info):
+def partidas_por_genero(info:pd.DataFrame):
     info = info[info["Nombre de evento"] == "fin"]
     info = info.groupby(["Genero"])["Genero"].count()
     return_figure = draw_pie(info)
@@ -55,7 +54,7 @@ def partidas_por_genero(info):
     return return_figure
 
 
-def partidas_por_dia(infoin):
+def partidas_por_dia(infoin:pd.DataFrame):
     info= pd.DataFrame(infoin)
     info = info[info["Nombre de evento"] == "inicio_partida"]
     dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado","Domingo"]
@@ -69,7 +68,7 @@ def partidas_por_dia(infoin):
     plt.close()
     return return_figure
 
-def top_10_palabras(info):
+def top_10_palabras(info:pd.DataFrame):
     info=info[["Estado","Palabra","Partida"]]
     info= info[info['Estado'] == 'ok'].groupby(['Partida']).first()#Podria ser un oneliner
     info=info.groupby(["Palabra"])["Palabra"].count().sort_values(ascending=True).tail(10)
@@ -78,7 +77,7 @@ def top_10_palabras(info):
     return return_figure
 
 
-def promedio_tiempo_por_nivel(info):
+def promedio_tiempo_por_nivel(info:pd.DataFrame):
     info = info[info["Nombre de evento"] != "intento"]
     info = info[["Tiempo", "Nombre de evento", "Nivel"]]
 
@@ -92,7 +91,7 @@ def promedio_tiempo_por_nivel(info):
     plt.close()
     return return_figure
 
-def cant_encontradas_en_timeout(info):
+def cant_encontradas_en_timeout(info:pd.DataFrame):
     solo_timeout = info[info["Estado"] == 'timeout']
     info=info[["Partida","Estado", "Cantidad de fichas","Cantidad de coincidencias"]]
     info = info[info["Partida"].isin(solo_timeout["Partida"].tolist())]
@@ -106,7 +105,7 @@ def cant_encontradas_en_timeout(info):
 
 
 def menu_button(window: sg.Window, event: str, nick: str, theme: str,
-                vlc_dict):
+                vlc_dict:dict):
     """Cierra la ventana actual y abre el menu
 
     Args:

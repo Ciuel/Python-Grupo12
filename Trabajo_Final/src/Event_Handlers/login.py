@@ -77,8 +77,7 @@ def register_validation(window: sg.Window,  values: dict)->bool:
     Returns:
         boolean: Operacion and de las funciones confirm_password,check_fields y unique_nick
     """
-    return check_fields(window,  values) and confirm_password(
-        window,  values) and unique_nick(window,  values)
+    return check_fields(window,  values) and confirm_password(window, values) and unique_nick(window, values)
 
 
 def change_layout(window, is_visible) -> None:
@@ -150,7 +149,8 @@ def check_fields_and_register(window: sg.Window, event: str,
 
 def check_login(values:dict)->bool:
     """Chequea si el login es correcto comparando contra los nicks
-    y contraseñas del archivo json de usuarios
+    y contraseñas del archivo json de usuarios, tambien hashea la contraseña para que no pueda ser mirada desde el csv y la informacion se
+    proteja.
     Args:
         values (dict): valores de la ventana, de donde obtenemos el nick y contraseña
 
@@ -168,6 +168,9 @@ def check_login(values:dict)->bool:
         return False
 
 def vlc_init ():
+    """Esta funcion inicializa el diccionario de vlc utilizado para el sonido durante toda la aplicacion,si la
+    persona no tiene el VLC instalado en su computadora, esta funcion permite utilizar la aplicacion pero no mostrara
+    ningun sonido"""
     try:
         vlc_dict={"vlc":True,"player_music":vlc.Instance().media_player_new(),"player_sounds":vlc.Instance().media_player_new()}
         vlc_dict["player_music"].audio_set_volume(30)

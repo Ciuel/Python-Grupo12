@@ -5,7 +5,7 @@ import sys
 
 
 
-def loop_vlc(menu_window: sg.Window, nick: str,theme:str,vlc_dict):
+def loop_vlc(menu_window: sg.Window, nick: str,theme:str,vlc_dict:dict):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -27,7 +27,7 @@ def loop_vlc(menu_window: sg.Window, nick: str,theme:str,vlc_dict):
             vlc_dict["player_music"].stop()
             vlc_dict["player_music"].play()
 
-def loop(menu_window: sg.Window, nick: str,theme:str,vlc_dict):
+def loop(menu_window: sg.Window, nick: str,theme:str,vlc_dict:dict):
     """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
 
     Args:
@@ -58,6 +58,3 @@ def start(nick:str, theme:str,vlc_dict:dict):
         loop_vlc(menu_window, nick,theme,vlc_dict)
     else:
         loop(menu_window, nick,theme,vlc_dict)
-
-
-    menu_window.close()
