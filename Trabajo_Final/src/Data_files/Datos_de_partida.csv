@@ -956,3 +956,17 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623801350,77,16,fin,2,Mujer,2,abandonada,,1,2,0
 1623801359,78,16,inicio_partida,2,Mujer,2,,,1,2,0
 1623801400,78,16,fin,2,Mujer,2,abandonada,,1,2,0
+1623954657,79,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623954659,79,16,intento,2,Mujer,2,ok,Obra_Vincent van Gogh.png,1,2,200
+1623954661,79,16,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,1,2,170
+1623954662,79,16,intento,2,Mujer,2,fallo,Obra_William Turner.png,1,2,140
+1623954664,79,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,340
+1623954671,79,16,intento,2,Mujer,2,fallo,Obra_Rene Magritte.png,1,2,310
+1623954674,79,16,intento,2,Mujer,2,ok,Obra_Piet Mondrian.png,1,2,510
+1623954677,79,16,fin,2,Mujer,2,abandonada,,1,2,510
+1623955075,80,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623955077,80,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,200
+1623955078,80,16,intento,2,Mujer,2,fallo,Obra_Hieronymus Bosch.png,1,2,170
+1623955079,80,16,intento,2,Mujer,2,fallo,Obra_Hieronymus Bosch.png,1,2,140
+1623955080,80,16,intento,2,Mujer,2,ok,Obra_Hieronymus Bosch.png,1,2,340
+1623955081,80,16,fin,2,Mujer,2,abandonada,,1,2,340

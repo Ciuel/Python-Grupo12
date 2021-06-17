@@ -5,7 +5,7 @@ import pandas as pd
 import os
 import datetime
 import PySimpleGUI as sg
-from ..Constants.constants import GAME_INFO_PATH
+from ..Constants.constants import GAME_INFO_PATH,BUTTON_SOUND_PATH,vlc_play_sound
 from ..Components import menu
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
@@ -116,5 +116,6 @@ def menu_button(window: sg.Window, event: str, nick: str, theme: str,
         theme (str): El tema de las ventanas a dibujar
     """
     if event == "-BACK BUTTON-":
+        vlc_play_sound(vlc_dict,BUTTON_SOUND_PATH)
         window.close()
         menu.start(nick, theme, vlc_dict)

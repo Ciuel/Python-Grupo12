@@ -9,7 +9,6 @@ import csv
 import PySimpleGUI as sg
 from ..Components import score, menu
 from ..Constants.constants import *
-#TODO Modificar donde se calculan los puntos y texto de multiplicador
 
 
 def check_config(nick: str) -> dict:
@@ -201,15 +200,6 @@ def check_menu(window,
 def help_cooldown(window, end_cooldown):
     if int(time.time()) == end_cooldown:
         window["-HELP-"].update(disabled=False)
-
-
-def vlc_play_sound(vlc_dict, media):
-    if vlc_dict["vlc"]:
-        media_sound = os.path.join(os.getcwd(), media)
-        button_press = vlc_dict["player_sounds"].get_instance().media_new(
-            media_sound)
-        vlc_dict["player_sounds"].set_media(button_press)
-        vlc_dict["player_sounds"].play()
 
 
 def help_action(window, value_matrix, type_of_token, help_list):

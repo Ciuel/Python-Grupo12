@@ -12,6 +12,13 @@ LEVEL_DICTIONARY = {
 }
 
 
+def vlc_play_sound(vlc_dict, media):
+    if vlc_dict["vlc"]:
+        media_sound = os.path.join(os.getcwd(), media)
+        button_press = vlc_dict["player_sounds"].get_instance().media_new(
+            media_sound)
+        vlc_dict["player_sounds"].set_media(button_press)
+        vlc_dict["player_sounds"].play()
 
 
 DEFAULT_CONFIG = {
@@ -41,3 +48,4 @@ WIN_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Win.mp3"
 LOSE_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Lose.mp3"
 RIGHT_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Right.mp3"
 WRONG_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Wrong.mp3"
+BUTTON_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Button.mp3"

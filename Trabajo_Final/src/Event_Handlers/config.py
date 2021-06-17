@@ -2,7 +2,7 @@ import os
 import json
 from ..Event_Handlers.Theme_browser import choose_theme
 from ..Components import menu
-from ..Constants.constants import USER_JSON_PATH
+from ..Constants.constants import USER_JSON_PATH,BUTTON_SOUND_PATH,vlc_play_sound
 import PySimpleGUI as sg
 
 def build_initial_config(nick:str)->dict:
@@ -69,6 +69,7 @@ def back_button(window:sg.Window,event:str, nick:str, theme:str,vlc_dict):
         theme (str): El tema de las ventanas a dibujar
     """
     if event=="-BACK BUTTON-":
+        vlc_play_sound(vlc_dict, BUTTON_SOUND_PATH)
         window.close()
         menu.start(nick, theme,vlc_dict)
 

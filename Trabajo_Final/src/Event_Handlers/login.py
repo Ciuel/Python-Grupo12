@@ -171,7 +171,7 @@ def vlc_init ():
     try:
         vlc_dict={"vlc":True,"player_music":vlc.Instance().media_player_new(),"player_sounds":vlc.Instance().media_player_new()}
         vlc_dict["player_music"].audio_set_volume(30)
-        vlc_dict["player_sounds"].audio_set_volume(60)
+        vlc_dict["player_sounds"].audio_set_volume(70)
         return vlc_dict
     except NameError:
         return {"vlc":False}

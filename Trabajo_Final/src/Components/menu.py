@@ -55,9 +55,6 @@ def start(nick:str, theme:str,vlc_dict:dict):
     menu_window = build(nick, theme)
     if vlc_dict["vlc"]:
         start_music(vlc_dict)
-
-
-    if vlc_dict["vlc"]:
         loop_vlc(menu_window, nick,theme,vlc_dict)
     else:
         loop(menu_window, nick,theme,vlc_dict)
