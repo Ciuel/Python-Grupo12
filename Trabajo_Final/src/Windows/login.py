@@ -15,7 +15,7 @@ def build()->sg.Window:
     input_frame_layout=[[sg.Text("Nick", size=ELEMENT_SIZE),sg.InputText(key="-INPUT NICK-")],
     [sg.Text("Contraseña", size=ELEMENT_SIZE),sg.InputText(key="-INPUT PASSWORD-",password_char="*")]]
     layout_login = [#Fonts:Caladea
-        [sg.Text("MemPy",font=("Bahnschrift Light", WINDOW_FONT_SIZE *2), size=(14, 2),justification="center")],
+        [sg.Text("MemPy",font=(WINDOW_FONT, WINDOW_FONT_SIZE *2), size=(14, 2),justification="center")],
         [sg.Frame(title="", layout=input_frame_layout,element_justification="center",relief="sunken",border_width=7)],
         [sg.Button('Iniciar Sesion',size=(15,2),key="-LOG IN-",bind_return_key=True,border_width=0)],
         [sg.Text("", size=(30,1), key="-W_LOGIN TEXT-",text_color="red")],
