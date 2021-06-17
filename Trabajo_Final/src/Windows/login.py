@@ -1,9 +1,7 @@
 import PySimpleGUI as sg
-from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE
+from ..Constants.constants import WINDOW_FONT, WINDOW_FONT_SIZE, ELEMENT_SIZE
+from tkinter import font
 
-#TODO: Cambiar keys de login y regis
-
-SIZE = (8, 1)
 
 
 def build()->sg.Window:
@@ -12,44 +10,46 @@ def build()->sg.Window:
     Returns:
         sg.Window: La ventana para ser utilizada por el resto del programa
     """
+    sg.theme("Material1")
     # yapf: disable
-    input_frame_layout=[[sg.Text("Nick", size=SIZE,pad=((10,0),(10,0))),sg.InputText(key="-INPUT NICK-",pad=((0,0),(10,0)))],
-    [sg.Text("Contraseña", size=SIZE),sg.InputText(key="-INPUT PASSWORD-",password_char="*")]]
-    layout_login = [
-        [sg.Text("MemPy",font=(WINDOW_FONT, WINDOW_FONT_SIZE *2), size=(14, 2),justification="center")],
-        [sg.Frame(title="", layout=input_frame_layout,element_justification="center",relief="sunken",border_width=7,pad=((25,0),(0,0)))],
-        [sg.Button('Iniciar Sesion',size=(15,2), pad=(180, 10),key="-LOG IN-",bind_return_key=True)],
+    input_frame_layout=[[sg.Text("Nick", size=ELEMENT_SIZE),sg.InputText(key="-INPUT NICK-")],
+    [sg.Text("Contraseña", size=ELEMENT_SIZE),sg.InputText(key="-INPUT PASSWORD-",password_char="*")]]
+    layout_login = [#Fonts:Caladea
+        [sg.Text("MemPy",font=("Bahnschrift Light", WINDOW_FONT_SIZE *2), size=(14, 2),justification="center")],
+        [sg.Frame(title="", layout=input_frame_layout,element_justification="center",relief="sunken",border_width=7)],
+        [sg.Button('Iniciar Sesion',size=(15,2),key="-LOG IN-",bind_return_key=True,border_width=0)],
         [sg.Text("", size=(30,1), key="-W_LOGIN TEXT-",text_color="red")],
-        [sg.Text("No tiene sesion, Registrarse",size=(50, 1),enable_events=True,text_color="blue", key="-REGIS-"),
+        [sg.Text("No tiene sesion, Registrarse",pad=((0,300),(0,0)),enable_events=True,text_color="blue", key="-REGIS-"),
          sg.Text("Ayuda",enable_events=True,key="-HELP-",text_color="blue", justification="right")]
     ]
-    layout_registro = [
-        [sg.Text("Registro",font=(WINDOW_FONT, WINDOW_FONT_SIZE *2),size=(14, 2),justification="center")],
-        [sg.Text("Nick", size=SIZE),
+    register_column_layout=[[sg.Text("Nick", size=ELEMENT_SIZE),
          sg.InputText(key="-REGIS NICK-")],
-        [sg.Text("Contraseña", size=SIZE),
+        [sg.Text("Contraseña", size=ELEMENT_SIZE),
          sg.InputText(key="-REGIS PASSWORD-",password_char="*")],
         [sg.Text("Confirmar contraseña", size=(8,2)),
          sg.InputText(key="-REGIS CONFIRM PASSWORD-",password_char="*")],
-        [sg.Text("Edad", size=SIZE),
-         sg.InputText(key="-REGIS AGE-", size=SIZE, enable_events=True)],
-        [sg.Text("Genero", size=SIZE),
+        [sg.Text("Edad", size=ELEMENT_SIZE),
+         sg.InputText(key="-REGIS AGE-", size=ELEMENT_SIZE, enable_events=True)],
+        [sg.Text("Genero", size=ELEMENT_SIZE),
          sg.Combo(['Hombre', 'Mujer', 'No binarie', 'Otro'],key="-REGIS GENDER-", enable_events=True,readonly=True)],
-        [sg.Button('Registrarse',size=(15,2), pad=(180, 10), key="-REGIS SAVE-")],
-        [sg.Text("", size=(30,1), key="-CONFIRMATION TEXT-",text_color="red")],
-        [sg.Button('Atras', pad= ((360,0), 0), key="-REGIS BACK-")]
+         [sg.Text("", size=(30,1), key="-CONFIRMATION TEXT-",text_color="red")]
+         ]
+    layout_registro = [
+        [sg.Text("Registro",font=(WINDOW_FONT, WINDOW_FONT_SIZE *2),size=(14, 2),justification="center")],
+        [sg.Column(register_column_layout,element_justification="left")],
+        [sg.Button('Registrarse',size=(15,2), key="-REGIS SAVE-")],
+        [sg.Button('Atras', key="-REGIS BACK-")]
     ]
     # yapf: enable
     layout = [[
-        sg.Column(layout_login, key='-LOGIN LAYOUT-'),
-        sg.Column(layout_registro, visible=False, key='-REGISTER LAYOUT-'),
+        sg.Column(layout_login, key='-LOGIN LAYOUT-',element_justification="center"),
+        sg.Column(layout_registro, visible=False, key='-REGISTER LAYOUT-',element_justification="center"),
     ]]
 
     login_window = sg.Window("Login MemPy",
                              layout,
                              finalize=True,
-                             size=(600,500),
-                             margins=(None,40),
+                             size=(550,400),
                              element_justification='center')
 
 

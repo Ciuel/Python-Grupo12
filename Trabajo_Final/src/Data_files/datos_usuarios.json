@@ -8,7 +8,7 @@
             "Help": "yes",
             "Type of token": "Text",
             "Level": 1,
-            "AppColor": "darkblue3",
+            "AppColor": "Material1",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
@@ -22,7 +22,7 @@
             "Help": "yes",
             "Type of token": "Images",
             "Level": 1,
-            "AppColor": "SandyBeach",
+            "AppColor": "Material2",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
@@ -36,7 +36,21 @@
             "Help": "yes",
             "Type of token": "Text",
             "Level": 1,
-            "AppColor": "darkblue3",
+            "AppColor": "Material1",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    "Juan": {
+        "password": "fcd8780493d9d11d29031b928a9da358a6f48627fff0cb7e80fb8107de86e0c365dc9cf8fe2fc05a6ce6d75803b78ac894d82a396042312a995ef63b5dd4dd11",
+        "age": "20",
+        "gender": "Hombre",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+            "AppColor": "Material1",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }

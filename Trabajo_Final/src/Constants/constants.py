@@ -26,7 +26,7 @@ DEFAULT_CONFIG = {
     "Help": "yes",
     "Type of token": "Text",
     "Level": 1,
-    "AppColor": "darkblue3",
+    "AppColor": "Material1",
     "VictoryText": "Ganaste!!!",
     "LoseText": ":( mas suerte la proxima"
 }
@@ -35,6 +35,7 @@ HELP_COOLDOWN_TIME=5
 WINDOW_FONT_SIZE = 20
 WINDOW_FONT = "Helvetica"
 MAX_VALUE = sys.maxsize
+ELEMENT_SIZE = (8, 1)
 
 #Pathings
 

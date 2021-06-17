@@ -36,5 +36,5 @@ def build(initialConfig:dict)->sg.Window:
          [sg.Button("Guardar Cambios",key="-SAVE CHANGES-",pad=(5,25)),sg.Button("Volver",pad=(5,25),key="-BACK BUTTON-")],
          [sg.Text("",key="-INFO USER-",text_color="blue",size=(40,1))]
     ]
-    return sg.Window("Configuration MemPy",layout,finalize=True,size=(800, 600),element_justification='center')
+    return sg.Window("Configuration MemPy",layout,finalize=True,size=(600, 500),element_justification='center')
     #yapf: enable

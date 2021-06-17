@@ -155,7 +155,7 @@ def win_game(window, info_partida, nick, user, end_time, game_number,
     if info_partida["hits"] >= button_amount(
             user["config"]) // user["config"]["Coincidences"]:
         vlc_play_sound(vlc_dict, WIN_SOUND_PATH)
-        tiempo = time.time()
+        tiempo = int(time.time())
         info_partida["points"] += 30 * (end_time - tiempo)
         window.close()
         send_info(tiempo, game_number, "fin", user, nick,
@@ -188,11 +188,10 @@ def check_menu(window,
                game_number="",
                points=""):
     if event == "-BACK MENU-":
-        if sg.popup_yes_no("Realmente quiere volver al menu",
-                           no_titlebar=True) == "Yes":
+        if sg.popup_yes_no("Realmente quiere volver al menu", no_titlebar=True) == "Yes":
+            vlc_play_sound(vlc_dict, BUTTON_SOUND_PATH)
             if inicio:
-                send_info(time.time(), game_number, "fin", user, nick, points,
-                          'abandonada')
+                send_info(time.time(), game_number, "fin", user, nick, points,'abandonada')
             window.close()
             menu.start(nick, user["config"]["AppColor"], vlc_dict)
 
@@ -220,14 +219,15 @@ def help_action(window, value_matrix, type_of_token, help_list):
             "") if type_of_token == "Text" else window[eve].update(
                 image_filename="", image_size=(118, 120), disabled=False)
 
-"""
-def help_action(window, value_matrix, type_of_token, help_list):
+
+"""def help_action(window, value_matrix, type_of_token, help_list):
     window["-HELP-"].update(disabled=True)
     window.refresh()
     obj = random.choice(help_list)
     newlist=[]
     print(obj)
     listi = np.where(obj == value_matrix)
+
     for e in listi:
         print(value_matrix[e])
     print("-"*50)

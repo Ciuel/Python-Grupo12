@@ -970,3 +970,67 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623955079,80,16,intento,2,Mujer,2,fallo,Obra_Hieronymus Bosch.png,1,2,140
 1623955080,80,16,intento,2,Mujer,2,ok,Obra_Hieronymus Bosch.png,1,2,340
 1623955081,80,16,fin,2,Mujer,2,abandonada,,1,2,340
+1623956507,81,16,inicio_partida,3,No binarie,3,,,1,2,0
+1623956508,81,16,intento,3,No binarie,3,ok,Vincent van Gogh,1,2,200
+1623956509,81,16,intento,3,No binarie,3,fallo,Gustav Klimt,1,2,170
+1623956511,81,16,intento,3,No binarie,3,fallo,Gustav Klimt,1,2,140
+1623956512,81,16,intento,3,No binarie,3,ok,Gustav Klimt,1,2,340
+1623956514,81,16,intento,3,No binarie,3,ok,William Turner,1,2,540
+1623956515,81,16,intento,3,No binarie,3,fallo,Hieronymus Bosch,1,2,510
+1623956516,81,16,intento,3,No binarie,3,ok,Rene Magritte,1,2,710
+1623956518,81,16,intento,3,No binarie,3,fallo,Piet Mondrian,1,2,680
+1623956519,81,16,intento,3,No binarie,3,ok,Jackson Pollock,1,2,880
+1623956520,81,16,intento,3,No binarie,3,fallo,Andy Warhol,1,2,850
+1623956522,81,16,intento,3,No binarie,3,fallo,Piet Mondrian,1,2,820
+1623956524,81,16,intento,3,No binarie,3,ok,Hieronymus Bosch,1,2,1020
+1623956525,81,16,intento,3,No binarie,3,ok,Piet Mondrian,1,2,1220
+1623956526,81,16,intento,3,No binarie,3,ok,Andy Warhol,1,2,1420
+1623956526,81,16,fin,3,No binarie,3,finalizada,,1,2,2627
+1623956619,82,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623956621,82,16,intento,2,Mujer,2,ok,Obra_Andy Warhol.png,1,2,200
+1623956622,82,16,intento,2,Mujer,2,fallo,Obra_Gustav Klimt.png,1,2,170
+1623956624,82,16,intento,2,Mujer,2,fallo,Obra_Vincent van Gogh.png,1,2,140
+1623956626,82,16,intento,2,Mujer,2,ok,Obra_Piet Mondrian.png,1,2,340
+1623956627,82,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,540
+1623956629,82,16,intento,2,Mujer,2,ok,Obra_Vincent van Gogh.png,1,2,740
+1623956631,82,16,intento,2,Mujer,2,fallo,Obra_William Turner.png,1,2,710
+1623956632,82,16,intento,2,Mujer,2,ok,Obra_Hieronymus Bosch.png,1,2,910
+1623956634,82,16,intento,2,Mujer,2,fallo,Obra_Gustav Klimt.png,1,2,880
+1623956636,82,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,1080
+1623956637,82,16,intento,2,Mujer,2,ok,Obra_Gustav Klimt.png,1,2,1280
+1623956638,82,16,intento,2,Mujer,2,ok,Obra_Rene Magritte.png,1,2,1480
+1623956638,82,16,fin,2,Mujer,2,finalizada,,1,2,2710
+1623968526,83,16,inicio_partida,2,Mujer,2,,,1,2,0
+1623968539,83,16,intento,2,Mujer,2,ok,Obra_Rene Magritte.png,1,2,200
+1623968539,83,16,intento,2,Mujer,2,fallo,Obra_Gustav Klimt.png,1,2,170
+1623968541,83,16,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,1,2,140
+1623968543,83,16,intento,2,Mujer,2,fallo,Obra_Piet Mondrian.png,1,2,110
+1623968544,83,16,intento,2,Mujer,2,fallo,Obra_Vincent van Gogh.png,1,2,80
+1623968546,83,16,intento,2,Mujer,2,ok,Obra_Gustav Klimt.png,1,2,280
+1623968548,83,16,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,1,2,250
+1623968549,83,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,450
+1623968551,83,16,intento,2,Mujer,2,fallo,Obra_Hieronymus Bosch.png,1,2,420
+1623968553,83,16,intento,2,Mujer,2,fallo,Obra_Vincent van Gogh.png,1,2,390
+1623968554,83,16,intento,2,Mujer,2,ok,Obra_Vincent van Gogh.png,1,2,590
+1623968557,83,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,790
+1623968558,83,16,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,1,2,760
+1623968559,83,16,intento,2,Mujer,2,fallo,Obra_Hieronymus Bosch.png,1,2,730
+1623968561,83,16,intento,2,Mujer,2,ok,Obra_Hieronymus Bosch.png,1,2,930
+1623968562,83,16,intento,2,Mujer,2,ok,Obra_Andy Warhol.png,1,2,1130
+1623968563,83,16,intento,2,Mujer,2,ok,Obra_Piet Mondrian.png,1,2,1330
+1623968563,83,16,fin,2,Mujer,2,finalizada,,1,2,2020
+1623968656,84,16,inicio_partida,3,No binarie,3,,,1,2,0
+1623968659,84,16,intento,3,No binarie,3,ok,Hieronymus Bosch,1,2,200
+1623968659,84,16,intento,3,No binarie,3,fallo,Andy Warhol,1,2,170
+1623968661,84,16,intento,3,No binarie,3,fallo,Gustav Klimt,1,2,140
+1623968662,84,16,intento,3,No binarie,3,fallo,Jackson Pollock,1,2,110
+1623968664,84,16,intento,3,No binarie,3,ok,Gustav Klimt,1,2,310
+1623968666,84,16,intento,3,No binarie,3,ok,Rene Magritte,1,2,510
+1623968667,84,16,intento,3,No binarie,3,fallo,William Turner,1,2,480
+1623968669,84,16,intento,3,No binarie,3,ok,Jackson Pollock,1,2,680
+1623968671,84,16,intento,3,No binarie,3,ok,Piet Mondrian,1,2,880
+1623968673,84,16,intento,3,No binarie,3,fallo,William Turner,1,2,850
+1623968674,84,16,intento,3,No binarie,3,ok,William Turner,1,2,1050
+1623968675,84,16,intento,3,No binarie,3,ok,Vincent van Gogh,1,2,1250
+1623968676,84,16,intento,3,No binarie,3,ok,Andy Warhol,1,2,1450
+1623968677,84,16,fin,3,No binarie,3,finalizada,,1,2,2620
