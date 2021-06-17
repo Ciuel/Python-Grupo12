@@ -1,3 +1,5 @@
+from matplotlib import rcParams
+rcParams.update({'figure.autolayout': True})
 import matplotlib.pyplot as plt
 import pandas as pd
 import os
@@ -11,7 +13,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 def draw_figure(canvas, figure):
     figure_canvas_agg = FigureCanvasTkAgg(figure, canvas)
     figure_canvas_agg.draw()
-    figure_canvas_agg.get_tk_widget().pack(side='top', fill='both', expand=1)
+    figure_canvas_agg.get_tk_widget().pack(side='top', fill='both',expand=True)
 
 
 def draw_pie(info):
@@ -23,7 +25,7 @@ def draw_pie(info):
             startangle=90,
             labeldistance=1.1)
     plt.axis('equal')
-    plt.legend(etiquetas, loc="upper right")
+    #plt.legend(etiquetas, loc="upper right")
     return plt.gcf()
 
 
@@ -56,8 +58,7 @@ def partidas_por_genero(info):
 def partidas_por_dia(infoin):
     info= pd.DataFrame(infoin)
     info = info[info["Nombre de evento"] == "inicio_partida"]
-    dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado",
-        "Domingo"]
+    dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado","Domingo"]
     info["Tiempo"] = [dias[(datetime.datetime.fromtimestamp(timestamp).weekday())]for timestamp in info["Tiempo"]]
     info = info.groupby(["Tiempo"])["Tiempo"].count()
     dias_series = pd.Series([0, 0, 0, 0, 0, 0, 0], index=dias)
@@ -68,24 +69,11 @@ def partidas_por_dia(infoin):
     plt.close()
     return return_figure
 
-
 def top_10_palabras(info):
-
-    info = info[info["Nombre de evento"] !="fin"]  #Solo nos deja los elementos con evento: Inicio y intento
-    info = info[info["Estado"] != "fallo"]  #Nos deja solo los intentos no fallidos
-    info = info[["Nombre de evento", "Palabra"]]
-    info.reset_index(inplace=True, drop=True)
-    filtered_info = pd.DataFrame(columns=["Nombre de evento", "Palabra"])
-    for i in info.index:
-        if info.iloc[i]["Nombre de evento"] == 'inicio_partida':
-            try:
-                filtered_info = filtered_info.append(info.iloc[i + 1])
-            except IndexError:
-                pass
-    filtered_info = filtered_info[
-        filtered_info["Nombre de evento"] !="inicio_partida"]  #Elimina las partidas sin intentos!
-    filtered_info = filtered_info.groupby(["Palabra"])["Nombre de evento"].count().sort_values(ascending=True).tail(10)
-    return_figure = draw_horizontal_bar(filtered_info)
+    info=info[["Estado","Palabra","Partida"]]
+    info= info[info['Estado'] == 'ok'].groupby(['Partida']).first()#Podria ser un oneliner
+    info=info.groupby(["Palabra"])["Palabra"].count().sort_values(ascending=True).tail(10)
+    return_figure = draw_horizontal_bar(info)
     plt.close()
     return return_figure
 
@@ -93,8 +81,10 @@ def top_10_palabras(info):
 def promedio_tiempo_por_nivel(info):
     info = info[info["Nombre de evento"] != "intento"]
     info = info[["Tiempo", "Nombre de evento", "Nivel"]]
+
     ini = info[info["Nombre de evento"] == "inicio_partida"][["Tiempo","Nivel"]].reset_index(drop=True)
     fin = info[info["Nombre de evento"] == "fin"][["Tiempo", "Nivel"]].reset_index(drop=True)
+
     tot= pd.merge(fin["Tiempo"].subtract(ini["Tiempo"]),fin["Nivel"],right_index=True,left_index=True)
     means = tot.groupby('Nivel').mean()["Tiempo"].tolist()
     return_figure = draw_vertical_bar(
@@ -102,33 +92,15 @@ def promedio_tiempo_por_nivel(info):
     plt.close()
     return return_figure
 
-
 def cant_encontradas_en_timeout(info):
-    info = info[info["Nombre de evento"] != "inicio_partida"]
-
-    info = info[[
-        "Nombre de evento", "Cantidad de fichas", "Estado",
-        "Cantidad de coincidencias"
-    ]]
-    info = info[info["Estado"] != 'fallo']
-    info.reset_index(inplace=True, drop=True)
-    total_hits_realizados = 0
-    total_hits_posibles = 0
-    cont_hits = 0
-    for _index, row in info.iterrows():
-        if row["Nombre de evento"] == "fin":
-            if row['Estado'] == "timeout":
-                total_hits_realizados += cont_hits
-                total_hits_posibles += (row["Cantidad de fichas"] /row["Cantidad de coincidencias"])
-            cont_hits = 0
-        else:
-            cont_hits += 1
-    promedio = (total_hits_realizados / total_hits_posibles) * 100
-    print(total_hits_realizados)
-    print(total_hits_posibles)
-    return_figure = draw_pie(
-        pd.Series([promedio, 100 - promedio],
-                  index=["Encontradas", "No encontradas"]))
+    solo_timeout = info[info["Estado"] == 'timeout']
+    info=info[["Partida","Estado", "Cantidad de fichas","Cantidad de coincidencias"]]
+    info = info[info["Partida"].isin(solo_timeout["Partida"].tolist())]
+    info = info.astype({"Partida": "category"})
+    cantidad_acertadas=info[info["Estado"]=="ok"].groupby(['Partida']).size()
+    cantidad_total=solo_timeout["Cantidad de fichas"]//solo_timeout["Cantidad de coincidencias"]
+    promedio = (cantidad_acertadas.sum() / cantidad_total.sum()) * 100
+    return_figure = draw_pie(pd.Series([promedio, 100 - promedio],index=["Encontradas", "No encontradas"]))
     plt.close()
     return return_figure
 
