@@ -96,7 +96,7 @@ def build(nick, user_config):
     data_col=[
 
         sg.Frame(title="",
-            layout=[[sg.Text(f"Bienvenide",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
+            layout=[[sg.Text(f"A jugar",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.Text(f"{nick}",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.Text(f"Puntos👾: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"0       ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
             [sg.Text(f"Tiempo🕑:  0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT TIME-",size=(18,1))],
