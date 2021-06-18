@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 import csv
 import os
 import textwrap
-from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE,GAME_INFO_PATH
+from ..Constants.constants import WINDOW_FONT, WINDOW_FONT_SIZE, GAME_INFO_PATH, WINDOW_TITLE_FONT
 import pandas as pd
 
 X_SIZE = 800
@@ -22,7 +22,7 @@ def scores_analysis():
     datos_fin.sort_values("Puntos",ascending=False,inplace=True)
 
     datos_fin.reset_index(inplace=True,drop=True)
-    
+
     player_row_number=datos_fin.index[datos_fin["Partida"] == numero_partida][0]
     datos_fin = datos_fin[['Nick', 'Nivel', 'Partida', 'Puntos']]
     return datos_fin.values.tolist(), player_row_number
@@ -45,7 +45,7 @@ def build(
 
     values_a,row_number=scores_analysis()
     col= [
-                    [sg.Text("Datos de partida",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
+                    [sg.Text("Datos de partida",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
                     [sg.Text(textwrap.fill(texto_fin, X_SIZE//10) ,font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
                     [sg.Text((f"Tiempo restante: {tiempo_jugado} segundos"),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),
                     sg.Text((f"Coincidencias: {coincidencias}"),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),

@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from ..Constants.constants import WINDOW_FONT, WINDOW_FONT_SIZE
+from ..Constants.constants import WINDOW_FONT, WINDOW_FONT_SIZE, WINDOW_TITLE_FONT
 from ..Event_Handlers.stats import *
 from ..Constants.constants import GAME_INFO_PATH
 import os
@@ -19,21 +19,13 @@ def build(theme: str) -> sg.Window:
 
     # yapf: disable
     sg.theme(theme)
-    tab1_layout = [[sg.Text('Top 10 de palabras que se encuentran primero de todas las partidas',font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],[sg.Canvas(key="-CANVAS1-")]]
-    tab2_layout = [[sg.Text('Porcentaje de partidas por estado (terminada, cancelada,abandonadas)',font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],[sg.Canvas(key="-CANVAS2-")]]
-    tab3_layout = [[sg.Text('Porcentaje de partidas finalizadas según género',font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],[sg.Canvas(key="-CANVAS3-")]]
-    tab4_layout = [[sg.Text('Porcentaje de partidas que se juegan para cada día de la semana',font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],[sg.Canvas(key="-CANVAS4-")]]
-    tab5_layout = [[sg.Text('Promedio de tiempo de partidas finalizadas por nivel.',font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],[sg.Canvas(key="-CANVAS5-")]]
-    tab6_layout = [[sg.Text('Porcentaje de palabras encontradas en las partidas timeout.',font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],[sg.Canvas(key="-CANVAS6-")]]
+    des=['Top 10 de palabras que se encuentran primero de todas las partidas','Porcentaje de partidas por estado (terminada, cancelada,abandonadas)','Porcentaje de partidas finalizadas según género',
+    'Porcentaje de partidas que se juegan para cada día de la semana','Promedio de tiempo de partidas finalizadas por nivel.','Porcentaje de palabras encontradas en las partidas timeout.'
+    ]
+    tab_layout=[[[sg.Text(des[x],font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],[sg.Canvas(key=f"-CANVAS{x+1}-")]] for x in range(len(des))]
 
-    layout = [[sg.Text(f"Estadisticas",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
-            [sg.TabGroup([[
-        sg.Tab('Gráfico 1', tab1_layout,element_justification='center'),
-        sg.Tab('Gráfico 2', tab2_layout,element_justification='center'),
-        sg.Tab('Gráfico 3', tab3_layout,element_justification='center'),
-        sg.Tab('Gráfico 4', tab4_layout,element_justification='center'),
-        sg.Tab('Gráfico 5', tab5_layout,element_justification='center'),
-        sg.Tab('Gráfico 6', tab6_layout,element_justification='center'),]])
+    layout = [[sg.Text(f"Estadisticas",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
+            [sg.TabGroup([[sg.Tab(f'Gráfico {l+1}',tab_layout[l],element_justification='center')  for l in range(len(des))]])
         ],[sg.Button("Menu",key="-BACK BUTTON-")]
     ]
     # yapf: enable
@@ -46,13 +38,12 @@ def build(theme: str) -> sg.Window:
     info = pd.read_csv(os.path.join(os.getcwd(), GAME_INFO_PATH),
                        encoding='utf-8')
     draw_figure(stat_window['-CANVAS1-'].TKCanvas, top_10_palabras(info))
-    stat_window.refresh(
-    )  #Esta linea permite que se muestre más rápido el primer gráfico, dando tiempo a que se creen los demás
+    stat_window.refresh()  
+    #Esta linea permite que se muestre más rápido el primer gráfico, dando tiempo a que se creen los demás
     draw_figure(stat_window['-CANVAS2-'].TKCanvas, partidas_por_estado(info))
     draw_figure(stat_window['-CANVAS3-'].TKCanvas, partidas_por_genero(info))
     draw_figure(stat_window['-CANVAS4-'].TKCanvas, partidas_por_dia(info))
-    draw_figure(stat_window['-CANVAS5-'].TKCanvas,
-                promedio_tiempo_por_nivel(info))
+    draw_figure(stat_window['-CANVAS5-'].TKCanvas,promedio_tiempo_por_nivel(info))
     draw_figure(stat_window['-CANVAS6-'].TKCanvas,
                 cant_encontradas_en_timeout(info))
 

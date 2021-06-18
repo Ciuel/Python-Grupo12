@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE
+from ..Constants.constants import WINDOW_FONT, WINDOW_FONT_SIZE, WINDOW_TITLE_FONT
 
 SIZE = (15, 1)
 SEPARACION = (25, 25)
@@ -17,9 +17,9 @@ def build(initialConfig:dict)->sg.Window:
     """
 
 
-    sg.theme(initialConfig["AppColor"])
+    sg.theme(initialConfig["Theme"])
     layout= [
-        [sg.Text("Configuracion",font=(WINDOW_FONT, WINDOW_FONT_SIZE*2), size=(14, 2),justification="center",pad=SEPARACION)],
+        [sg.Text("Configuracion",font=(WINDOW_TITLE_FONT, WINDOW_FONT_SIZE*2), size=(14, 2),justification="center",pad=SEPARACION)],
         [sg.Text("Cant Coincidencias: ", size=SIZE,justification="left"),
          sg.Combo([2, 3],key="-CHOOSE COINCIDENCES-",size=(5,1),readonly=True,default_value=f"{initialConfig['Coincidences']}"),
          sg.Text("Ayudas?",size=(7,1)),sg.Radio("Si",1,key='-CHOOSE HELP YES-',default=True if initialConfig["Help"]=="yes" else False),

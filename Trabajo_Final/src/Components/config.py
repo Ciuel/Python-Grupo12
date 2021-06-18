@@ -34,4 +34,4 @@ def start(nick: str, vlc_dict:dict):
     """
     initial_config = build_initial_config(nick)
     config_window = build(initial_config)
-    loop(config_window, nick, initial_config["AppColor"], vlc_dict)
+    loop(config_window, nick, initial_config["Theme"], vlc_dict)

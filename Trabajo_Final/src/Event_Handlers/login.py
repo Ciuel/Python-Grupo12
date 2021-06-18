@@ -3,6 +3,7 @@ import hashlib
 import os
 import PySimpleGUI as sg
 from ..Components import menu
+from ..Components import help as _help
 from ..Constants.constants import USER_JSON_PATH,DEFAULT_CONFIG
 try:
     import vlc
@@ -180,6 +181,11 @@ def vlc_init ():
         return {"vlc":False}
 
 
+def check_help(event)->None:
+    if event == "-HELP-":
+        _help.start()
+
+
 def login_action(window: sg.Window, event: str, values: dict)->None:
     """Chequea si el login es correcto e inicia el menu o actualiza el texto de error dependiendo del resultado
 
@@ -193,7 +199,7 @@ def login_action(window: sg.Window, event: str, values: dict)->None:
             window.close()
             with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r") as info:
                 user_data = json.load(info)
-                theme=user_data[values["-INPUT NICK-"]]["config"]["AppColor"]
+                theme=user_data[values["-INPUT NICK-"]]["config"]["Theme"]
             menu.start(values["-INPUT NICK-"], theme,vlc_init())
         else:
             window["-W_LOGIN TEXT-"].update("El nick o contaseña son incorrectos")

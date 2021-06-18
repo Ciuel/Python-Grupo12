@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 import random
 import numpy as np
 from ..Event_Handlers.analisis_criterios_datasets import manipulate_app_data
-from ..Constants.constants import WINDOW_FONT, WINDOW_FONT_SIZE, LEVEL_DICTIONARY
+from ..Constants.constants import WINDOW_FONT, WINDOW_FONT_SIZE, LEVEL_DICTIONARY, WINDOW_TITLE_FONT
 
 BUTTON_SIZE = (14, 7)
 
@@ -87,7 +87,7 @@ def build(nick, user_config):
     """
     # yapf: disable
     button_amount=(LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][0]*LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][1])
-    sg.theme(user_config["AppColor"])
+    sg.theme(user_config["Theme"])
     Y_LENGHT= LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][1]*BUTTON_SIZE[1]*10
     board_col=[
         sg.Column(generate_board(user_config["Level"], user_config["Coincidences"]),element_justification="right")
@@ -96,7 +96,8 @@ def build(nick, user_config):
     data_col=[
 
         sg.Frame(title="",
-            layout=[[sg.Text(f"Bienvenido {nick}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
+            layout=[[sg.Text(f"Bienvenide",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
+            [sg.Text(f"{nick}",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.Text(f"Puntos👾: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"0       ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
             [sg.Text(f"Tiempo🕑:  0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT TIME-",size=(18,1))],
             [sg.Text("Coincidencias: 00 /",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-TOTAL HITS-"),

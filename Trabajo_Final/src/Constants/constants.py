@@ -20,23 +20,13 @@ def vlc_play_sound(vlc_dict, media):
         vlc_dict["player_sounds"].set_media(button_press)
         vlc_dict["player_sounds"].play()
 
-
-DEFAULT_CONFIG = {
-    "Coincidences": 2,
-    "Help": "yes",
-    "Type of token": "Text",
-    "Level": 1,
-    "AppColor": "Material1",
-    "VictoryText": "Ganaste!!!",
-    "LoseText": ":( mas suerte la proxima"
-}
-
 HELP_COOLDOWN_TIME=5
 WINDOW_FONT_SIZE = 20
 WINDOW_FONT = "Bahnschrift Light"
+WINDOW_TITLE_FONT = "Tahoma bold"
 MAX_VALUE = sys.maxsize
 ELEMENT_SIZE = (8, 1)
-
+WINDOW_DEFAULT_THEME="Material1"
 #Pathings
 
 USER_JSON_PATH= f"src{os.sep}Data_files{os.sep}datos_usuarios.json"
@@ -50,3 +40,13 @@ LOSE_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Lose.mp3"
 RIGHT_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Right.mp3"
 WRONG_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Wrong.mp3"
 BUTTON_SOUND_PATH = f"src{os.sep}Music_files{os.sep}Button.mp3"
+
+DEFAULT_CONFIG = {
+    "Coincidences": 2,
+    "Help": "yes",
+    "Type of token": "Text",
+    "Level": 1,
+    "Theme": f"{WINDOW_DEFAULT_THEME}",
+    "VictoryText": "Ganaste!!!",
+    "LoseText": ":( mas suerte la proxima"
+}

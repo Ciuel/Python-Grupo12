@@ -16,6 +16,7 @@ def loop(login_window:sg.Window):
             sys.exit()
         login_action(login_window, event, values)
         check_layout(login_window, event)
+        check_help(event)
         #Ventana de registro
         age_field_check(login_window, event, values)
         check_fields_and_register(login_window, event, values)

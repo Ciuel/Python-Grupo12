@@ -8,7 +8,7 @@
             "Help": "yes",
             "Type of token": "Text",
             "Level": 1,
-            "AppColor": "Material1",
+            "Theme": "Material2",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
@@ -22,7 +22,7 @@
             "Help": "yes",
             "Type of token": "Images",
             "Level": 1,
-            "AppColor": "Material2",
+            "Theme": "Material2",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
@@ -36,7 +36,7 @@
             "Help": "no",
             "Type of token": "Images",
             "Level": 1,
-            "AppColor": "Material1",
+            "Theme": "Material2",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
@@ -50,7 +50,7 @@
             "Help": "yes",
             "Type of token": "Text",
             "Level": 1,
-            "AppColor": "Material1",
+            "Theme": "Material2",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
@@ -64,9 +64,51 @@
             "Help": "yes",
             "Type of token": "Images",
             "Level": 2,
-            "AppColor": "Material1",
+            "Theme": "Material2",
             "VictoryText": "Ganaste Lautaro!",
             "LoseText": ":( mas suerte la proxima!"
+        }
+    },
+    "Bienvenido": {
+        "password": "5267768822ee624d48fce15ec5ca79cbd602cb7f4c2157a516556991f22ef8c7b5ef7b18d1ff41c59370efb0858651d44a936c11b7b144c48fe04df3c6a3e8da",
+        "age": "1",
+        "gender": "Otro",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+            "Theme": "Material2",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    "Juan Tom\u00e1s Vicens": {
+        "password": "fcd8780493d9d11d29031b928a9da358a6f48627fff0cb7e80fb8107de86e0c365dc9cf8fe2fc05a6ce6d75803b78ac894d82a396042312a995ef63b5dd4dd11",
+        "age": "20",
+        "gender": "Hombre",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+            "Theme": "Material2",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    "PruebaTheme": {
+        "password": "929872838cb9cfe6578e11f0a323438aee5ae7f61d41412d62db72b25dac52019de2d6a355eb2d033336fb70e73f0ec0afeca3ef36dd8a90d83f998fee23b78d",
+        "age": "1",
+        "gender": "Mujer",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+            "Theme": "LightTeal",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
         }
     }
 }

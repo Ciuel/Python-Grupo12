@@ -96,7 +96,7 @@ def save_changes(window:sg.Window,event:str,values:dict,theme:str,nick:str):
                     "Help": need_help,
                     "Type of token": type_radio,
                     "Level": values["-CHOOSE LEVEL-"],
-                    "AppColor": theme,
+                    "Theme": theme,
                     "VictoryText": values["-VICTORY TEXT-"],
                     "LoseText": values["-Lose TEXT-"]
                 }

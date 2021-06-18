@@ -160,7 +160,7 @@ def win_game(window, info_partida, nick, user, end_time, game_number,
         window.close()
         send_info(tiempo, game_number, "fin", user, nick,
                   info_partida["points"], "finalizada")
-        score.start(user["config"]["AppColor"], nick,
+        score.start(user["config"]["Theme"], nick,
                     user["config"]["VictoryText"], end_time - tiempo,
                     info_partida["hits"], info_partida["misses"],
                     info_partida["points"], vlc_dict)
@@ -174,7 +174,7 @@ def lose_game(window, info_partida, nick, user, end_time, game_number,
         window.close()
         send_info(tiempo, game_number, "fin", user, nick,
                   info_partida["points"], "timeout")
-        score.start(user["config"]["AppColor"], nick,
+        score.start(user["config"]["Theme"], nick,
                     user["config"]["LoseText"], 0, info_partida["hits"],
                     info_partida["misses"], info_partida["points"], vlc_dict)
 
@@ -193,7 +193,7 @@ def check_menu(window,
             if inicio:
                 send_info(time.time(), game_number, "fin", user, nick, points,'abandonada')
             window.close()
-            menu.start(nick, user["config"]["AppColor"], vlc_dict)
+            menu.start(nick, user["config"]["Theme"], vlc_dict)
 
 
 def help_cooldown(window, end_cooldown):

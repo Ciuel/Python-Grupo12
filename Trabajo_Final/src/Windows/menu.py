@@ -1,8 +1,8 @@
 import PySimpleGUI as sg
-from ..Constants.constants import WINDOW_FONT,WINDOW_FONT_SIZE
+from ..Constants.constants import WINDOW_FONT, WINDOW_FONT_SIZE, ELEMENT_SIZE, WINDOW_TITLE_FONT
 
 
-BUTTON_SIZE = (17, 3)
+BUTTON_SIZE = (ELEMENT_SIZE[0] * 2, ELEMENT_SIZE[1]*3)
 
 
 def build(nick:str, theme:str)->sg.Window:
@@ -18,8 +18,8 @@ def build(nick:str, theme:str)->sg.Window:
     # yapf: disable
     sg.theme(theme)
 
-    layout = [[sg.Text(f"Bienvenido",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
-            [sg.Text(f"{nick}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE * 2))],
+    layout = [[sg.Text(f"Bienvenide",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
+            [sg.Text(f"{nick}",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.Button('Jugar', key="-PLAY-", size=BUTTON_SIZE, font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),bind_return_key=True)],
             [sg.Button('Ajustes', key="-CONFIG-", size=BUTTON_SIZE, font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
             [sg.Button('Estadísticas', key="-STATS-", size=BUTTON_SIZE, font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
