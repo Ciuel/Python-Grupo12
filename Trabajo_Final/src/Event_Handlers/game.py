@@ -144,15 +144,34 @@ def check_button(window: sg.Window,value_matrix: np.ndarray, user: dict, info_pa
 
 
 def button_amount(user_config: dict) -> int:
+    """Calcula la cantidad de botones que hay en la partida
+
+    Args:
+        user_config (dict): configuracion del usuario
+
+    Returns:
+        int: cantidad de botones totales en la partida
+    """
     return (LEVEL_DICTIONARY[(user_config["Level"],
                               user_config["Coincidences"])][0] *
             LEVEL_DICTIONARY[(user_config["Level"],
                               user_config["Coincidences"])][1])
 
 
-def win_game(window, info_partida, nick, user, end_time, game_number,vlc_dict):
-    if info_partida["hits"] >= button_amount(
-            user["config"]) // user["config"]["Coincidences"]:
+def win_game(window:sg.Window, info_partida:dict, nick:str, user:dict, end_time:int, game_number:int,vlc_dict:dict):
+    """Chequea la condicion de victoria de la partida que es llegar a la cantidad de coincidencias maxima y inicia
+    el score con la victoria
+
+    Args:
+        window (sg.Window): La ventana del juego
+        info_partida (dict): Diccionario con la info de la partida
+        nick (str): El nick del usuario
+        user (dict): el dict con la informacion de ese usuario
+        end_time (int): tiempo de fin de partida
+        game_number (int): numero de partida
+        vlc_dict (dict): diccionario de sonidos
+    """
+    if info_partida["hits"] >= button_amount(user["config"]) // user["config"]["Coincidences"]:
         vlc_play_sound(vlc_dict, WIN_SOUND_PATH)
         tiempo = int(time.time())
         info_partida["points"] += 30 * (end_time - tiempo)
@@ -163,7 +182,19 @@ def win_game(window, info_partida, nick, user, end_time, game_number,vlc_dict):
                     info_partida["points"], vlc_dict)
 
 
-def lose_game(window, info_partida, nick, user, end_time, game_number,vlc_dict):
+def lose_game(window:sg.Window, info_partida:dict, nick:str, user:dict, end_time:int, game_number:int,vlc_dict:dict):
+    """Chequea la condicion de fin de la partida que es que se te acabe el tiempo, 
+    iniciando la pantalla de score con los datos correspondientes
+
+    Args:
+        window (sg.Window): La ventana del juego
+        info_partida (dict): diccionario con la info de la partida
+        nick (str): el nick del usuario
+        user (dict): el dict con la informacion de ese usuario
+        end_time (int): tiempo de fin de partida
+        game_number (int): numero de partida
+        vlc_dict (dict): diccionario de sonidos
+    """
     tiempo = int(time.time())
     if end_time == tiempo:
         vlc_play_sound(vlc_dict, LOSE_SOUND_PATH)
@@ -175,7 +206,20 @@ def lose_game(window, info_partida, nick, user, end_time, game_number,vlc_dict):
                     info_partida["points"], vlc_dict)
 
 
-def check_menu(window,event,nick,user,vlc_dict,inicio,game_number="",points=""):
+def check_menu(window:sg.Window,event:str,nick:str, user:str,vlc_dict:dict,inicio:bool,game_number:int="",points:int=""):
+    """Chequea si se debe volver al menu, pide confirmacion con un popup y en caso de que ya haya empezado la partida
+    envía que abandonó al csv
+
+    Args:
+        window (sg.Window): [description]
+        event (str): [description]
+        nick (str): [description]
+        user (str): [description]
+        vlc_dict (dict): [description]
+        inicio (bool): [description]
+        game_number (int, optional): [description]. Defaults to "".
+        points (int, optional): [description]. Defaults to "".
+    """
     if event == "-BACK MENU-":
         if sg.popup_yes_no("Realmente quiere volver al menu",no_titlebar=True) == "Yes":
             vlc_play_sound(vlc_dict, BUTTON_SOUND_PATH)
@@ -185,12 +229,27 @@ def check_menu(window,event,nick,user,vlc_dict,inicio,game_number="",points=""):
             menu.start(nick, user["config"]["Theme"], vlc_dict)
 
 
-def help_cooldown(window, end_cooldown):
+def help_cooldown(window:sg.Window, end_cooldown:int):
+    """Habilita el boton de ayuda luego de que pase el tiempo de cooldown
+
+    Args:
+        window (sg.Window): La ventana del juego
+        end_cooldown (int): el momento en el cual termina el cooldown
+    """
     if int(time.time()) == end_cooldown:
         window["-HELP-"].update(disabled=False)
 
 
-def help_action(window, value_matrix, type_of_token, help_list):
+def help_action(window:sg.Window, value_matrix:np.ndarray, type_of_token:str, help_list:list):
+    """Elige un elemento aleatorio de help_list y lo busca en la matriz,
+     luego revela todos los elementos que sean iguales al elegido
+
+    Args:
+        window (sg.Window): [description]
+        value_matrix (np.ndarray): [description]
+        type_of_token (str): [description]
+        help_list (list): La lista de elementos posibles a mostrar, si ya se matcheo el elemento no está en esta lista
+    """
     window["-HELP-"].update(disabled=True)
     window.refresh()
     obj = random.choice(help_list)
@@ -204,14 +263,39 @@ def help_action(window, value_matrix, type_of_token, help_list):
         window[eve].update("") if type_of_token == "Text" else window[eve].update(image_filename="", image_size=(118, 120), disabled=False)
 
 
-def check_help(window, value_matrix, type_of_token,level, help_list, vlc_dict):
+def check_help(window:sg.Window, value_matrix:np.ndarray, type_of_token:str,level:int, help_list:list, vlc_dict:dict)->int:
+    """Esta funcion ejecuta la ayuda cuando la persona toca el boton de ayuda, iniciando el cooldown del boton"
+
+    Args:
+        window (sg.Window): la ventana del juego
+        value_matrix (np.ndarray): la matriz de valores de los botones
+        type_of_token (str): el tipo de ficha
+        level (int):el nivel de la partida
+        help_list (list): la lista de palabras disponibles para la ayuda
+        vlc_dict (dict): el diccionario de sonidos
+
+    Returns:
+        int:Devuelve el fin del cooldown
+    """
     vlc_play_sound(vlc_dict, HELP_SOUND_PATH)
     help_action(window, value_matrix, type_of_token, help_list)
     return int(time.time()) + HELP_COOLDOWN_TIME*level
 
 
-def send_info(game_number: int,event: str,user: dict,nick: str,points: int,state: str = "",token: str = "") -> None:
-    #Orden del csv: Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado ,Palabra,Nivel,Cant_coinci,Puntos
+def send_info(game_number: int,event: str,user: dict,nick: str,points: int,state: str = "",token: str = ""):
+    """[summary]
+    Envia la informacion de el evento que la llame al csv el cual registra todos los eventos de todas las partidas para luego hacer el analisis
+    Orden del csv: Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palabra,Nivel,Cantidad de coincidencias,Puntos
+    
+    Args:
+        game_number (int): numero de partida
+        event (str): El evento que haya ocurrido para el csv(inicio,intento,fin)
+        user (dict): El diccionario de configuracion del usuario
+        nick (str): El nick del usuario
+        points (int): La cantidad de puntos conseguidos
+        state (str, optional): El estado en el momento del envio de info(ok,fallo,"")
+        token (str, optional): la ficha seleccionada en el evento()
+    """
     with open(os.path.join(os.getcwd(), GAME_INFO_PATH),"a",encoding="utf-8",newline="") as info:
         datos = {
             "Tiempo": int(time.time()),

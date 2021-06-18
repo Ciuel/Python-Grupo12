@@ -110,5 +110,19 @@
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
+    },
+    "6": {
+        "password": "3c9ad55147a7144f6067327c3b82ea70e7c5426add9ceea4d07dc2902239bf9e049b88625eb65d014a7718f79354608cab0921782c643f0208983fffa3582e40",
+        "age": "6",
+        "gender": "Mujer",
+        "config": {
+            "Coincidences": 3,
+            "Help": "yes",
+            "Type of token": "Images",
+            "Level": 3,
+            "Theme": "DarkBlack1",
+            "VictoryText": "Ganaste!!!!",
+            "LoseText": ":( mas suerte la proximaa"
+        }
     }
 }
