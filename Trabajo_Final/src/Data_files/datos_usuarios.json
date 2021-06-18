@@ -18,10 +18,10 @@
         "age": "2",
         "gender": "Mujer",
         "config": {
-            "Coincidences": 2,
+            "Coincidences": 3,
             "Help": "yes",
             "Type of token": "Images",
-            "Level": 1,
+            "Level": 3,
             "Theme": "Reddit",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"

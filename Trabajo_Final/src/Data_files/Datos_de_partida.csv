@@ -1250,3 +1250,34 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624035763,110,16,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,1,2,0
 1624035778,110,16,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,1,2,200
 1624035787,110,16,fin,2,Mujer,2,abandonada,,1,2,200
+1624036856,111,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624036867,111,16,fin,2,Mujer,2,abandonada,,1,2,0
+1624036893,112,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624036905,112,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,0
+1624036909,112,16,intento,2,Mujer,2,fallo,Obra_Diego Rivera.png,1,2,0
+1624036911,112,16,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,1,2,0
+1624036913,112,16,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,1,2,200
+1624036915,112,16,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,1,2,170
+1624036917,112,16,intento,2,Mujer,2,ok,Obra_Amedeo Modigliani.png,1,2,370
+1624036923,112,16,intento,2,Mujer,2,fallo,Obra_Andrei Rublev.png,1,2,340
+1624036926,112,16,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,1,2,540
+1624036951,112,16,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,1,2,510
+1624036953,112,16,fin,2,Mujer,2,timeout,,1,2,510
+1624038526,113,24,inicio_partida,2,Mujer,2,,,1,3,0
+1624038529,113,24,fin,2,Mujer,2,abandonada,,1,3,0
+1624038547,114,24,inicio_partida,2,Mujer,2,,,1,3,0
+1624038550,114,24,fin,2,Mujer,2,abandonada,,1,3,0
+1624038568,115,24,inicio_partida,2,Mujer,2,,,1,3,0
+1624038570,115,24,fin,2,Mujer,2,abandonada,,1,3,0
+1624038588,116,24,inicio_partida,2,Mujer,2,,,1,3,0
+1624038591,116,24,fin,2,Mujer,2,abandonada,,1,3,0
+1624038704,117,24,inicio_partida,2,Mujer,2,,,1,3,0
+1624038707,117,24,intento,2,Mujer,2,ok,Obra_Amedeo Modigliani.png,1,3,300
+1624038714,117,24,intento,2,Mujer,2,ok,Obra_Andrei Rublev.png,1,3,600
+1624038719,117,24,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,1,3,900
+1624038725,117,24,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,1,3,1200
+1624038726,117,24,fin,2,Mujer,2,abandonada,,1,3,1200
+1624038917,118,48,inicio_partida,2,Mujer,2,,,3,3,0
+1624038920,118,48,fin,2,Mujer,2,abandonada,,3,3,0
+1624038942,119,48,inicio_partida,2,Mujer,2,,,3,3,0
+1624038944,119,48,fin,2,Mujer,2,abandonada,,3,3,0

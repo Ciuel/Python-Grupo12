@@ -208,48 +208,21 @@ def help_cooldown(window, end_cooldown):
 def help_action(window, value_matrix, type_of_token, help_list):
     window["-HELP-"].update(disabled=True)
     window.refresh()
+
     obj = random.choice(help_list)
-    help_list = []
-    for x in range(len(value_matrix)):
-        for y in range(len(value_matrix[x])):
-            if value_matrix[x][y] == obj:
-                update_button(window, f"cell{x}{y}", value_matrix,
-                              type_of_token)
-                help_list += [f"cell{x}{y}"]
-    window.refresh()
-    time.sleep(1)
-    for eve in help_list:
-        window[eve].update(
-            "") if type_of_token == "Text" else window[eve].update(
-                image_filename="", image_size=(118, 120), disabled=False)
 
+    lista_idx = np.transpose((value_matrix == obj).nonzero())
 
+    lista_events=["cell" + np.array2string(idx, precision=0, separator="")[1:-1] for idx in lista_idx]
 
-"""def help_action(window, value_matrix, type_of_token, help_list):
-    window["-HELP-"].update(disabled=True)
-    window.refresh()
-    obj = random.choice(help_list)
-    array_bool = (value_matrix == obj).nonzero()
-
-    print(array_bool)
-    print("-" * 50)
-    listi=[]
-
-    #print(listi)
-    print("-" * 50)
-
-    print(newlist)
-    for eve in listi:
-        eve = "cell" + np.array2string(eve, precision=0, separator="")[1:-1]
-        print(eve)
-        newlist += [eve]
+    for eve in lista_events:
         update_button(window, eve, value_matrix, type_of_token)
 
-    #print(lista)
     window.refresh()
     time.sleep(1)
-    for eve in newlist:
-        window[eve].update("") if type_of_token == "Text" else window[eve].update(image_filename="", image_size=(118, 120), disabled=False)"""
+
+    for eve in lista_events:
+        window[eve].update("") if type_of_token == "Text" else window[eve].update(image_filename="", image_size=(118, 120), disabled=False)
 
 
 def check_help(window, value_matrix, type_of_token, help_list, vlc_dict):
