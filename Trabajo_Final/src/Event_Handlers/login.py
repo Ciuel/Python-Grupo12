@@ -181,9 +181,11 @@ def vlc_init ():
         return {"vlc":False}
 
 
-def check_help(event)->None:
+def check_help(login_window,event)->None:
     if event == "-HELP-":
+        login_window.hide()
         _help.start()
+        login_window.un_hide()
 
 
 def login_action(window: sg.Window, event: str, values: dict)->None:
@@ -203,6 +205,8 @@ def login_action(window: sg.Window, event: str, values: dict)->None:
             menu.start(values["-INPUT NICK-"], theme,vlc_init())
         else:
             window["-W_LOGIN TEXT-"].update("El nick o contaseña son incorrectos")
+    else:
+        window["-W_LOGIN TEXT-"].update("")
 
 
 def clear_fields(window: sg.Window, keys_to_clear: list)->None:
