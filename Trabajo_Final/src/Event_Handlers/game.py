@@ -57,7 +57,7 @@ def update_button(window: sg.Window, event: str, value_matrix: np.array,
         type_of_token (str): Si se eligio texto o imagenes
     """
 
-    elemento = value_matrix[(int(event[-2]),int(event[-1]))]
+    elemento = value_matrix[(int(event[-2]), int(event[-1]))]
     window[event].update(
         elemento) if type_of_token == "Text" else window[event].update(
             image_filename=os.path.join(os.getcwd(), IMAGES_PATH, elemento),
@@ -120,9 +120,11 @@ def check_button(value_matrix: np.array, user: dict, info_partida: dict,
             "lista_chequeos"]:  #No se puede tocar 2 veces el mismo boton
         info_partida["lista_chequeos"].append(event)
 
-    primer_elemento = value_matrix[(int( info_partida["lista_chequeos"][0][-2]),int( info_partida["lista_chequeos"][0][-1]))]
+    primer_elemento = value_matrix[(
+        int(info_partida["lista_chequeos"][0][-2]),
+        int(info_partida["lista_chequeos"][0][-1]))]
 
-    if all(primer_elemento == value_matrix[(int(x[-2]),int(x[-1]))]
+    if all(primer_elemento == value_matrix[(int(x[-2]), int(x[-1]))]
            for x in info_partida["lista_chequeos"]):
         if len(info_partida["lista_chequeos"]
                ) == user["config"]["Coincidences"]:
@@ -174,9 +176,9 @@ def lose_game(window, info_partida, nick, user, end_time, game_number,
         window.close()
         send_info(tiempo, game_number, "fin", user, nick,
                   info_partida["points"], "timeout")
-        score.start(user["config"]["Theme"], nick,
-                    user["config"]["LoseText"], 0, info_partida["hits"],
-                    info_partida["misses"], info_partida["points"], vlc_dict)
+        score.start(user["config"]["Theme"], nick, user["config"]["LoseText"],
+                    0, info_partida["hits"], info_partida["misses"],
+                    info_partida["points"], vlc_dict)
 
 
 def check_menu(window,
@@ -188,10 +190,12 @@ def check_menu(window,
                game_number="",
                points=""):
     if event == "-BACK MENU-":
-        if sg.popup_yes_no("Realmente quiere volver al menu", no_titlebar=True) == "Yes":
+        if sg.popup_yes_no("Realmente quiere volver al menu",
+                           no_titlebar=True) == "Yes":
             vlc_play_sound(vlc_dict, BUTTON_SOUND_PATH)
             if inicio:
-                send_info(time.time(), game_number, "fin", user, nick, points,'abandonada')
+                send_info(time.time(), game_number, "fin", user, nick, points,
+                          'abandonada')
             window.close()
             menu.start(nick, user["config"]["Theme"], vlc_dict)
 
@@ -220,19 +224,20 @@ def help_action(window, value_matrix, type_of_token, help_list):
                 image_filename="", image_size=(118, 120), disabled=False)
 
 
+
 """def help_action(window, value_matrix, type_of_token, help_list):
     window["-HELP-"].update(disabled=True)
     window.refresh()
     obj = random.choice(help_list)
-    newlist=[]
-    print(obj)
-    listi = np.where(obj == value_matrix)
+    array_bool = (value_matrix == obj).nonzero()
 
-    for e in listi:
-        print(value_matrix[e])
-    print("-"*50)
-    print(listi)
-    print("-"*50)
+    print(array_bool)
+    print("-" * 50)
+    listi=[]
+
+    #print(listi)
+    print("-" * 50)
+
     print(newlist)
     for eve in listi:
         eve = "cell" + np.array2string(eve, precision=0, separator="")[1:-1]
@@ -244,8 +249,9 @@ def help_action(window, value_matrix, type_of_token, help_list):
     window.refresh()
     time.sleep(1)
     for eve in newlist:
-        window[eve].update("") if type_of_token == "Text" else window[eve].update(image_filename="", image_size=(118, 120), disabled=False)
-"""
+        window[eve].update("") if type_of_token == "Text" else window[eve].update(image_filename="", image_size=(118, 120), disabled=False)"""
+
+
 def check_help(window, value_matrix, type_of_token, help_list, vlc_dict):
     vlc_play_sound(vlc_dict, HELP_SOUND_PATH)
     help_action(window, value_matrix, type_of_token, help_list)

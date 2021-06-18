@@ -1145,3 +1145,108 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1623972355,90,16,intento,3,No binarie,3,ok,Obra_Vincent van Gogh.png,1,2,1310
 1623972355,90,16,intento,3,No binarie,3,ok,Obra_Gustav Klimt.png,1,2,1510
 1623972356,90,16,fin,3,No binarie,3,finalizada,,1,2,2620
+1624032478,91,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624032481,91,16,fin,2,Mujer,2,abandonada,,1,2,0
+1624032893,92,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624032897,92,16,intento,2,Mujer,2,ok,Obra_Albrecht Dürer.png,1,2,200
+1624032899,92,16,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,1,2,170
+1624032900,92,16,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,1,2,140
+1624032902,92,16,intento,2,Mujer,2,ok,Obra_Andy Warhol.png,1,2,340
+1624032903,92,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,310
+1624032904,92,16,intento,2,Mujer,2,fallo,Obra_Diego Rivera.png,1,2,280
+1624032906,92,16,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,1,2,480
+1624032907,92,16,intento,2,Mujer,2,ok,Obra_Amedeo Modigliani.png,1,2,680
+1624032908,92,16,intento,2,Mujer,2,fallo,Obra_Andrei Rublev.png,1,2,650
+1624032910,92,16,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,1,2,620
+1624032912,92,16,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,1,2,590
+1624032913,92,16,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,1,2,790
+1624032914,92,16,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,1,2,990
+1624032915,92,16,intento,2,Mujer,2,ok,Obra_Alfred Sisley.png,1,2,1190
+1624032916,92,16,intento,2,Mujer,2,ok,Obra_Andrei Rublev.png,1,2,1390
+1624032917,92,16,fin,2,Mujer,2,finalizada,,1,2,2470
+1624033035,93,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624033042,93,16,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,1,2,0
+1624033047,93,16,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,1,2,0
+1624033054,93,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,0
+1624033069,93,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,0
+1624033078,93,16,intento,2,Mujer,2,fallo,Obra_Alfred Sisley.png,1,2,0
+1624033079,93,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,0
+1624033082,93,16,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,1,2,0
+1624033088,93,16,intento,2,Mujer,2,fallo,Obra_Diego Rivera.png,1,2,0
+1624033090,93,16,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,1,2,200
+1624033095,93,16,fin,2,Mujer,2,timeout,,1,2,200
+1624033128,94,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624033134,94,16,intento,2,Mujer,2,fallo,Obra_Andrei Rublev.png,1,2,0
+1624033136,94,16,intento,2,Mujer,2,ok,Obra_Amedeo Modigliani.png,1,2,200
+1624033161,94,16,fin,2,Mujer,2,abandonada,,1,2,200
+1624033333,95,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624033342,95,16,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,1,2,200
+1624033344,95,16,fin,2,Mujer,2,abandonada,,1,2,200
+1624033362,96,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624033371,96,16,intento,2,Mujer,2,ok,Obra_Amedeo Modigliani.png,1,2,200
+1624033373,96,16,fin,2,Mujer,2,abandonada,,1,2,200
+1624033414,97,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624033434,97,16,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,1,2,200
+1624033444,97,16,fin,2,Mujer,2,abandonada,,1,2,200
+1624033599,98,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624033603,98,16,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,1,2,0
+1624033641,98,16,fin,2,Mujer,2,abandonada,,1,2,0
+1624033664,99,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624033688,99,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,0
+1624033689,99,16,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,1,2,0
+1624033691,99,16,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,1,2,200
+1624033699,99,16,fin,2,Mujer,2,abandonada,,1,2,200
+1624033833,100,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624033848,100,16,fin,2,Mujer,2,abandonada,,1,2,0
+1624033896,101,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624033915,101,16,fin,2,Mujer,2,abandonada,,1,2,0
+1624034015,102,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624034022,102,16,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,1,2,0
+1624034031,102,16,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,1,2,200
+1624034065,102,16,intento,2,Mujer,2,fallo,Obra_Andrei Rublev.png,1,2,170
+1624034066,102,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,140
+1624034067,102,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,110
+1624034069,102,16,intento,2,Mujer,2,ok,Obra_Amedeo Modigliani.png,1,2,310
+1624034070,102,16,intento,2,Mujer,2,ok,Obra_Albrecht Dürer.png,1,2,510
+1624034071,102,16,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,1,2,480
+1624034072,102,16,intento,2,Mujer,2,fallo,Obra_Alfred Sisley.png,1,2,450
+1624034074,102,16,intento,2,Mujer,2,ok,Obra_Andrei Rublev.png,1,2,650
+1624034075,102,16,fin,2,Mujer,2,timeout,,1,2,650
+1624034114,103,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624034119,103,16,intento,2,Mujer,2,ok,Obra_Andrei Rublev.png,1,2,200
+1624034137,103,16,intento,2,Mujer,2,ok,Obra_Andy Warhol.png,1,2,400
+1624034150,103,16,intento,2,Mujer,2,ok,Obra_Amedeo Modigliani.png,1,2,600
+1624034166,103,16,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,1,2,800
+1624034173,103,16,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,1,2,1000
+1624034174,103,16,fin,2,Mujer,2,timeout,,1,2,1000
+1624034188,104,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624034197,104,16,intento,2,Mujer,2,fallo,Obra_Andrei Rublev.png,1,2,0
+1624034203,104,16,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,1,2,0
+1624034204,104,16,fin,2,Mujer,2,abandonada,,1,2,0
+1624034216,105,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624034222,105,16,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,1,2,0
+1624034229,105,16,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,1,2,0
+1624034232,105,16,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,1,2,200
+1624034234,105,16,fin,2,Mujer,2,abandonada,,1,2,200
+1624034861,106,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624034863,106,16,fin,2,Mujer,2,abandonada,,1,2,0
+1624034979,107,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624034987,107,16,intento,2,Mujer,2,fallo,Obra_Diego Rivera.png,1,2,0
+1624034990,107,16,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,1,2,0
+1624034991,107,16,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,1,2,200
+1624034998,107,16,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,1,2,170
+1624035010,107,16,fin,2,Mujer,2,abandonada,,1,2,170
+1624035047,108,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624035058,108,16,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,1,2,0
+1624035060,108,16,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,1,2,0
+1624035061,108,16,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,1,2,200
+1624035070,108,16,fin,2,Mujer,2,abandonada,,1,2,200
+1624035371,109,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624035376,109,16,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,1,2,200
+1624035385,109,16,intento,2,Mujer,2,ok,Obra_Andy Warhol.png,1,2,400
+1624035392,109,16,intento,2,Mujer,2,ok,Obra_Andrei Rublev.png,1,2,600
+1624035409,109,16,fin,2,Mujer,2,abandonada,,1,2,600
+1624035750,110,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624035763,110,16,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,1,2,0
+1624035778,110,16,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,1,2,200
+1624035787,110,16,fin,2,Mujer,2,abandonada,,1,2,200

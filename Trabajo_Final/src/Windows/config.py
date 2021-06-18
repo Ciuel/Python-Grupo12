@@ -33,8 +33,8 @@ def build(initialConfig:dict)->sg.Window:
           sg.Button("Paleta de Colores",pad=SEPARACION,key="-CHOOSE COLOR-")],
          [sg.InputText(f"{initialConfig['VictoryText']}",key="-VICTORY TEXT-"), sg.Text("Ingrese el texto de victoria")],
          [sg.InputText(f"{initialConfig['LoseText']}",key="-Lose TEXT-"), sg.Text("Ingrese el texto de derrota")],
-         [sg.Button("Guardar Cambios",key="-SAVE CHANGES-",pad=(5,25)),sg.Button("Volver",pad=(5,25),key="-BACK BUTTON-")],
-         [sg.Text("",key="-INFO USER-",text_color="blue",size=(40,1))]
+         [sg.Button("Guardar Cambios",key="-SAVE CHANGES-",pad=((0,5),(25,5))),sg.Button("Volver",pad=(0,(25,5)),key="-BACK BUTTON-")],
+         [sg.Text("",key="-INFO USER-",text_color="blue",size=(37,1),pad=((25,0),0))]
     ]
     return sg.Window("Configuration MemPy",layout,finalize=True,size=(600, 500),element_justification='center')
     #yapf: enable
