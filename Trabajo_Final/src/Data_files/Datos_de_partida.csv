@@ -1281,3 +1281,156 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624038920,118,48,fin,2,Mujer,2,abandonada,,3,3,0
 1624038942,119,48,inicio_partida,2,Mujer,2,,,3,3,0
 1624038944,119,48,fin,2,Mujer,2,abandonada,,3,3,0
+1624050731,120,48,inicio_partida,2,Mujer,2,,,3,3,0
+1624050735,120,48,intento,2,Mujer,2,ok,Obra_El Greco.png,3,3,300
+1624050737,120,48,intento,2,Mujer,2,fallo,Obra_Paul Gauguin.png,3,3,270
+1624050741,120,48,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,3,3,240
+1624050744,120,48,intento,2,Mujer,2,ok,Obra_Edvard Munch.png,3,3,540
+1624050746,120,48,intento,2,Mujer,2,fallo,Obra_Diego Velazquez.png,3,3,510
+1624050747,120,48,intento,2,Mujer,2,fallo,Obra_Frida Kahlo.png,3,3,480
+1624050748,120,48,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,3,3,450
+1624050752,120,48,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,3,3,750
+1624050753,120,48,intento,2,Mujer,2,fallo,Obra_Frida Kahlo.png,3,3,720
+1624050755,120,48,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,3,3,690
+1624050758,120,48,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,3,3,660
+1624050760,120,48,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,3,3,630
+1624050762,120,48,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,3,3,600
+1624050764,120,48,intento,2,Mujer,2,ok,Obra_Andy Warhol.png,3,3,900
+1624050768,120,48,intento,2,Mujer,2,ok,Obra_Frida Kahlo.png,3,3,1200
+1624050769,120,48,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,3,3,1170
+1624050771,120,48,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,3,3,1140
+1624050773,120,48,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,3,3,1110
+1624050775,120,48,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,3,3,1080
+1624050777,120,48,intento,2,Mujer,2,fallo,Obra_Francisco Goya.png,3,3,1050
+1624050780,120,48,intento,2,Mujer,2,ok,Obra_Alfred Sisley.png,3,3,1350
+1624050787,120,48,intento,2,Mujer,2,ok,Obra_Andrei Rublev.png,3,3,1650
+1624050788,120,48,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,3,3,1620
+1624050790,120,48,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,3,3,1590
+1624050794,120,48,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,3,3,1560
+1624050797,120,48,intento,2,Mujer,2,ok,Obra_Diego Velazquez.png,3,3,1860
+1624050801,120,48,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,3,3,1830
+1624050805,120,48,intento,2,Mujer,2,ok,Obra_Edgar Degas.png,3,3,2130
+1624050808,120,48,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,3,3,2100
+1624050810,120,48,intento,2,Mujer,2,fallo,Obra_Francisco Goya.png,3,3,2070
+1624050814,120,48,intento,2,Mujer,2,ok,Obra_Amedeo Modigliani.png,3,3,2370
+1624050816,120,48,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,3,3,2340
+1624050817,120,48,intento,2,Mujer,2,fallo,Obra_Paul Gauguin.png,3,3,2310
+1624050819,120,48,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,3,3,2280
+1624050822,120,48,intento,2,Mujer,2,ok,Obra_Francisco Goya.png,3,3,2580
+1624050824,120,48,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,3,3,2550
+1624050825,120,48,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,3,3,2520
+1624050828,120,48,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,3,3,2490
+1624050829,120,48,intento,2,Mujer,2,fallo,Obra_Paul Gauguin.png,3,3,2460
+1624050833,120,48,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,3,3,2760
+1624050834,120,48,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,3,3,2730
+1624050836,120,48,intento,2,Mujer,2,fallo,Obra_Paul Gauguin.png,3,3,2700
+1624050838,120,48,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,3,3,2670
+1624050843,120,48,intento,2,Mujer,2,ok,Obra_Paul Gauguin.png,3,3,2970
+1624050845,120,48,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,3,3,2940
+1624050847,120,48,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,3,3,2910
+1624050849,120,48,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,3,3,3210
+1624050852,120,48,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,3,3,3180
+1624050853,120,48,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,3,3,3150
+1624050855,120,48,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,3,3,3450
+1624050857,120,48,intento,2,Mujer,2,ok,Obra_Albrecht Dürer.png,3,3,3750
+1624050857,120,48,fin,2,Mujer,2,finalizada,,3,3,8070
+1624051122,121,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624051124,121,16,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,1,2,0
+1624051125,121,16,intento,2,Mujer,2,ok,Obra_Andy Warhol.png,1,2,200
+1624051126,121,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,170
+1624051128,121,16,intento,2,Mujer,2,ok,Obra_Alfred Sisley.png,1,2,370
+1624051129,121,16,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,1,2,340
+1624051130,121,16,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,1,2,540
+1624051132,121,16,intento,2,Mujer,2,ok,Obra_Albrecht Dürer.png,1,2,740
+1624051135,121,16,intento,2,Mujer,2,ok,Obra_Amedeo Modigliani.png,1,2,940
+1624051137,121,16,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,1,2,1140
+1624051138,121,16,intento,2,Mujer,2,fallo,Obra_Camille Pissarro.png,1,2,1110
+1624051140,121,16,intento,2,Mujer,2,ok,Obra_Andrei Rublev.png,1,2,1310
+1624051141,121,16,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,1,2,1510
+1624051141,121,16,fin,2,Mujer,2,finalizada,,1,2,2740
+1624051269,122,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624051271,122,16,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,1,2,200
+1624051271,122,16,intento,2,Mujer,2,fallo,Obra_Alfred Sisley.png,1,2,170
+1624051273,122,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,140
+1624051275,122,16,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,1,2,110
+1624051277,122,16,intento,2,Mujer,2,fallo,Obra_Diego Rivera.png,1,2,80
+1624051279,122,16,intento,2,Mujer,2,ok,Obra_Alfred Sisley.png,1,2,280
+1624051281,122,16,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,1,2,250
+1624051282,122,16,intento,2,Mujer,2,fallo,Obra_Andrei Rublev.png,1,2,220
+1624051283,122,16,intento,2,Mujer,2,ok,Obra_Andrei Rublev.png,1,2,420
+1624051285,122,16,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,1,2,390
+1624051287,122,16,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,1,2,360
+1624051288,122,16,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,1,2,560
+1624051290,122,16,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,1,2,530
+1624051292,122,16,intento,2,Mujer,2,fallo,Obra_Amedeo Modigliani.png,1,2,500
+1624051293,122,16,intento,2,Mujer,2,ok,Obra_Amedeo Modigliani.png,1,2,700
+1624051294,122,16,intento,2,Mujer,2,fallo,Obra_Andy Warhol.png,1,2,670
+1624051295,122,16,intento,2,Mujer,2,ok,Obra_Andy Warhol.png,1,2,870
+1624051297,122,16,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,1,2,840
+1624051299,122,16,intento,2,Mujer,2,ok,Obra_Albrecht Dürer.png,1,2,1040
+1624051300,122,16,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,1,2,1240
+1624051300,122,16,fin,2,Mujer,2,finalizada,,1,2,2110
+1624051757,123,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624051759,123,16,intento,2,Mujer,2,ok,Amedeo Modigliani,1,2,200
+1624051759,123,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,170
+1624051761,123,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,140
+1624051763,123,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,2,110
+1624051766,123,16,intento,2,Mujer,2,ok,Albrecht Dürer,1,2,310
+1624051767,123,16,intento,2,Mujer,2,fallo,Diego Rivera,1,2,280
+1624051769,123,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,250
+1624051771,123,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,220
+1624051773,123,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,190
+1624051775,123,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,160
+1624051777,123,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,130
+1624051779,123,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,100
+1624051780,123,16,intento,2,Mujer,2,fallo,Diego Rivera,1,2,70
+1624051782,123,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,40
+1624051785,123,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,2,240
+1624051786,123,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,210
+1624051787,123,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,180
+1624051789,123,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,150
+1624051790,123,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,350
+1624051791,123,16,intento,2,Mujer,2,ok,Andy Warhol,1,2,550
+1624051792,123,16,intento,2,Mujer,2,fallo,Diego Rivera,1,2,520
+1624051794,123,16,intento,2,Mujer,2,fallo,Alfred Sisley,1,2,490
+1624051796,123,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,460
+1624051798,123,16,intento,2,Mujer,2,fallo,Alfred Sisley,1,2,430
+1624051799,123,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,400
+1624051801,123,16,intento,2,Mujer,2,ok,Diego Rivera,1,2,600
+1624051803,123,16,intento,2,Mujer,2,ok,Camille Pissarro,1,2,800
+1624051803,123,16,intento,2,Mujer,2,ok,Alfred Sisley,1,2,1000
+1624051804,123,16,fin,2,Mujer,2,finalizada,,1,2,1390
+1624053172,124,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624053174,124,16,intento,2,Mujer,2,ok,Alfred Sisley,1,2,200
+1624053175,124,16,intento,2,Mujer,2,fallo,Amedeo Modigliani,1,2,170
+1624053177,124,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,140
+1624053177,124,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,2,340
+1624053180,124,16,intento,2,Mujer,2,ok,Camille Pissarro,1,2,540
+1624053181,124,16,intento,2,Mujer,2,ok,Diego Rivera,1,2,740
+1624053183,124,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,710
+1624053185,124,16,intento,2,Mujer,2,ok,Amedeo Modigliani,1,2,910
+1624053186,124,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,1110
+1624053187,124,16,intento,2,Mujer,2,ok,Andy Warhol,1,2,1310
+1624053189,124,16,intento,2,Mujer,2,ok,Albrecht Dürer,1,2,1510
+1624053189,124,16,fin,2,Mujer,2,finalizada,,1,2,2800
+1624053208,125,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624053210,125,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,2,200
+1624053212,125,16,intento,2,Mujer,2,fallo,Diego Rivera,1,2,170
+1624053213,125,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,140
+1624053214,125,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,110
+1624053215,125,16,intento,2,Mujer,2,fallo,Diego Rivera,1,2,80
+1624053217,125,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,50
+1624053219,125,16,intento,2,Mujer,2,ok,Amedeo Modigliani,1,2,250
+1624053221,125,16,intento,2,Mujer,2,fallo,Alfred Sisley,1,2,220
+1624053223,125,16,intento,2,Mujer,2,ok,Albrecht Dürer,1,2,420
+1624053226,125,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,390
+1624053227,125,16,intento,2,Mujer,2,ok,Alfred Sisley,1,2,590
+1624053228,125,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,560
+1624053230,125,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,530
+1624053232,125,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,500
+1624053234,125,16,intento,2,Mujer,2,ok,Diego Rivera,1,2,700
+1624053235,125,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,900
+1624053236,125,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,870
+1624053237,125,16,intento,2,Mujer,2,ok,Camille Pissarro,1,2,1070
+1624053238,125,16,intento,2,Mujer,2,ok,Andy Warhol,1,2,1270
+1624053238,125,16,fin,2,Mujer,2,finalizada,,1,2,2170

@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-def choose_theme(theme):
+def choose_theme(theme:str)->str:
     """
         Es uno de los programas ejemplo de PySimpleGUI
         Le permite "navegar" a través de la configuración de apariencia. Haga clic en uno y verá una ventana emergente con el esquema de color que eligió. 
@@ -8,13 +8,10 @@ def choose_theme(theme):
     color_list = sg.list_of_look_and_feel_values()
     color_list.sort()
     layout = [[sg.Text('Theme Browser')],
-            [sg.Text('Click a look and feel color to see demo window')],
-            [
-                sg.Listbox(values=color_list,
-                            size=(20, 12),
-                            key='-LIST-',
-                            enable_events=True)
-            ], [sg.Button('Exit')]]
+            [sg.Text('Elija el tema clickeando en un nombre de la lista')],
+            [sg.Listbox(values=color_list,size=(20, 12),key='-LIST-',enable_events=True)],
+            [sg.Button('Exit')]
+            ]
 
     window = sg.Window('Theme Browser', layout)
 
@@ -30,7 +27,3 @@ def choose_theme(theme):
         save_theme=theme
     window.close()
     return save_theme
-
-
-if __name__ == "__main__":
-    print(choose_theme())

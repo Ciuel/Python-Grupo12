@@ -1,5 +1,5 @@
 from ..Windows.config import build
-from ..Event_Handlers.config import *
+from ..Event_Handlers.config import save_changes, back_button,color_button,build_initial_config
 import PySimpleGUI as sg
 import sys
 
@@ -16,11 +16,8 @@ def loop(config_window: sg.Window, nick: str, theme: str, vlc_dict:dict):
         event, values = config_window.read()
         if event == sg.WIN_CLOSED:
             sys.exit()
-
-        if event == "-CHOOSE COLOR-":
-            theme = color_picker(theme)
-
-
+            
+        theme = color_button(event,theme)
         save_changes(config_window, event, values, theme , nick)
         back_button(config_window, event, nick, theme, vlc_dict)
 

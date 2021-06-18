@@ -14,9 +14,8 @@ def loop(score_window, theme, nick, vlc_dict):
         check_menu(event, score_window, theme, nick, vlc_dict)
 
 
-def start(theme, nick, tiempo_jugado, texto_fin, coincidencias, misses,
-          puntaje, vlc_dict):
-    score_window = build(theme, nick, tiempo_jugado, texto_fin, coincidencias, misses, puntaje)
+def start(theme, nick, tiempo_jugado, texto_fin, coincidencias, misses,puntaje, vlc_dict):
+    score_window = build(theme, tiempo_jugado, texto_fin, coincidencias, misses, puntaje)
     loop(score_window, theme, nick,vlc_dict)
 
     score_window.close()

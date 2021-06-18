@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from ..Event_Handlers.login import *
+from ..Event_Handlers.login import login_action,check_layout,check_help,age_field_check,check_fields_and_register
 from ..Windows.login import build
 import sys
 

@@ -2,15 +2,12 @@ import json
 import hashlib
 import os
 import PySimpleGUI as sg
-from ..Components import menu
-from ..Components import help as _help
+from ..Components import menu,help as _help
 from ..Constants.constants import USER_JSON_PATH,DEFAULT_CONFIG
 try:
     import vlc
 except:
     pass
-
-
 
 def check_fields(window: sg.Window,  values: dict)->bool:
     """Chequea si hay algun campo vacio y muestra un texto de ser asi
@@ -69,7 +66,7 @@ def unique_nick(window: sg.Window,  values: dict)->bool:
             return True
 
 
-def register_validation(window: sg.Window,  values: dict)->bool:
+def register_validation(window: sg.Window, values: dict) -> bool:
     """Une todas las validaciones que se necesitan antes de registrar a un usuario en un return
 
     Args:
@@ -81,7 +78,7 @@ def register_validation(window: sg.Window,  values: dict)->bool:
     return check_fields(window,  values) and confirm_password(window, values) and unique_nick(window, values)
 
 
-def change_layout(window, is_visible) -> None:
+def change_layout(window: sg.Window, is_visible:bool):
     """Intercambia de layout dependiendo de is_visible
 
     Args:
@@ -92,7 +89,7 @@ def change_layout(window, is_visible) -> None:
     window["-REGISTER LAYOUT-"].update(visible=not is_visible)
 
 
-def check_layout(window: sg.Window,  event: str)->None:
+def check_layout(window: sg.Window,  event: str):
     """Dependiendo de que evento ocurre, cambia el layout
 
     Args:
@@ -105,7 +102,7 @@ def check_layout(window: sg.Window,  event: str)->None:
         change_layout(window, True)
 
 
-def age_field_check(window: sg.Window, event: str, values: dict) -> None:
+def age_field_check(window: sg.Window, event: str, values: dict):
     """Previene que el usuario escriba caracteres no numericos en el campo de edad
 
     Args:
@@ -113,14 +110,11 @@ def age_field_check(window: sg.Window, event: str, values: dict) -> None:
         event (str): El evento a chequear si es  -REGIS AGE-
         values (dict): Donde se guardan los campos a chequear
     """
-    if values['-REGIS AGE-']!="":
-        if event == "-REGIS AGE-" and values['-REGIS AGE-'][-1] not in (
-            '0123456789'):
-            window['-REGIS AGE-'].update(values['-REGIS AGE-'][:-1])
+    if values['-REGIS AGE-']!="" and event == "-REGIS AGE-" and values['-REGIS AGE-'][-1] not in ('0123456789'):
+        window['-REGIS AGE-'].update(values['-REGIS AGE-'][:-1])
 
 
-def check_fields_and_register(window: sg.Window, event: str,
-                              values: dict) -> None:
+def check_fields_and_register(window: sg.Window, event: str,values: dict):
     """Cuando se presiona el boton de registrar chequea si se puede, escribe la informacion al json 
     y vuelve a la ventana de login limpiando todos los campos
 
@@ -130,12 +124,12 @@ def check_fields_and_register(window: sg.Window, event: str,
         values (dict): Donde se guardan los campos a chequear y guardar
     """
     #yapf: disable
+    window["-CONFIRMATION TEXT-"].update("")
     if event == "-REGIS SAVE-" and register_validation(window,values):
         with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r+") as info:
             jsonlist = json.load(info)
             password_utf = values["-REGIS PASSWORD-"].encode('utf-8')
-            sha512hash = hashlib.sha512(password_utf)
-            password_hash = sha512hash.hexdigest()
+            password_hash = hashlib.sha512(password_utf).hexdigest()
             jsonlist[values["-REGIS NICK-"]]={
                 "password": password_hash,
                 "age": values["-REGIS AGE-"],
@@ -163,8 +157,7 @@ def check_login(values:dict)->bool:
         datos = json.load(info)
         if values["-INPUT NICK-"] in datos.keys():
             password_utf = values["-INPUT PASSWORD-"].encode('utf-8')
-            sha512hash = hashlib.sha512(password_utf)
-            password_hash = sha512hash.hexdigest()
+            password_hash = hashlib.sha512(password_utf).hexdigest()
             return password_hash  == datos[values["-INPUT NICK-"]]["password"]
         return False
 
@@ -181,14 +174,21 @@ def vlc_init ():
         return {"vlc":False}
 
 
-def check_help(login_window,event)->None:
+def check_help(login_window:sg.Window,event:str):
+    """Chequea si se pidio la ayuda, de ser así muestra la ventana de ayuda ocultando el login,
+    una vez que se cierra ayuda, devuelve el login
+
+    Args:
+        login_window (sg.Window): La ventana de login a manipular
+        event (str): El evento que oculta la ventana y muestra la ayuda
+    """
     if event == "-HELP-":
         login_window.hide()
         _help.start()
         login_window.un_hide()
 
 
-def login_action(window: sg.Window, event: str, values: dict)->None:
+def login_action(window: sg.Window, event: str, values: dict):
     """Chequea si el login es correcto e inicia el menu o actualiza el texto de error dependiendo del resultado
 
     Args:
@@ -201,7 +201,7 @@ def login_action(window: sg.Window, event: str, values: dict)->None:
             window.close()
             with open(os.path.join(os.getcwd(),USER_JSON_PATH),"r") as info:
                 user_data = json.load(info)
-                theme=user_data[values["-INPUT NICK-"]]["config"]["Theme"]
+            theme=user_data[values["-INPUT NICK-"]]["config"]["Theme"]
             menu.start(values["-INPUT NICK-"], theme,vlc_init())
         else:
             window["-W_LOGIN TEXT-"].update("El nick o contaseña son incorrectos")

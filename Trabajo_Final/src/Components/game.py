@@ -7,16 +7,7 @@ import sys
 
 
 
-
-
-def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, help_list:list,vlc_dict:dict):
-    """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
-
-    Args:
-        game_window (sg.Window): La ventana del juego
-        value_matrix (numpy.array): La matriz de los valores a mostrar para el tablero generado
-        type_of_token (str): Si es texto o imagenes
-    """
+def start_loop(game_window:sg.Window, nick:str, user:dict,vlc_dict:dict):
     while True:
         event, _values = game_window.read()
         if event== "-START-":
@@ -27,14 +18,25 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, hel
             sys.exit()
         #Volver Al Menu
         check_menu(game_window, event, nick,user,vlc_dict,False)
+    return game_number
 
-    info_partida={"hits":0,"points":0,"misses":0,"lista_chequeos":[]}
+
+def loop(game_window:sg.Window, value_matrix:np.ndarray, nick:str, user:dict, help_list:list,game_number:int,vlc_dict:dict):
+    """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
+
+    Args:
+        game_window (sg.Window): La ventana del juego
+        value_matrix (numpy.array): La matriz de los valores a mostrar para el tablero generado
+        type_of_token (str): Si es texto o imagenes
+    """
+
+    info_partida={"hits":0,"points":0,"misses":0,"lista_chequeos":[],"help_list":help_list}
     endtime = int(time.time())+ 30 * user["config"]["Coincidences"] * user["config"]["Level"]
     end_cooldown=None
     while True:
         event, _values = game_window.read(300)
         if event == sg.WIN_CLOSED:
-            send_info(time.time(),game_number,"fin",user,nick,info_partida["points"],'abandonada')
+            send_info(game_number,"fin",user,nick,info_partida["points"],'abandonada')
             sys.exit()
 
         #Contador de tiempo de la partida
@@ -42,20 +44,19 @@ def loop(game_window:sg.Window, value_matrix:np.matrix, nick:str, user:dict, hel
         game_window.refresh()
 
         #Volver Al Menu
-        check_menu(game_window, event, nick, user, vlc_dict, True, game_number,
-                   info_partida["points"])
+        check_menu(game_window, event, nick, user, vlc_dict, True, game_number,info_partida["points"])
 
         #Ayuda(solo puede tocarse si no se selecciono ninguna ficha aun)
         if ((event == "-HELP-") and (not info_partida["lista_chequeos"])):
-            end_cooldown=check_help(game_window,value_matrix,user["config"]["Type of token"],help_list,vlc_dict)
+            end_cooldown=check_help(game_window,value_matrix,user["config"]["Type of token"],user["config"]["Level"],info_partida["help_list"],vlc_dict)
         help_cooldown(game_window, end_cooldown)
 
         #Fichas
         if event.startswith("cell"):
             update_button(game_window, event, value_matrix, user["config"]["Type of token"])
             game_window.refresh()
-            info_partida,help_list = check_button(value_matrix, user, info_partida, event,
-                                                     game_window,time.time(), help_list, nick,game_number,vlc_dict)
+            info_partida = check_button(game_window,value_matrix, user, info_partida,
+                                                  event, nick,game_number,vlc_dict)
             win_game(game_window,info_partida, nick, user,endtime,game_number,vlc_dict)
         lose_game(game_window, info_partida, nick, user, endtime,game_number,vlc_dict)
 
@@ -69,6 +70,5 @@ def start(nick: str, vlc_dict:dict):
     """
     user= check_config(nick)
     game_window, value_matrix,help_list = build(nick,user["config"])
-    loop(game_window, value_matrix, nick, user, help_list, vlc_dict)
-
-    game_window.close()
+    game_number=start_loop(game_window, nick, user, vlc_dict)
+    loop(game_window, value_matrix, nick, user, help_list,game_number, vlc_dict)

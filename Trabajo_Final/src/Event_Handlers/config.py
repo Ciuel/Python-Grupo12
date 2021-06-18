@@ -1,9 +1,9 @@
-import os
-import json
-from ..Event_Handlers.Theme_browser import choose_theme
-from ..Components import menu
-from ..Constants.constants import USER_JSON_PATH,BUTTON_SOUND_PATH,vlc_play_sound
 import PySimpleGUI as sg
+import json
+import os
+from ..Components import menu
+from ..Event_Handlers.Theme_browser import choose_theme
+from ..Constants.constants import USER_JSON_PATH,BUTTON_SOUND_PATH,vlc_play_sound
 
 def build_initial_config(nick:str)->dict:
     """Se busca la configuracion del usuario que inicia sesion, que se encuentra en el archivo json
@@ -106,3 +106,16 @@ def save_changes(window:sg.Window,event:str,values:dict,theme:str,nick:str):
                 window["-INFO USER-"].update("Los cambios se han guardado con Exito")
         else:
             window["-INFO USER-"].update("Llene el campo vacio antes de guardar")
+
+def color_button(event:str,theme:str)->str:
+    """Chequea si se clickeo el boton de elegir color
+
+    Args:
+        event (str): El evento del clickeo
+        theme (str): El tema actual
+
+    Returns:
+        [str]: El tema elegido
+    """
+    return color_picker(theme) if event == "-CHOOSE COLOR-" else theme
+        

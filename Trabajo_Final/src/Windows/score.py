@@ -30,7 +30,6 @@ def scores_analysis():
 
 def build(
           theme,
-          nick,
           texto_fin,
           tiempo_jugado,
           coincidencias,
