@@ -8,7 +8,7 @@ def choose_theme(theme:str)->str:
     color_list = sg.list_of_look_and_feel_values()
     color_list.sort()
     layout = [[sg.Text('Theme Browser')],
-            [sg.Text('Elija el tema clickeando en un nombre de la lista')],
+            [sg.Text('Elija el tema clickeando\nen un nombre de la lista')],
             [sg.Listbox(values=color_list,size=(20, 12),key='-LIST-',enable_events=True)],
             [sg.Button('Exit')]
             ]

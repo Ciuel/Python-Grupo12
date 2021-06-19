@@ -1462,3 +1462,20 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624054424,127,16,fin,6,Mujer,6,abandonada,,1,2,0
 1624054433,128,48,inicio_partida,6,Mujer,6,,,3,3,0
 1624054703,128,48,fin,6,Mujer,6,timeout,,3,3,0
+1624063100,129,16,inicio_partida,Juan,Hombre,20,,,1,2,0
+1624063103,129,16,intento,Juan,Hombre,20,ok,Obra_Sandro Botticelli.png,1,2,200
+1624063105,129,16,intento,Juan,Hombre,20,fallo,Obra_Camille Pissarro.png,1,2,170
+1624063106,129,16,intento,Juan,Hombre,20,fallo,Obra_Alfred Sisley.png,1,2,140
+1624063114,129,16,intento,Juan,Hombre,20,ok,Obra_Albrecht Dürer.png,1,2,340
+1624063117,129,16,intento,Juan,Hombre,20,ok,Obra_Alfred Sisley.png,1,2,540
+1624063118,129,16,intento,Juan,Hombre,20,fallo,Obra_Diego Rivera.png,1,2,510
+1624063120,129,16,intento,Juan,Hombre,20,fallo,Obra_Andy Warhol.png,1,2,480
+1624063122,129,16,intento,Juan,Hombre,20,fallo,Obra_Diego Rivera.png,1,2,450
+1624063123,129,16,intento,Juan,Hombre,20,ok,Obra_Diego Rivera.png,1,2,650
+1624063124,129,16,intento,Juan,Hombre,20,ok,Obra_Amedeo Modigliani.png,1,2,850
+1624063125,129,16,intento,Juan,Hombre,20,fallo,Obra_Andy Warhol.png,1,2,820
+1624063127,129,16,intento,Juan,Hombre,20,fallo,Obra_Andy Warhol.png,1,2,790
+1624063127,129,16,intento,Juan,Hombre,20,ok,Obra_Andy Warhol.png,1,2,990
+1624063129,129,16,intento,Juan,Hombre,20,ok,Obra_Andrei Rublev.png,1,2,1190
+1624063131,129,16,intento,Juan,Hombre,20,ok,Obra_Camille Pissarro.png,1,2,1390
+1624063131,129,16,fin,Juan,Hombre,20,finalizada,,1,2,2260

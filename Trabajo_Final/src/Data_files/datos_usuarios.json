@@ -22,7 +22,7 @@
             "Help": "yes",
             "Type of token": "Text",
             "Level": 1,
-            "Theme": "DarkAmber",
+            "Theme": "Material1",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
@@ -48,9 +48,9 @@
         "config": {
             "Coincidences": 2,
             "Help": "yes",
-            "Type of token": "Text",
+            "Type of token": "Images",
             "Level": 1,
-            "Theme": "Material2",
+            "Theme": "Dark2",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }

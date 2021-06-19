@@ -46,7 +46,13 @@ COUNTRIES_CSV=f"src{os.sep}Data_files{os.sep}countries.csv"
 ARTIST_CSV=f"src{os.sep}Data_files{os.sep}artists.csv"
 
 
-def vlc_play_sound(vlc_dict, media):
+def vlc_play_sound(vlc_dict:dict, media:str):
+    """Toma un sonido desde "media" y lo reproduce si la flag de vlc es trues
+
+    Args:
+        vlc_dict (dict): El diccionario de los elementos del reproductor
+        media (str): El path del sonido a reproducir
+    """
     if vlc_dict["vlc"]:
         media_sound = os.path.join(os.getcwd(), media)
         button_press = vlc_dict["player_sounds"].get_instance().media_new(
