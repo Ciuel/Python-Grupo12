@@ -1370,112 +1370,170 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624051299,122,16,intento,2,Mujer,2,ok,Obra_Albrecht Dürer.png,1,2,1040
 1624051300,122,16,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,1,2,1240
 1624051300,122,16,fin,2,Mujer,2,finalizada,,1,2,2110
-1624051757,123,16,inicio_partida,2,Mujer,2,,,1,2,0
-1624051759,123,16,intento,2,Mujer,2,ok,Amedeo Modigliani,1,2,200
-1624051759,123,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,170
-1624051761,123,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,140
-1624051763,123,16,intento,2,Mujer,2,fallo,Albrecht Dürer,1,2,110
-1624051766,123,16,intento,2,Mujer,2,ok,Albrecht Dürer,1,2,310
-1624051767,123,16,intento,2,Mujer,2,fallo,Diego Rivera,1,2,280
-1624051769,123,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,250
-1624051771,123,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,220
-1624051773,123,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,190
-1624051775,123,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,160
-1624051777,123,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,130
-1624051779,123,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,100
-1624051780,123,16,intento,2,Mujer,2,fallo,Diego Rivera,1,2,70
-1624051782,123,16,intento,2,Mujer,2,fallo,Sandro Botticelli,1,2,40
-1624051785,123,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,2,240
-1624051786,123,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,210
-1624051787,123,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,180
-1624051789,123,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,150
-1624051790,123,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,350
-1624051791,123,16,intento,2,Mujer,2,ok,Andy Warhol,1,2,550
-1624051792,123,16,intento,2,Mujer,2,fallo,Diego Rivera,1,2,520
-1624051794,123,16,intento,2,Mujer,2,fallo,Alfred Sisley,1,2,490
-1624051796,123,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,460
-1624051798,123,16,intento,2,Mujer,2,fallo,Alfred Sisley,1,2,430
-1624051799,123,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,400
-1624051801,123,16,intento,2,Mujer,2,ok,Diego Rivera,1,2,600
-1624051803,123,16,intento,2,Mujer,2,ok,Camille Pissarro,1,2,800
-1624051803,123,16,intento,2,Mujer,2,ok,Alfred Sisley,1,2,1000
-1624051804,123,16,fin,2,Mujer,2,finalizada,,1,2,1390
-1624053172,124,16,inicio_partida,2,Mujer,2,,,1,2,0
-1624053174,124,16,intento,2,Mujer,2,ok,Alfred Sisley,1,2,200
-1624053175,124,16,intento,2,Mujer,2,fallo,Amedeo Modigliani,1,2,170
-1624053177,124,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,140
-1624053177,124,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,2,340
-1624053180,124,16,intento,2,Mujer,2,ok,Camille Pissarro,1,2,540
-1624053181,124,16,intento,2,Mujer,2,ok,Diego Rivera,1,2,740
-1624053183,124,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,710
-1624053185,124,16,intento,2,Mujer,2,ok,Amedeo Modigliani,1,2,910
-1624053186,124,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,1110
-1624053187,124,16,intento,2,Mujer,2,ok,Andy Warhol,1,2,1310
-1624053189,124,16,intento,2,Mujer,2,ok,Albrecht Dürer,1,2,1510
-1624053189,124,16,fin,2,Mujer,2,finalizada,,1,2,2800
-1624053208,125,16,inicio_partida,2,Mujer,2,,,1,2,0
-1624053210,125,16,intento,2,Mujer,2,ok,Sandro Botticelli,1,2,200
-1624053212,125,16,intento,2,Mujer,2,fallo,Diego Rivera,1,2,170
-1624053213,125,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,140
-1624053214,125,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,110
-1624053215,125,16,intento,2,Mujer,2,fallo,Diego Rivera,1,2,80
-1624053217,125,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,50
-1624053219,125,16,intento,2,Mujer,2,ok,Amedeo Modigliani,1,2,250
-1624053221,125,16,intento,2,Mujer,2,fallo,Alfred Sisley,1,2,220
-1624053223,125,16,intento,2,Mujer,2,ok,Albrecht Dürer,1,2,420
-1624053226,125,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,390
-1624053227,125,16,intento,2,Mujer,2,ok,Alfred Sisley,1,2,590
-1624053228,125,16,intento,2,Mujer,2,fallo,Andrei Rublev,1,2,560
-1624053230,125,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,530
-1624053232,125,16,intento,2,Mujer,2,fallo,Andy Warhol,1,2,500
-1624053234,125,16,intento,2,Mujer,2,ok,Diego Rivera,1,2,700
-1624053235,125,16,intento,2,Mujer,2,ok,Andrei Rublev,1,2,900
-1624053236,125,16,intento,2,Mujer,2,fallo,Camille Pissarro,1,2,870
-1624053237,125,16,intento,2,Mujer,2,ok,Camille Pissarro,1,2,1070
-1624053238,125,16,intento,2,Mujer,2,ok,Andy Warhol,1,2,1270
-1624053238,125,16,fin,2,Mujer,2,finalizada,,1,2,2170
-1624054345,126,24,inicio_partida,6,Mujer,6,,,2,2,0
-1624054348,126,24,intento,6,Mujer,6,ok,Obra_Edgar Degas.png,2,2,200
-1624054350,126,24,intento,6,Mujer,6,fallo,Obra_Andy Warhol.png,2,2,170
-1624054351,126,24,intento,6,Mujer,6,fallo,Obra_Diego Rivera.png,2,2,140
-1624054351,126,24,intento,6,Mujer,6,ok,Obra_Diego Rivera.png,2,2,340
-1624054353,126,24,intento,6,Mujer,6,fallo,Obra_Andrei Rublev.png,2,2,310
-1624054355,126,24,intento,6,Mujer,6,ok,Obra_Andy Warhol.png,2,2,510
-1624054356,126,24,intento,6,Mujer,6,ok,Obra_Diego Velazquez.png,2,2,710
-1624054359,126,24,intento,6,Mujer,6,ok,Obra_Amedeo Modigliani.png,2,2,910
-1624054361,126,24,intento,6,Mujer,6,fallo,Obra_El Greco.png,2,2,880
-1624054362,126,24,intento,6,Mujer,6,fallo,Obra_Edvard Munch.png,2,2,850
-1624054364,126,24,intento,6,Mujer,6,ok,Obra_Andrei Rublev.png,2,2,1050
-1624054366,126,24,intento,6,Mujer,6,fallo,Obra_Alfred Sisley.png,2,2,1020
-1624054369,126,24,intento,6,Mujer,6,fallo,Obra_Edvard Munch.png,2,2,990
-1624054371,126,24,intento,6,Mujer,6,fallo,Obra_Albrecht Dürer.png,2,2,960
-1624054371,126,24,intento,6,Mujer,6,ok,Obra_Edvard Munch.png,2,2,1160
-1624054373,126,24,intento,6,Mujer,6,ok,Obra_Camille Pissarro.png,2,2,1360
-1624054375,126,24,intento,6,Mujer,6,fallo,Obra_Sandro Botticelli.png,2,2,1330
-1624054376,126,24,intento,6,Mujer,6,fallo,Obra_El Greco.png,2,2,1300
-1624054378,126,24,intento,6,Mujer,6,ok,Obra_Albrecht Dürer.png,2,2,1500
-1624054379,126,24,intento,6,Mujer,6,ok,Obra_Sandro Botticelli.png,2,2,1700
-1624054380,126,24,intento,6,Mujer,6,ok,Obra_El Greco.png,2,2,1900
-1624054382,126,24,intento,6,Mujer,6,ok,Obra_Alfred Sisley.png,2,2,2100
-1624054382,126,24,fin,6,Mujer,6,finalizada,,2,2,4590
-1624054415,127,16,inicio_partida,6,Mujer,6,,,1,2,0
-1624054424,127,16,fin,6,Mujer,6,abandonada,,1,2,0
-1624054433,128,48,inicio_partida,6,Mujer,6,,,3,3,0
-1624054703,128,48,fin,6,Mujer,6,timeout,,3,3,0
-1624063100,129,16,inicio_partida,Juan,Hombre,20,,,1,2,0
-1624063103,129,16,intento,Juan,Hombre,20,ok,Obra_Sandro Botticelli.png,1,2,200
-1624063105,129,16,intento,Juan,Hombre,20,fallo,Obra_Camille Pissarro.png,1,2,170
-1624063106,129,16,intento,Juan,Hombre,20,fallo,Obra_Alfred Sisley.png,1,2,140
-1624063114,129,16,intento,Juan,Hombre,20,ok,Obra_Albrecht Dürer.png,1,2,340
-1624063117,129,16,intento,Juan,Hombre,20,ok,Obra_Alfred Sisley.png,1,2,540
-1624063118,129,16,intento,Juan,Hombre,20,fallo,Obra_Diego Rivera.png,1,2,510
-1624063120,129,16,intento,Juan,Hombre,20,fallo,Obra_Andy Warhol.png,1,2,480
-1624063122,129,16,intento,Juan,Hombre,20,fallo,Obra_Diego Rivera.png,1,2,450
-1624063123,129,16,intento,Juan,Hombre,20,ok,Obra_Diego Rivera.png,1,2,650
-1624063124,129,16,intento,Juan,Hombre,20,ok,Obra_Amedeo Modigliani.png,1,2,850
-1624063125,129,16,intento,Juan,Hombre,20,fallo,Obra_Andy Warhol.png,1,2,820
-1624063127,129,16,intento,Juan,Hombre,20,fallo,Obra_Andy Warhol.png,1,2,790
-1624063127,129,16,intento,Juan,Hombre,20,ok,Obra_Andy Warhol.png,1,2,990
-1624063129,129,16,intento,Juan,Hombre,20,ok,Obra_Andrei Rublev.png,1,2,1190
-1624063131,129,16,intento,Juan,Hombre,20,ok,Obra_Camille Pissarro.png,1,2,1390
-1624063131,129,16,fin,Juan,Hombre,20,finalizada,,1,2,2260
+1624119858,123,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624119861,123,16,intento,2,Mujer,2,ok,Obra_Georges Seurat.png,1,2,200
+1624119862,123,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,170
+1624119863,123,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,140
+1624119865,123,16,intento,2,Mujer,2,fallo,Obra_William Turner.png,1,2,110
+1624119866,123,16,intento,2,Mujer,2,fallo,Obra_William Turner.png,1,2,80
+1624119867,123,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,280
+1624119870,123,16,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,1,2,250
+1624119871,123,16,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,1,2,220
+1624119872,123,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,420
+1624119873,123,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,620
+1624119875,123,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,590
+1624119876,123,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,790
+1624119878,123,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,760
+1624119878,123,16,fin,2,Mujer,2,timeout,,1,2,760
+1624119909,124,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624119911,124,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,200
+1624119913,124,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,170
+1624119914,124,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,140
+1624119915,124,16,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,1,2,110
+1624119917,124,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,310
+1624119918,124,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,280
+1624119921,124,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,480
+1624119923,124,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,450
+1624119924,124,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,420
+1624119925,124,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,620
+1624119927,124,16,intento,2,Mujer,2,fallo,Obra_William Turner.png,1,2,590
+1624119929,124,16,fin,2,Mujer,2,timeout,,1,2,590
+1624119979,125,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624119981,125,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,200
+1624119983,125,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,170
+1624119984,125,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,140
+1624119985,125,16,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,1,2,110
+1624119987,125,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,80
+1624119988,125,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,50
+1624119988,125,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,250
+1624119990,125,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,450
+1624119991,125,16,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,1,2,420
+1624119993,125,16,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,1,2,390
+1624119993,125,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,590
+1624119995,125,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,560
+1624119996,125,16,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,1,2,530
+1624119998,125,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,500
+1624119999,125,16,fin,2,Mujer,2,timeout,,1,2,500
+1624120075,126,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624120077,126,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,200
+1624120079,126,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,170
+1624120080,126,16,intento,2,Mujer,2,fallo,Obra_William Turner.png,1,2,140
+1624120081,126,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,110
+1624120082,126,16,intento,2,Mujer,2,ok,Obra_Paul Cezanne.png,1,2,310
+1624120083,126,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,510
+1624120086,126,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,480
+1624120087,126,16,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,1,2,450
+1624120088,126,16,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,1,2,650
+1624120090,126,16,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,1,2,620
+1624120092,126,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,820
+1624120094,126,16,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,1,2,790
+1624120095,126,16,fin,2,Mujer,2,timeout,,1,2,790
+1624120709,127,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624120712,127,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,200
+1624120713,127,16,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,1,2,170
+1624120714,127,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,140
+1624120716,127,16,intento,2,Mujer,2,fallo,Obra_William Turner.png,1,2,110
+1624120716,127,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,310
+1624120718,127,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,280
+1624120719,127,16,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,1,2,250
+1624120722,127,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,220
+1624120722,127,16,intento,2,Mujer,2,ok,Obra_Paul Cezanne.png,1,2,420
+1624120724,127,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,390
+1624120725,127,16,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,1,2,590
+1624120726,127,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,790
+1624120728,127,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,990
+1624120729,127,16,fin,2,Mujer,2,timeout,,1,2,990
+1624120744,128,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624120747,128,16,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,1,2,0
+1624120748,128,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,0
+1624120749,128,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,200
+1624120750,128,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,400
+1624120752,128,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,370
+1624120753,128,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,570
+1624120754,128,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,770
+1624120756,128,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,970
+1624120758,128,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,940
+1624120759,128,16,intento,2,Mujer,2,ok,Obra_Paul Cezanne.png,1,2,1140
+1624120760,128,16,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,1,2,1110
+1624120761,128,16,intento,2,Mujer,2,ok,Obra_Georges Seurat.png,1,2,1310
+1624120762,128,16,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,1,2,1510
+1624120762,128,16,fin,2,Mujer,2,finalizada,,1,2,2770
+1624120936,129,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624120938,129,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,200
+1624120940,129,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,170
+1624120941,129,16,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,1,2,140
+1624120942,129,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,110
+1624120943,129,16,intento,2,Mujer,2,ok,Obra_Paul Cezanne.png,1,2,310
+1624120944,129,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,510
+1624120946,129,16,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,1,2,480
+1624120947,129,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,680
+1624120948,129,16,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,1,2,650
+1624120949,129,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,850
+1624120950,129,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,1050
+1624120952,129,16,intento,2,Mujer,2,ok,Obra_Georges Seurat.png,1,2,1250
+1624120953,129,16,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,1,2,1450
+1624120953,129,16,fin,2,Mujer,2,finalizada,,1,2,2740
+1624120975,130,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624120977,130,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,200
+1624120978,130,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,400
+1624120980,130,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,370
+1624120981,130,16,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,1,2,340
+1624120982,130,16,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,1,2,310
+1624120983,130,16,intento,2,Mujer,2,ok,Obra_Paul Cezanne.png,1,2,510
+1624120984,130,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,710
+1624120986,130,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,680
+1624120987,130,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,880
+1624120989,130,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,850
+1624120990,130,16,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,1,2,1050
+1624120991,130,16,intento,2,Mujer,2,ok,Obra_Georges Seurat.png,1,2,1250
+1624120992,130,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,1450
+1624120992,130,16,fin,2,Mujer,2,finalizada,,1,2,2740
+1624121046,131,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624121049,131,16,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,1,2,0
+1624121050,131,16,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,1,2,0
+1624121051,131,16,intento,2,Mujer,2,ok,Obra_Georges Seurat.png,1,2,200
+1624121052,131,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,170
+1624121054,131,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,140
+1624121055,131,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,110
+1624121057,131,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,310
+1624121059,131,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,280
+1624121061,131,16,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,1,2,480
+1624121063,131,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,450
+1624121065,131,16,intento,2,Mujer,2,ok,Obra_Paul Cezanne.png,1,2,650
+1624121067,131,16,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,1,2,620
+1624121068,131,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,590
+1624121069,131,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,790
+1624121070,131,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,990
+1624121071,131,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,1190
+1624121072,131,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,1390
+1624121073,131,16,fin,2,Mujer,2,finalizada,,1,2,2380
+1624121134,132,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624121137,132,16,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,1,2,0
+1624121138,132,16,intento,2,Mujer,2,ok,Obra_Georges Seurat.png,1,2,200
+1624121139,132,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,400
+1624121141,132,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,370
+1624121142,132,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,570
+1624121143,132,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,540
+1624121145,132,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,510
+1624121146,132,16,intento,2,Mujer,2,ok,Obra_Paul Cezanne.png,1,2,710
+1624121148,132,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,680
+1624121149,132,16,intento,2,Mujer,2,fallo,Obra_William Turner.png,1,2,650
+1624121150,132,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,850
+1624121152,132,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,820
+1624121153,132,16,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,1,2,1020
+1624121154,132,16,fin,2,Mujer,2,timeout,,1,2,1020
+1624121204,133,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624121207,133,16,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,1,2,0
+1624121208,133,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,0
+1624121208,133,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,200
+1624121210,133,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,170
+1624121211,133,16,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,1,2,370
+1624121213,133,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,340
+1624121214,133,16,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,1,2,310
+1624121215,133,16,intento,2,Mujer,2,fallo,Obra_William Turner.png,1,2,280
+1624121217,133,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,480
+1624121219,133,16,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,1,2,450
+1624121220,133,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,420
+1624121221,133,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,620
+1624121223,133,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,590
+1624121224,133,16,fin,2,Mujer,2,timeout,,1,2,590

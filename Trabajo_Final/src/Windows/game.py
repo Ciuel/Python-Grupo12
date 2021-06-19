@@ -87,28 +87,31 @@ def build(nick:str, user_config:dict)->tuple:
         [sg.Window]: La ventana de juego armada
     """
     # yapf: disable
-    button_amount=(LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][0]*LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][1])
     sg.theme(user_config["Theme"])
-    Y_LENGHT= LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][1]*BUTTON_SIZE[1]*10
-    board_col=[sg.Column(generate_board(user_config["Level"], user_config["Coincidences"]),element_justification="right")]
-
-    data_col=[sg.Frame(title="",layout=[[sg.Text(f"A jugar",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
+    text_font_tuple=(WINDOW_FONT, WINDOW_FONT_SIZE)
+    Coincidencias_totales=(LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][0]*LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][1])//user_config["Coincidences"]
+    tiempo_total=30 * user_config["Coincidences"] * user_config["Level"]
+    text_col=[[sg.Text("A jugar",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
             [sg.Text(f"{nick}",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
-            [sg.Text(f"Puntos👾: ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE)),sg.Text(f"0       ",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-POINTS-")],
-            [sg.Text(f"Tiempo🕑:  0",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-CURRENT TIME-",size=(18,1))],
-            [sg.Text("Coincidencias: 00 /",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE),key="-TOTAL HITS-"),
-            sg.Text(button_amount//user_config["Coincidences"],font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
-            [sg.Text(f"Nivel: {user_config['Level']}",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
-            [sg.Button("Comenzar",key="-START-",font=(f"{WINDOW_FONT}",WINDOW_FONT_SIZE-5),bind_return_key=True),
-            sg.Button("Volver al menu",key="-BACK MENU-",font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE-5)),
-            sg.Button("Ayuda",key="-HELP-",font=(f"{WINDOW_FONT}",WINDOW_FONT_SIZE-5)) if user_config["Help"]=="yes" else sg.Text("")]],border_width=10)
-        ]
+            [sg.Text(f"Puntos👾: ",font=text_font_tuple),sg.Text(f"0",font=text_font_tuple,key="-POINTS-",size=(4,1)),
+            sg.Text(f"Tiempo🕑: {tiempo_total}",font=text_font_tuple,key="-CURRENT TIME-",size=(12,None))],
+            [sg.Text("Coincidencias: 00 /",font=text_font_tuple,key="-TOTAL HITS-"),
+            sg.Text(Coincidencias_totales,font=text_font_tuple)],
+            [sg.Text(f"Nivel: {user_config['Level']}",font=text_font_tuple)]]
 
-    layout = [[sg.Column([board_col]),sg.Column([data_col])]]#!
+    button_font_tuple=(WINDOW_FONT, WINDOW_FONT_SIZE-5)
+    button_col=[[sg.Button("Comenzar",key="-START-",font=button_font_tuple,bind_return_key=True),
+    sg.Button("Volver al menu",key="-BACK MENU-",font=button_font_tuple),
+    sg.Button("Ayuda",key="-HELP-",font=button_font_tuple) if user_config["Help"]=="yes" else sg.Text("")]]
+
+    game_info=[[sg.Column(text_col)],[sg.Column(button_col)]]
+
+
+    layout = [[sg.Column(layout=generate_board(user_config["Level"], user_config["Coincidences"])),sg.Frame(title="",layout=game_info,border_width=10)]]
     # yapf: enable
 
     game_window = sg.Window("MemPy",layout,finalize=True,element_justification="center",margins=(10, 10))
-    
+
     tokens = clean_input(manipulate_app_data(), user_config["Type of token"])
     element_list,help_list = analisis_info(tokens, user_config["Level"],user_config["Coincidences"])
     return game_window, generar_matriz(element_list, user_config["Level"],user_config["Coincidences"]), help_list

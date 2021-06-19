@@ -49,7 +49,7 @@ def build(initialConfig:dict)->sg.Window:
 
         [sg.Column(layout_combo,element_justification="right"),
         sg.Column(layout_radio,element_justification="right")],
-
+        
         [sg.Button("Paleta de Colores",border_width=0,font=(WINDOW_FONT,CONFIG_FONT_SIZE),pad=(None,(5,5)),key="-CHOOSE COLOR-")],
 
         [sg.Column(layout_inputtext,element_justification="left")],
