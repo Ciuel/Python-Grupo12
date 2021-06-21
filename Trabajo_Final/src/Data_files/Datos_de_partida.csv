@@ -1620,3 +1620,8 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624299583,139,16,intento,3,No binarie,3,ok,Obra_Albrecht Dürer.png,1,2,1160
 1624299584,139,16,intento,3,No binarie,3,ok,Obra_Jan van Eyck.png,1,2,1360
 1624299584,139,16,fin,3,No binarie,3,finalizada,,1,2,2410
+1624300632,140,42,inicio_partida,3,No binarie,3,,,3,2,0
+1624300769,140,42,intento,3,No binarie,3,ok,Obra_Pieter Bruegel.png,3,2,200
+1624300812,140,42,fin,3,No binarie,3,timeout,,3,2,200
+1624300827,141,42,inicio_partida,3,No binarie,3,,,3,2,0
+1624301007,141,42,fin,3,No binarie,3,timeout,,3,2,0
