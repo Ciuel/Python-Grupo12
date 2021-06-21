@@ -33,9 +33,9 @@
         "gender": "No binarie",
         "config": {
             "Coincidences": 2,
-            "Help": "no",
+            "Help": "yes",
             "Type of token": "Images",
-            "Level": 1,
+            "Level": 3,
             "Theme": "Material2",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
