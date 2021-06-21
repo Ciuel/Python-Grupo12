@@ -1595,3 +1595,80 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624132631,136,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,1250
 1624132632,136,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,1450
 1624132632,136,16,fin,2,Mujer,2,finalizada,,1,2,2530
+1624140533,137,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624140536,137,16,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,1,2,200
+1624140537,137,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,170
+1624140539,137,16,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,1,2,140
+1624140541,137,16,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,1,2,110
+1624140542,137,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,80
+1624140544,137,16,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,1,2,50
+1624140545,137,16,intento,2,Mujer,2,ok,Obra_Paul Cezanne.png,1,2,250
+1624140547,137,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,220
+1624140548,137,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,420
+1624140549,137,16,intento,2,Mujer,2,fallo,Obra_William Turner.png,1,2,390
+1624140551,137,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,590
+1624140552,137,16,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,1,2,790
+1624140554,137,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,990
+1624140555,137,16,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,1,2,1190
+1624140556,137,16,intento,2,Mujer,2,ok,Obra_Georges Seurat.png,1,2,1390
+1624140556,137,16,fin,2,Mujer,2,finalizada,,1,2,2500
+1624140606,138,42,inicio_partida,2,Mujer,2,,,3,2,0
+1624140608,138,42,intento,2,Mujer,2,ok,Obra_Edvard Munch.png,3,2,200
+1624140609,138,42,intento,2,Mujer,2,fallo,Obra_Claude Monet.png,3,2,170
+1624140611,138,42,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,3,2,140
+1624140612,138,42,intento,2,Mujer,2,fallo,Obra_Henri de Toulouse-Lautrec.png,3,2,110
+1624140613,138,42,intento,2,Mujer,2,ok,Obra_Henri de Toulouse-Lautrec.png,3,2,310
+1624140615,138,42,intento,2,Mujer,2,fallo,Obra_Andrei Rublev.png,3,2,280
+1624140616,138,42,intento,2,Mujer,2,fallo,Obra_Henri Rousseau.png,3,2,250
+1624140618,138,42,intento,2,Mujer,2,fallo,Obra_Claude Monet.png,3,2,220
+1624140619,138,42,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,3,2,190
+1624140621,138,42,intento,2,Mujer,2,fallo,Obra_Edouard Manet.png,3,2,160
+1624140624,138,42,intento,2,Mujer,2,ok,Obra_Michelangelo.png,3,2,360
+1624140625,138,42,intento,2,Mujer,2,ok,Obra_Andrei Rublev.png,3,2,560
+1624140627,138,42,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,3,2,530
+1624140629,138,42,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,3,2,500
+1624140630,138,42,intento,2,Mujer,2,ok,Obra_Henri Rousseau.png,3,2,700
+1624140632,138,42,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,3,2,670
+1624140633,138,42,intento,2,Mujer,2,ok,Obra_Vasiliy Kandinskiy.png,3,2,870
+1624140635,138,42,intento,2,Mujer,2,ok,Obra_Piet Mondrian.png,3,2,1070
+1624140637,138,42,intento,2,Mujer,2,fallo,Obra_Jackson Pollock.png,3,2,1040
+1624140638,138,42,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,3,2,1010
+1624140640,138,42,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,3,2,980
+1624140641,138,42,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,3,2,950
+1624140642,138,42,intento,2,Mujer,2,ok,Obra_Jackson Pollock.png,3,2,1150
+1624140645,138,42,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,3,2,1120
+1624140646,138,42,intento,2,Mujer,2,fallo,Obra_Eugene Delacroix.png,3,2,1090
+1624140648,138,42,intento,2,Mujer,2,ok,Obra_Eugene Delacroix.png,3,2,1290
+1624140650,138,42,intento,2,Mujer,2,fallo,Obra_William Turner.png,3,2,1260
+1624140653,138,42,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,3,2,1230
+1624140655,138,42,intento,2,Mujer,2,fallo,Obra_Claude Monet.png,3,2,1200
+1624140656,138,42,intento,2,Mujer,2,ok,Obra_William Turner.png,3,2,1400
+1624140658,138,42,intento,2,Mujer,2,fallo,Obra_Edouard Manet.png,3,2,1370
+1624140660,138,42,intento,2,Mujer,2,fallo,Obra_El Greco.png,3,2,1340
+1624140661,138,42,intento,2,Mujer,2,ok,Obra_Joan Miro.png,3,2,1540
+1624140664,138,42,intento,2,Mujer,2,ok,Obra_El Greco.png,3,2,1740
+1624140665,138,42,intento,2,Mujer,2,fallo,Obra_Diego Rivera.png,3,2,1710
+1624140667,138,42,intento,2,Mujer,2,fallo,Obra_Paul Cezanne.png,3,2,1680
+1624140669,138,42,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,3,2,1650
+1624140671,138,42,intento,2,Mujer,2,ok,Obra_Diego Rivera.png,3,2,1850
+1624140673,138,42,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,3,2,1820
+1624140675,138,42,intento,2,Mujer,2,fallo,Obra_Edouard Manet.png,3,2,1790
+1624140676,138,42,intento,2,Mujer,2,ok,Obra_Paul Cezanne.png,3,2,1990
+1624140679,138,42,intento,2,Mujer,2,fallo,Obra_Jan van Eyck.png,3,2,1960
+1624140682,138,42,intento,2,Mujer,2,fallo,Obra_Claude Monet.png,3,2,1930
+1624140684,138,42,intento,2,Mujer,2,fallo,Obra_Jan van Eyck.png,3,2,1900
+1624140685,138,42,intento,2,Mujer,2,ok,Obra_Jan van Eyck.png,3,2,2100
+1624140688,138,42,intento,2,Mujer,2,fallo,Obra_Edouard Manet.png,3,2,2070
+1624140689,138,42,intento,2,Mujer,2,fallo,Obra_Gustave Courbet.png,3,2,2040
+1624140691,138,42,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,3,2,2010
+1624140692,138,42,intento,2,Mujer,2,ok,Obra_Gustave Courbet.png,3,2,2210
+1624140693,138,42,intento,2,Mujer,2,ok,Obra_Edouard Manet.png,3,2,2410
+1624140696,138,42,intento,2,Mujer,2,ok,Obra_Claude Monet.png,3,2,2610
+1624140698,138,42,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,3,2,2580
+1624140700,138,42,intento,2,Mujer,2,fallo,Obra_Caravaggio.png,3,2,2550
+1624140702,138,42,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,3,2,2520
+1624140704,138,42,intento,2,Mujer,2,ok,Obra_Caravaggio.png,3,2,2720
+1624140706,138,42,intento,2,Mujer,2,fallo,Obra_Georges Seurat.png,3,2,2690
+1624140707,138,42,intento,2,Mujer,2,ok,Obra_Georges Seurat.png,3,2,2890
+1624140708,138,42,intento,2,Mujer,2,ok,Obra_Camille Pissarro.png,3,2,3090
+1624140708,138,42,fin,2,Mujer,2,finalizada,,3,2,5430

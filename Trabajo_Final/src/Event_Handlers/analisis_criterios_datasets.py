@@ -1,6 +1,7 @@
 import os
 import datetime
 import pandas as pd
+from pandas.core.indexes.base import Index
 from ..Constants.constants import COUNTRIES_CSV,ARTIST_CSV
 
 def sort_app_data(info_path:str)->pd.DataFrame:
@@ -15,7 +16,9 @@ def sort_app_data(info_path:str)->pd.DataFrame:
     day=datetime.datetime.today().weekday()
     datos = pd.read_csv(info_path)
     datos = datos[[ datos.columns[day], datos.columns[0], datos.columns[datos.columns.size-1]]]
-    datos=datos.sort_values(datos.columns[0])
+    datos.columns=["order", "text", "image"]
+    print(datos)
+    datos = datos.sort_values(datos.columns[0])
     return datos
 
 

@@ -46,6 +46,6 @@ def build()->sg.Window:
     login_window = sg.Window("Login MemPy",
                              layout,
                              finalize=True,
-                             size=(550,375),
+                             size=(550,350),
                              element_justification='center')
     return login_window

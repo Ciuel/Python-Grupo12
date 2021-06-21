@@ -21,9 +21,9 @@
             "Coincidences": 2,
             "Help": "yes",
             "Type of token": "Images",
-            "Level": 1,
+            "Level": 3,
             "Theme": "DarkBlue1",
-            "VictoryText": "Ganaste!!!",
+            "VictoryText": "Ganaste!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
             "LoseText": ":( mas suerte la proxima"
         }
     },
@@ -50,7 +50,7 @@
             "Help": "yes",
             "Type of token": "Images",
             "Level": 1,
-            "Theme": "Dark2",
+            "Theme": "DarkTanBlue",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
@@ -123,6 +123,20 @@
             "Theme": "DarkBlack1",
             "VictoryText": "Ganaste!!!!",
             "LoseText": ":( mas suerte la proximaa"
+        }
+    },
+    "7": {
+        "password": "f05210c5b4263f0ec4c3995bdab458d81d3953f354a9109520f159db1e8800bcd45b97c56dce90a1fc27ab03e0b8a9af8673747023c406299374116d6f966981",
+        "age": "7",
+        "gender": "Mujer",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Text",
+            "Level": 1,
+            "Theme": "Material1",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
         }
     }
 }
