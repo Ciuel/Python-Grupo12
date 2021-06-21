@@ -25,7 +25,9 @@ Con este comando, se instalaran las dependencias necesarias para la aplicacion, 
 
 -MatPlotLib
 
--Python-vlc*
+-Python-VLC*
+
+-Hashlib
 
 *Si se quiere utilizar el sonido de la aplicacion no solo debe tener instalada la libreria python-vlc sino tambien debe tener instalado el Programa
 VLC en su sistema operativo, sino podra utilizar la aplicacion sin sonido sin ningun problema. 
