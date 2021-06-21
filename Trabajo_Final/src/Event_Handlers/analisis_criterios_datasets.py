@@ -14,7 +14,7 @@ def sort_app_data(info_path:str)->pd.DataFrame:
     """
     day=datetime.datetime.today().weekday()
     datos = pd.read_csv(info_path)
-    datos = datos[[ datos.columns[day], datos.columns[0], datos.columns[datos.columns.size-1]]]
+    datos = datos[[ datos.columns[day+1], datos.columns[0], datos.columns[datos.columns.size-1]]]
     datos=datos.sort_values(datos.columns[0])
     return datos
 

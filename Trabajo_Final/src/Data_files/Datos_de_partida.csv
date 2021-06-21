@@ -1595,3 +1595,28 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624132631,136,16,intento,2,Mujer,2,ok,Obra_Caravaggio.png,1,2,1250
 1624132632,136,16,intento,2,Mujer,2,ok,Obra_William Turner.png,1,2,1450
 1624132632,136,16,fin,2,Mujer,2,finalizada,,1,2,2530
+1624299500,137,16,inicio_partida,3,No binarie,3,,,1,2,0
+1624299502,137,16,intento,3,No binarie,3,fallo,Obra_Michelangelo.png,1,2,0
+1624299504,137,16,intento,3,No binarie,3,fallo,Obra_Jan van Eyck.png,1,2,0
+1624299506,137,16,intento,3,No binarie,3,fallo,Obra_Sandro Botticelli.png,1,2,0
+1624299509,137,16,fin,3,No binarie,3,abandonada,,1,2,0
+1624299549,138,16,inicio_partida,3,No binarie,3,,,1,2,0
+1624299553,138,16,fin,3,No binarie,3,abandonada,,1,2,0
+1624299559,139,16,inicio_partida,3,No binarie,3,,,1,2,0
+1624299561,139,16,intento,3,No binarie,3,ok,Obra_Hieronymus Bosch.png,1,2,200
+1624299563,139,16,intento,3,No binarie,3,fallo,Obra_Leonardo da Vinci.png,1,2,170
+1624299565,139,16,intento,3,No binarie,3,fallo,Obra_Albrecht Dürer.png,1,2,140
+1624299567,139,16,intento,3,No binarie,3,fallo,Obra_Leonardo da Vinci.png,1,2,110
+1624299568,139,16,intento,3,No binarie,3,fallo,Obra_Andrei Rublev.png,1,2,80
+1624299570,139,16,intento,3,No binarie,3,ok,Obra_Leonardo da Vinci.png,1,2,280
+1624299572,139,16,intento,3,No binarie,3,ok,Obra_Sandro Botticelli.png,1,2,480
+1624299573,139,16,intento,3,No binarie,3,fallo,Obra_Jan van Eyck.png,1,2,450
+1624299574,139,16,intento,3,No binarie,3,ok,Obra_Michelangelo.png,1,2,650
+1624299576,139,16,intento,3,No binarie,3,fallo,Obra_Albrecht Dürer.png,1,2,620
+1624299577,139,16,intento,3,No binarie,3,ok,Obra_Andrei Rublev.png,1,2,820
+1624299579,139,16,intento,3,No binarie,3,fallo,Obra_Albrecht Dürer.png,1,2,790
+1624299580,139,16,intento,3,No binarie,3,ok,Obra_Giotto di Bondone.png,1,2,990
+1624299583,139,16,intento,3,No binarie,3,fallo,Obra_Jan van Eyck.png,1,2,960
+1624299583,139,16,intento,3,No binarie,3,ok,Obra_Albrecht Dürer.png,1,2,1160
+1624299584,139,16,intento,3,No binarie,3,ok,Obra_Jan van Eyck.png,1,2,1360
+1624299584,139,16,fin,3,No binarie,3,finalizada,,1,2,2410

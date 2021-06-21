@@ -33,7 +33,7 @@
         "gender": "No binarie",
         "config": {
             "Coincidences": 2,
-            "Help": "no",
+            "Help": "yes",
             "Type of token": "Images",
             "Level": 1,
             "Theme": "Material2",

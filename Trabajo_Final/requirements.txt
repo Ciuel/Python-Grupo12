@@ -1,5 +1,5 @@
-pandas==1.2.4
-python_vlc==3.0.12118
-numpy==1.20.2
 matplotlib==3.4.2
-PySimpleGUI==4.44.0
+python_vlc==3.0.12118
+pandas==1.2.4
+numpy==1.20.2
+PySimpleGUI==4.45.0
