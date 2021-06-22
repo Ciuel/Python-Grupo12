@@ -1,2 +1,2 @@
-helptext_app="Este es el texto de ayuda de como usar la aplicación"
+helptext_app = "Para poder empezar a jugar, primero hay que iniciar sesion, en caso de no tener usuario, hay que registrarse clickeando en el link azul y completar los datos para obener un nick y contraseña, una vez iniciada la sesion, puede jugar, ajustar la configuracion o ver estadisticas de las partidas, "
 helptext_game="Este es el texto de ayuda de como jugar al juego"
