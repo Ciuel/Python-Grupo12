@@ -20,9 +20,9 @@ def build() -> sg.Window:
 
     column_layout = [[sg.Text(f"Ayuda",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
                 [sg.Text(f"Aplicación",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
-                [sg.Text(f"{helptext_app}",size=(30,None),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+                [sg.Text(helptext_app,size=(30,None),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
                 [sg.Text(f"Juego",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
-                [sg.Text(f"{helptext_game}"*50,size=(30,None),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+                [sg.Text(helptext_game,size=(30,None),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
               [sg.Button("Volver",key="-BACK-",bind_return_key=True)]
             ]
     # yapf: enable
