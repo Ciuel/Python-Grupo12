@@ -91,8 +91,8 @@ def build(nick:str, user_config:dict)->tuple:
     text_font_tuple=(WINDOW_FONT, WINDOW_FONT_SIZE)
     Coincidencias_totales=(LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][0]*LEVEL_DICTIONARY[(user_config["Level"], user_config["Coincidences"])][1])//user_config["Coincidences"]
     tiempo_total=30 * user_config["Coincidences"] * user_config["Level"]
-    text_col=[[sg.Text("A jugar",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
-            [sg.Text(f"{nick}",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
+    text_col=[[sg.Text("A jugar",font=(WINDOW_TITLE_FONT, WINDOW_FONT_SIZE * 2))],
+            [sg.Text(f"{nick}",font=(WINDOW_TITLE_FONT, WINDOW_FONT_SIZE * 2))],
             [sg.Text(f"Puntos👾: ",font=text_font_tuple),sg.Text(f"0",font=text_font_tuple,key="-POINTS-",size=(4,1))],
             [sg.Text(f"Tiempo🕑: {tiempo_total}",font=text_font_tuple,key="-CURRENT TIME-",size=(12,None))],
             [sg.Text("Coincidencias: 00 /",font=text_font_tuple,key="-TOTAL HITS-"),

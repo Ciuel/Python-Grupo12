@@ -59,7 +59,7 @@ def build(theme:str, texto_fin:str, tiempo_jugado:int, coincidencias:int, fallos
                     sg.Text((f"Fallos: {fallos}"),font=font_tuple)],
                     ]
 
-    layout = [ [sg.Text("Datos de partida",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
+    layout = [ [sg.Text("Datos de partida",font=(WINDOW_TITLE_FONT, WINDOW_FONT_SIZE * 2))],
                 [sg.Column(win_col,element_justification="center")],[sg.Column(info_col)],
                 [sg.Table(values_a,key="-TABLE-",
                 headings=["Nick","Nivel","Numero de Partida","Puntos"],

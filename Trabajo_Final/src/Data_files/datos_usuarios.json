@@ -21,9 +21,9 @@
             "Coincidences": 2,
             "Help": "yes",
             "Type of token": "Images",
-            "Level": 3,
+            "Level": 1,
             "Theme": "DarkBlue1",
-            "VictoryText": "Ganaste!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+            "VictoryText": "Ganaste!!!!!!",
             "LoseText": ":( mas suerte la proxima"
         }
     },

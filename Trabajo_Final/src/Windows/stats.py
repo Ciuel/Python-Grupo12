@@ -26,7 +26,7 @@ def build(theme: str) -> sg.Window:
     ]
     tab_layout=[[[sg.Text(des[x],font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],[sg.Canvas(key=f"-CANVAS{x}-")]] for x in range(len(des))]
 
-    layout = [[sg.Text(f"Estadisticas",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
+    layout = [[sg.Text(f"Estadisticas",font=(WINDOW_TITLE_FONT, WINDOW_FONT_SIZE * 2))],
             [sg.TabGroup([[sg.Tab(f'Gráfico {l+1}',tab_layout[l],element_justification='center')  for l in range(len(des))]])],
             [sg.Button("Menu",key="-BACK BUTTON-")]
     ]

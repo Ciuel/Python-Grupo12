@@ -1625,3 +1625,18 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624300812,140,42,fin,3,No binarie,3,timeout,,3,2,200
 1624300827,141,42,inicio_partida,3,No binarie,3,,,3,2,0
 1624301007,141,42,fin,3,No binarie,3,timeout,,3,2,0
+1624407173,142,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624407175,142,16,intento,2,Mujer,2,ok,Obra_Leonardo da Vinci.png,1,2,200
+1624407177,142,16,intento,2,Mujer,2,fallo,Obra_Andrei Rublev.png,1,2,170
+1624407178,142,16,intento,2,Mujer,2,ok,Obra_Hieronymus Bosch.png,1,2,370
+1624407180,142,16,intento,2,Mujer,2,fallo,Obra_Giotto di Bondone.png,1,2,340
+1624407180,142,16,intento,2,Mujer,2,ok,Obra_Andrei Rublev.png,1,2,540
+1624407182,142,16,intento,2,Mujer,2,fallo,Obra_Albrecht Dürer.png,1,2,510
+1624407184,142,16,intento,2,Mujer,2,ok,Obra_Giotto di Bondone.png,1,2,710
+1624407186,142,16,intento,2,Mujer,2,fallo,Obra_Michelangelo.png,1,2,680
+1624407188,142,16,intento,2,Mujer,2,fallo,Obra_Sandro Botticelli.png,1,2,650
+1624407189,142,16,intento,2,Mujer,2,ok,Obra_Albrecht Dürer.png,1,2,850
+1624407190,142,16,intento,2,Mujer,2,ok,Obra_Sandro Botticelli.png,1,2,1050
+1624407191,142,16,intento,2,Mujer,2,ok,Obra_Jan van Eyck.png,1,2,1250
+1624407193,142,16,intento,2,Mujer,2,ok,Obra_Michelangelo.png,1,2,1450
+1624407193,142,16,fin,2,Mujer,2,finalizada,,1,2,2650

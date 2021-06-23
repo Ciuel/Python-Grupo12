@@ -3,6 +3,8 @@ from ..Constants.constants import WINDOW_FONT, WINDOW_FONT_SIZE, WINDOW_TITLE_FO
 from ..Constants.help_text import *
 
 sg.theme(WINDOW_DEFAULT_THEME)
+WINDOW_SIZE = (600, 800)
+TEXTBOX_SIZE = (38, None)
 
 
 def build() -> sg.Window:
@@ -18,18 +20,20 @@ def build() -> sg.Window:
     # yapf: disable
     sg.theme(WINDOW_DEFAULT_THEME)
 
-    column_layout = [[sg.Text(f"Ayuda",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
-                [sg.Text(f"Aplicación",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
-                [sg.Text(helptext_app,size=(30,None),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
-                [sg.Text(f"Juego",font=(f"{WINDOW_TITLE_FONT}", WINDOW_FONT_SIZE * 2))],
-                [sg.Text(helptext_game,size=(30,None),font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+    column_layout = [[sg.Text(f"Ayuda",font=(WINDOW_TITLE_FONT, WINDOW_FONT_SIZE * 2))],
+                [sg.Text(f"Aplicación",font=(WINDOW_TITLE_FONT, WINDOW_FONT_SIZE * 2))],
+                [sg.Text(helptext_app,size=TEXTBOX_SIZE,font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+                [sg.Text(f"Configuracion",font=(WINDOW_TITLE_FONT, WINDOW_FONT_SIZE * 2))],
+                [sg.Text(helptext_config,size=TEXTBOX_SIZE,font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
+                [sg.Text(f"Juego",font=(WINDOW_TITLE_FONT, WINDOW_FONT_SIZE * 2))],
+                [sg.Text(helptext_game,size=TEXTBOX_SIZE,font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],
               [sg.Button("Volver",key="-BACK-",bind_return_key=True)]
             ]
     # yapf: enable
-    layout = [[sg.Column(column_layout, scrollable=True, size=(500, 700))]]
+    layout = [[sg.Column(column_layout, scrollable=True, size=WINDOW_SIZE)]]
     return sg.Window("Menu",
                      layout,
                      element_justification='left',
-                     size=(500, 700),
+                     size=WINDOW_SIZE,
                      no_titlebar=True,
                      margins=(1, 1))
