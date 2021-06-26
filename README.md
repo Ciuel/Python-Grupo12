@@ -1,7 +1,8 @@
 # MemPy
 
-Mempy es el juego de la memoria desarrollado en la catedra Seminario de Lenguajes: Python, por el grupo 12 integrado Por: **Joaquín Ignacio Olmos , Juan Tomás Vicens y Lautaro Torchia**
+![image](https://user-images.githubusercontent.com/46163555/123527387-19795380-d6ad-11eb-85f6-05ef45bc579a.png) 
 
+Mempy es el juego de la memoria desarrollado en la catedra Seminario de Lenguajes: Python, por el grupo 12 integrado Por: **Joaquín Ignacio Olmos , Juan Tomás Vicens y Lautaro Torchia**
 
 ## Instalacion
 
@@ -33,8 +34,11 @@ Con este comando, se instalaran las dependencias necesarias para la aplicacion, 
 VLC en su sistema operativo, sino podra utilizar la aplicacion sin sonido sin ningun problema. 
 Aqui el link para descargar VLC:https://www.videolan.org/
 
+![image](https://user-images.githubusercontent.com/46163555/123527406-46c60180-d6ad-11eb-8ee7-2d9e07154f83.png)
 
 ## Ejecucion de la aplicacion
+
+![image](https://user-images.githubusercontent.com/46163555/123527397-3b72d600-d6ad-11eb-92ab-245188ebeb0a.png)
 
 Para la ejecucion de la aplicacion, se debe ingresar en la carpeta Trabajo_Final y luego se debe ejectuar el archivo mem_py.py, ya sea haciendo doble click sobre el o utilizando el siguiente comando:
 
@@ -43,6 +47,8 @@ python3 mem_py.py
 ```
 
 Si usted utiliza un SO de la línea windows, puede hacer uso del ejectable, que se encuentra bajo el nombre **"mem_py.exe"** en la carpeta "Trabajo_Final"
+
+![image](https://user-images.githubusercontent.com/46163555/123527403-40378a00-d6ad-11eb-98cb-fe63a6081d75.png)
 
 ## License
 La licencia utilizada para la aplicacion es la sigueinte:
