@@ -36,8 +36,7 @@ Con este comando, se instalaran las dependencias necesarias para la aplicacion, 
 VLC en su sistema operativo, sino podra utilizar la aplicacion sin sonido sin ningun problema. 
 Aqui el link para descargar VLC:https://www.videolan.org/
 
-![image](https://user-images.githubusercontent.com/46163555/123527397-3b72d600-d6ad-11eb-92ab-245188ebeb0a.png)
-︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎ ︎
+![image](https://user-images.githubusercontent.com/46163555/123527397-3b72d600-d6ad-11eb-92ab-245188ebeb0a.png)\
 ![image](https://user-images.githubusercontent.com/46163555/123527403-40378a00-d6ad-11eb-98cb-fe63a6081d75.png)
 
 ## Ejecucion de la aplicacion
