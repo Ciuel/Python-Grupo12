@@ -42,6 +42,7 @@ Para la ejecucion de la aplicacion, se debe ingresar en la carpeta Trabajo_Final
 python3 mem_py.py
 ```
 
+Si usted utiliza un SO de la línea windows, puede hacer uso del ejectable, que se encuentra bajo el nombre **"mem_py.exe"** en la carpeta "Trabajo_Final"
 
 ## License
 La licencia utilizada para la aplicacion es la sigueinte:
