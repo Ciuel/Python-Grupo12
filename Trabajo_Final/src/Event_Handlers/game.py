@@ -254,7 +254,9 @@ def help_action(window:sg.Window, value_matrix:np.ndarray, type_of_token:str, he
     window.refresh()
     obj = random.choice(help_list)
     lista_idx = np.transpose((value_matrix == obj).nonzero())
+
     lista_events=["cell" + np.array2string(idx, precision=0, separator="")[1:-1] for idx in lista_idx]
+    
     for eve in lista_events:
         update_button(window, eve, value_matrix, type_of_token)
     window.refresh()

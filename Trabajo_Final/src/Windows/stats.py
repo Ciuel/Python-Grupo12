@@ -10,8 +10,6 @@ BUTTON_SIZE = (17, 3)
 def build(theme: str) -> sg.Window:
     """Arma la ventana de estadisticas, generando todos los graficos con los analisis del event handler y poniendolos
     en tabs de PysimpleGUI
-    
-
         Args:
                 theme (str): El tema de la ventana
 
@@ -22,7 +20,7 @@ def build(theme: str) -> sg.Window:
     # yapf: disable
     sg.theme(theme)
     des=['Top 10 de palabras que se encuentran primero de todas las partidas','Porcentaje de partidas por estado (terminada, cancelada,abandonadas)','Porcentaje de partidas finalizadas según género',
-    'Porcentaje de partidas que se juegan para cada día de la semana','Promedio de tiempo de partidas finalizadas por nivel.','Porcentaje de palabras encontradas en las partidas timeout.'
+    'Cantidad de partidas que se juegan para cada día de la semana','Promedio de tiempo de partidas finalizadas por nivel.','Porcentaje de palabras encontradas en las partidas timeout.'
     ]
     tab_layout=[[[sg.Text(des[x],font=(f"{WINDOW_FONT}", WINDOW_FONT_SIZE))],[sg.Canvas(key=f"-CANVAS{x}-")]] for x in range(len(des))]
 

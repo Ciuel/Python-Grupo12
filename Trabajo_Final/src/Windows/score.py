@@ -64,7 +64,7 @@ def build(theme:str, texto_fin:str, tiempo_jugado:int, coincidencias:int, fallos
                 [sg.Table(values_a,key="-TABLE-",
                 headings=["Nick","Nivel","Numero de Partida","Puntos"],
                 display_row_numbers=True,font=font_tuple,max_col_width=10,select_mode="none")],
-                [sg.Button('Menu', key="-MENU-",bind_return_key=True)]
+                [sg.Button('Menu', key="-MENU-",bind_return_key=True,border_width=0)]
              ]
     #Razon del finalize: para el update.
     #If you need to interact with elements prior to calling window.read() you will need to "finalize"
