@@ -1,5 +1,6 @@
 import os
 import sys
+import time
 
 #Reusable Constants
 LEVEL_DICTIONARY = {
@@ -60,3 +61,4 @@ def vlc_play_sound(vlc_dict:dict, media:str):
             media_sound)
         vlc_dict["player_sounds"].set_media(button_press)
         vlc_dict["player_sounds"].play()
+        time.sleep(0.05)

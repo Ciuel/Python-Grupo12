@@ -1767,3 +1767,142 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624743613,151,48,fin,Juan2,Hombre,20,abandonada,,3,3,300
 1624743639,152,16,inicio_partida,Juan2,Hombre,20,,,1,2,0
 1624743699,152,16,fin,Juan2,Hombre,20,timeout,,1,2,0
+1624745972,153,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624745974,153,16,intento,2,Mujer,2,ok,William Turner,1,2,200
+1624745977,153,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,170
+1624745980,153,16,intento,2,Mujer,2,fallo,Caravaggio,1,2,140
+1624745982,153,16,intento,2,Mujer,2,ok,Paul Cezanne,1,2,340
+1624745984,153,16,intento,2,Mujer,2,ok,Jackson Pollock,1,2,540
+1624745994,153,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,510
+1624745997,153,16,intento,2,Mujer,2,ok,Michelangelo,1,2,710
+1624746000,153,16,intento,2,Mujer,2,fallo,Eugene Delacroix,1,2,680
+1624746001,153,16,intento,2,Mujer,2,ok,Caravaggio,1,2,880
+1624746004,153,16,intento,2,Mujer,2,fallo,Georges Seurat,1,2,850
+1624746006,153,16,intento,2,Mujer,2,fallo,Eugene Delacroix,1,2,820
+1624746008,153,16,intento,2,Mujer,2,ok,Gustave Courbet,1,2,1020
+1624746010,153,16,intento,2,Mujer,2,ok,Georges Seurat,1,2,1220
+1624746012,153,16,intento,2,Mujer,2,ok,Eugene Delacroix,1,2,1420
+1624746012,153,16,fin,2,Mujer,2,finalizada,,1,2,2020
+1624746154,154,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624746156,154,16,intento,2,Mujer,2,ok,Georges Seurat,1,2,200
+1624746158,154,16,intento,2,Mujer,2,fallo,Paul Cezanne,1,2,170
+1624746159,154,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,140
+1624746162,154,16,intento,2,Mujer,2,fallo,Paul Cezanne,1,2,110
+1624746164,154,16,intento,2,Mujer,2,fallo,Caravaggio,1,2,80
+1624746164,154,16,intento,2,Mujer,2,ok,Paul Cezanne,1,2,280
+1624746168,154,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,250
+1624746170,154,16,intento,2,Mujer,2,fallo,Caravaggio,1,2,220
+1624746172,154,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,190
+1624746173,154,16,intento,2,Mujer,2,ok,Caravaggio,1,2,390
+1624746174,154,16,intento,2,Mujer,2,ok,Michelangelo,1,2,590
+1624746178,154,16,intento,2,Mujer,2,fallo,Eugene Delacroix,1,2,560
+1624746180,154,16,intento,2,Mujer,2,fallo,Gustave Courbet,1,2,530
+1624746181,154,16,intento,2,Mujer,2,ok,Eugene Delacroix,1,2,730
+1624746182,154,16,intento,2,Mujer,2,ok,William Turner,1,2,930
+1624746184,154,16,intento,2,Mujer,2,ok,Gustave Courbet,1,2,1130
+1624746185,154,16,intento,2,Mujer,2,ok,Jackson Pollock,1,2,1330
+1624746185,154,16,fin,2,Mujer,2,finalizada,,1,2,2200
+1624746322,155,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624746325,155,16,intento,2,Mujer,2,ok,William Turner,1,2,200
+1624746326,155,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,170
+1624746328,155,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,140
+1624746329,155,16,intento,2,Mujer,2,ok,Eugene Delacroix,1,2,340
+1624746332,155,16,intento,2,Mujer,2,fallo,Paul Cezanne,1,2,310
+1624746337,155,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,280
+1624746341,155,16,intento,2,Mujer,2,ok,Gustave Courbet,1,2,480
+1624746342,155,16,intento,2,Mujer,2,ok,Georges Seurat,1,2,680
+1624746344,155,16,intento,2,Mujer,2,fallo,Caravaggio,1,2,650
+1624746345,155,16,intento,2,Mujer,2,ok,Michelangelo,1,2,850
+1624746348,155,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,820
+1624746350,155,16,intento,2,Mujer,2,fallo,Caravaggio,1,2,790
+1624746351,155,16,intento,2,Mujer,2,ok,Paul Cezanne,1,2,990
+1624746354,155,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,960
+1624746354,155,16,intento,2,Mujer,2,ok,Jackson Pollock,1,2,1160
+1624746356,155,16,intento,2,Mujer,2,ok,Caravaggio,1,2,1360
+1624746357,155,16,fin,2,Mujer,2,finalizada,,1,2,2110
+1624746377,156,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624746380,156,16,intento,2,Mujer,2,ok,Paul Cezanne,1,2,200
+1624746381,156,16,intento,2,Mujer,2,fallo,Georges Seurat,1,2,170
+1624746383,156,16,intento,2,Mujer,2,fallo,Eugene Delacroix,1,2,140
+1624746384,156,16,intento,2,Mujer,2,fallo,Gustave Courbet,1,2,110
+1624746385,156,16,intento,2,Mujer,2,fallo,Gustave Courbet,1,2,80
+1624746387,156,16,intento,2,Mujer,2,ok,Michelangelo,1,2,280
+1624746389,156,16,intento,2,Mujer,2,fallo,Georges Seurat,1,2,250
+1624746391,156,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,220
+1624746395,156,16,intento,2,Mujer,2,ok,William Turner,1,2,420
+1624746398,156,16,intento,2,Mujer,2,fallo,Eugene Delacroix,1,2,390
+1624746399,156,16,intento,2,Mujer,2,fallo,Caravaggio,1,2,360
+1624746401,156,16,intento,2,Mujer,2,fallo,Caravaggio,1,2,330
+1624746402,156,16,intento,2,Mujer,2,ok,Caravaggio,1,2,530
+1624746405,156,16,intento,2,Mujer,2,ok,Jackson Pollock,1,2,730
+1624746406,156,16,intento,2,Mujer,2,fallo,Georges Seurat,1,2,700
+1624746408,156,16,intento,2,Mujer,2,fallo,Georges Seurat,1,2,670
+1624746409,156,16,intento,2,Mujer,2,ok,Georges Seurat,1,2,870
+1624746410,156,16,intento,2,Mujer,2,fallo,Gustave Courbet,1,2,840
+1624746411,156,16,intento,2,Mujer,2,ok,Gustave Courbet,1,2,1040
+1624746412,156,16,intento,2,Mujer,2,ok,Eugene Delacroix,1,2,1240
+1624746412,156,16,fin,2,Mujer,2,finalizada,,1,2,1990
+1624746426,157,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624746428,157,16,intento,2,Mujer,2,ok,William Turner,1,2,200
+1624746430,157,16,intento,2,Mujer,2,fallo,Gustave Courbet,1,2,170
+1624746431,157,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,140
+1624746432,157,16,intento,2,Mujer,2,ok,Michelangelo,1,2,340
+1624746433,157,16,intento,2,Mujer,2,ok,Gustave Courbet,1,2,540
+1624746435,157,16,intento,2,Mujer,2,fallo,Caravaggio,1,2,510
+1624746436,157,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,480
+1624746438,157,16,intento,2,Mujer,2,fallo,Paul Cezanne,1,2,450
+1624746440,157,16,intento,2,Mujer,2,fallo,Georges Seurat,1,2,420
+1624746440,157,16,intento,2,Mujer,2,ok,Paul Cezanne,1,2,620
+1624746443,157,16,intento,2,Mujer,2,ok,Caravaggio,1,2,820
+1624746445,157,16,intento,2,Mujer,2,fallo,Eugene Delacroix,1,2,790
+1624746446,157,16,intento,2,Mujer,2,ok,Eugene Delacroix,1,2,990
+1624746447,157,16,intento,2,Mujer,2,ok,Georges Seurat,1,2,1190
+1624746448,157,16,intento,2,Mujer,2,ok,Jackson Pollock,1,2,1390
+1624746449,157,16,fin,2,Mujer,2,finalizada,,1,2,2500
+1624746466,158,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624746468,158,16,intento,2,Mujer,2,ok,Eugene Delacroix,1,2,200
+1624746470,158,16,intento,2,Mujer,2,fallo,Caravaggio,1,2,170
+1624746471,158,16,intento,2,Mujer,2,fallo,William Turner,1,2,140
+1624746472,158,16,intento,2,Mujer,2,ok,Caravaggio,1,2,340
+1624746474,158,16,intento,2,Mujer,2,fallo,Paul Cezanne,1,2,310
+1624746475,158,16,intento,2,Mujer,2,ok,Paul Cezanne,1,2,510
+1624746476,158,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,480
+1624746477,158,16,intento,2,Mujer,2,ok,Georges Seurat,1,2,680
+1624746480,158,16,intento,2,Mujer,2,ok,Jackson Pollock,1,2,880
+1624746482,158,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,850
+1624746483,158,16,intento,2,Mujer,2,ok,Michelangelo,1,2,1050
+1624746484,158,16,intento,2,Mujer,2,ok,William Turner,1,2,1250
+1624746485,158,16,intento,2,Mujer,2,ok,Gustave Courbet,1,2,1450
+1624746485,158,16,fin,2,Mujer,2,finalizada,,1,2,2680
+1624746507,159,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624746510,159,16,intento,2,Mujer,2,ok,Michelangelo,1,2,200
+1624746511,159,16,intento,2,Mujer,2,ok,Caravaggio,1,2,400
+1624746513,159,16,intento,2,Mujer,2,fallo,Georges Seurat,1,2,370
+1624746514,159,16,intento,2,Mujer,2,fallo,Paul Cezanne,1,2,340
+1624746515,159,16,intento,2,Mujer,2,ok,Eugene Delacroix,1,2,540
+1624746517,159,16,intento,2,Mujer,2,fallo,Gustave Courbet,1,2,510
+1624746518,159,16,intento,2,Mujer,2,ok,Gustave Courbet,1,2,710
+1624746520,159,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,680
+1624746521,159,16,intento,2,Mujer,2,fallo,Paul Cezanne,1,2,650
+1624746522,159,16,intento,2,Mujer,2,ok,William Turner,1,2,850
+1624746524,159,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,820
+1624746525,159,16,intento,2,Mujer,2,ok,Georges Seurat,1,2,1020
+1624746527,159,16,intento,2,Mujer,2,fallo,Paul Cezanne,1,2,990
+1624746529,159,16,intento,2,Mujer,2,ok,Jackson Pollock,1,2,1190
+1624746530,159,16,intento,2,Mujer,2,ok,Paul Cezanne,1,2,1390
+1624746530,159,16,fin,2,Mujer,2,finalizada,,1,2,2500
+1624747653,160,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624747655,160,16,intento,2,Mujer,2,ok,Caravaggio,1,2,200
+1624747666,160,16,intento,2,Mujer,2,ok,Paul Cezanne,1,2,400
+1624747675,160,16,fin,2,Mujer,2,abandonada,,1,2,400
+1624747938,161,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624747940,161,16,intento,2,Mujer,2,ok,Caravaggio,1,2,200
+1624747944,161,16,intento,2,Mujer,2,fallo,Gustave Courbet,1,2,170
+1624747945,161,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,140
+1624747947,161,16,intento,2,Mujer,2,fallo,Paul Cezanne,1,2,110
+1624747949,161,16,intento,2,Mujer,2,fallo,Eugene Delacroix,1,2,80
+1624747951,161,16,intento,2,Mujer,2,fallo,Jackson Pollock,1,2,50
+1624747953,161,16,intento,2,Mujer,2,fallo,Michelangelo,1,2,20
+1624747956,161,16,intento,2,Mujer,2,ok,Jackson Pollock,1,2,220
+1624747964,161,16,intento,2,Mujer,2,ok,Gustave Courbet,1,2,420
+1624747969,161,16,fin,2,Mujer,2,abandonada,,1,2,420
