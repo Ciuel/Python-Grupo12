@@ -1709,3 +1709,61 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624539780,148,16,intento,2,Mujer,2,ok,Suriname ,1,2,1130
 1624539781,148,16,intento,2,Mujer,2,ok,Botswana ,1,2,1330
 1624539781,148,16,fin,2,Mujer,2,finalizada,,1,2,1900
+1624743445,149,48,inicio_partida,Juan2,Hombre,20,,,3,3,0
+1624743448,149,48,intento,Juan2,Hombre,20,ok,Obra_Gustave Courbet.png,3,3,300
+1624743450,149,48,intento,Juan2,Hombre,20,fallo,Obra_Jackson Pollock.png,3,3,270
+1624743452,149,48,intento,Juan2,Hombre,20,fallo,Obra_Henri Rousseau.png,3,3,240
+1624743455,149,48,intento,Juan2,Hombre,20,fallo,Obra_Michelangelo.png,3,3,210
+1624743457,149,48,intento,Juan2,Hombre,20,fallo,Obra_El Greco.png,3,3,180
+1624743459,149,48,intento,Juan2,Hombre,20,fallo,Obra_Henri Rousseau.png,3,3,150
+1624743460,149,48,intento,Juan2,Hombre,20,fallo,Obra_Henri Rousseau.png,3,3,120
+1624743463,149,48,intento,Juan2,Hombre,20,fallo,Obra_Henri de Toulouse-Lautrec.png,3,3,90
+1624743466,149,48,intento,Juan2,Hombre,20,ok,Obra_Caravaggio.png,3,3,390
+1624743468,149,48,intento,Juan2,Hombre,20,fallo,Obra_Claude Monet.png,3,3,360
+1624743470,149,48,intento,Juan2,Hombre,20,fallo,Obra_Paul Cezanne.png,3,3,330
+1624743472,149,48,intento,Juan2,Hombre,20,fallo,Obra_Eugene Delacroix.png,3,3,300
+1624743474,149,48,intento,Juan2,Hombre,20,fallo,Obra_Henri de Toulouse-Lautrec.png,3,3,270
+1624743475,149,48,intento,Juan2,Hombre,20,fallo,Obra_Henri Rousseau.png,3,3,240
+1624743477,149,48,intento,Juan2,Hombre,20,fallo,Obra_Diego Rivera.png,3,3,210
+1624743479,149,48,intento,Juan2,Hombre,20,ok,Obra_Henri Rousseau.png,3,3,510
+1624743482,149,48,intento,Juan2,Hombre,20,fallo,Obra_Jan van Eyck.png,3,3,480
+1624743484,149,48,intento,Juan2,Hombre,20,fallo,Obra_Michelangelo.png,3,3,450
+1624743487,149,48,intento,Juan2,Hombre,20,ok,Obra_Jan van Eyck.png,3,3,750
+1624743489,149,48,intento,Juan2,Hombre,20,fallo,Obra_Edvard Munch.png,3,3,720
+1624743494,149,48,intento,Juan2,Hombre,20,fallo,Obra_Diego Rivera.png,3,3,690
+1624743498,149,48,intento,Juan2,Hombre,20,fallo,Obra_Diego Rivera.png,3,3,660
+1624743504,149,48,intento,Juan2,Hombre,20,ok,Obra_El Greco.png,3,3,960
+1624743507,149,48,intento,Juan2,Hombre,20,fallo,Obra_Jackson Pollock.png,3,3,930
+1624743509,149,48,intento,Juan2,Hombre,20,fallo,Obra_William Turner.png,3,3,900
+1624743511,149,48,intento,Juan2,Hombre,20,fallo,Obra_Eugene Delacroix.png,3,3,870
+1624743513,149,48,intento,Juan2,Hombre,20,fallo,Obra_Henri de Toulouse-Lautrec.png,3,3,840
+1624743515,149,48,intento,Juan2,Hombre,20,ok,Obra_Henri de Toulouse-Lautrec.png,3,3,1140
+1624743519,149,48,intento,Juan2,Hombre,20,ok,Obra_Jackson Pollock.png,3,3,1440
+1624743522,149,48,intento,Juan2,Hombre,20,ok,Obra_Michelangelo.png,3,3,1740
+1624743530,149,48,intento,Juan2,Hombre,20,fallo,Obra_Claude Monet.png,3,3,1710
+1624743532,149,48,intento,Juan2,Hombre,20,fallo,Obra_Claude Monet.png,3,3,1680
+1624743535,149,48,intento,Juan2,Hombre,20,ok,Obra_William Turner.png,3,3,1980
+1624743538,149,48,intento,Juan2,Hombre,20,fallo,Obra_Paul Cezanne.png,3,3,1950
+1624743541,149,48,intento,Juan2,Hombre,20,ok,Obra_Claude Monet.png,3,3,2250
+1624743544,149,48,intento,Juan2,Hombre,20,ok,Obra_Paul Cezanne.png,3,3,2550
+1624743546,149,48,intento,Juan2,Hombre,20,fallo,Obra_Edvard Munch.png,3,3,2520
+1624743549,149,48,intento,Juan2,Hombre,20,fallo,Obra_Piet Mondrian.png,3,3,2490
+1624743551,149,48,intento,Juan2,Hombre,20,fallo,Obra_Piet Mondrian.png,3,3,2460
+1624743553,149,48,intento,Juan2,Hombre,20,fallo,Obra_Eugene Delacroix.png,3,3,2430
+1624743555,149,48,intento,Juan2,Hombre,20,ok,Obra_Diego Rivera.png,3,3,2730
+1624743560,149,48,intento,Juan2,Hombre,20,fallo,Obra_Georges Seurat.png,3,3,2700
+1624743563,149,48,intento,Juan2,Hombre,20,ok,Obra_Georges Seurat.png,3,3,3000
+1624743566,149,48,intento,Juan2,Hombre,20,fallo,Obra_Edvard Munch.png,3,3,2970
+1624743568,149,48,intento,Juan2,Hombre,20,fallo,Obra_Eugene Delacroix.png,3,3,2940
+1624743570,149,48,intento,Juan2,Hombre,20,ok,Obra_Piet Mondrian.png,3,3,3240
+1624743573,149,48,intento,Juan2,Hombre,20,ok,Obra_Eugene Delacroix.png,3,3,3540
+1624743575,149,48,intento,Juan2,Hombre,20,ok,Obra_Edvard Munch.png,3,3,3840
+1624743576,149,48,fin,Juan2,Hombre,20,finalizada,,3,3,8010
+1624743601,150,48,inicio_partida,Juan2,Hombre,20,,,3,3,0
+1624743605,150,48,intento,Juan2,Hombre,20,ok,Obra_Piet Mondrian.png,3,3,300
+1624743607,150,48,fin,Juan2,Hombre,20,abandonada,,3,3,300
+1624743610,151,48,inicio_partida,Juan2,Hombre,20,,,3,3,0
+1624743612,151,48,intento,Juan2,Hombre,20,ok,Obra_Eugene Delacroix.png,3,3,300
+1624743613,151,48,fin,Juan2,Hombre,20,abandonada,,3,3,300
+1624743639,152,16,inicio_partida,Juan2,Hombre,20,,,1,2,0
+1624743699,152,16,fin,Juan2,Hombre,20,timeout,,1,2,0

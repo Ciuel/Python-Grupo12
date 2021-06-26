@@ -15,17 +15,11 @@ def scores_analysis()->tuple:
     datos = pd.read_csv(os.path.join(os.getcwd(), GAME_INFO_PATH),
                         encoding='utf-8')
     datos = datos[['Nick', 'Nivel', 'Partida', 'Puntos']]
-
     partida_actual = datos.tail(1)
-
     numero_partida = int(partida_actual["Partida"])
-
     datos = datos[datos["Nivel"] == int(partida_actual["Nivel"])]
-
     datos = datos.sort_values("Puntos", ascending=False).reset_index(drop=True)
-
     player_row_number = datos.index[datos["Partida"] == numero_partida][0]
-
     return datos.values.tolist(), player_row_number
 
 

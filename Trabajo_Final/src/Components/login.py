@@ -14,9 +14,13 @@ def loop(login_window:sg.Window):
         event, values = login_window.read()
         if event == sg.WIN_CLOSED:
             sys.exit()
-        login_action(login_window, event, values)
+
         check_layout(login_window, event)
+
+        #Ventana de login
+        login_action(login_window, event, values)
         check_help(login_window,event)
+
         #Ventana de registro
         age_field_check(login_window, event, values)
         check_fields_and_register(login_window, event, values)

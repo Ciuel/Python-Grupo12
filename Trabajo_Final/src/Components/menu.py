@@ -23,6 +23,7 @@ def loop(menu_window: sg.Window, nick: str, theme: str, vlc_dict: dict):
                 sys.exit()
             if vlc_dict["vlc"]:
                 vlc_dict["player_music"].stop()
+
             vlc_play_sound(vlc_dict, MENU_SOUND_PATH)
             configure(menu_window, event, nick, vlc_dict)
             jugar(menu_window, event, nick, vlc_dict)
@@ -39,6 +40,7 @@ def start(nick: str, theme: str, vlc_dict: dict):
     Args:
         nick (str): El nick del jugador
         theme (str): El tema del menu
+        vlc_dict (dict): El diccionario de los elementos del reproductor
     """
     menu_window = build(nick, theme)
     loop(menu_window, nick, theme, vlc_dict)

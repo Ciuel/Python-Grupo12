@@ -199,26 +199,25 @@ def lose_game(window:sg.Window, info_partida:dict, nick:str, user:dict, end_time
     if end_time == tiempo:
         vlc_play_sound(vlc_dict, LOSE_SOUND_PATH)
         window.close()
-        send_info(game_number, "fin", user, nick,
-                  info_partida["points"], "timeout")
+        send_info(game_number, "fin", user, nick,info_partida["points"], "timeout")
         score.start(user["config"]["Theme"],nick,user["config"]["LoseText"],
                     0, info_partida["hits"], info_partida["misses"],
                     info_partida["points"], vlc_dict)
 
 
-def check_menu(window:sg.Window,event:str,nick:str, user:str,vlc_dict:dict,inicio:bool,game_number:int="",points:int=""):
+def check_menu(window:sg.Window,event:str,nick:str, user:dict,vlc_dict:dict,inicio:bool,game_number:int="",points:int=""):
     """Chequea si se debe volver al menu, pide confirmacion con un popup y en caso de que ya haya empezado la partida
     envía que abandonó al csv
 
     Args:
-        window (sg.Window): [description]
-        event (str): [description]
-        nick (str): [description]
-        user (str): [description]
-        vlc_dict (dict): [description]
-        inicio (bool): [description]
-        game_number (int, optional): [description]. Defaults to "".
-        points (int, optional): [description]. Defaults to "".
+        window (sg.Window): La ventana del juego
+        event (str): El evento a chequear si vuelve al menu
+        nick (str): nick del usuarie
+        user (dict): configuracion del usuarie
+        vlc_dict (dict): El diccionario de los elementos del reproductor
+        inicio (bool): indica si la partida fue comenzada o no
+        game_number (int): numero de partida.
+        points (int): Puntos del juego hasta ese momento.
     """
     if event == "-BACK MENU-":
         if sg.popup_yes_no("Realmente quiere volver al menu",no_titlebar=True) == "Yes":
@@ -256,7 +255,7 @@ def help_action(window:sg.Window, value_matrix:np.ndarray, type_of_token:str, he
     lista_idx = np.transpose((value_matrix == obj).nonzero())
 
     lista_events=["cell" + np.array2string(idx, precision=0, separator="")[1:-1] for idx in lista_idx]
-    
+
     for eve in lista_events:
         update_button(window, eve, value_matrix, type_of_token)
     window.refresh()
@@ -285,7 +284,7 @@ def check_help(window:sg.Window, value_matrix:np.ndarray, type_of_token:str,leve
 
 
 def send_info(game_number: int,event: str,user: dict,nick: str,points: int,state: str = "",token: str = ""):
-    """[summary]
+    """
     Envia la informacion de el evento que la llame al csv el cual registra todos los eventos de todas las partidas para luego hacer el analisis
     Orden del csv: Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palabra,Nivel,Cantidad de coincidencias,Puntos
     

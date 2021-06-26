@@ -1,17 +1,16 @@
 import os
 import datetime
 import pandas as pd
-from pandas.core.indexes.base import Index
 from ..Constants.constants import COUNTRIES_CSV,ARTIST_CSV
 
 def sort_app_data(info_path:str)->pd.DataFrame:
-    """Dependiendo del dia de la semana, elige un criterio distinto para ordenar las fichas
+    """Dependiendo del día de la semana, elige un criterio distinto para ordenar las fichas
 
     Args:
-        info_path (str): El path del archivo a usar para la informacion
+        info_path (str): El path del archivo a usar para la información
 
     Returns:
-        pd.DataFrame: La informacion ordenada por el criterio del dia
+        pd.DataFrame: La información ordenada por el criterio del día
     """
     day=datetime.datetime.today().weekday()
     datos = pd.read_csv(info_path)
@@ -25,7 +24,7 @@ def manipulate_app_data() -> pd.DataFrame:
     """Dependiendo de si es mañana o tarde, abre un dataset distinto para usar en las fichas
 
     Returns:
-        pd.DataFrame: La informacion ordenada por sort_app_datas
+        pd.DataFrame: La información ordenada por sort_app_data
     """
     if datetime.datetime.now().hour in range(0, 12):
         with open(os.path.join(os.getcwd(),COUNTRIES_CSV),"r",encoding="utf-8") as info:

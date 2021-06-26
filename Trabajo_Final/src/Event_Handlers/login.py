@@ -10,10 +10,10 @@ except:
     pass
 
 def check_fields(window: sg.Window,  values: dict)->bool:
-    """Chequea si hay algun campo vacio y muestra un texto de ser asi
+    """Chequea si hay algún campo vacío y muestra un texto de ser asi
 
     Args:
-        window (sg.Window): La ventana para mostrar el mensaje en caso de que no esten los campos llenos
+        window (sg.Window): La ventana para mostrar el mensaje en caso de que no estén los campos llenos
         values (dict): Donde se guardan los valores de los campos a chequear
 
     Returns:
@@ -48,7 +48,7 @@ def confirm_password(window: sg.Window,  values: dict)->bool:
 
 
 def unique_nick(window: sg.Window,  values: dict)->bool:
-    """Chequea en el json de usuarios si el nick es único o ya existe y muestra un texto de ser asi
+    """Chequea en el json de usuarios si el nick es único o ya existe y muestra un texto de ser así
 
     Args:
         window (sg.Window): La ventana para mostrar el mensaje en caso de que el nick ya exista
@@ -144,7 +144,7 @@ def check_fields_and_register(window: sg.Window, event: str,values: dict):
 
 def check_login(values:dict)->bool:
     """Chequea si el login es correcto comparando contra los nicks
-    y contraseñas del archivo json de usuarios, tambien hashea la contraseña para que no pueda ser mirada desde el csv y la informacion se
+    y contraseñas del archivo json de usuarios, tambien hashea la contraseña para que no pueda ser mirada desde el csv y la información se
     proteja.
     Args:
         values (dict): valores de la ventana, de donde obtenemos el nick y contraseña
@@ -161,10 +161,14 @@ def check_login(values:dict)->bool:
             return password_hash  == datos[values["-INPUT NICK-"]]["password"]
         return False
 
-def vlc_init ():
+def vlc_init ()-> dict:
     """Esta funcion inicializa el diccionario de vlc utilizado para el sonido durante toda la aplicacion,si la
     persona no tiene el VLC instalado en su computadora, esta funcion permite utilizar la aplicacion pero no mostrara
-    ningun sonido"""
+    ningun sonido
+
+    Returns:
+        dict: El diccionario de los elementos del reproductor
+    """
     try:
         vlc_dict={"vlc":True,"player_music":vlc.Instance().media_player_new(),"player_sounds":vlc.Instance().media_player_new()}
         vlc_dict["player_music"].audio_set_volume(30)
@@ -209,7 +213,7 @@ def login_action(window: sg.Window, event: str, values: dict):
         window["-W_LOGIN TEXT-"].update("")
 
 
-def clear_fields(window: sg.Window, keys_to_clear: list)->None:
+def clear_fields(window: sg.Window, keys_to_clear: list):
     """Limpia los inputs pasados en la lista keys_to_clear
 
     Args:

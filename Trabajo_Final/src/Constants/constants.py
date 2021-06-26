@@ -46,8 +46,9 @@ COUNTRIES_CSV=f"src{os.sep}Data_files{os.sep}countries.csv"
 ARTIST_CSV=f"src{os.sep}Data_files{os.sep}artists.csv"
 
 
+#Functions
 def vlc_play_sound(vlc_dict:dict, media:str):
-    """Toma un sonido desde "media" y lo reproduce si la flag de vlc es trues
+    """Toma un sonido desde "media" y lo reproduce si la flag de vlc es true
 
     Args:
         vlc_dict (dict): El diccionario de los elementos del reproductor

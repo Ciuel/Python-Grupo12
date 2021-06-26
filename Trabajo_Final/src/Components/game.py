@@ -8,6 +8,17 @@ import sys
 
 
 def start_loop(game_window:sg.Window, nick:str, user:dict,vlc_dict:dict):
+    """Loop inicial antes de tocar el boton de comenzar el juego
+
+    Args:
+        game_window (sg.Window): La ventana del juego
+        nick (str): nick del usuario
+        user (dict): configuracion del usuario
+        vlc_dict (dict):  El diccionario de los elementos del reproductor
+
+    Returns:
+        [int]:el numero de la partida en juego
+    """
     while True:
         event, _values = game_window.read()
         if event== "-START-":
@@ -22,17 +33,23 @@ def start_loop(game_window:sg.Window, nick:str, user:dict,vlc_dict:dict):
 
 
 def loop(game_window:sg.Window, value_matrix:np.ndarray, nick:str, user:dict, help_list:list,game_number:int,vlc_dict:dict):
-    """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella
+    """Mantiene la ventana abierta, capturando e interactuando con los eventos que ocurren en ella durante la partida iniciada
 
     Args:
         game_window (sg.Window): La ventana del juego
-        value_matrix (numpy.array): La matriz de los valores a mostrar para el tablero generado
-        type_of_token (str): Si es texto o imagenes
+        value_matrix (np.ndarray): Matriz con los valores de los botones
+        nick (str): nick del usuario
+        user (dict): configuracion del usuario
+        help_list (list): lista de valores unicos de los botones
+        game_number (int): numero de partida que se esta jugando
+        vlc_dict (dict): El diccionario de los elementos del reproductor
     """
 
+    #Variables de la partida
     info_partida={"hits":0,"points":0,"misses":0,"lista_chequeos":[],"help_list":help_list}
     endtime = int(time.time())+ 30 * user["config"]["Coincidences"] * user["config"]["Level"]
     end_cooldown=None
+
     while True:
         event, _values = game_window.read(300)
         if event == sg.WIN_CLOSED:
@@ -51,13 +68,15 @@ def loop(game_window:sg.Window, value_matrix:np.ndarray, nick:str, user:dict, he
             end_cooldown=check_help(game_window,value_matrix,user["config"]["Type of token"],user["config"]["Level"],info_partida["help_list"],vlc_dict)
         help_cooldown(game_window, end_cooldown)
 
-        #Fichas
+        #Interaccion con Fichas
         if event.startswith("cell"):
             update_button(game_window, event, value_matrix, user["config"]["Type of token"])
             game_window.refresh()
             info_partida = check_button(game_window,value_matrix, user, info_partida,
                                                   event, nick,game_number,vlc_dict)
             win_game(game_window,info_partida, nick, user,endtime,game_number,vlc_dict)
+
+        #Condicion de derrota
         lose_game(game_window, info_partida, nick, user, endtime,game_number,vlc_dict)
 
 

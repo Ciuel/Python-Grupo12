@@ -20,7 +20,7 @@ def loop(stat_window: sg.Window, vlc_dict:dict,nick:str,theme:str):
             sys.exit()
 
 def start(nick:str,vlc_dict:dict,theme:str):
-    """Arma la ventanaa de estadísicas y llama al loop
+    """Arma la ventana de estadísicas y llama al loop
 
     Args:
         nick (str): Nick del usuarie

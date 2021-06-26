@@ -18,10 +18,10 @@
         "age": "2",
         "gender": "Mujer",
         "config": {
-            "Coincidences": 2,
+            "Coincidences": 3,
             "Help": "yes",
             "Type of token": "Text",
-            "Level": 1,
+            "Level": 3,
             "Theme": "DarkBlue1",
             "VictoryText": "Ganaste!!!!!!",
             "LoseText": ":( mas suerte la proxima"
@@ -135,6 +135,20 @@
             "Type of token": "Text",
             "Level": 1,
             "Theme": "Material1",
+            "VictoryText": "Ganaste!!!",
+            "LoseText": ":( mas suerte la proxima"
+        }
+    },
+    "Juan2": {
+        "password": "fcd8780493d9d11d29031b928a9da358a6f48627fff0cb7e80fb8107de86e0c365dc9cf8fe2fc05a6ce6d75803b78ac894d82a396042312a995ef63b5dd4dd11",
+        "age": "20",
+        "gender": "Hombre",
+        "config": {
+            "Coincidences": 2,
+            "Help": "yes",
+            "Type of token": "Images",
+            "Level": 1,
+            "Theme": "DarkGrey10",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }
