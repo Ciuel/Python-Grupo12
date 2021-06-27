@@ -1906,3 +1906,7 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624747956,161,16,intento,2,Mujer,2,ok,Jackson Pollock,1,2,220
 1624747964,161,16,intento,2,Mujer,2,ok,Gustave Courbet,1,2,420
 1624747969,161,16,fin,2,Mujer,2,abandonada,,1,2,420
+1624752908,162,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624752968,162,16,fin,2,Mujer,2,timeout,,1,2,0
+1624752995,163,16,inicio_partida,2,Mujer,2,,,1,2,0
+1624753055,163,16,fin,2,Mujer,2,timeout,,1,2,0
