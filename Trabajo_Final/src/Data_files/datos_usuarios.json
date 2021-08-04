@@ -46,11 +46,11 @@
         "age": "20",
         "gender": "Hombre",
         "config": {
-            "Coincidences": 3,
-            "Help": "yes",
-            "Type of token": "Images",
+            "Coincidences": 2,
+            "Help": "no",
+            "Type of token": "Text",
             "Level": 1,
-            "Theme": "DarkTanBlue",
+            "Theme": "Dark",
             "VictoryText": "Ganaste!!!",
             "LoseText": ":( mas suerte la proxima"
         }

@@ -19,6 +19,7 @@ WINDOW_TITLE_FONT = "Tahoma bold"
 MAX_VALUE = sys.maxsize
 ELEMENT_SIZE = (8, 1)
 WINDOW_DEFAULT_THEME="Material1"
+MENU_SONG_LENGHT=248400
 
 DEFAULT_CONFIG = {
     "Coincidences": 2,

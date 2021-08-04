@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 from ..Windows.menu import build
 from ..Event_Handlers.menu import *
-from ..Constants.constants import MENU_SOUND_PATH, vlc_play_sound
+from ..Constants.constants import MENU_SOUND_PATH,MENU_SONG_LENGHT, vlc_play_sound
 import sys
 
 
@@ -17,7 +17,7 @@ def loop(menu_window: sg.Window, nick: str, theme: str, vlc_dict: dict):
     """
     start_music(vlc_dict)
     while True:
-        event, _values = menu_window.read(248400)
+        event, _values = menu_window.read(MENU_SONG_LENGHT)
         if event != "__TIMEOUT__":
             if event == sg.WIN_CLOSED or event == "-QUIT-":
                 sys.exit()

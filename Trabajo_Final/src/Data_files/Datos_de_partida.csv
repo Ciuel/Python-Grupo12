@@ -1910,3 +1910,48 @@ Tiempo,Partida,Cantidad de fichas,Nombre de evento,Nick,Genero,Edad,Estado,Palab
 1624752968,162,16,fin,2,Mujer,2,timeout,,1,2,0
 1624752995,163,16,inicio_partida,2,Mujer,2,,,1,2,0
 1624753055,163,16,fin,2,Mujer,2,timeout,,1,2,0
+1625142897,164,24,inicio_partida,Juan,Hombre,20,,,1,3,0
+1625142908,164,24,intento,Juan,Hombre,20,ok,Flag_of_Canada .png,1,3,300
+1625142909,164,24,intento,Juan,Hombre,20,fallo,Flag_of_Namibia .png,1,3,270
+1625142911,164,24,intento,Juan,Hombre,20,fallo,Flag_of_Mauritania .png,1,3,240
+1625142914,164,24,intento,Juan,Hombre,20,ok,Flag_of_Mongolia .png,1,3,540
+1625142916,164,24,intento,Juan,Hombre,20,fallo,Flag_of_Suriname .png,1,3,510
+1625142918,164,24,intento,Juan,Hombre,20,fallo,Flag_of_Australia .png,1,3,480
+1625142921,164,24,intento,Juan,Hombre,20,ok,Flag_of_Mauritania .png,1,3,780
+1625142923,164,24,intento,Juan,Hombre,20,ok,Flag_of_Australia .png,1,3,1080
+1625142925,164,24,intento,Juan,Hombre,20,fallo,Flag_of_Iceland .png,1,3,1050
+1625142928,164,24,intento,Juan,Hombre,20,fallo,Flag_of_Namibia .png,1,3,1020
+1625142931,164,24,intento,Juan,Hombre,20,ok,Flag_of_Namibia .png,1,3,1320
+1625142933,164,24,intento,Juan,Hombre,20,fallo,Flag_of_Suriname .png,1,3,1290
+1625142935,164,24,intento,Juan,Hombre,20,ok,Flag_of_Iceland .png,1,3,1590
+1625142937,164,24,intento,Juan,Hombre,20,fallo,Flag_of_Botswana .png,1,3,1560
+1625142940,164,24,intento,Juan,Hombre,20,fallo,Flag_of_Botswana .png,1,3,1530
+1625142943,164,24,intento,Juan,Hombre,20,ok,Flag_of_Suriname .png,1,3,1830
+1625142976,164,24,intento,Juan,Hombre,20,ok,Flag_of_Botswana .png,1,3,2130
+1625142977,164,24,fin,Juan,Hombre,20,finalizada,,1,3,2430
+1625143118,165,48,inicio_partida,Juan,Hombre,20,,,3,3,0
+1625143122,165,48,fin,Juan,Hombre,20,abandonada,,3,3,0
+1625143201,166,16,inicio_partida,Juan,Hombre,20,,,1,2,0
+1625143203,166,16,intento,Juan,Hombre,20,fallo,Iceland ,1,2,0
+1625143204,166,16,intento,Juan,Hombre,20,fallo,Australia ,1,2,0
+1625143205,166,16,intento,Juan,Hombre,20,fallo,Canada ,1,2,0
+1625143207,166,16,intento,Juan,Hombre,20,fallo,Australia ,1,2,0
+1625143208,166,16,intento,Juan,Hombre,20,ok,Canada ,1,2,200
+1625143212,166,16,intento,Juan,Hombre,20,fallo,Suriname ,1,2,170
+1625143214,166,16,intento,Juan,Hombre,20,fallo,Botswana ,1,2,140
+1625143215,166,16,intento,Juan,Hombre,20,ok,Namibia ,1,2,340
+1625143218,166,16,intento,Juan,Hombre,20,fallo,Mauritania ,1,2,310
+1625143220,166,16,intento,Juan,Hombre,20,fallo,Mongolia ,1,2,280
+1625143222,166,16,intento,Juan,Hombre,20,fallo,Australia ,1,2,250
+1625143223,166,16,intento,Juan,Hombre,20,ok,Mongolia ,1,2,450
+1625143225,166,16,intento,Juan,Hombre,20,fallo,Suriname ,1,2,420
+1625143227,166,16,intento,Juan,Hombre,20,fallo,Iceland ,1,2,390
+1625143230,166,16,intento,Juan,Hombre,20,fallo,Australia ,1,2,360
+1625143232,166,16,intento,Juan,Hombre,20,ok,Suriname ,1,2,560
+1625143235,166,16,intento,Juan,Hombre,20,fallo,Mauritania ,1,2,530
+1625143236,166,16,intento,Juan,Hombre,20,ok,Mauritania ,1,2,730
+1625143241,166,16,intento,Juan,Hombre,20,fallo,Botswana ,1,2,700
+1625143242,166,16,intento,Juan,Hombre,20,ok,Australia ,1,2,900
+1625143244,166,16,intento,Juan,Hombre,20,ok,Iceland ,1,2,1100
+1625143245,166,16,intento,Juan,Hombre,20,ok,Botswana ,1,2,1300
+1625143247,166,16,fin,Juan,Hombre,20,finalizada,,1,2,1720
