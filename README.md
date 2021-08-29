@@ -55,3 +55,7 @@ Si usted utiliza un SO de la línea windows, puede hacer uso del ejectable, que 
 La licencia utilizada para la aplicacion es la sigueinte:
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+Para mas informacion sobre este proyecto, visite el informe del mismo en: 
+    https://docs.google.com/document/d/e/2PACX-1vSosIPf0WsSbeVqdrZRppQ30-lA8yB9-z_2Re9DpYayP5wHBhkTVIVsDjXQjKLVh7khFvikSfiP3-yp/pub
